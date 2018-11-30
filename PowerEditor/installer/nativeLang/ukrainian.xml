@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <NotepadPlus>
     <Native-Langue name="Українська" filename="ukrainian.xml" version="7.5.5">
         <Menu>
@@ -23,7 +23,7 @@
                     <Item subMenuId="file-openFolder" name="Відкрити теку розташування"/>
                     <Item subMenuId="file-closeMore" name="Закрити ще"/>
                     <Item subMenuId="file-recentFiles" name="Недавні файли"/>
-                    <Item subMenuId="edit-copyToClipboard"  name="Копіювати в буфер"/>
+                    <Item subMenuId="edit-copyToClipboard" name="Копіювати в буфер"/>
                     <Item subMenuId="edit-indent" name="Абзац"/>
                     <Item subMenuId="edit-convertCaseTo" name="Змінити регістр"/>
                     <Item subMenuId="edit-lineOperations" name="Дії над рядком"/>
@@ -38,32 +38,32 @@
                     <Item subMenuId="search-jumpUp" name="Вгору"/>
                     <Item subMenuId="search-jumpDown" name="Вниз"/>
                     <Item subMenuId="search-bookmark" name="Закладка"/>
-                    <Item subMenuId="view-showSymbol"  name="Показати символ"/>
-                    <Item subMenuId="view-zoom"  name="Масштаб"/>
-                    <Item subMenuId="view-moveCloneDocument"  name="Перемістити/Клонувати поточний документ"/>
-                    <Item subMenuId="view-tab"  name="Вкладка"/>
+                    <Item subMenuId="view-showSymbol" name="Показати символ"/>
+                    <Item subMenuId="view-zoom" name="Масштаб"/>
+                    <Item subMenuId="view-moveCloneDocument" name="Перемістити/Клонувати поточний документ"/>
+                    <Item subMenuId="view-tab" name="Вкладка"/>
                     <Item subMenuId="view-collapseLevel" name="Згорнути рівень"/>
                     <Item subMenuId="view-uncollapseLevel" name="Розгорнути рівень"/>
                     <Item subMenuId="view-project" name="Проект"/>
-                    <Item subMenuId="encoding-characterSets"  name="Кодування"/>
-                    <Item subMenuId="encoding-arabic"  name="Арабська"/>
-                    <Item subMenuId="encoding-baltic"  name="Балтійська"/>
-                    <Item subMenuId="encoding-celtic"  name="Кельтська"/>
-                    <Item subMenuId="encoding-cyrillic"  name="Кирилиця"/>
-                    <Item subMenuId="encoding-centralEuropean"  name="Центральноєвропейська"/>
-                    <Item subMenuId="encoding-chinese"  name="Китайська"/>
-                    <Item subMenuId="encoding-easternEuropean"  name="Східноєвропейська"/>
-                    <Item subMenuId="encoding-greek"  name="Грецька"/>
-                    <Item subMenuId="encoding-hebrew"  name="Іврит"/>
-                    <Item subMenuId="encoding-japanese"  name="Японська"/>
+                    <Item subMenuId="encoding-characterSets" name="Кодування"/>
+                    <Item subMenuId="encoding-arabic" name="Арабська"/>
+                    <Item subMenuId="encoding-baltic" name="Балтійська"/>
+                    <Item subMenuId="encoding-celtic" name="Кельтська"/>
+                    <Item subMenuId="encoding-cyrillic" name="Кирилиця"/>
+                    <Item subMenuId="encoding-centralEuropean" name="Центральноєвропейська"/>
+                    <Item subMenuId="encoding-chinese" name="Китайська"/>
+                    <Item subMenuId="encoding-easternEuropean" name="Східноєвропейська"/>
+                    <Item subMenuId="encoding-greek" name="Грецька"/>
+                    <Item subMenuId="encoding-hebrew" name="Іврит"/>
+                    <Item subMenuId="encoding-japanese" name="Японська"/>
                     <Item subMenuId="encoding-korean" name="Корейська"/>
                     <Item subMenuId="encoding-northEuropean" name="Північноєвропейська"/>
                     <Item subMenuId="encoding-thai" name="Тайська"/>
                     <Item subMenuId="encoding-turkish" name="Турецька"/>
                     <Item subMenuId="encoding-westernEuropean" name="Західноєвропейська"/>
                     <Item subMenuId="encoding-vietnamese" name="В'єтнамська"/>
-                    <Item subMenuId="settings-import"  name="Імпортувати"/>
-                    <Item subMenuId="tools-md5"  name="MD5"/>
+                    <Item subMenuId="settings-import" name="Імпортувати"/>
+                    <Item subMenuId="tools-md5" name="MD5"/>
                 </SubEntries>
 
                 <!-- all menu item -->
@@ -81,7 +81,7 @@
                     <Item id="41007" name="Зберегти все"/>
                     <Item id="41008" name="Зберегти як..."/>
                     <Item id="41010" name="Друк..."/>
-                    <Item id="1001"  name="Друкувати негайно"/>
+                    <Item id="1001" name="Друкувати негайно"/>
                     <Item id="41011" name="Вийти"/>
                     <Item id="41012" name="Завантажити сеанс..."/>
                     <Item id="41013" name="Зберегти сеанс..."/>
@@ -294,20 +294,21 @@
                     <Item id="48018" name="Змінити контекстне меню"/>
                     <Item id="48009" name="Гарячі клавіші..."/>
                     <Item id="48011" name="Налаштування..."/>
-                    <Item id="48501" name="Згенерувати..."/>
-                    <Item id="48502" name="Згенерувати із файлів..."/>
-                    <Item id="48503" name="Згенерувати в буфер обміну"/>
-                    <Item id="49000" name="Виконати..."/>
+                    <Item id="48015" name="Згенерувати..."/>
+                    <Item id="48501" name="Згенерувати із файлів..."/>
+                    <Item id="48502" name="Згенерувати в буфер обміну"/>
+                    <Item id="48503" name="Виконати..."/>
+                    <Item id="49000" name="Завершення функцій"/>
 
-                    <Item id="50000" name="Завершення функцій"/>
-                    <Item id="50001" name="Завершення слів"/>
-                    <Item id="50002" name="Підказка параметрів функцій"/>
-                    <Item id="50006" name="Завершення шляху"/>
-                    <Item id="44042" name="Приховати рядки"/>
-                    <Item id="42040" name="Відкрити всі нещодавні файли"/>
-                    <Item id="42041" name="Очистити список нещодавніх файлів"/>
-                    <Item id="48016" name="Змінити/Видалити гарячі клавіші макросів..."/>
-                    <Item id="48017" name="Змінити/Видалити гарячі клавіші команд..."/>
+                    <Item id="50000" name="Завершення слів"/>
+                    <Item id="50001" name="Підказка параметрів функцій"/>
+                    <Item id="50002" name="Завершення шляху"/>
+                    <Item id="50006" name="Приховати рядки"/>
+                    <Item id="44042" name="Відкрити всі нещодавні файли"/>
+                    <Item id="42040" name="Очистити список нещодавніх файлів"/>
+                    <Item id="42041" name="Змінити/Видалити гарячі клавіші макросів..."/>
+                    <Item id="48016" name="Змінити/Видалити гарячі клавіші команд..."/>
+                    <Item id="48017" name="Modify Shortcut/Delete Command..."/>
                 </Commands>
             </Main>
             <Splitter>
@@ -340,9 +341,9 @@
 
         <Dialog>
             <Find title="" titleFind="Знайти" titleReplace="Замінити" titleFindInFiles="Знайти у файлах" titleMark="Позначки">
-                <Item id="1"    name="Знайти далі"/>
+                <Item id="1" name="Знайти далі"/>
                 <Item id="1722" name="Зворотній напрямок"/>
-                <Item id="2"    name="Закрити"/>
+                <Item id="2" name="Закрити"/>
                 <Item id="1620" name="Що шукати:"/>
                 <Item id="1603" name="Лише цілі слова"/>
                 <Item id="1604" name="Враховувати регістр"/>
@@ -391,8 +392,8 @@
             <GoToLine title="Перехід до...">
                 <Item id="2007" name="Рядок"/>
                 <Item id="2008" name="Стовпчик"/>
-                <Item id="1"    name="Вперед!"/>
-                <Item id="2"    name="Не хочу нікуди"/>
+                <Item id="1" name="Вперед!"/>
+                <Item id="2" name="Не хочу нікуди"/>
                 <Item id="2004" name="Ми тут:"/>
                 <Item id="2005" name="Йдемо туди:"/>
                 <Item id="2006" name="Далі не пройти:"/>
@@ -400,25 +401,36 @@
 
             <Run title="Запустити...">
                 <Item id="1903" name="Введіть параметр запуску програми"/>
-                <Item id="1"    name="Пуск!"/>
-                <Item id="2"    name="Скасувати"/>
+                <Item id="1" name="Пуск!"/>
+                <Item id="2" name="Скасувати"/>
                 <Item id="1904" name="Зберегти..."/>
             </Run>
 
             <MD5FromFilesDlg title="Згенерувати MD5-дайджест із файлів">
                 <Item id="1922" name="Вибрати файли для генерації MD5..."/>
                 <Item id="1924" name="Копіювати в буфер обміну"/>
-                <Item id="2"    name="Закрити"/>
+                <Item id="2" name="Закрити"/>
             </MD5FromFilesDlg>
 
             <MD5FromTextDlg title="Згенерувати MD5-дайджест">
                 <Item id="1932" name="Обробити кожен рядок як окремий"/>
                 <Item id="1934" name="Копіювати в буфер обміну"/>
-                <Item id="2"    name="Закрити"/>
+                <Item id="2" name="Закрити"/>
             </MD5FromTextDlg>
 
+            <PluginsAdminDlg title="Plugins Admin" titleAvailable="Available" titleUpdates="Updates" titleInstalled="Installed">
+                <ColumnPlugin name="Plugin"/>
+                <ColumnVersion name="Version"/>
+                <Item id="5501" name="Search:"/>
+                <Item id="5503" name="Install"/>
+                <Item id="5504" name="Update"/>
+                <Item id="5505" name="Remove"/>
+                <Item id="5508" name="Next"/>
+                <Item id="2" name="Close"/>
+            </PluginsAdminDlg>
+
             <StyleConfig title="Визначення стилів">
-                <Item id="2"    name="Скасувати"/>
+                <Item id="2" name="Скасувати"/>
                 <Item id="2301" name="Зберегти і закрити"/>
                 <Item id="2303" name="Прозорість"/>
                 <Item id="2306" name="Вибрати тему: "/>
@@ -700,8 +712,7 @@
                     <Item id="6207" name="Показувати закладки"/>
                     <Item id="6208" name="Вертикальна межа"/>
                     <Item id="6209" name="Стовпець: "/>
-                    <Item id="6234" name="Вимкнути розширену прокрутку
-(якщо є проблеми з тачпадом)"/>
+                    <Item id="6234" name="Вимкнути розширену прокрутку (якщо є проблеми з тачпадом)"/>
 
                     <Item id="6211" name="Налаштування вертикальної межі"/>
                     <Item id="6212" name="Лінія"/>
@@ -864,7 +875,7 @@
                     <Item id="6263" name="Без хмари"/>
                     <Item id="6267" name="Шлях до свого хмарного сховища:"/>
                 </Cloud>
-                
+
                 <SearchEngine title="Пошуковий засіб">
                     <Item id="6271" name="Пошуковий засіб (для команди &quot;Пошук в Інтернеті&quot;)"/>
                     <Item id="6272" name="DuckDuckGo"/>
@@ -931,8 +942,8 @@
                 <Item id="2" name="Скасувати"/>
             </ColumnEditor>
             <FindInFinder title="Знайти у пошуковику">
-                <Item id="1"    name="Знайти все"/>
-                <Item id="2"    name="Закрити"/>
+                <Item id="1" name="Знайти все"/>
+                <Item id="2" name="Закрити"/>
                 <Item id="1711" name="Що шукати:"/>
                 <Item id="1713" name="Шукати лише в знайдених рядках"/>
                 <Item id="1714" name="Лише &amp;цілі слова"/>
@@ -945,29 +956,18 @@
             </FindInFinder>
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="Зміна contextMenu" message="Зміна contextMenu.xml дозволяє вам змінювати випадаюче меню Notepad++.
-Для застосування змін необхідно перезапустити Notepad++."/>
-            <NppHelpAbsentWarning title="Файл не існує" message="
-не існує. Завантажте його на сайті Notepad++."/>
-            <SaveCurrentModifWarning title="Зберегти поточну модифікацію" message="Ви повинні зберегти поточні зміни.
-Всі збережені зміни неможливо відмінити.
-
-Продовжити?"/>
-            <LoseUndoAbilityWarning title="Втрата можливості відміни" message="Ви повинні зберегти поточні зміни.
-Всі збережені зміни неможливо відмінити.
-
-Продовжити?"/>
+            <ContextMenuXmlEditWarning title="Зміна contextMenu" message="Зміна contextMenu.xml дозволяє вам змінювати випадаюче меню Notepad++. Для застосування змін необхідно перезапустити Notepad++."/>
+            <NppHelpAbsentWarning title="Файл не існує" message=" не існує. Завантажте його на сайті Notepad++."/>
+            <SaveCurrentModifWarning title="Зберегти поточну модифікацію" message="Ви повинні зберегти поточні зміни. Всі збережені зміни неможливо відмінити.  Продовжити?"/>
+            <LoseUndoAbilityWarning title="Втрата можливості відміни" message="Ви повинні зберегти поточні зміни. Всі збережені зміни неможливо відмінити.  Продовжити?"/>
             <CannotMoveDoc title="Перемістити в новий зразок Notepad++" message="Документ змінений. Збережіть його і спробуйте знову."/>
             <DocReloadWarning title="Перезавантажити" message="Ви дійсно хочете перезавантажити поточний файл і втратити зміни, зроблені в Notepad++?"/>
             <FileLockedWarning title="Збереження невдале" message="Перевірте, чи цей файл не відкритий в іншій програмі"/>
             <FileAlreadyOpenedInNpp title="" message="Файл вже відкрито в Notepad++."/>
             <DeleteFileFailed title="Видалення файлу" message="Не вдалося вилучити файл"/>
-            
-            <NbFileToOpenImportantWarning title="Надто велика кількість файлів для відкриття" message="$INT_REPLACE$ файлів невдовзі будуть відкриті.
-Ви дійсно хочете відкрити їх?"/>
-            <SettingsOnCloudError title="Налаштування в хмарі" message="Схоже, шлях налаштувань в хмарі встановлений на диск лише для читання,
-або в теку, яка потребує відповідних прав на запис.
-Ваші налаштування в хмарі будуть скасовані. Будь ласка, скиньте відповідні значення через діалог Налаштування."/>
+
+            <NbFileToOpenImportantWarning title="Надто велика кількість файлів для відкриття" message="$INT_REPLACE$ файлів невдовзі будуть відкриті. Ви дійсно хочете відкрити їх?"/>
+            <SettingsOnCloudError title="Налаштування в хмарі" message="Схоже, шлях налаштувань в хмарі встановлений на диск лише для читання, або в теку, яка потребує відповідних прав на запис. Ваші налаштування в хмарі будуть скасовані. Будь ласка, скиньте відповідні значення через діалог Налаштування."/>
             <FilePathNotFoundWarning title="Відкриття файла" message="Файл, який ви намагаєтесь відкрити, не існує."/>
             <SessionFileInvalidError title="Не вдалося завантажити сеанс" message="Файл сеансу пошкоджений, або недійсний."/>
             <DroppingFolderAsProjectModeWarning title="Неприпустима дія" message="Ви можете виключити лише файли або лише теки, але не разом, оскільки ви відвідуєте в режимі &quot;Тека як проект&quot;. Щоб запрацювала ця операція вам необхідно включити &quot;Відкривати всі файли теки, замість відкриття теки в якості робочого простору&quot; в &quot;Налаштування - Типова тека&quot;."/>
@@ -975,25 +975,13 @@
             <ColumnModeTip title="Порада для режиму стовпців" message="Використовуйте &quot;ALT+Вибір мишею&quot; або &quot;Alt+Shift+Клавіша стрілки&quot;, щоб перемкнутися в режим стовпців."/>
             <BufferInvalidWarning title="Не вдалося зберегти" message="Неможливо зберегти: Неправильний буфер."/>
             <DoSaveOrNot title="Зберегти" message="Зберегти файл &quot;$STR_REPLACE$&quot; ?"/>
-            <DoCloseOrNot title="Зберегти неіснуючий файл" message="Файл &quot;$STR_REPLACE$&quot; більше не існує.
-Залишити цей файл в редакторі?"/>
-            <DoDeleteOrNot title="Видалити файл" message="Файл &quot;$STR_REPLACE$&quot;
-буде переміщено до вашого смітника і цей документ буде закрито.
-Продовжити?"/>
-            <NoBackupDoSaveFile title="Зберегти" message="Не вдалося знайти ваш резервний файл (видалено ззовні).
-Збережіть його, інакше дані будуть втрачені
-Хочете зберегти файл &quot;$STR_REPLACE$&quot; ?"/>
-            <DoReloadOrNot title="Перезавантажити" message="&quot;$STR_REPLACE$&quot;
-
-Цей файл був змінений іншою програмою.
-Хочете перезавантажити його?"/>
-            <DoReloadOrNotAndLooseChange title="Перезавантажити" message="&quot;$STR_REPLACE$&quot;
-
-Цей файл був змінений іншою програмою.
-Хочете перезавантажити його і втратити всі зміни, зроблені в Notepad++?"/>
+            <DoCloseOrNot title="Зберегти неіснуючий файл" message="Файл &quot;$STR_REPLACE$&quot; більше не існує. Залишити цей файл в редакторі?"/>
+            <DoDeleteOrNot title="Видалити файл" message="Файл &quot;$STR_REPLACE$&quot; буде переміщено до вашого смітника і цей документ буде закрито. Продовжити?"/>
+            <NoBackupDoSaveFile title="Зберегти" message="Не вдалося знайти ваш резервний файл (видалено ззовні). Збережіть його, інакше дані будуть втрачені Хочете зберегти файл &quot;$STR_REPLACE$&quot; ?"/>
+            <DoReloadOrNot title="Перезавантажити" message="&quot;$STR_REPLACE$&quot;  Цей файл був змінений іншою програмою. Хочете перезавантажити його?"/>
+            <DoReloadOrNotAndLooseChange title="Перезавантажити" message="&quot;$STR_REPLACE$&quot;  Цей файл був змінений іншою програмою. Хочете перезавантажити його і втратити всі зміни, зроблені в Notepad++?"/>
             <PrehistoricSystemDetected title="Виявлено застарілу систему" message="Схоже, ви все ще використовуєте застарілу систему. Шкода, але ця функція працює лише на сучасній системі."/>
-            <XpUpdaterProblem title="Система оновлення Notepad++" message="Система оновлення Notepad++ несумісна з XP, у зв'язку із застарілою системою безпеки XP.
-Хочете перейти на веб-сторінку Notepad++ для завантаження найновішої версії?"/>
+            <XpUpdaterProblem title="Система оновлення Notepad++" message="Система оновлення Notepad++ несумісна з XP, у зв'язку із застарілою системою безпеки XP. Хочете перейти на веб-сторінку Notepad++ для завантаження найновішої версії?"/>
             <DocTooDirtyToMonitor title="Проблема моніторингу" message="Документ змінено. Будь ласка, збережіть зміни перед його моніторингом."/>
             <DocNoExistToMonitor title="Проблема моніторингу" message="Файл повинен існувати для його моніторингу."/>
             <FileTooBigToOpen title="Проблема розміру файлу" message="Файл завеликий для відкриття в Notepad++"/>
@@ -1002,32 +990,25 @@
             <OpenFileError title="ПОМИЛКА" message="Не вдалося відкрити файл &quot;$STR_REPLACE$&quot;."/>
             <FileBackupFailed title="Збій резервного копіювання файлу" message="Попередня версія файлу може бути не збережена в каталозі для резервного копіювання &quot;$STR_REPLACE$&quot;. Ви все ще хочете зберегти поточний файл?"/>
             <LoadStylersFailed title="Збій завантаження stylers.xml" message="Не вдалося завантажити &quot;$STR_REPLACE$&amp;quot!"/>
-            <LoadLangsFailed title="Конфігуратор" message="Збій завантаження langs.xml!
-Хочете відновити langs.xml?"/>
+            <LoadLangsFailed title="Конфігуратор" message="Збій завантаження langs.xml! Хочете відновити langs.xml?"/>
             <LoadLangsFailedFinal title="Конфігуратор" message="Збій завантаження langs.xml!"/>
-            <FolderAsWorspaceSubfolderExists title="Проблема з додаванням теки в якості Робочого простору" message="Підтека, яку ви хочете додати, вже існує.
-Вилучіть її корінь з панелі перш, ніж додавати теку &quot;$STR_REPLACE$&quot;."/>
+            <FolderAsWorspaceSubfolderExists title="Проблема з додаванням теки в якості Робочого простору" message="Підтека, яку ви хочете додати, вже існує. Вилучіть її корінь з панелі перш, ніж додавати теку &quot;$STR_REPLACE$&quot;."/>
 
             <ProjectPanelChanged title="$STR_REPLACE$" message="Робоча область була змінена. Хочете зберегти її?"/>
             <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Ваша робоча область не була збережена."/>
             <ProjectPanelOpenDoSaveDirtyWsOrNot title="Відкрити робочу область" message="Поточна робоча область була змінена. Хочете зберегти поточний проект?"/>
             <ProjectPanelNewDoSaveDirtyWsOrNot title="Нова робоча область" message="Поточна робоча область була змінена. Хочете зберегти поточний проект?"/>
-            <ProjectPanelOpenFailed title="Відкрити робочу область" message="Не вдалося відкрити робочу область.
-Схоже, цей файл не є дійсним файлом проекту."/>
-            <ProjectPanelRemoveFolderFromProject title="Вилучити теку з проекту" message="Всі вкладені елементи будуть вилучені.
-Ви впевнені, що хочете вилучити цю теку з проекту?"/>
+            <ProjectPanelOpenFailed title="Відкрити робочу область" message="Не вдалося відкрити робочу область. Схоже, цей файл не є дійсним файлом проекту."/>
+            <ProjectPanelRemoveFolderFromProject title="Вилучити теку з проекту" message="Всі вкладені елементи будуть вилучені. Ви впевнені, що хочете вилучити цю теку з проекту?"/>
             <ProjectPanelRemoveFileFromProject title="Вилучити файл з проекту" message="Ви впевнені, що хочете вилучити цей файл з проекту?"/>
             <ProjectPanelReloadError title="Перезавантажити робочу область" message="Не вдається знайти файл для перезавантаження."/>
-            <ProjectPanelReloadDirty title="Перезавантажити робочу область" message="Поточна робоча область була змінена. Перезавантаження відхилить всі зміни.
-Хочете продовжити?"/>
+            <ProjectPanelReloadDirty title="Перезавантажити робочу область" message="Поточна робоча область була змінена. Перезавантаження відхилить всі зміни. Хочете продовжити?"/>
             <UDLNewNameError title="Помилка UDL" message="Це ім'я використовується іншою мовою, будь ласка, виберіть інше."/>
             <UDLRemoveCurrentLang title="Видалити поточну мову" message="Ви впевнені?"/>
             <SCMapperDoDeleteOrNot title="Ви впевнені?" message="Ви дійсно бажаєте видалити цю комбінацію клавіш?"/>
             <FindCharRangeValueError title="Проблема з діапазоном значень" message="Необхідно ввести значення від 0 до 255."/>
-            <OpenInAdminMode title="Не вдалося зберегти" message="Не вдається зберегти файл, він може бути захищеним.
-Хочете запустити Notepad++ в режимі адміністратора?"/>
-            <OpenInAdminModeWithoutCloseCurrent title="Не вдалося зберегти" message="Не вдається зберегти файл, він може бути захищеним.
-Хочете запустити Notepad++ в режимі адміністратора?"/>
+            <OpenInAdminMode title="Не вдалося зберегти" message="Не вдається зберегти файл, він може бути захищеним. Хочете запустити Notepad++ в режимі адміністратора?"/>
+            <OpenInAdminModeWithoutCloseCurrent title="Не вдалося зберегти" message="Не вдається зберегти файл, він може бути захищеним. Хочете запустити Notepad++ в режимі адміністратора?"/>
             <OpenInAdminModeFailed title="Не вдалося запустити в режимі адміністратора" message="Notepad++ не може бути відкритий в режимі адміністратора."/>
         </MessageBox>
         <ClipboardHistory>
@@ -1054,8 +1035,8 @@
         </DocumentMap>
         <FunctionList>
             <PanelTitle name="Список функцій"/>
-            <SortTip name="Сортувати" />
-            <ReloadTip name="Перезавантажити" />
+            <SortTip name="Сортувати"/>
+            <ReloadTip name="Перезавантажити"/>
         </FunctionList>
         <FolderAsWorkspace>
             <PanelTitle name="Тека як робоча область"/>
