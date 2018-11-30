@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NotepadPlus>
-    <Native-Langue name="aragonese" filename="aragonese.xml" version="7.5.5">
+    <Native-Langue name="English" filename="english.xml" version="7.5.5">
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
                 <Entries>
-                    <Item menuId="file" name="&amp;Fichero"/>
-                    <Item menuId="edit" name="&amp;Editar"/>
-                    <Item menuId="search" name="&amp;Mirar"/>
-                    <Item menuId="view" name="&amp;Veyer"/>
-                    <Item menuId="encoding" name="Co&amp;dificaciÃƒÂ³n"/>
-                    <Item menuId="language" name="&amp;Luengache"/>
-                    <Item menuId="settings" name="Co&amp;nfiguraciÃƒÂ³n"/>
-                    <Item menuId="tools" name="&amp;Macro"/>
-                    <Item menuId="macro" name="E&amp;xecutar"/>
-                    <Item menuId="run" name="C&amp;omplementos"/>
-                    <Item idName="Plugins" name="F&amp;inestras"/>
+                    <Item menuId="file" name="&amp;File"/>
+                    <Item menuId="edit" name="&amp;Edit"/>
+                    <Item menuId="search" name="&amp;Search"/>
+                    <Item menuId="view" name="&amp;View"/>
+                    <Item menuId="encoding" name="E&amp;ncoding"/>
+                    <Item menuId="language" name="&amp;Language"/>
+                    <Item menuId="settings" name="Se&amp;ttings"/>
+                    <Item menuId="tools" name="To&amp;ols"/>
+                    <Item menuId="macro" name="&amp;Macro"/>
+                    <Item menuId="run" name="&amp;Run"/>
+                    <Item idName="Plugins" name="&amp;Plugins"/>
                     <Item idName="Window" name="&amp;Window"/>
                 </Entries>
                 <!-- Sub Menu Entries -->
                 <SubEntries>
-                    <Item subMenuId="file-openFolder" name="Copiar en o porta&amp;fuellas"/>
-                    <Item subMenuId="file-closeMore" name="Tab&amp;ulaciÃƒÂ³n"/>
-                    <Item subMenuId="file-recentFiles" name="Ma&amp;yusclas/minusclas"/>
-                    <Item subMenuId="edit-copyToClipboard" name="Operacions con &amp;linias"/>
-                    <Item subMenuId="edit-indent" name="Simbolos de comen&amp;tarios"/>
-                    <Item subMenuId="edit-convertCaseTo" name="Autocom&amp;pleciÃƒÂ³n"/>
-                    <Item subMenuId="edit-lineOperations" name="Con&amp;versiÃƒÂ³n d'os blincos de linia"/>
-                    <Item subMenuId="edit-comment" name="Operacions con &amp;espacios en blanco"/>
-                    <Item subMenuId="edit-autoCompletion" name="Ape&amp;gau especial"/>
-                    <Item subMenuId="edit-eolConversion" name="Resaltar&amp;-lo tot"/>
-                    <Item subMenuId="edit-blankOperations" name="Desfer resaltar-&amp;lo tot"/>
-                    <Item subMenuId="edit-pasteSpecial" name="&amp;Anterior"/>
-                    <Item subMenuId="edit-onSelection" name="&amp;Siguient"/>
-                    <Item subMenuId="search-markAll" name="Operacions con mar&amp;cas de linia"/>
-                    <Item subMenuId="search-unmarkAll" name="Amostrar sim&amp;bolo"/>
-                    <Item subMenuId="search-jumpUp" name="&amp;Zoom"/>
-                    <Item subMenuId="search-jumpDown" name="M&amp;over/clonar o documento actual"/>
-                    <Item subMenuId="search-bookmark" name="&amp;Plegar o libel..."/>
-                    <Item subMenuId="view-showSymbol" name="&amp;Desplegar o libel..."/>
-                    <Item subMenuId="view-zoom" name="Pro&amp;chectos"/>
-                    <Item subMenuId="view-moveCloneDocument" name="&amp;CodificaciÃƒÂ³n de caracters"/>
-                    <Item subMenuId="view-tab" name="Ar&amp;abe"/>
-                    <Item subMenuId="view-collapseLevel" name="&amp;Baltico"/>
-                    <Item subMenuId="view-uncollapseLevel" name="&amp;Celtico"/>
-                    <Item subMenuId="view-project" name="C&amp;irilico"/>
-                    <Item subMenuId="encoding-characterSets" name="Europeu &amp;central"/>
-                    <Item subMenuId="encoding-arabic" name="&amp;ChinÃƒÂ©s"/>
-                    <Item subMenuId="encoding-baltic" name="Eu&amp;ropeu oriental"/>
-                    <Item subMenuId="encoding-celtic" name="&amp;Griego"/>
-                    <Item subMenuId="encoding-cyrillic" name="&amp;Hebreu"/>
-                    <Item subMenuId="encoding-centralEuropean" name="&amp;ChaponÃƒÂ©s"/>
-                    <Item subMenuId="encoding-chinese" name="C&amp;oriÃƒÂ¡n"/>
-                    <Item subMenuId="encoding-easternEuropean" name="Europeu septe&amp;ntrional"/>
-                    <Item subMenuId="encoding-greek" name="&amp;TailandÃƒÂ©s"/>
-                    <Item subMenuId="encoding-hebrew" name="T&amp;urco"/>
-                    <Item subMenuId="encoding-japanese" name="Europeu occidenta&amp;l"/>
-                    <Item subMenuId="encoding-korean" name="&amp;Vietnamita"/>
-                    <Item subMenuId="encoding-northEuropean" name="&amp;Importar"/>
+                    <Item subMenuId="file-openFolder" name="Open Containing Folder"/>
+                    <Item subMenuId="file-closeMore" name="Close More"/>
+                    <Item subMenuId="file-recentFiles" name="&amp;Recent Files"/>
+                    <Item subMenuId="edit-copyToClipboard" name="Copy to Clipboard"/>
+                    <Item subMenuId="edit-indent" name="Indent"/>
+                    <Item subMenuId="edit-convertCaseTo" name="Convert Case to"/>
+                    <Item subMenuId="edit-lineOperations" name="Line Operations"/>
+                    <Item subMenuId="edit-comment" name="Comment/Uncomment"/>
+                    <Item subMenuId="edit-autoCompletion" name="Auto-Completion"/>
+                    <Item subMenuId="edit-eolConversion" name="EOL Conversion"/>
+                    <Item subMenuId="edit-blankOperations" name="Blank Operations"/>
+                    <Item subMenuId="edit-pasteSpecial" name="Paste Special"/>
+                    <Item subMenuId="edit-onSelection" name="On Selection"/>
+                    <Item subMenuId="search-markAll" name="Mark All"/>
+                    <Item subMenuId="search-unmarkAll" name="Unmark All"/>
+                    <Item subMenuId="search-jumpUp" name="Jump Up"/>
+                    <Item subMenuId="search-jumpDown" name="Jump Down"/>
+                    <Item subMenuId="search-bookmark" name="Bookmark"/>
+                    <Item subMenuId="view-showSymbol" name="Show Symbol"/>
+                    <Item subMenuId="view-zoom" name="Zoom"/>
+                    <Item subMenuId="view-moveCloneDocument" name="Move/Clone Current Document"/>
+                    <Item subMenuId="view-tab" name="Tab"/>
+                    <Item subMenuId="view-collapseLevel" name="Collapse Level"/>
+                    <Item subMenuId="view-uncollapseLevel" name="Uncollapse Level"/>
+                    <Item subMenuId="view-project" name="Project"/>
+                    <Item subMenuId="encoding-characterSets" name="Character Set"/>
+                    <Item subMenuId="encoding-arabic" name="Arabic"/>
+                    <Item subMenuId="encoding-baltic" name="Baltic"/>
+                    <Item subMenuId="encoding-celtic" name="Celtic"/>
+                    <Item subMenuId="encoding-cyrillic" name="Cyrillic"/>
+                    <Item subMenuId="encoding-centralEuropean" name="Central European"/>
+                    <Item subMenuId="encoding-chinese" name="Chinese"/>
+                    <Item subMenuId="encoding-easternEuropean" name="Eastern European"/>
+                    <Item subMenuId="encoding-greek" name="Greek"/>
+                    <Item subMenuId="encoding-hebrew" name="Hebrew"/>
+                    <Item subMenuId="encoding-japanese" name="Japanese"/>
+                    <Item subMenuId="encoding-korean" name="Korean"/>
+                    <Item subMenuId="encoding-northEuropean" name="North European"/>
                     <Item subMenuId="encoding-thai" name="Thai"/>
                     <Item subMenuId="encoding-turkish" name="Turkish"/>
                     <Item subMenuId="encoding-westernEuropean" name="Western European"/>
@@ -68,196 +68,196 @@
 
                 <!-- all menu item -->
                 <Commands>
-                    <Item id="41001" name="&amp;Nuevo"/>
-                    <Item id="41002" name="&amp;Ubrir"/>
-                    <Item id="41019" name="&amp;Zarrar"/>
-                    <Item id="41020" name="Zarra&amp;r totz"/>
-                    <Item id="41003" name="Zarrar-los totz fueras d'iste"/>
-                    <Item id="41004" name="&amp;Alzar"/>
-                    <Item id="41005" name="A&amp;lzar totz"/>
-                    <Item id="41009" name="Al&amp;zar como..."/>
-                    <Item id="41018" name="&amp;Imprentar..."/>
-                    <Item id="41006" name="Im&amp;prentar agora!"/>
-                    <Item id="41007" name="&amp;Salir"/>
-                    <Item id="41008" name="Car&amp;gar sesiÃƒÂ³n..."/>
-                    <Item id="41010" name="Alzar sesi&amp;ÃƒÂ³n..."/>
-                    <Item id="1001" name="&amp;Tornar a cargar dende o disco"/>
-                    <Item id="41011" name="Alzar-ne una &amp;copia como..."/>
-                    <Item id="41012" name="&amp;Borrar dende o disco"/>
-                    <Item id="41013" name="Tornar a nom&amp;brar..."/>
-                    <Item id="41014" name="&amp;Tallar"/>
-                    <Item id="41015" name="&amp;Copiar"/>
-                    <Item id="41016" name="&amp;Desfer"/>
-                    <Item id="41017" name="&amp;Refer"/>
-                    <Item id="41021" name="&amp;Apegar"/>
-                    <Item id="41022" name="&amp;Borrar"/>
-                    <Item id="41023" name="Seleccionar-lo &amp;tot"/>
-                    <Item id="42001" name="Escomenzar/rematar a selecciÃƒÂ³n"/>
-                    <Item id="42002" name="Aumentar a sangrÃƒÂ­a"/>
-                    <Item id="42003" name="Fer minguar a sangrÃƒÂ­a"/>
-                    <Item id="42004" name="&amp;Duplicar a linia actual"/>
-                    <Item id="42005" name="&amp;Trestallar as linias"/>
-                    <Item id="42006" name="&amp;Unir as linias"/>
-                    <Item id="42007" name="Mover ista linia enta&amp;lto"/>
-                    <Item id="42020" name="Mover ista linia enta&amp;baixo"/>
-                    <Item id="42008" name="Fer M&amp;AYUSCLAS"/>
-                    <Item id="42009" name="Fer m&amp;inusclas"/>
-                    <Item id="42010" name="&amp;Encetar a rechistrar"/>
-                    <Item id="42012" name="&amp;Aturar de rechistrar"/>
-                    <Item id="42013" name="&amp;Reproducir"/>
-                    <Item id="42014" name="Adhibir/sacar o simbolo de comentarios d'a(s) &amp;linia(s)"/>
-                    <Item id="42015" name="Fluxo de comentarios"/>
-                    <Item id="42059" name="Quitar o simbolo de comentario d'a s&amp;elecciÃƒÂ³n"/>
-                    <Item id="42060" name="Retallar os espacios d'os &amp;finals de linia"/>
-                    <Item id="42061" name="Retallar os espacios d'os &amp;inicios de linia"/>
-                    <Item id="42062" name="Retallar os espacios d'os inicios y finals de &amp;linia"/>
-                    <Item id="42063" name="Convertir os &amp;blincos de linia en espacios"/>
-                    <Item id="42064" name="Suprimir os espacios y os blincos de linia que no &amp;calgan"/>
-                    <Item id="42065" name="Convertir os tabuladors en &amp;espacios"/>
-                    <Item id="42066" name="Convertir os espacios en &amp;tabulacions (totz)"/>
-                    <Item id="42016" name="Convertir os espacios en &amp;tabulacions (os inicials d'a linia)"/>
-                    <Item id="42017" name="Apegar conteniu &amp;HTML"/>
-                    <Item id="42067" name="Apegar conteniu &amp;RTF"/>
-                    <Item id="42068" name="&amp;Copiar conteniu binario"/>
-                    <Item id="42069" name="&amp;Tallar conteniu binario"/>
-                    <Item id="42070" name="&amp;Apegar conteniu binario"/>
-                    <Item id="42071" name="&amp;Modo de columna..."/>
-                    <Item id="42072" name="Insertar en columna..."/>
-                    <Item id="42073" name="&amp;Quadro d'inserciÃƒÂ³n de caracters"/>
-                    <Item id="42074" name="&amp;Historial d'o portafuellas"/>
-                    <Item id="42075" name="&amp;Alzar a macro actual"/>
-                    <Item id="42076" name="Endrecera d'o texto de dreita t'a cucha (RTL)"/>
-                    <Item id="42018" name="Endrecera d'o texto de cucha t'a dreita (LTR)"/>
-                    <Item id="42019" name="M&amp;odo de NomÃƒÂ¡s-Lectura"/>
-                    <Item id="42021" name="Copiar o camÃƒÂ­n d'o fichero actual t'o portafuellas"/>
-                    <Item id="42022" name="Copiar o nombre d'o fichero actual t'o portafuellas"/>
-                    <Item id="42023" name="Copiar o camÃƒÂ­n d'o directorio actual t'o portafuellas"/>
-                    <Item id="42047" name="&amp;Executar una macro quantas vegadas..."/>
-                    <Item id="42024" name="&amp;Suprimir o sinyal de NomÃƒÂ¡s-Lectura"/>
-                    <Item id="42042" name="&amp;Adhibir-ie o simbolo de comentarios"/>
-                    <Item id="42043" name="&amp;Sacar-ne o simbolo de comentarios"/>
-                    <Item id="42044" name="&amp;Borrar as linias vuedas"/>
-                    <Item id="42045" name="Borrar as linias &amp;vuedas u con espacios en blanco"/>
-                    <Item id="42046" name="&amp;Mirar..."/>
-                    <Item id="42054" name="&amp;Siguient"/>
-                    <Item id="42053" name="Su&amp;bstituir..."/>
-                    <Item id="42038" name="Ir ta la linia o &amp;posiciÃƒÂ³n..."/>
-                    <Item id="42039" name="Activar/desactivar a &amp;marcador de linia"/>
-                    <Item id="42048" name="Mirar o marcador de linia &amp;siguient"/>
-                    <Item id="42049" name="Mirar o marcador de linia &amp;anterior"/>
-                    <Item id="42050" name="&amp;Borrar totz os marcadors de linia"/>
-                    <Item id="42037" name="&amp;Tallar as linias marcadas"/>
-                    <Item id="42034" name="&amp;Copiar as linias marcadas"/>
-                    <Item id="42051" name="&amp;Apegar as linias marcadas (substituindo-las)"/>
-                    <Item id="42052" name="Borrar as linias &amp;marcadas"/>
-                    <Item id="42025" name="Borrar as linias &amp;sin marcar"/>
-                    <Item id="42026" name="&amp;Invertir as linias marcadas"/>
-                    <Item id="42027" name="Mirar interva&amp;lo de caracters..."/>
-                    <Item id="42028" name="Ir ta la &amp;clau que pertoque"/>
-                    <Item id="42029" name="&amp;Anterior"/>
-                    <Item id="42030" name="&amp;Busca incremental"/>
-                    <Item id="42031" name="Mirar en os &amp;fichers"/>
-                    <Item id="42032" name="Trobar a &amp;volatil siguient"/>
-                    <Item id="42033" name="Trobar a v&amp;olatil anterior"/>
-                    <Item id="42035" name="Resaltar-lo &amp;tot"/>
-                    <Item id="42036" name="&amp;Desfer resaltar-lo tot"/>
-                    <Item id="42055" name="Fer servir o &amp;Primer estilo"/>
-                    <Item id="42056" name="Borrar o &amp;Primer estilo"/>
-                    <Item id="42057" name="Fer servir o &amp;Segundo estilo"/>
-                    <Item id="42058" name="Borrar o &amp;Segundo estilo"/>
-                    <Item id="43001" name="Fer servir o &amp;Tercer estilo"/>
-                    <Item id="43002" name="Borrar o &amp;Tercer estilo"/>
-                    <Item id="43003" name="Fer servir o &amp;Quarteno estilo"/>
-                    <Item id="43004" name="Borrar o &amp;Quarteno estilo"/>
-                    <Item id="43005" name="Fer servir o &amp;Cinqueno estilo"/>
-                    <Item id="43006" name="Borrar o &amp;Cinqueno estilo"/>
-                    <Item id="43007" name="Borrar &amp;totz os estilos"/>
-                    <Item id="43008" name="&amp;Primer estilo"/>
-                    <Item id="43018" name="&amp;Segundo estilo"/>
-                    <Item id="43019" name="&amp;Tercer estilo"/>
-                    <Item id="43020" name="&amp;Quarteno estilo"/>
-                    <Item id="43021" name="&amp;Cinqueno estilo"/>
-                    <Item id="43051" name="&amp;Mirar estilo"/>
-                    <Item id="43050" name="&amp;Primer estilo"/>
-                    <Item id="43052" name="&amp;Segundo estilo"/>
-                    <Item id="43053" name="&amp;Tercer estilo"/>
-                    <Item id="43009" name="&amp;Quarteno estilo"/>
-                    <Item id="43010" name="&amp;Cinqueno estilo"/>
-                    <Item id="43011" name="&amp;Mirar estilo"/>
-                    <Item id="43013" name="Finestra &amp;de resultaus de busca"/>
-                    <Item id="43014" name="Resultau de busca &amp;siguient"/>
-                    <Item id="43015" name="Resultau de busca &amp;anterior"/>
-                    <Item id="43022" name="Se&amp;leccionar y trobar o siguient"/>
-                    <Item id="43023" name="Seleccio&amp;nar y trobar l'anterior"/>
-                    <Item id="43024" name="Modo fi&amp;xo"/>
-                    <Item id="43025" name="&amp;Plegar-lo tot"/>
-                    <Item id="43026" name="Editar o l&amp;uengache definiu por l'usuario..."/>
-                    <Item id="43027" name="Amostrar totz os &amp;caracters"/>
-                    <Item id="43028" name="Amostrar a &amp;guida d'a sangrÃƒÂ­a"/>
-                    <Item id="43029" name="Achustar o &amp;texto"/>
-                    <Item id="43030" name="&amp;Agrandir"/>
-                    <Item id="43031" name="A&amp;chiquir"/>
-                    <Item id="43032" name="Amostrar os &amp;espacios en blanco y os tabuladors"/>
-                    <Item id="43033" name="Amostrar os &amp;blincos de linia"/>
-                    <Item id="43034" name="&amp;Desplegar-lo tot"/>
-                    <Item id="43035" name="Plegar o &amp;libel actual"/>
-                    <Item id="43036" name="Desplegar o l&amp;ibel actual"/>
-                    <Item id="43037" name="&amp;Resumen..."/>
-                    <Item id="43038" name="M&amp;apa d'o documento"/>
-                    <Item id="43039" name="Lista de funcions"/>
-                    <Item id="43040" name="Modo a pantalla &amp;completa"/>
-                    <Item id="43041" name="R&amp;estaurar o zoom por defecto"/>
-                    <Item id="43042" name="Sie&amp;mpre dencima"/>
-                    <Item id="43043" name="Sincronizar o desplazamiento &amp;vertical"/>
-                    <Item id="43044" name="Sincronizar o desplazamiento &amp;horizontal"/>
-                    <Item id="43045" name="Amostrar o simbolo d'ac&amp;huste"/>
-                    <Item id="43046" name="Activar l'atra &amp;vista"/>
-                    <Item id="43047" name="Quadro de prochecto 1"/>
-                    <Item id="43048" name="Quadro de prochecto 2"/>
-                    <Item id="43049" name="Quadro de prochecto 3"/>
-                    <Item id="43054" name="Convertir t'o formato de &amp;Windows"/>
-                    <Item id="44009" name="Convertir t'o formato de &amp;UNIX"/>
-                    <Item id="44010" name="Convertir t'o formato de &amp;MAC"/>
-                    <Item id="44019" name="Codificar en A&amp;NSI"/>
-                    <Item id="44020" name="Codificar en U&amp;TF-8"/>
-                    <Item id="44022" name="Cod&amp;ificar en UCS-2 Big Endian"/>
-                    <Item id="44023" name="Co&amp;dificar en UCS-2 Little Endian"/>
-                    <Item id="44024" name="Codificar en UTF-8 s&amp;in BOM"/>
-                    <Item id="44025" name="Convertir ta &amp;ANSI"/>
-                    <Item id="44026" name="Convertir ta UTF-8 &amp;sin BOM"/>
-                    <Item id="44029" name="Convertir ta &amp;UTF-8"/>
-                    <Item id="44030" name="Convertir ta UCS-2 &amp;Big Endian"/>
-                    <Item id="44031" name="Convertir ta UCS-2 &amp;Little Endian"/>
-                    <Item id="44049" name="Mover ta l'atra &amp;vista"/>
-                    <Item id="44080" name="&amp;Clonar en l'atra vista"/>
-                    <Item id="44084" name="Mover ta una nueva &amp;finestra"/>
-                    <Item id="44085" name="&amp;Clonar en una nueva finestra"/>
-                    <Item id="44086" name="&amp;ConfiguraciÃƒÂ³n d'estilo..."/>
-                    <Item id="44087" name="Definir o luenguache..."/>
-                    <Item id="44088" name="D&amp;efiniu por l'usuario"/>
-                    <Item id="44089" name="&amp;Quanto a Notepad++..."/>
-                    <Item id="44090" name="Pachina web de &amp;Notepad++ "/>
-                    <Item id="44091" name="Pachina d'o &amp;prochecto Notepad++ "/>
-                    <Item id="44092" name="Np&amp;Wiki++ (Aduya en linia)"/>
-                    <Item id="44093" name="&amp;Foro"/>
-                    <Item id="44094" name="Aconseguir mas &amp;complementos"/>
-                    <Item id="44095" name="&amp;Esviellar Notepad++"/>
-                    <Item id="44096" name="&amp;Aduya..."/>
-                    <Item id="44097" name="Confi&amp;gurar l'intermediario de l'actualizaciÃƒÂ³n"/>
-                    <Item id="44098" name="Importar &amp;complementos..."/>
-                    <Item id="44099" name="Importar &amp;temas..."/>
-                    <Item id="44032" name="Editar o menÃƒÂº contextual emerchent"/>
-                    <Item id="44033" name="E&amp;ditor de teclas d'alcorce..."/>
-                    <Item id="44034" name="&amp;Preferencias..."/>
-                    <Item id="44035" name="&amp;Executar..."/>
-                    <Item id="44036" name="Autocompletar &amp;funcions"/>
-                    <Item id="44041" name="Autocompletar &amp;parolas"/>
-                    <Item id="44072" name="&amp;Sucherencias de parametros de funcions"/>
-                    <Item id="44081" name="Ama&amp;gar as linias"/>
-                    <Item id="44082" name="Ubrir totz os fic&amp;hers recients"/>
-                    <Item id="44083" name="&amp;Vuedar a lista de fichers recients"/>
-                    <Item id="45001" name="&amp;Modificar tecla d'alcorce / Suprimir macro..."/>
-                    <Item id="45002" name="Modificar tecla d'alcorce / Suprimir orden..."/>
+                    <Item id="41001" name="&amp;New"/>
+                    <Item id="41002" name="&amp;Open"/>
+                    <Item id="41019" name="Explorer"/>
+                    <Item id="41020" name="cmd"/>
+                    <Item id="41003" name="&amp;Close"/>
+                    <Item id="41004" name="Clos&amp;e All"/>
+                    <Item id="41005" name="Close All BUT Current Document"/>
+                    <Item id="41009" name="Close All to the Left"/>
+                    <Item id="41018" name="Close All to the Right"/>
+                    <Item id="41006" name="&amp;Save"/>
+                    <Item id="41007" name="Sav&amp;e All"/>
+                    <Item id="41008" name="Save &amp;As..."/>
+                    <Item id="41010" name="Print..."/>
+                    <Item id="1001" name="Print Now"/>
+                    <Item id="41011" name="E&amp;xit"/>
+                    <Item id="41012" name="Load Session..."/>
+                    <Item id="41013" name="Save Session..."/>
+                    <Item id="41014" name="Re&amp;load from Disk"/>
+                    <Item id="41015" name="Save a Copy As..."/>
+                    <Item id="41016" name="Move to Recycle Bin"/>
+                    <Item id="41017" name="Rename..."/>
+                    <Item id="41021" name="Restore Recent Closed File"/>
+                    <Item id="41022" name="Open Folder as Workspace..."/>
+                    <Item id="41023" name="Open in Default Viewer"/>
+                    <Item id="42001" name="Cu&amp;t"/>
+                    <Item id="42002" name="&amp;Copy"/>
+                    <Item id="42003" name="&amp;Undo"/>
+                    <Item id="42004" name="&amp;Redo"/>
+                    <Item id="42005" name="&amp;Paste"/>
+                    <Item id="42006" name="&amp;Delete"/>
+                    <Item id="42007" name="Select A&amp;ll"/>
+                    <Item id="42020" name="Begin/End Select"/>
+                    <Item id="42008" name="Increase Line Indent"/>
+                    <Item id="42009" name="Decrease Line Indent"/>
+                    <Item id="42010" name="Duplicate Current Line"/>
+                    <Item id="42012" name="Split Lines"/>
+                    <Item id="42013" name="Join Lines"/>
+                    <Item id="42014" name="Move Up Current Line"/>
+                    <Item id="42015" name="Move Down Current Line"/>
+                    <Item id="42059" name="Sort Lines Lexicographically Ascending"/>
+                    <Item id="42060" name="Sort Lines Lexicographically Descending"/>
+                    <Item id="42061" name="Sort Lines As Integers Ascending"/>
+                    <Item id="42062" name="Sort Lines As Integers Descending"/>
+                    <Item id="42063" name="Sort Lines As Decimals (Comma) Ascending"/>
+                    <Item id="42064" name="Sort Lines As Decimals (Comma) Descending"/>
+                    <Item id="42065" name="Sort Lines As Decimals (Dot) Ascending"/>
+                    <Item id="42066" name="Sort Lines As Decimals (Dot) Descending"/>
+                    <Item id="42016" name="&amp;UPPERCASE"/>
+                    <Item id="42017" name="&amp;lowercase"/>
+                    <Item id="42067" name="&amp;Proper Case"/>
+                    <Item id="42068" name="Proper Case (blend)"/>
+                    <Item id="42069" name="&amp;Sentence case"/>
+                    <Item id="42070" name="Sentence case (blend)"/>
+                    <Item id="42071" name="&amp;iNVERT cASE"/>
+                    <Item id="42072" name="&amp;ranDOm CasE"/>
+                    <Item id="42073" name="Open File"/>
+                    <Item id="42074" name="Open Containing Folder in Explorer"/>
+                    <Item id="42075" name="Search on Internet"/>
+                    <Item id="42076" name="Change Search Engine..."/>
+                    <Item id="42018" name="Start Re&amp;cording"/>
+                    <Item id="42019" name="S&amp;top Recording"/>
+                    <Item id="42021" name="&amp;Playback"/>
+                    <Item id="42022" name="Toggle Single Line Comment"/>
+                    <Item id="42023" name="Block Comment"/>
+                    <Item id="42047" name="Block Uncomment"/>
+                    <Item id="42024" name="Trim Trailing Space"/>
+                    <Item id="42042" name="Trim Leading Space"/>
+                    <Item id="42043" name="Trim Leading and Trailing Space"/>
+                    <Item id="42044" name="EOL to Space"/>
+                    <Item id="42045" name="Remove Unnecessary Blank and EOL"/>
+                    <Item id="42046" name="TAB to Space"/>
+                    <Item id="42054" name="Space to TAB (All)"/>
+                    <Item id="42053" name="Space to TAB (Leading)"/>
+                    <Item id="42038" name="Paste HTML Content"/>
+                    <Item id="42039" name="Paste RTF Content"/>
+                    <Item id="42048" name="Copy Binary Content"/>
+                    <Item id="42049" name="Cut Binary Content"/>
+                    <Item id="42050" name="Paste Binary Content"/>
+                    <Item id="42037" name="Column Mode..."/>
+                    <Item id="42034" name="Column Editor..."/>
+                    <Item id="42051" name="Character Panel"/>
+                    <Item id="42052" name="Clipboard History"/>
+                    <Item id="42025" name="&amp;Save Currently Recorded Macro..."/>
+                    <Item id="42026" name="Text Direction RTL"/>
+                    <Item id="42027" name="Text Direction LTR"/>
+                    <Item id="42028" name="Set Read-Only"/>
+                    <Item id="42029" name="Current File Path to Clipboard"/>
+                    <Item id="42030" name="Current Filename to Clipboard"/>
+                    <Item id="42031" name="Current Dir. Path to Clipboard"/>
+                    <Item id="42032" name="&amp;Run a Macro Multiple Times..."/>
+                    <Item id="42033" name="Clear Read-Only Flag"/>
+                    <Item id="42035" name="Single Line Comment"/>
+                    <Item id="42036" name="Single Line Uncomment"/>
+                    <Item id="42055" name="Remove Empty Lines"/>
+                    <Item id="42056" name="Remove Empty Lines (Containing Blank characters)"/>
+                    <Item id="42057" name="Insert Blank Line Above Current"/>
+                    <Item id="42058" name="Insert Blank Line Below Current"/>
+                    <Item id="43001" name="&amp;Find..."/>
+                    <Item id="43002" name="Find &amp;Next"/>
+                    <Item id="43003" name="&amp;Replace..."/>
+                    <Item id="43004" name="&amp;Go to..."/>
+                    <Item id="43005" name="Toggle Bookmark"/>
+                    <Item id="43006" name="Next Bookmark"/>
+                    <Item id="43007" name="Previous Bookmark"/>
+                    <Item id="43008" name="Clear All Bookmarks"/>
+                    <Item id="43018" name="Cut Bookmarked Lines"/>
+                    <Item id="43019" name="Copy Bookmarked Lines"/>
+                    <Item id="43020" name="Paste to (Replace) Bookmarked Lines"/>
+                    <Item id="43021" name="Remove Bookmarked Lines"/>
+                    <Item id="43051" name="Remove Unmarked Lines"/>
+                    <Item id="43050" name="Inverse Bookmark"/>
+                    <Item id="43052" name="Find characters in range..."/>
+                    <Item id="43053" name="Select All Between Matching Braces"/>
+                    <Item id="43009" name="Go to Matching Brace"/>
+                    <Item id="43010" name="Find &amp;Previous"/>
+                    <Item id="43011" name="&amp;Incremental Search"/>
+                    <Item id="43013" name="Find in Files"/>
+                    <Item id="43014" name="Find (Volatile) Next"/>
+                    <Item id="43015" name="Find (Volatile) Previous"/>
+                    <Item id="43022" name="Using 1st Style"/>
+                    <Item id="43023" name="Clear 1st Style"/>
+                    <Item id="43024" name="Using 2nd Style"/>
+                    <Item id="43025" name="Clear 2nd Style"/>
+                    <Item id="43026" name="Using 3rd Style"/>
+                    <Item id="43027" name="Clear 3rd Style"/>
+                    <Item id="43028" name="Using 4th Style"/>
+                    <Item id="43029" name="Clear 4th Style"/>
+                    <Item id="43030" name="Using 5th Style"/>
+                    <Item id="43031" name="Clear 5th Style"/>
+                    <Item id="43032" name="Clear All Styles"/>
+                    <Item id="43033" name="1st style"/>
+                    <Item id="43034" name="2nd style"/>
+                    <Item id="43035" name="3rd style"/>
+                    <Item id="43036" name="4th style"/>
+                    <Item id="43037" name="5th style"/>
+                    <Item id="43038" name="Find style"/>
+                    <Item id="43039" name="1st style"/>
+                    <Item id="43040" name="2nd style"/>
+                    <Item id="43041" name="3rd style"/>
+                    <Item id="43042" name="4th style"/>
+                    <Item id="43043" name="5th style"/>
+                    <Item id="43044" name="Find style"/>
+                    <Item id="43045" name="Search Results Window"/>
+                    <Item id="43046" name="Next Search Result"/>
+                    <Item id="43047" name="Previous Search Result"/>
+                    <Item id="43048" name="Select and Find Next"/>
+                    <Item id="43049" name="Select and Find Previous"/>
+                    <Item id="43054" name="Mar&amp;k..."/>
+                    <Item id="44009" name="Post-It"/>
+                    <Item id="44010" name="Fold All"/>
+                    <Item id="44019" name="Show All Characters"/>
+                    <Item id="44020" name="Show Indent Guide"/>
+                    <Item id="44022" name="Word wrap"/>
+                    <Item id="44023" name="Zoom &amp;In (Ctrl+Mouse Wheel Up)"/>
+                    <Item id="44024" name="Zoom &amp;Out (Ctrl+Mouse Wheel Down)"/>
+                    <Item id="44025" name="Show White Space and TAB"/>
+                    <Item id="44026" name="Show End of Line"/>
+                    <Item id="44029" name="Unfold All"/>
+                    <Item id="44030" name="Collapse Current Level"/>
+                    <Item id="44031" name="Uncollapse Current Level"/>
+                    <Item id="44049" name="Summary..."/>
+                    <Item id="44080" name="Document Map"/>
+                    <Item id="44084" name="Function List"/>
+                    <Item id="44085" name="Folder as Workspace"/>
+                    <Item id="44086" name="1st Tab"/>
+                    <Item id="44087" name="2nd Tab"/>
+                    <Item id="44088" name="3rd Tab"/>
+                    <Item id="44089" name="4th Tab"/>
+                    <Item id="44090" name="5th Tab"/>
+                    <Item id="44091" name="6th Tab"/>
+                    <Item id="44092" name="7th Tab"/>
+                    <Item id="44093" name="8th Tab"/>
+                    <Item id="44094" name="9th Tab"/>
+                    <Item id="44095" name="Next Tab"/>
+                    <Item id="44096" name="Previous Tab"/>
+                    <Item id="44097" name="Monitoring (tail -f)"/>
+                    <Item id="44098" name="Move Tab Forward"/>
+                    <Item id="44099" name="Move Tab Backward"/>
+                    <Item id="44032" name="Toggle Full Screen Mode"/>
+                    <Item id="44033" name="Restore Default Zoom"/>
+                    <Item id="44034" name="Always on Top"/>
+                    <Item id="44035" name="Synchronise Vertical Scrolling"/>
+                    <Item id="44036" name="Synchronise Horizontal Scrolling"/>
+                    <Item id="44041" name="Show Wrap Symbol"/>
+                    <Item id="44072" name="Focus on Another View"/>
+                    <Item id="44081" name="Project Panel 1"/>
+                    <Item id="44082" name="Project Panel 2"/>
+                    <Item id="44083" name="Project Panel 3"/>
+                    <Item id="45001" name="Windows (CR LF)"/>
+                    <Item id="45002" name="Unix (LF)"/>
                     <Item id="45003" name="Macintosh (CR)"/>
                     <Item id="45004" name="Encode in ANSI"/>
                     <Item id="45005" name="Encode in UTF-8-BOM"/>
@@ -314,25 +314,25 @@
             <Splitter>
             </Splitter>
             <TabBar>
-                    <Item CMID="0" name="&amp;Zarrar"/>
-                    <Item CMID="1" name="Zarrar-los &amp;totz fueras d'iste"/>
-                    <Item CMID="2" name="&amp;Alzar"/>
-                    <Item CMID="3" name="Alzar &amp;como..."/>
-                    <Item CMID="4" name="&amp;Imprentar"/>
-                    <Item CMID="5" name="Mover ta l'atra &amp;vista"/>
-                    <Item CMID="6" name="Clonar en l'atra vi&amp;sta"/>
-                    <Item CMID="7" name="Copiar o camÃƒÂ­n d'iste &amp;fichero t'o portafuellas"/>
-                    <Item CMID="8" name="C&amp;opiar o nombre d'iste fichero t'o portafuellas"/>
-                    <Item CMID="9" name="Copiar o ca&amp;mÃƒÂ­n d'o directorio actual t'o portafuellas"/>
-                    <Item CMID="10" name="Tornar a &amp;nombrar"/>
-                    <Item CMID="11" name="&amp;Suprimir"/>
-                    <Item CMID="12" name="&amp;Modo de NomÃƒÂ¡s-Lectura"/>
-                    <Item CMID="13" name="Suprimir a m&amp;arca de NomÃƒÂ¡s-Lectura"/>
-                    <Item CMID="14" name="Mover ta una nueva &amp;finestra"/>
-                    <Item CMID="15" name="C&amp;lonar en una nueva finestra"/>
-                    <Item CMID="16" name="&amp;Tornar a cargar"/>
-                    <Item CMID="17" name="Zarrar totz dende ista t'a cucha"/>
-                    <Item CMID="18" name="Zarrar totz dende ista t'a dreita"/>
+                    <Item CMID="0" name="Close"/>
+                    <Item CMID="1" name="Close All BUT This"/>
+                    <Item CMID="2" name="Save"/>
+                    <Item CMID="3" name="Save As..."/>
+                    <Item CMID="4" name="Print"/>
+                    <Item CMID="5" name="Move to Other View"/>
+                    <Item CMID="6" name="Clone to Other View"/>
+                    <Item CMID="7" name="Full File Path to Clipboard"/>
+                    <Item CMID="8" name="Filename to Clipboard"/>
+                    <Item CMID="9" name="Current Dir. Path to Clipboard"/>
+                    <Item CMID="10" name="Rename"/>
+                    <Item CMID="11" name="Move to Recycle Bin"/>
+                    <Item CMID="12" name="Read-Only"/>
+                    <Item CMID="13" name="Clear Read-Only Flag"/>
+                    <Item CMID="14" name="Move to New Instance"/>
+                    <Item CMID="15" name="Open in New Instance"/>
+                    <Item CMID="16" name="Reload"/>
+                    <Item CMID="17" name="Close All to the Left"/>
+                    <Item CMID="18" name="Close All to the Right"/>
                     <Item CMID="19" name="Open Containing Folder in Explorer"/>
                     <Item CMID="20" name="Open Containing Folder in cmd"/>
                     <Item CMID="21" name="Open in Default Viewer"/>
@@ -340,70 +340,70 @@
         </Menu>
 
         <Dialog>
-            <Find title="" titleFind="Mirar" titleReplace="Substituir" titleFindInFiles="Mirar en fichers" titleMark="Marcar">
-                <Item id="1" name="Trobar o siguient"/>
-                <Item id="1722" name="Zarrar"/>
-                <Item id="2" name="QuÃƒÂ© quiere trobar?"/>
-                <Item id="1620" name="NomÃƒÂ¡s a parola completa"/>
-                <Item id="1603" name="Diferenciar mayusclas y minusclas"/>
-                <Item id="1604" name="ExpresiÃƒÂ³n &amp;regular"/>
-                <Item id="1605" name="En rematar, tornar a l'inicio"/>
-                <Item id="1606" name="&amp;Alto"/>
-                <Item id="1614" name="A&amp;baixo"/>
-                <Item id="1615" name="Contar as coincidencias"/>
-                <Item id="1616" name="Trobar-los totz"/>
-                <Item id="1618" name="Marcar a linia"/>
-                <Item id="1611" name="Teste d'estilo trobau"/>
-                <Item id="1608" name="Vuedar ta cada busca"/>
-                <Item id="1609" name="Endrecera"/>
-                <Item id="1687" name="Substituir-lo &amp;por:"/>
-                <Item id="1688" name="&amp;Substituir "/>
-                <Item id="1632" name="Substituir-lo &amp;tot"/>
-                <Item id="1633" name="Transparencia"/>
-                <Item id="1635" name="En perder o foco"/>
-                <Item id="1636" name="Siempre"/>
-                <Item id="1654" name="En a selecciÃƒÂ³n"/>
-                <Item id="1655" name="Vuedar"/>
-                <Item id="1656" name="Substituir-lo tot en totz os documentos ubiertos"/>
-                <Item id="1658" name="Mirar-lo tot en totz os documentos ubiertos"/>
-                <Item id="1659" name="Mirar en os fichers"/>
-                <Item id="1624" name="Filtros:"/>
-                <Item id="1625" name="Directorio:"/>
-                <Item id="1626" name="Mirar-los totz"/>
-                <Item id="1660" name="Incluir-ie subdirectorios"/>
-                <Item id="1661" name="Incluir-ie dir. zaboyaus"/>
-                <Item id="1641" name="Modo de busca"/>
-                <Item id="1686" name="Normal"/>
-                <Item id="1703" name="Estendillau (\n, \r, \t, \0, \x...)"/>
+            <Find title="" titleFind="Find" titleReplace="Replace" titleFindInFiles="Find in Files" titleMark="Mark">
+                <Item id="1" name="Find Next"/>
+                <Item id="1722" name="Backward direction"/>
+                <Item id="2" name="Close"/>
+                <Item id="1620" name="&amp;Find what :"/>
+                <Item id="1603" name="Match &amp;whole word only"/>
+                <Item id="1604" name="Match &amp;case"/>
+                <Item id="1605" name="Re&amp;gular expression"/>
+                <Item id="1606" name="Wra&amp;p around"/>
+                <Item id="1614" name="Coun&amp;t"/>
+                <Item id="1615" name="Mark All"/>
+                <Item id="1616" name="Book&amp;mark line"/>
+                <Item id="1618" name="Purge for each search"/>
+                <Item id="1611" name="Rep&amp;lace with :"/>
+                <Item id="1608" name="&amp;Replace"/>
+                <Item id="1609" name="Replace &amp;All"/>
+                <Item id="1687" name="On losing focus"/>
+                <Item id="1688" name="Always"/>
+                <Item id="1632" name="In select&amp;ion"/>
+                <Item id="1633" name="Clear all marks"/>
+                <Item id="1635" name="Replace All in All &amp;Opened Documents"/>
+                <Item id="1636" name="Find All in All &amp;Opened Documents"/>
+                <Item id="1654" name="Filter&amp;s :"/>
+                <Item id="1655" name="Dir&amp;ectory :"/>
+                <Item id="1656" name="Find All"/>
+                <Item id="1658" name="In all su&amp;b-folders"/>
+                <Item id="1659" name="In &amp;hidden folders"/>
+                <Item id="1624" name="Search mode"/>
+                <Item id="1625" name="&amp;Normal"/>
+                <Item id="1626" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
+                <Item id="1660" name="&amp;Replace in Files"/>
+                <Item id="1661" name="Follow current doc."/>
+                <Item id="1641" name="Find All in Current Document"/>
+                <Item id="1686" name="Transparenc&amp;y"/>
+                <Item id="1703" name="&amp;. matches newline"/>
             </Find>
 
-            <FindCharsInRange title="Mirar intervalo de caracters...">
-                <Item id="2" name="Mirar"/>
-                <Item id="2901" name="Zarrar"/>
-                <Item id="2902" name="Caracters no-ASCII (128-255)"/>
-                <Item id="2903" name="Caracters ASCII (0 - 127)"/>
-                <Item id="2906" name="Iste intervalo:"/>
-                <Item id="2907" name="Alto"/>
-                <Item id="2908" name="Abaixo"/>
-                <Item id="2909" name="Endrecera"/>
-                <Item id="2910" name="En rematar, tornar a l'inicio"/>
+            <FindCharsInRange title="Find Characters in Range...">
+                <Item id="2" name="Close"/>
+                <Item id="2901" name="Non-ASCII Characters (128-255)"/>
+                <Item id="2902" name="ASCII Characters (0-127)"/>
+                <Item id="2903" name="My range:"/>
+                <Item id="2906" name="&amp;Up"/>
+                <Item id="2907" name="&amp;Down"/>
+                <Item id="2908" name="Direction"/>
+                <Item id="2909" name="Wra&amp;p around"/>
+                <Item id="2910" name="Find"/>
             </FindCharsInRange>
 
-            <GoToLine title="Ir ta la linia o posiciÃƒÂ³n...">
-                <Item id="2007" name="Linia"/>
-                <Item id="2008" name="PosiciÃƒÂ³n (en bytes)"/>
-                <Item id="1" name="I ye en a linia / posiciÃƒÂ³n:"/>
-                <Item id="2" name="Quiere ir-se-ne ta:"/>
-                <Item id="2004" name="No puede ir-se-ne dillÃƒÂ¡ de:"/>
-                <Item id="2005" name="&amp;Ves-ie!"/>
-                <Item id="2006" name="No i vaigas"/>
+            <GoToLine title="Go to...">
+                <Item id="2007" name="&amp;Line"/>
+                <Item id="2008" name="&amp;Offset"/>
+                <Item id="1" name="Go"/>
+                <Item id="2" name="I'm going nowhere"/>
+                <Item id="2004" name="You are here:"/>
+                <Item id="2005" name="You want to go to:"/>
+                <Item id="2006" name="You can't go further than:"/>
             </GoToLine>
 
-            <Run title="Executar...">
-                <Item id="1903" name="Trigue o programa que quiere executar"/>
-                <Item id="1" name="Executar"/>
-                <Item id="2" name="Aturar"/>
-                <Item id="1904" name="Alzar..."/>
+            <Run title="Run...">
+                <Item id="1903" name="The Program to Run"/>
+                <Item id="1" name="Run"/>
+                <Item id="2" name="Cancel"/>
+                <Item id="1904" name="Save..."/>
             </Run>
 
             <MD5FromFilesDlg title="Generate MD5 digest from files">
@@ -429,34 +429,34 @@
                 <Item id="2" name="Close"/>
             </PluginsAdminDlg>
 
-            <StyleConfig title="ConfiguraciÃƒÂ³n d'estilo">
-                <Item id="2" name="Cancelar"/>
-                <Item id="2301" name="Alzar y zarrar"/>
-                <Item id="2303" name="Transparencia"/>
-                <Item id="2306" name="Seleccionar tema: "/>
+            <StyleConfig title="Style Configurator">
+                <Item id="2" name="Cancel"/>
+                <Item id="2301" name="Save &amp;&amp; Close"/>
+                <Item id="2303" name="Transparency"/>
+                <Item id="2306" name="Select theme: "/>
                 <SubDialog>
-                    <Item id="2204" name="Negreta"/>
-                    <Item id="2205" name="Cursiva"/>
-                    <Item id="2206" name="Primer plan"/>
-                    <Item id="2207" name="Fundo"/>
-                    <Item id="2208" name="Tipo de letra:"/>
-                    <Item id="2209" name="Mida de letra:"/>
-                    <Item id="2211" name="ConfiguraciÃƒÂ³n d'estilo:"/>
-                    <Item id="2212" name="Estilo d'as colors"/>
-                    <Item id="2213" name="Estilo de letra"/>
-                    <Item id="2214" name="Ext. por defecto:"/>
-                    <Item id="2216" name="Ext. de l'usuario:"/>
-                    <Item id="2218" name="Subrayau"/>
-                    <Item id="2219" name="Parolas clau por defecto"/>
-                    <Item id="2221" name="Parolas clau definidas por l'usuario"/>
-                    <Item id="2225" name="Luengache:"/>
-                    <Item id="2226" name="Habilitar a color de primer plan global"/>
-                    <Item id="2227" name="Habilitar a color de fundo global"/>
-                    <Item id="2228" name="Habilitar o tipo de letra global"/>
-                    <Item id="2229" name="Habilitar a mida de letra global"/>
-                    <Item id="2230" name="Habilitar o estilo negreta global"/>
-                    <Item id="2231" name="Habilitar o estilo cursiva global"/>
-                    <Item id="2232" name="Habilitar o estilo subrayau global"/>
+                    <Item id="2204" name="Bold"/>
+                    <Item id="2205" name="Italic"/>
+                    <Item id="2206" name="Foreground colour"/>
+                    <Item id="2207" name="Background colour"/>
+                    <Item id="2208" name="Font name:"/>
+                    <Item id="2209" name="Font size:"/>
+                    <Item id="2211" name="Style:"/>
+                    <Item id="2212" name="Colour Style"/>
+                    <Item id="2213" name="Font Style"/>
+                    <Item id="2214" name="Default ext.:"/>
+                    <Item id="2216" name="User ext.:"/>
+                    <Item id="2218" name="Underline"/>
+                    <Item id="2219" name="Default keywords"/>
+                    <Item id="2221" name="User-defined keywords"/>
+                    <Item id="2225" name="Language:"/>
+                    <Item id="2226" name="Enable global foreground colour"/>
+                    <Item id="2227" name="Enable global background colour"/>
+                    <Item id="2228" name="Enable global font"/>
+                    <Item id="2229" name="Enable global font size"/>
+                    <Item id="2230" name="Enable global bold font style"/>
+                    <Item id="2231" name="Enable global italic font style"/>
+                    <Item id="2232" name="Enable global underline font style"/>
                 </SubDialog>
             </StyleConfig>
 
@@ -488,269 +488,269 @@
                 <Item id="5007" name="This will remove shortcut from this command"/>
                 <Item id="5012" name="CONFLICT FOUND!"/>
             </ShortcutMapperSubDialg>
-            <UserDefine title="Luengache definiu por l'usuario">
-                <Item id="20001" name="Acoplar"/>
-                <Item id="20002" name="Cambiar o nombre"/>
-                <Item id="20003" name="Creyar-ne uno..."/>
-                <Item id="20004" name="Eliminar"/>
-                <Item id="20005" name="Alzar como..."/>
-                <Item id="20007" name="Luengache d'usuario: "/>
+            <UserDefine title="User-Defined">
+                <Item id="20001" name="Dock"/>
+                <Item id="20002" name="Rename"/>
+                <Item id="20003" name="Create New..."/>
+                <Item id="20004" name="Remove"/>
+                <Item id="20005" name="Save As..."/>
+                <Item id="20007" name="User language: "/>
                 <Item id="20009" name="Ext.:"/>
-                <Item id="20012" name="Ignorar mayusclas"/>
-                <Item id="20011" name="Transparencia"/>
-                <Item id="20015" name="Importar..."/>
-                <Item id="20016" name="Exportar..."/>
-                <StylerDialog title="Dialogo d'estilo">
-                    <Item id="25030" name="Opcions de letra:"/>
-                    <Item id="25006" name="Color de primer plan"/>
-                    <Item id="25007" name="Color de fundo"/>
-                    <Item id="25031" name="Tipo:"/>
-                    <Item id="25032" name="Mida:"/>
-                    <Item id="25001" name="Negreta"/>
-                    <Item id="25002" name="Cursiva"/>
-                    <Item id="25003" name="Subrayau"/>
-                    <Item id="25029" name="EmbrecaciÃƒÂ³n:"/>
-                    <Item id="25008" name="Delimitador 1"/>
-                    <Item id="25009" name="Delimitador 2"/>
-                    <Item id="25010" name="Delimitador 3"/>
-                    <Item id="25011" name="Delimitador 4"/>
-                    <Item id="25012" name="Delimitador 5"/>
-                    <Item id="25013" name="Delimitador 6"/>
-                    <Item id="25014" name="Delimitador 7"/>
-                    <Item id="25015" name="Delimitador 8"/>
-                    <Item id="25018" name="Parola clau 1"/>
-                    <Item id="25019" name="Parola clau 2"/>
-                    <Item id="25020" name="Parola clau 3"/>
-                    <Item id="25021" name="Parola clau 4"/>
-                    <Item id="25022" name="Parola clau 5"/>
-                    <Item id="25023" name="Parola clau 6"/>
-                    <Item id="25024" name="Parola clau 7"/>
-                    <Item id="25025" name="Parola clau 8"/>
-                    <Item id="25016" name="Comentario"/>
-                    <Item id="25017" name="Linia de comentarios"/>
-                    <Item id="25026" name="Operador 1"/>
-                    <Item id="25027" name="Operador 2"/>
-                    <Item id="25028" name="Numeros"/>
+                <Item id="20012" name="Ignore case"/>
+                <Item id="20011" name="Transparency"/>
+                <Item id="20015" name="Import..."/>
+                <Item id="20016" name="Export..."/>
+                <StylerDialog title="Styler Dialog">
+                    <Item id="25030" name="Font options:"/>
+                    <Item id="25006" name="Foreground colour"/>
+                    <Item id="25007" name="Background colour"/>
+                    <Item id="25031" name="Name:"/>
+                    <Item id="25032" name="Size:"/>
+                    <Item id="25001" name="Bold"/>
+                    <Item id="25002" name="Italic"/>
+                    <Item id="25003" name="Underline"/>
+                    <Item id="25029" name="Nesting:"/>
+                    <Item id="25008" name="Delimiter 1"/>
+                    <Item id="25009" name="Delimiter 2"/>
+                    <Item id="25010" name="Delimiter 3"/>
+                    <Item id="25011" name="Delimiter 4"/>
+                    <Item id="25012" name="Delimiter 5"/>
+                    <Item id="25013" name="Delimiter 6"/>
+                    <Item id="25014" name="Delimiter 7"/>
+                    <Item id="25015" name="Delimiter 8"/>
+                    <Item id="25018" name="Keyword 1"/>
+                    <Item id="25019" name="Keyword 2"/>
+                    <Item id="25020" name="Keyword 3"/>
+                    <Item id="25021" name="Keyword 4"/>
+                    <Item id="25022" name="Keyword 5"/>
+                    <Item id="25023" name="Keyword 6"/>
+                    <Item id="25024" name="Keyword 7"/>
+                    <Item id="25025" name="Keyword 8"/>
+                    <Item id="25016" name="Comment"/>
+                    <Item id="25017" name="Comment line"/>
+                    <Item id="25026" name="Operator 1"/>
+                    <Item id="25027" name="Operator 2"/>
+                    <Item id="25028" name="Numbers"/>
                     <Item id="1" name="OK"/>
                     <Item id="2" name="Cancel"/>
                 </StylerDialog>
-                <Folder title="Por defecto y bloque de codigo">
-                    <Item id="21101" name="Estilo por defecto"/>
-                    <Item id="21102" name="Estilo"/>
-                    <Item id="21105" name="DocumentaciÃƒÂ³n:"/>
-                    <Item id="21104" name="Web de documentaciÃƒÂ³n temporal:"/>
-                    <Item id="21106" name="Plegar tamiÃƒÂ©n as linias vuedas"/>
-                    <Item id="21220" name="Estilo de plegau de codigo 1: "/>
-                    <Item id="21224" name="Obridura:"/>
-                    <Item id="21225" name="Meyo:"/>
-                    <Item id="21226" name="Zarradura:"/>
-                    <Item id="21227" name="Estilo"/>
-                    <Item id="21320" name="Estilo de plegau de codigo 2 (amenista de separadors):"/>
-                    <Item id="21324" name="Obridura:"/>
-                    <Item id="21325" name="Meyo:"/>
-                    <Item id="21326" name="Zarradura:"/>
-                    <Item id="21327" name="Estilo"/>
-                    <Item id="21420" name="Estilo de plegau de comentarios: "/>
-                    <Item id="21424" name="Obridura:"/>
-                    <Item id="21425" name="Meyo:"/>
-                    <Item id="21426" name="Zarradura:"/>
-                    <Item id="21427" name="Estilo"/>
+                <Folder title="Folder &amp;&amp; Default">
+                    <Item id="21101" name="Default style"/>
+                    <Item id="21102" name="Styler"/>
+                    <Item id="21105" name="Documentation:"/>
+                    <Item id="21104" name="Temporary doc site:"/>
+                    <Item id="21106" name="Fold &amp;compact (fold empty lines too)"/>
+                    <Item id="21220" name="Folding in code 1 style:"/>
+                    <Item id="21224" name="Open:"/>
+                    <Item id="21225" name="Middle:"/>
+                    <Item id="21226" name="Close:"/>
+                    <Item id="21227" name="Styler"/>
+                    <Item id="21320" name="Folding in code 2 style (separators needed):"/>
+                    <Item id="21324" name="Open:"/>
+                    <Item id="21325" name="Middle:"/>
+                    <Item id="21326" name="Close:"/>
+                    <Item id="21327" name="Styler"/>
+                    <Item id="21420" name="Folding in comment style:"/>
+                    <Item id="21424" name="Open:"/>
+                    <Item id="21425" name="Middle:"/>
+                    <Item id="21426" name="Close:"/>
+                    <Item id="21427" name="Styler"/>
                 </Folder>
-                <Keywords title="Lista de parolas clau">
-                    <Item id="22101" name="Primer grupo"/>
-                    <Item id="22201" name="Segundo grupo"/>
-                    <Item id="22301" name="Tercer grupo"/>
-                    <Item id="22401" name="Quatreno grupo"/>
-                    <Item id="22451" name="Cinqueno grupo"/>
-                    <Item id="22501" name="Seiseno grupo"/>
-                    <Item id="22551" name="Seteno grupo"/>
-                    <Item id="22601" name="Ueiteno grupo"/>
-                    <Item id="22121" name="Modo prefixo"/>
-                    <Item id="22221" name="Modo prefixo"/>
-                    <Item id="22321" name="Modo prefixo"/>
-                    <Item id="22421" name="Modo prefixo"/>
-                    <Item id="22471" name="Modo prefixo"/>
-                    <Item id="22521" name="Modo prefixo"/>
-                    <Item id="22571" name="Modo prefixo"/>
-                    <Item id="22621" name="Modo prefixo"/>
-                    <Item id="22122" name="Estilo"/>
-                    <Item id="22222" name="Estilo"/>
-                    <Item id="22322" name="Estilo"/>
-                    <Item id="22422" name="Estilo"/>
-                    <Item id="22472" name="Estilo"/>
-                    <Item id="22522" name="Estilo"/>
-                    <Item id="22572" name="Estilo"/>
-                    <Item id="22622" name="Estilo"/>
+                <Keywords title="Keywords Lists">
+                    <Item id="22101" name="1st Group"/>
+                    <Item id="22201" name="2nd Group"/>
+                    <Item id="22301" name="3rd Group"/>
+                    <Item id="22401" name="4th Group"/>
+                    <Item id="22451" name="5th Group"/>
+                    <Item id="22501" name="6th Group"/>
+                    <Item id="22551" name="7th Group"/>
+                    <Item id="22601" name="8th Group"/>
+                    <Item id="22121" name="Prefix mode"/>
+                    <Item id="22221" name="Prefix mode"/>
+                    <Item id="22321" name="Prefix mode"/>
+                    <Item id="22421" name="Prefix mode"/>
+                    <Item id="22471" name="Prefix mode"/>
+                    <Item id="22521" name="Prefix mode"/>
+                    <Item id="22571" name="Prefix mode"/>
+                    <Item id="22621" name="Prefix mode"/>
+                    <Item id="22122" name="Styler"/>
+                    <Item id="22222" name="Styler"/>
+                    <Item id="22322" name="Styler"/>
+                    <Item id="22422" name="Styler"/>
+                    <Item id="22472" name="Styler"/>
+                    <Item id="22522" name="Styler"/>
+                    <Item id="22572" name="Styler"/>
+                    <Item id="22622" name="Styler"/>
                 </Keywords>
-                <Comment title="Comentarios y numeros">
-                    <Item id="23003" name="PosiciÃƒÂ³n de comentario de linia"/>
-                    <Item id="23004" name="Permet en qualsevol lloc"/>
-                    <Item id="23005" name="Aforzar a o principio de linia"/>
-                    <Item id="23006" name="Permitir espaciau inicial"/>
-                    <Item id="23001" name="Permitir plegau de comentarios"/>
-                    <Item id="23326" name="Estilo"/>
-                    <Item id="23323" name="Obridura"/>
-                    <Item id="23324" name="Caracter de continuaciÃƒÂ³n"/>
-                    <Item id="23325" name="Zarradura"/>
-                    <Item id="23301" name="Linia de comentarios"/>
-                    <Item id="23124" name="Estilo"/>
-                    <Item id="23122" name="Obridura"/>
-                    <Item id="23123" name="Zarradura"/>
-                    <Item id="23101" name="Bloque de comentarios"/>
-                    <Item id="23201" name="Numero"/>
-                    <Item id="23220" name="Estilo"/>
-                    <Item id="23230" name="Prefixo 1:"/>
-                    <Item id="23232" name="Prefixo 2:"/>
-                    <Item id="23234" name="Extras 1:"/>
-                    <Item id="23236" name="Extras 2:"/>
-                    <Item id="23238" name="Sufixo 1:"/>
-                    <Item id="23240" name="Sufixo 2:"/>
-                    <Item id="23242" name="Rango: "/>
-                    <Item id="23244" name="Deseparador de decimals"/>
-                    <Item id="23245" name="Punto"/>
-                    <Item id="23246" name="Coma"/>
-                    <Item id="23247" name="Totz dos"/>
+                <Comment title="Comment &amp;&amp; Number">
+                    <Item id="23003" name="Line comment position"/>
+                    <Item id="23004" name="Allow anywhere"/>
+                    <Item id="23005" name="Force at beginning of line"/>
+                    <Item id="23006" name="Allow preceding whitespace"/>
+                    <Item id="23001" name="Allow folding of comments"/>
+                    <Item id="23326" name="Styler"/>
+                    <Item id="23323" name="Open"/>
+                    <Item id="23324" name="Continue character"/>
+                    <Item id="23325" name="Close"/>
+                    <Item id="23301" name="Comment line style"/>
+                    <Item id="23124" name="Styler"/>
+                    <Item id="23122" name="Open"/>
+                    <Item id="23123" name="Close"/>
+                    <Item id="23101" name="Comment style"/>
+                    <Item id="23201" name="Number style"/>
+                    <Item id="23220" name="Styler"/>
+                    <Item id="23230" name="Prefix 1"/>
+                    <Item id="23232" name="Prefix 2"/>
+                    <Item id="23234" name="Extras 1"/>
+                    <Item id="23236" name="Extras 2"/>
+                    <Item id="23238" name="Suffix 1"/>
+                    <Item id="23240" name="Suffix 2"/>
+                    <Item id="23242" name="Range:"/>
+                    <Item id="23244" name="Decimal separator"/>
+                    <Item id="23245" name="Dot"/>
+                    <Item id="23246" name="Comma"/>
+                    <Item id="23247" name="Both"/>
                 </Comment>
-                <Operator title="Operadors y Delimitadors">
-                    <Item id="24101" name="Estilo d'os operadors"/>
-                    <Item id="24113" name="Estilo"/>
-                    <Item id="24116" name="Operadors 1"/>
-                    <Item id="24117" name="Operadors 2 (amenista de separadors)"/>
-                    <Item id="24201" name="Estilo d'o delimitador 1"/>
-                    <Item id="24220" name="Obridura: "/>
-                    <Item id="24221" name="Caracter de escape: "/>
-                    <Item id="24222" name="Zarradura: "/>
-                    <Item id="24223" name="Estilo"/>
-                    <Item id="24301" name="Estilo d'o delimitador 2"/>
-                    <Item id="24320" name="Obridura: "/>
-                    <Item id="24321" name="Caracter de escape: "/>
-                    <Item id="24322" name="Zarradura: "/>
-                    <Item id="24323" name="Estilo"/>
-                    <Item id="24401" name="Estilo d'o delimitador 3"/>
-                    <Item id="24420" name="Obridura: "/>
-                    <Item id="24421" name="Caracter de escape: "/>
-                    <Item id="24422" name="Zarradura: "/>
-                    <Item id="24423" name="Estilo"/>
-                    <Item id="24451" name="Estilo d'o delimitador 4"/>
-                    <Item id="24470" name="Obridura: "/>
-                    <Item id="24471" name="Caracter de escape: "/>
-                    <Item id="24472" name="Zarradura: "/>
-                    <Item id="24473" name="Estilo"/>
-                    <Item id="24501" name="Estilo d'o delimitador 5"/>
-                    <Item id="24520" name="Obridura: "/>
-                    <Item id="24521" name="Caracter de escape: "/>
-                    <Item id="24522" name="Zarradura: "/>
-                    <Item id="24523" name="Estilo"/>
-                    <Item id="24551" name="Estilo d'o delimitador 6"/>
-                    <Item id="24570" name="Obridura: "/>
-                    <Item id="24571" name="Caracter de escape: "/>
-                    <Item id="24572" name="Zarradura: "/>
-                    <Item id="24573" name="Estilo"/>
-                    <Item id="24601" name="Estilo d'o delimitador 7"/>
-                    <Item id="24620" name="Obridura: "/>
-                    <Item id="24621" name="Caracter de escape: "/>
-                    <Item id="24622" name="Zarradura: "/>
-                    <Item id="24623" name="Estilo"/>
-                    <Item id="24651" name="Estilo d'o delimitador 8"/>
-                    <Item id="24670" name="Obridura: "/>
-                    <Item id="24671" name="Caracter de escape: "/>
-                    <Item id="24672" name="Zarradura: "/>
-                    <Item id="24673" name="Estilo"/>
+                <Operator title="Operators &amp;&amp; Delimiter">
+                    <Item id="24101" name="Operators style"/>
+                    <Item id="24113" name="Styler"/>
+                    <Item id="24116" name="Operators 1"/>
+                    <Item id="24117" name="Operators 2 (separators required)"/>
+                    <Item id="24201" name="Delimiter 1 style"/>
+                    <Item id="24220" name="Open:"/>
+                    <Item id="24221" name="Escape:"/>
+                    <Item id="24222" name="Close:"/>
+                    <Item id="24223" name="Styler"/>
+                    <Item id="24301" name="Delimiter 2 style"/>
+                    <Item id="24320" name="Open:"/>
+                    <Item id="24321" name="Escape:"/>
+                    <Item id="24322" name="Close:"/>
+                    <Item id="24323" name="Styler"/>
+                    <Item id="24401" name="Delimiter 3 style"/>
+                    <Item id="24420" name="Open:"/>
+                    <Item id="24421" name="Escape:"/>
+                    <Item id="24422" name="Close:"/>
+                    <Item id="24423" name="Styler"/>
+                    <Item id="24451" name="Delimiter 4 style"/>
+                    <Item id="24470" name="Open:"/>
+                    <Item id="24471" name="Escape:"/>
+                    <Item id="24472" name="Close:"/>
+                    <Item id="24473" name="Styler"/>
+                    <Item id="24501" name="Delimiter 5 style"/>
+                    <Item id="24520" name="Open:"/>
+                    <Item id="24521" name="Escape:"/>
+                    <Item id="24522" name="Close:"/>
+                    <Item id="24523" name="Styler"/>
+                    <Item id="24551" name="Delimiter 6 style"/>
+                    <Item id="24570" name="Open:"/>
+                    <Item id="24571" name="Escape:"/>
+                    <Item id="24572" name="Close:"/>
+                    <Item id="24573" name="Styler"/>
+                    <Item id="24601" name="Delimiter 7 style"/>
+                    <Item id="24620" name="Open:"/>
+                    <Item id="24621" name="Escape:"/>
+                    <Item id="24622" name="Close:"/>
+                    <Item id="24623" name="Styler"/>
+                    <Item id="24651" name="Delimiter 8 style"/>
+                    <Item id="24670" name="Open:"/>
+                    <Item id="24671" name="Escape:"/>
+                    <Item id="24672" name="Close:"/>
+                    <Item id="24673" name="Styler"/>
                 </Operator>
             </UserDefine>
-            <Preference title="Preferencias">
-                <Item id="6001" name="Zarrar"/>
-                <Global title="Cheneral">
-                    <Item id="6101" name="Barra de ferramientas"/>
-                    <Item id="6102" name="Amagar-la"/>
-                    <Item id="6103" name="Iconos chicotz"/>
-                    <Item id="6104" name="Iconos grans"/>
-                    <Item id="6105" name="Iconos estandar"/>
+            <Preference title="Preferences">
+                <Item id="6001" name="Close"/>
+                <Global title="General">
+                    <Item id="6101" name="Toolbar"/>
+                    <Item id="6102" name="Hide"/>
+                    <Item id="6103" name="Small icons"/>
+                    <Item id="6104" name="Big icons"/>
+                    <Item id="6105" name="Standard icons"/>
 
-                    <Item id="6106" name="Barra de pestanyas"/>
-                    <Item id="6107" name="Reducir"/>
-                    <Item id="6108" name="Blocar (no se podrÃƒÂ¡ arrocegar)"/>
-                    <Item id="6109" name="Enfoscar as pestanyas inactivas"/>
-                    <Item id="6110" name="Meter una marca en a pestanya activa"/>
+                    <Item id="6106" name="Tab Bar"/>
+                    <Item id="6107" name="Reduce"/>
+                    <Item id="6108" name="Lock (no drag and drop)"/>
+                    <Item id="6109" name="Darken inactive tabs"/>
+                    <Item id="6110" name="Draw a coloured bar on active tab"/>
 
-                    <Item id="6111" name="Amostrar a barra d'estau"/>
-                    <Item id="6112" name="BotÃƒÂ³n de zarrar en cada pestanya"/>
-                    <Item id="6113" name="Doble clic ta zarrar o documento"/>
-                    <Item id="6118" name="Amagar-la"/>
-                    <Item id="6119" name="Multilinia"/>
+                    <Item id="6111" name="Show status bar"/>
+                    <Item id="6112" name="Show close button on each tab"/>
+                    <Item id="6113" name="Double click to close document"/>
+                    <Item id="6118" name="Hide"/>
+                    <Item id="6119" name="Multi-line"/>
                     <Item id="6120" name="Vertical"/>
-                    <Item id="6121" name="Barra de menÃƒÂº"/>
+                    <Item id="6121" name="Exit on close the last tab"/>
 
-                    <Item id="6122" name="Amagar (Alt u F10 ta accedir)"/>
-                    <Item id="6123" name="Idioma"/>
+                    <Item id="6122" name="Hide menu bar (use Alt or F10 key to toggle)"/>
+                    <Item id="6123" name="Localization"/>
 
-                    <Item id="6125" name="Conmutador de documentos"/>
-                    <Item id="6126" name="Amostrar"/>
+                    <Item id="6125" name="Document List Panel"/>
+                    <Item id="6126" name="Show"/>
                     <Item id="6127" name="Disable extension column"/>
                 </Global>
-                <Scintillas title="Opcions visuals">
-                    <Item id="6216" name="ConfiguraciÃƒÂ³n d'o cursor"/>
-                    <Item id="6217" name="Amplaria:"/>
-                    <Item id="6219" name="Parpadeyo:"/>
-                    <Item id="6221" name="R"/>
-                    <Item id="6222" name="P"/>
-                    <Item id="6224" name="Multi-ediciÃƒÂ³n"/>
-                    <Item id="6225" name="Habilitar (Ctrl+zorz)"/>
-                    <Item id="6201" name="Estilo de agrupaciÃƒÂ³n"/>
+                <Scintillas title="Editing">
+                    <Item id="6216" name="Caret Settings"/>
+                    <Item id="6217" name="Width :"/>
+                    <Item id="6219" name="Blink rate :"/>
+                    <Item id="6221" name="F"/>
+                    <Item id="6222" name="S"/>
+                    <Item id="6224" name="Multi-Editing Settings"/>
+                    <Item id="6225" name="Enable (Ctrl+Mouse click/selection)"/>
+                    <Item id="6201" name="Folder Margin Style"/>
                     <Item id="6202" name="Simple"/>
-                    <Item id="6203" name="Trianglo"/>
-                    <Item id="6204" name="Ãƒ rbol en circlo"/>
-                    <Item id="6205" name="Ãƒ rbol en caixa"/>
-                    <Item id="6226" name="Garra"/>
+                    <Item id="6203" name="Arrow"/>
+                    <Item id="6204" name="Circle tree"/>
+                    <Item id="6205" name="Box tree"/>
+                    <Item id="6226" name="None"/>
 
-                    <Item id="6227" name="Achuste de linia"/>
-                    <Item id="6228" name="Por defecto"/>
-                    <Item id="6229" name="Aliniau"/>
-                    <Item id="6230" name="Sangrau"/>
+                    <Item id="6227" name="Line Wrap"/>
+                    <Item id="6228" name="Default"/>
+                    <Item id="6229" name="Aligned"/>
+                    <Item id="6230" name="Indent"/>
 
-                    <Item id="6206" name="Amostrar o numero de linia a o marguin"/>
-                    <Item id="6207" name="Amostrar os marcadors de linia a o marguin"/>
-                    <Item id="6208" name="Amostrar o canto vertical"/>
-                    <Item id="6209" name="Numero de columnas: "/>
-                    <Item id="6234" name="ConfiguraciÃƒÂ³n d'o canto vertical"/>
+                    <Item id="6206" name="Display line number"/>
+                    <Item id="6207" name="Display bookmark"/>
+                    <Item id="6208" name="Show vertical edge"/>
+                    <Item id="6209" name="Number of columns :"/>
+                    <Item id="6234" name="Disable advanced scrolling feature (if you have touchpad problem)"/>
 
-                    <Item id="6211" name="Modo de linia"/>
-                    <Item id="6212" name="Modo d'a color de fundo"/>
-                    <Item id="6213" name="Habilitar o resaltau d'a linia actual"/>
-                    <Item id="6214" name="Mida d'o marguin"/>
+                    <Item id="6211" name="Vertical Edge Settings"/>
+                    <Item id="6212" name="Line mode"/>
+                    <Item id="6213" name="Background mode"/>
+                    <Item id="6214" name="Enable current line highlighting"/>
                     <Item id="6215" name="Enable smooth font"/>
                     <Item id="6231" name="Border Width"/>
                     <Item id="6235" name="No edge"/>
                     <Item id="6236" name="Enable scrolling beyond last line"/>
                 </Scintillas>
 
-                <NewDoc title="Nuevo Documento">
-                    <Item id="6401" name="Blinco de linia"/>
-                    <Item id="6402" name="Windows"/>
-                    <Item id="6403" name="Unix"/>
-                    <Item id="6404" name="Mac"/>
-                    <Item id="6405" name="CodificaciÃƒÂ³n"/>
+                <NewDoc title="New Document">
+                    <Item id="6401" name="Format (Line ending)"/>
+                    <Item id="6402" name="Windows (CR LF)"/>
+                    <Item id="6403" name="Unix (LF)"/>
+                    <Item id="6404" name="Macintosh (CR)"/>
+                    <Item id="6405" name="Encoding"/>
                     <Item id="6406" name="ANSI"/>
-                    <Item id="6407" name="UTF-8 sinde BOM"/>
-                    <Item id="6408" name="UTF-8"/>
-                    <Item id="6409" name="UCS-2 Big Endian"/>
-                    <Item id="6410" name="UCS-2 Little Endian"/>
-                    <Item id="6411" name="Luengache inicial:"/>
-                    <Item id="6419" name="Nuevo documento"/>
-                    <Item id="6420" name="Aplicar a os fichers ANSI ubiertos"/>
+                    <Item id="6407" name="UTF-8"/>
+                    <Item id="6408" name="UTF-8 with BOM"/>
+                    <Item id="6409" name="UCS-2 Big Endian with BOM"/>
+                    <Item id="6410" name="UCS-2 Little Endian with BOM"/>
+                    <Item id="6411" name="Default language :"/>
+                    <Item id="6419" name="New Document"/>
+                    <Item id="6420" name="Apply to opened ANSI files"/>
                 </NewDoc>
 
-                <DefaultDir title="Directorios pod defecto">
-                    <Item id="6413" name="Directorio d'obridura/almagazenache"/>
-                    <Item id="6414" name="Seguntes o documento actual"/>
-                    <Item id="6415" name="Seguntes o zaguer directorio emplegau"/>
+                <DefaultDir title="Default Directory">
+                    <Item id="6413" name="Default Directory (Open/Save)"/>
+                    <Item id="6414" name="Follow current document"/>
+                    <Item id="6415" name="Remember last used directory"/>
                     <Item id="6430" name="Use new style dialog (without file extension feature &amp;&amp; Unix style path capacity)"/>
                     <Item id="6431" name="Open all files of folder instead of launching Folder as Workspace on folder dropping"/>
                 </DefaultDir>
 
-                <FileAssoc title="AsociaciÃƒÂ³n de fichers">
-                    <Item id="4009" name="Ext. soportadas:"/>
-                    <Item id="4010" name="Ext. rechistradas:"/>
+                <FileAssoc title="File Association">
+                    <Item id="4009" name="Supported extensions:"/>
+                    <Item id="4010" name="Registered extensions:"/>
                 </FileAssoc>
                 <Language title="Language">
                     <Item id="6505" name="Available items"/>
@@ -776,54 +776,54 @@
                     <Item id="6330" name="Highlight comment/php/asp zone"/>
                 </Highlighting>
 
-                <Print title="Imprentar">
-                    <Item id="6601" name="Imprentar o numero de linia"/>
-                    <Item id="6602" name="Opcions de color"/>
-                    <Item id="6603" name="Talqual se i veye (WYSIWYG)"/>
-                    <Item id="6604" name="Colors invertidas"/>
-                    <Item id="6605" name="Blanco y negro"/>
-                    <Item id="6606" name="Sin color de fundo"/>
-                    <Item id="6607" name="Marguins de pachina (Unidat:mm)"/>
-                    <Item id="6612" name="Cucha"/>
-                    <Item id="6613" name="Superior"/>
-                    <Item id="6614" name="Dreita"/>
-                    <Item id="6615" name="Inferior"/>
-                    <Item id="6706" name="Negreta"/>
-                    <Item id="6707" name="Cursiva"/>
-                    <Item id="6708" name="Capitero"/>
-                    <Item id="6709" name="En a cucha"/>
-                    <Item id="6710" name="En o centro"/>
-                    <Item id="6711" name="En a dreita"/>
-                    <Item id="6717" name="Negreta"/>
-                    <Item id="6718" name="Cursiva"/>
-                    <Item id="6719" name="Piet"/>
-                    <Item id="6720" name="En a cucha"/>
-                    <Item id="6721" name="En o centro"/>
-                    <Item id="6722" name="En a dreita"/>
-                    <Item id="6723" name="Adhibir"/>
+                <Print title="Print">
+                    <Item id="6601" name="Print line number"/>
+                    <Item id="6602" name="Colour Options"/>
+                    <Item id="6603" name="WYSIWYG"/>
+                    <Item id="6604" name="Invert"/>
+                    <Item id="6605" name="Black on white"/>
+                    <Item id="6606" name="No background colour"/>
+                    <Item id="6607" name="Margin Settings (Unit:mm)"/>
+                    <Item id="6612" name="Left"/>
+                    <Item id="6613" name="Top"/>
+                    <Item id="6614" name="Right"/>
+                    <Item id="6615" name="Bottom"/>
+                    <Item id="6706" name="Bold"/>
+                    <Item id="6707" name="Italic"/>
+                    <Item id="6708" name="Header"/>
+                    <Item id="6709" name="Left part"/>
+                    <Item id="6710" name="Middle part"/>
+                    <Item id="6711" name="Right part"/>
+                    <Item id="6717" name="Bold"/>
+                    <Item id="6718" name="Italic"/>
+                    <Item id="6719" name="Footer"/>
+                    <Item id="6720" name="Left part"/>
+                    <Item id="6721" name="Middle part"/>
+                    <Item id="6722" name="Right part"/>
+                    <Item id="6723" name="Add"/>
                     <Item id="6725" name="Variable:"/>
                     <Item id="6727" name="Here display your variable settings"/>
-                    <Item id="6728" name="Capitero y piet"/>
+                    <Item id="6728" name="Header and Footer"/>
                 </Print>
 
-                <RecentFilesHistory title="Historial de fichers recients">
-                    <Item id="6304" name="Historial de fichers recients"/>
-                    <Item id="6306" name="Maximo numero de dentradas:"/>
-                    <Item id="6305" name="No comprebar en iniciar"/>
-                    <Item id="6429" name="Fer veyer l'historial"/>
-                    <Item id="6424" name="En o submenÃƒÂº"/>
-                    <Item id="6425" name="NomÃƒÂ¡s o nombre de fichero"/>
-                    <Item id="6426" name="CamÃƒÂ­n completo d'o fichero"/>
-                    <Item id="6427" name="Personalizar a largaria maxima:"/>
+                <RecentFilesHistory title="Recent Files History">
+                    <Item id="6304" name="Recent Files History"/>
+                    <Item id="6306" name="Max. number of entries :"/>
+                    <Item id="6305" name="Don't check at launch time"/>
+                    <Item id="6429" name="Display"/>
+                    <Item id="6424" name="In Submenu"/>
+                    <Item id="6425" name="Only File Name"/>
+                    <Item id="6426" name="Full File Name Path"/>
+                    <Item id="6427" name="Customize Maximum Length:"/>
                 </RecentFilesHistory>
 
-                <Backup title="Copia de seguranza">
-                    <Item id="6817" name="Copia de seguranza"/>
-                    <Item id="6818" name="Garra"/>
-                    <Item id="6819" name="Copia de seguranza simple"/>
-                    <Item id="6821" name="Copia de seguranza complexa"/>
-                    <Item id="6822" name="Directorio ta las copias de seguranza"/>
-                    <Item id="6309" name="Directorio:"/>
+                <Backup title="Backup">
+                    <Item id="6817" name="Session snapshot and periodic backup"/>
+                    <Item id="6818" name="Enable session snapshot and periodic backup"/>
+                    <Item id="6819" name="Backup in every"/>
+                    <Item id="6821" name="seconds"/>
+                    <Item id="6822" name="Backup path:"/>
+                    <Item id="6309" name="Remember current session for next launch"/>
                     <Item id="6801" name="Backup on save"/>
                     <Item id="6315" name="None"/>
                     <Item id="6316" name="Simple backup"/>
@@ -832,15 +832,15 @@
                     <Item id="6803" name="Directory :"/>
                 </Backup>
 
-                <AutoCompletion title="AutocompleciÃƒÂ³n">
-                    <Item id="6807" name="AutocompleciÃƒÂ³n"/>
-                    <Item id="6808" name="Permitir l'autocompleciÃƒÂ³n en cada dentrada"/>
-                    <Item id="6809" name="Autocompletar funcions"/>
-                    <Item id="6810" name="Autocompletar parolas"/>
-                    <Item id="6816" name="de"/>
-                    <Item id="6824" name="caracter(s)"/>
-                    <Item id="6811" name="(valuras validas: 1 - 9)"/>
-                    <Item id="6813" name="Sucherencias en creyar parametros de funciÃƒÂ³n"/>
+                <AutoCompletion title="Auto-Completion">
+                    <Item id="6807" name="Auto-Completion"/>
+                    <Item id="6808" name="Enable auto-completion on each input"/>
+                    <Item id="6809" name="Function completion"/>
+                    <Item id="6810" name="Word completion"/>
+                    <Item id="6816" name="Function and word completion"/>
+                    <Item id="6824" name="Ignore numbers"/>
+                    <Item id="6811" name="From"/>
+                    <Item id="6813" name="th character"/>
                     <Item id="6814" name="Valid value : 1 - 9"/>
                     <Item id="6815" name="Function parameters hint on input"/>
                     <Item id="6851" name="Auto-Insert"/>
@@ -887,58 +887,58 @@
                     <Item id="6278" name="Example: https://www.google.com/search?q=$(CURRENT_WORD)"/>
                 </SearchEngine>
 
-                <MISC title="Miscelania">
-                    <Item id="6307" name="Habilitar"/>
-                    <Item id="6308" name="Minimizar ta la servilla d'o sistema"/>
-                    <Item id="6312" name="Remerar a sesiÃƒÂ³n actual ta la venient execuciÃƒÂ³n"/>
-                    <Item id="6313" name="AutodetecciÃƒÂ³n de l'estau d'o fichero"/>
-                    <Item id="6318" name="Esviellar en silencio"/>
-                    <Item id="6325" name="ConfiguraciÃƒÂ³n d'os vinclos clicables"/>
-                    <Item id="6319" name="Ir t'a zaguer linia dimpuÃƒÂ©s d'esviellar"/>
-                    <Item id="6320" name="Habilitar"/>
-                    <Item id="6322" name="No subrayar"/>
-                    <Item id="6323" name="ExtensiÃƒÂ³n d'o fichero de sesiÃƒÂ³n:"/>
-                    <Item id="6324" name="Esviellar o Notepad++ automaticament"/>
-                    <Item id="6331" name="Cambear de documento (Ctrl+Tab)"/>
-                    <Item id="6334" name="Habilitar o realzamiento intelichent"/>
-                    <Item id="6335" name="Resaltar as etiquetas que coincidan"/>
-                    <Item id="6337" name="Habilitar"/>
-                    <Item id="6114" name="Resaltar os atributos d'as etiquetas"/>
-                    <Item id="6115" name="Resaltar a zona php/asp/comentarios"/>
-                    <Item id="6117" name="Amostrar nomÃƒÂ¡s o nombre de fichero en a barra de titols"/>
-                    <Item id="6344" name="Habilitar"/>
-                    <Item id="6345" name="Sangrar automaticament"/>
-                    <Item id="6346" name="Ordenar seguntes emplego (MRU)"/>
+                <MISC title="MISC.">
+                    <Item id="6307" name="Enable"/>
+                    <Item id="6308" name="Minimize to system tray"/>
+                    <Item id="6312" name="File Status Auto-Detection"/>
+                    <Item id="6313" name="Update silently"/>
+                    <Item id="6318" name="Clickable Link Settings"/>
+                    <Item id="6325" name="Scroll to the last line after update"/>
+                    <Item id="6319" name="Enable"/>
+                    <Item id="6320" name="No underline"/>
+                    <Item id="6322" name="Session file ext.:"/>
+                    <Item id="6323" name="Enable Notepad++ auto-updater"/>
+                    <Item id="6324" name="Document Switcher (Ctrl+TAB)"/>
+                    <Item id="6331" name="Show only filename in title bar"/>
+                    <Item id="6334" name="Autodetect character encoding"/>
+                    <Item id="6335" name="Treat backslash as escape character for SQL"/>
+                    <Item id="6337" name="Workspace file ext.:"/>
+                    <Item id="6114" name="Enable"/>
+                    <Item id="6115" name="Auto-indent"/>
+                    <Item id="6117" name="Enable MRU behaviour"/>
+                    <Item id="6344" name="Document Peeker"/>
+                    <Item id="6345" name="Peek on tab"/>
+                    <Item id="6346" name="Peek on document map"/>
                 </MISC>
             </Preference>
-            <MultiMacro title="Executar una macro quantas vegadas">
-                <Item id="1" name="Executar"/>
-                <Item id="2" name="Cancelar"/>
-                <Item id="8006" name="Macro a executar:"/>
-                <Item id="8001" name="Executar"/>
-                <Item id="8005" name="vegada(s)"/>
-                <Item id="8002" name="Executar dica la fin d'o fichero"/>
+            <MultiMacro title="Run a Macro Multiple Times">
+                <Item id="1" name="&amp;Run"/>
+                <Item id="2" name="&amp;Cancel"/>
+                <Item id="8006" name="Macro to run :"/>
+                <Item id="8001" name="Run"/>
+                <Item id="8005" name="times"/>
+                <Item id="8002" name="Run until the &amp;end of file"/>
             </MultiMacro>
-            <Window title="Finestras">
-                <Item id="1" name="Activar"/>
-                <Item id="2" name="Acceptar"/>
-                <Item id="7002" name="Alzar"/>
-                <Item id="7003" name="Zarrar finestra(s)"/>
-                <Item id="7004" name="Orden pestanyas"/>
+            <Window title="Windows">
+                <Item id="1" name="&amp;Activate"/>
+                <Item id="2" name="&amp;OK"/>
+                <Item id="7002" name="&amp;Save"/>
+                <Item id="7003" name="&amp;Close window(s)"/>
+                <Item id="7004" name="Sort &amp;tabs"/>
             </Window>
-            <ColumnEditor title="InserciÃƒÂ³n en columna">
-                <Item id="2023" name="Texto ta insertar"/>
-                <Item id="2033" name="Numero ta insertar"/>
-                <Item id="2030" name="Numero inicial:"/>
-                <Item id="2031" name="Aumentar en:"/>
-                <Item id="2035" name="Zeros inicials"/>
-                <Item id="2036" name="Formato"/>
-                <Item id="2032" name="Decimal"/>
-                <Item id="2024" name="Octal"/>
-                <Item id="2025" name="Hexadecimal"/>
-                <Item id="2026" name="Binario"/>
-                <Item id="2027" name="Acceptar"/>
-                <Item id="1" name="Cancelar"/>
+            <ColumnEditor title="Column Editor">
+                <Item id="2023" name="Text to Insert"/>
+                <Item id="2033" name="Number to Insert"/>
+                <Item id="2030" name="Initial number :"/>
+                <Item id="2031" name="Increase by :"/>
+                <Item id="2035" name="Leading zeros"/>
+                <Item id="2036" name="Repeat :"/>
+                <Item id="2032" name="Format"/>
+                <Item id="2024" name="Dec"/>
+                <Item id="2025" name="Oct"/>
+                <Item id="2026" name="Hex"/>
+                <Item id="2027" name="Bin"/>
+                <Item id="1" name="OK"/>
                 <Item id="2" name="Cancel"/>
             </ColumnEditor>
             <FindInFinder title="Find in finder">
@@ -956,23 +956,23 @@
             </FindInFinder>
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="Editar contextMenu" message="Puede modificar o menÃƒÂº contextual emerchent de Notepad++ en editar o fichero 'contextMenu.xml'.  CaldrÃƒÂ¡ que reinicie Notepad++ dimpuÃƒÂ©s de modificar 'contextMenu.xml' ta que faiga efecto."/>
-            <NppHelpAbsentWarning title="No existe o fichero" message="  no existe. Lo puede baixar d'a web de Notepad++."/>
-            <SaveCurrentModifWarning title="Alzar a modificaciÃƒÂ³n actual" message="HabrÃƒÂ­a d'alzar a modificaciÃƒÂ³n actual.  Todas as modificacions alzadas no se poderÃƒÂ¡n desfer.   Quiere continar?"/>
-            <LoseUndoAbilityWarning title="Aviso de perda de l'habilidat de desfer" message="HabrÃƒÂ­a de alzar a modificaciÃƒÂ³n actual.  Todas as modificacions alzadas no se poderÃƒÂ¡n desfer.    Quiere continar?"/>
-            <CannotMoveDoc title="Mover ta una nueva finestra de Notepad++" message="O documento s'ha modificau, l'ha d'alzar antes y mirar de fer-lo de nuevas."/>
-            <DocReloadWarning title="Recargar" message="Ye seguro que quiere recargar o fichero actual y perder os cambeos feitos con Notepad++?"/>
-            <FileLockedWarning title="No s'ha puesto alzar" message="Comprebe si iste fichero ye ubierto con unatro programa"/>
-            <FileAlreadyOpenedInNpp title="" message="O fichero ya ye ubierto con Notepad++."/>
-            <DeleteFileFailed title="Eliminar fichero" message="No s'ha puesto eliminar o fichero"/>
+            <ContextMenuXmlEditWarning title="Editing contextMenu" message="Editing contextMenu.xml allows you to modify your Notepad++ popup context menu. You have to restart your Notepad++ to take effect after modifying contextMenu.xml."/>
+            <NppHelpAbsentWarning title="File does not exist" message=" doesn't exist. Please download it on Notepad++ site."/>
+            <SaveCurrentModifWarning title="Save Current Modification" message="You should save the current modification. All the saved modifications can not be undone.  Continue?"/>
+            <LoseUndoAbilityWarning title="Lose Undo Ability Warning" message="You should save the current modification. All the saved modifications can not be undone.  Continue?"/>
+            <CannotMoveDoc title="Move to new Notepad++ Instance" message="Document is modified, save it then try again."/>
+            <DocReloadWarning title="Reload" message="Are you sure you want to reload the current file and lose the changes made in Notepad++?"/>
+            <FileLockedWarning title="Save failed" message="Please check whether if this file is opened in another program"/>
+            <FileAlreadyOpenedInNpp title="" message="The file is already opened in the Notepad++."/>
+            <DeleteFileFailed title="Delete File" message="Delete File failed"/>
 
-            <NbFileToOpenImportantWarning title="A cantidat de fichers a ubrir ye masiau gran" message="Ye en momentos de ubrir $INT_REPLACE$ fichers.  Ye seguro que quiere ubrir-los?"/>
+            <NbFileToOpenImportantWarning title="Amount of files to open is too large" message="$INT_REPLACE$ files are about to be opened. Are you sure to open them?"/>
             <SettingsOnCloudError title="Settings on Cloud" message="It seems the path of settings on cloud is set on a read only drive, or on a folder needed privilege right for writing access. Your settings on cloud will be canceled. Please reset a coherent value via Preference dialog."/>
             <FilePathNotFoundWarning title="File Open" message="The file you're trying to open doesn't exist."/>
             <SessionFileInvalidError title="Could not Load Session" message="Session file is either corrupted or not valid."/>
             <DroppingFolderAsProjectModeWarning title="Invalid action" message="You can only drop files or folders but not both, because you're in dropping Folder as Project mode. you have to enable &quot;Open all files of folder instead of launching Folder as Workspace on folder dropping&quot; in &quot;Default Directory&quot; section of Preferences dialog to make this operation work."/>
             <SortingError title="Sorting Error" message="Unable to perform numeric sorting due to line $INT_REPLACE$."/>
-            <ColumnModeTip title="Consello de modo de columna" message="Utilitze &quot;Alt+SelecciÃƒÂ³n con o zorz&quot; u &quot;Alt+Mayusclas+Flechas d'o teclau&quot; ta cambear a o modo de columna."/>
+            <ColumnModeTip title="Column Mode Tip" message="Please use &quot;ALT+Mouse Selection&quot; or &quot;Alt+Shift+Arrow key&quot; to switch to column mode."/>
             <BufferInvalidWarning title="Save failed" message="Cannot save: Buffer is invalid."/>
             <DoSaveOrNot title="Save" message="Save file &quot;$STR_REPLACE$&quot; ?"/>
             <DoCloseOrNot title="Keep non existing file" message="The file &quot;$STR_REPLACE$&quot; doesn't exist anymore. Keep this file in editor?"/>
@@ -1054,48 +1054,48 @@
             </Menus>
         </FolderAsWorkspace>
         <ProjectManager>
-            <PanelTitle name="Prochecto"/>
-            <WorkspaceRootName name="Espacio de treballo"/>
-            <NewProjectName name="Nombre d'o prochecto nuevo"/>
-            <NewFolderName name="Nombre de directorio nuevo"/>
+            <PanelTitle name="Project"/>
+            <WorkspaceRootName name="Workspace"/>
+            <NewProjectName name="Project Name"/>
+            <NewFolderName name="Folder Name"/>
             <Menus>
                 <Entries>
-                    <Item id="0" name="Espacio de treballo"/>
-                    <Item id="1" name="Editar"/>
+                    <Item id="0" name="Workspace"/>
+                    <Item id="1" name="Edit"/>
                 </Entries>
                 <WorkspaceMenu>
-                    <Item id="3122" name="Creyar un nuevo espacio de treballo"/>
-                    <Item id="3123" name="Ubrir un espacio de treballo"/>
-                    <Item id="3124" name="Recargar un espacio de treballo"/>
-                    <Item id="3125" name="Alzar"/>
-                    <Item id="3126" name="Alzar como..."/>
-                    <Item id="3127" name="Alzar-ne una copia como..."/>
-                    <Item id="3121" name="Adhibir-ie un prochecto nuevo"/>
+                    <Item id="3122" name="New Workspace"/>
+                    <Item id="3123" name="Open Workspace"/>
+                    <Item id="3124" name="Reload Workspace"/>
+                    <Item id="3125" name="Save"/>
+                    <Item id="3126" name="Save As..."/>
+                    <Item id="3127" name="Save a Copy As..."/>
+                    <Item id="3121" name="Add New Project"/>
                 </WorkspaceMenu>
                 <ProjectMenu>
-                    <Item id="3111" name="Tornar a nombrar"/>
-                    <Item id="3112" name="Adhibir-ie un directorio"/>
-                    <Item id="3113" name="Adhibir-ie fichers..."/>
-                    <Item id="3117" name="Adhibir-ie os fichers d'un directorio..."/>
-                    <Item id="3114" name="Suprimir"/>
-                    <Item id="3118" name="Mover enta alto"/>
-                    <Item id="3119" name="Mover enta baixo"/>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3112" name="Add Folder"/>
+                    <Item id="3113" name="Add Files..."/>
+                    <Item id="3117" name="Add Files from Directory..."/>
+                    <Item id="3114" name="Remove"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
                 </ProjectMenu>
                 <FolderMenu>
-                    <Item id="3111" name="Tornar a nombrar"/>
-                    <Item id="3112" name="Adhibir-ie un directorio"/>
-                    <Item id="3113" name="Adhibir-ie fichers..."/>
-                    <Item id="3117" name="Adhibir-ie os fichers d'un directorio..."/>
-                    <Item id="3114" name="Suprimir"/>
-                    <Item id="3118" name="Mover enta alto"/>
-                    <Item id="3119" name="Mover enta baixo"/>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3112" name="Add Folder"/>
+                    <Item id="3113" name="Add Files..."/>
+                    <Item id="3117" name="Add Files from Directory..."/>
+                    <Item id="3114" name="Remove"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
                 </FolderMenu>
                 <FileMenu>
-                    <Item id="3111" name="Tornar a nombrar"/>
-                    <Item id="3115" name="Suprimir"/>
-                    <Item id="3116" name="Modificar o camÃƒÂ­n d'o fichero"/>
-                    <Item id="3118" name="Mover enta alto"/>
-                    <Item id="3119" name="Mover enta baixo"/>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3115" name="Remove"/>
+                    <Item id="3116" name="Modify File Path"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
                 </FileMenu>
             </Menus>
         </ProjectManager>
