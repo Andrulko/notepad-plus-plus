@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NotepadPlus>
-    <Native-Langue name="Tagalog" filename="tagalog.xml" version="7.5.5">
+    <Native-Langue name="English" filename="english.xml" version="7.5.5">
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
                 <Entries>
-                    <Item menuId="file" name="&amp;Pila"/>
-                    <Item menuId="edit" name="&amp;Ayusin"/>
-                    <Item menuId="search" name="Mag&amp;hanap"/>
-                    <Item menuId="view" name="&amp;Tignan"/>
-                    <Item menuId="encoding" name="A&amp;nyo"/>
-                    <Item menuId="language" name="&amp;Wika"/>
-                    <Item menuId="settings" name="Ka&amp;lagayan"/>
-                    <Item menuId="tools" name="Laki"/>
-                    <Item menuId="macro" name="Takbo"/>
-                    <Item menuId="run" name="Mga Plugin"/>
-                    <Item idName="Plugins" name="Dungawan"/>
+                    <Item menuId="file" name="&amp;File"/>
+                    <Item menuId="edit" name="&amp;Edit"/>
+                    <Item menuId="search" name="&amp;Search"/>
+                    <Item menuId="view" name="&amp;View"/>
+                    <Item menuId="encoding" name="E&amp;ncoding"/>
+                    <Item menuId="language" name="&amp;Language"/>
+                    <Item menuId="settings" name="Se&amp;ttings"/>
+                    <Item menuId="tools" name="To&amp;ols"/>
+                    <Item menuId="macro" name="&amp;Macro"/>
+                    <Item menuId="run" name="&amp;Run"/>
+                    <Item idName="Plugins" name="&amp;Plugins"/>
                     <Item idName="Window" name="&amp;Window"/>
                 </Entries>
                 <!-- Sub Menu Entries -->
                 <SubEntries>
-                    <Item subMenuId="file-openFolder" name="Isipi sa Klipbord"/>
-                    <Item subMenuId="file-closeMore" name="Ipasok"/>
-                    <Item subMenuId="file-recentFiles" name="Baguhin ang kaso"/>
-                    <Item subMenuId="edit-copyToClipboard" name="Mga Pangangasiwa sa Taludtod"/>
-                    <Item subMenuId="edit-indent" name="Punahin/Di-punahin"/>
-                    <Item subMenuId="edit-convertCaseTo" name="Kusang Pagtatapos"/>
-                    <Item subMenuId="edit-lineOperations" name="Tatakan lahat"/>
-                    <Item subMenuId="edit-comment" name="Di tatakan lahat"/>
-                    <Item subMenuId="edit-autoCompletion" name="Ipakita ang Sagisag"/>
-                    <Item subMenuId="edit-eolConversion" name="Palapitin"/>
-                    <Item subMenuId="edit-blankOperations" name="Ilipat ang kasalukuyang kasulatan"/>
-                    <Item subMenuId="edit-pasteSpecial" name="Pabagsakin ang antas"/>
-                    <Item subMenuId="edit-onSelection" name="Di pabagsakin ang antas"/>
+                    <Item subMenuId="file-openFolder" name="Open Containing Folder"/>
+                    <Item subMenuId="file-closeMore" name="Close More"/>
+                    <Item subMenuId="file-recentFiles" name="&amp;Recent Files"/>
+                    <Item subMenuId="edit-copyToClipboard" name="Copy to Clipboard"/>
+                    <Item subMenuId="edit-indent" name="Indent"/>
+                    <Item subMenuId="edit-convertCaseTo" name="Convert Case to"/>
+                    <Item subMenuId="edit-lineOperations" name="Line Operations"/>
+                    <Item subMenuId="edit-comment" name="Comment/Uncomment"/>
+                    <Item subMenuId="edit-autoCompletion" name="Auto-Completion"/>
+                    <Item subMenuId="edit-eolConversion" name="EOL Conversion"/>
+                    <Item subMenuId="edit-blankOperations" name="Blank Operations"/>
+                    <Item subMenuId="edit-pasteSpecial" name="Paste Special"/>
+                    <Item subMenuId="edit-onSelection" name="On Selection"/>
                     <Item subMenuId="search-markAll" name="Mark All"/>
                     <Item subMenuId="search-unmarkAll" name="Unmark All"/>
                     <Item subMenuId="search-jumpUp" name="Jump Up"/>
@@ -68,141 +68,141 @@
 
                 <!-- all menu item -->
                 <Commands>
-                    <Item id="41001" name="&amp;Magbago"/>
-                    <Item id="41002" name="&amp;Buksan"/>
-                    <Item id="41019" name="Isara"/>
-                    <Item id="41020" name="I&amp;sara Lahat"/>
-                    <Item id="41003" name="Isara LAHAT maliban sa kasalukuyang kasulatan"/>
-                    <Item id="41004" name="I&amp;tabi"/>
-                    <Item id="41005" name="Ita&amp;bi Lahat"/>
-                    <Item id="41009" name="It&amp;abi Bilang..."/>
-                    <Item id="41018" name="I-Print..."/>
-                    <Item id="41006" name="I-Print NGAYON!"/>
-                    <Item id="41007" name="Um&amp;alis"/>
-                    <Item id="41008" name="Kunin ang Session..."/>
-                    <Item id="41010" name="Itabi ang Session..."/>
-                    <Item id="1001" name="Kunin muli sa Disk"/>
-                    <Item id="41011" name="Itabi ang Sipi Bilang..."/>
-                    <Item id="41012" name="Burahin sa Disk"/>
-                    <Item id="41013" name="Pangalanang muli..."/>
-                    <Item id="41014" name="&amp;Gupitin"/>
-                    <Item id="41015" name="&amp;Sipiin"/>
-                    <Item id="41016" name="&amp;Di-gawin"/>
-                    <Item id="41017" name="&amp;Gawing muli"/>
-                    <Item id="41021" name="I&amp;dikit"/>
-                    <Item id="41022" name="&amp;Burahin"/>
-                    <Item id="41023" name="Piliin &amp;Lahat"/>
-                    <Item id="42001" name="Palakihin ang Pagpasok sa Taludtod"/>
-                    <Item id="42002" name="Paliitin ang Pagpasok sa Taludtod"/>
-                    <Item id="42003" name="Ulitin ang Kasalukuyang Taludtod"/>
-                    <Item id="42004" name="Paghiwalayin ang mga taludtod"/>
-                    <Item id="42005" name="Pagsamahin ang mga taludtod"/>
-                    <Item id="42006" name="Umakyat sa kasalukuyang taludtod"/>
-                    <Item id="42007" name="Bumaba sa kasalukuyang taludtod"/>
-                    <Item id="42020" name="sa TAASKASO"/>
-                    <Item id="42008" name="sa babangkaso"/>
-                    <Item id="42009" name="&amp;Simulang I-Rekord"/>
-                    <Item id="42010" name="Tapu&amp;sing I-Rekord"/>
-                    <Item id="42012" name="&amp;Pleybak"/>
-                    <Item id="42013" name="Ilagay sa de-blokeng puna"/>
-                    <Item id="42014" name="Idaloy ang puna"/>
-                    <Item id="42015" name="Putulin ang Labis na Puwang"/>
-                    <Item id="42059" name="Itabi ang kasalukuyang inirecord na macro"/>
-                    <Item id="42060" name="Sumulat Pakaliwa"/>
-                    <Item id="42061" name="Sumulat Pakanan"/>
-                    <Item id="42062" name="Basa Lang"/>
-                    <Item id="42063" name="Kasalukuyang buong daan sa pila tungo sa Clipboard"/>
-                    <Item id="42064" name="Kasalukuyang ngalan ng pila tungo sa Clipboard"/>
-                    <Item id="42065" name="Kasalukuyang daan sa dir tungo sa Clipboard"/>
-                    <Item id="42066" name="Patakbuhin ang macro ng ilang ulit..."/>
-                    <Item id="42016" name="Burahin ang basahin lang na watawat"/>
-                    <Item id="42017" name="Blokeng puna"/>
-                    <Item id="42067" name="Blokeng di-puna"/>
-                    <Item id="42068" name="&amp;Hanapin..."/>
-                    <Item id="42069" name="Hanapin ang &amp;Sumunod"/>
-                    <Item id="42070" name="Palitan..."/>
-                    <Item id="42071" name="Pumunta sa taludtod..."/>
-                    <Item id="42072" name="Gawing Aklat-Tanda"/>
-                    <Item id="42073" name="Susunod na Aklat-Tanda"/>
-                    <Item id="42074" name="Nakaraang Aklat-Tanda"/>
-                    <Item id="42075" name="Burahin lahat ng Aklat-Tanda"/>
-                    <Item id="42076" name="Pumunta sa katambal na brace"/>
-                    <Item id="42018" name="Hanapin ang nakaraan"/>
-                    <Item id="42019" name="&amp;Lumalaking Paghahanap..."/>
-                    <Item id="42021" name="Hanapin sa mga pila"/>
-                    <Item id="42022" name="Hanapin (volatile) ang Susunod"/>
-                    <Item id="42023" name="Hanapin (volatile) ang Nakaraan"/>
-                    <Item id="42047" name="Tatakan lahat"/>
-                    <Item id="42024" name="Di-tatakan lahat"/>
-                    <Item id="42042" name="Gupitin ang mga inaklat-takdang taludtod"/>
-                    <Item id="42043" name="Sipiin ang mga inaklat-takdang taludtod"/>
-                    <Item id="42044" name="Idikit sa () mga inaklat-takdang taludtod"/>
-                    <Item id="42045" name="Burahin ang mga inaklat-takdang taludtod"/>
-                    <Item id="42046" name="Gamit ang ika1ng style"/>
-                    <Item id="42054" name="Burahin ang ika1ng style"/>
-                    <Item id="42053" name="Gamit ang ika2ng style"/>
-                    <Item id="42038" name="Burahin ang ika2ng style"/>
-                    <Item id="42039" name="Gamit ang ika3ng style"/>
-                    <Item id="42048" name="Burahin ang ika3ng style"/>
-                    <Item id="42049" name="Gamit ang ika4ng style"/>
-                    <Item id="42050" name="Burahin ang ika4ng style"/>
-                    <Item id="42037" name="Gamit ang ika5ng style"/>
-                    <Item id="42034" name="Burahin ang ika5ng style"/>
-                    <Item id="42051" name="Burahin lahat ng style"/>
-                    <Item id="42052" name="I-Post-ito"/>
-                    <Item id="42025" name="Itiklop lahat"/>
-                    <Item id="42026" name="Ginawa ng Gumagamit na Usapan"/>
-                    <Item id="42027" name="Ipakita lahat ng character"/>
-                    <Item id="42028" name="Ipakita ang Gabay sa Pagpasok"/>
-                    <Item id="42029" name="Ibalot"/>
-                    <Item id="42030" name="Pala&amp;pitin Ctrl-Mouse Wheel Up"/>
-                    <Item id="42031" name="Pala&amp;yuin Ctrl-Mouse Wheel Down"/>
-                    <Item id="42032" name="Ipakita ang Puting Puwang at TAB"/>
-                    <Item id="42033" name="Ipakita ang Huli ng Taludtod"/>
-                    <Item id="42035" name="Buklatin lahat"/>
-                    <Item id="42036" name="Pabagsakin ang kasalukuyang antas"/>
-                    <Item id="42055" name="Di pabagsakin ang kasalukuyang antas"/>
-                    <Item id="42056" name="Ilagay sa Buong Iskrino"/>
-                    <Item id="42057" name="Ibalik sa Nakatakdang layo"/>
-                    <Item id="42058" name="Ilagi sa taas"/>
-                    <Item id="43001" name="Pagsabayin ang Patayong Pag-scroll"/>
-                    <Item id="43002" name="Pagsabayin ang Pahigang Pag-scroll"/>
-                    <Item id="43003" name="Ipakita ang sagisag sa balot"/>
-                    <Item id="43004" name="Ituon-pansin sa ibang tanawin"/>
-                    <Item id="43005" name="I-Convert sa Windows Format"/>
-                    <Item id="43006" name="I-Convert sa UNIX Format"/>
-                    <Item id="43007" name="I-Convert sa MAC Format"/>
-                    <Item id="43008" name="I-Encode sa ANSI"/>
-                    <Item id="43018" name="I-Encode sa UTF-8"/>
-                    <Item id="43019" name="I-Encode sa UCS-2 Big Endian"/>
-                    <Item id="43020" name="I-Encode sa UCS-2 Little Endian"/>
-                    <Item id="43021" name="I-Encode sa UTF-8 na walang BOM"/>
-                    <Item id="43051" name="I-Convert sa ANSI"/>
-                    <Item id="43050" name="I-Convert sa UTF-8 na walang BOM"/>
-                    <Item id="43052" name="I-Convert sa UTF-8"/>
-                    <Item id="43053" name="I-Convert sa UCS-2 Big Endian"/>
-                    <Item id="43009" name="I-Convert sa UCS-2 Little Endian"/>
-                    <Item id="43010" name="Ilipat sa ibang Tanawin"/>
-                    <Item id="43011" name="I-clone sa ibang Tanawin"/>
-                    <Item id="43013" name="I-lipat sa bagong kasaglitan"/>
-                    <Item id="43014" name="Buksan sa bagong kasaglitan"/>
-                    <Item id="43015" name="Styler Configurator..."/>
-                    <Item id="43022" name="Tungkol sa..."/>
-                    <Item id="43023" name="Notepad++ Home"/>
-                    <Item id="43024" name="Notepad++ Project Page"/>
-                    <Item id="43025" name="Online na tulong"/>
-                    <Item id="43026" name="Forum"/>
-                    <Item id="43027" name="Kumuha ng mga plugin"/>
-                    <Item id="43028" name="Pangmapa ng Shortcut..."/>
-                    <Item id="43029" name="Kanaisan..."/>
-                    <Item id="43030" name="&amp;Takbo..."/>
-                    <Item id="43031" name="Pagbuo ng Kagamitan"/>
-                    <Item id="43032" name="Pagbuo ng Salita"/>
-                    <Item id="43033" name="Function parameters hint"/>
-                    <Item id="43034" name="Pag-ayos ng mga Hanay..."/>
-                    <Item id="43035" name="Itago ang mga Taludtod"/>
-                    <Item id="43036" name="Buksan ang Lahat ng mga Kamakailang Pila"/>
-                    <Item id="43037" name="Linisin ang Tala ng mga Kamakailang Pila"/>
+                    <Item id="41001" name="&amp;New"/>
+                    <Item id="41002" name="&amp;Open"/>
+                    <Item id="41019" name="Explorer"/>
+                    <Item id="41020" name="cmd"/>
+                    <Item id="41003" name="&amp;Close"/>
+                    <Item id="41004" name="Clos&amp;e All"/>
+                    <Item id="41005" name="Close All BUT Current Document"/>
+                    <Item id="41009" name="Close All to the Left"/>
+                    <Item id="41018" name="Close All to the Right"/>
+                    <Item id="41006" name="&amp;Save"/>
+                    <Item id="41007" name="Sav&amp;e All"/>
+                    <Item id="41008" name="Save &amp;As..."/>
+                    <Item id="41010" name="Print..."/>
+                    <Item id="1001" name="Print Now"/>
+                    <Item id="41011" name="E&amp;xit"/>
+                    <Item id="41012" name="Load Session..."/>
+                    <Item id="41013" name="Save Session..."/>
+                    <Item id="41014" name="Re&amp;load from Disk"/>
+                    <Item id="41015" name="Save a Copy As..."/>
+                    <Item id="41016" name="Move to Recycle Bin"/>
+                    <Item id="41017" name="Rename..."/>
+                    <Item id="41021" name="Restore Recent Closed File"/>
+                    <Item id="41022" name="Open Folder as Workspace..."/>
+                    <Item id="41023" name="Open in Default Viewer"/>
+                    <Item id="42001" name="Cu&amp;t"/>
+                    <Item id="42002" name="&amp;Copy"/>
+                    <Item id="42003" name="&amp;Undo"/>
+                    <Item id="42004" name="&amp;Redo"/>
+                    <Item id="42005" name="&amp;Paste"/>
+                    <Item id="42006" name="&amp;Delete"/>
+                    <Item id="42007" name="Select A&amp;ll"/>
+                    <Item id="42020" name="Begin/End Select"/>
+                    <Item id="42008" name="Increase Line Indent"/>
+                    <Item id="42009" name="Decrease Line Indent"/>
+                    <Item id="42010" name="Duplicate Current Line"/>
+                    <Item id="42012" name="Split Lines"/>
+                    <Item id="42013" name="Join Lines"/>
+                    <Item id="42014" name="Move Up Current Line"/>
+                    <Item id="42015" name="Move Down Current Line"/>
+                    <Item id="42059" name="Sort Lines Lexicographically Ascending"/>
+                    <Item id="42060" name="Sort Lines Lexicographically Descending"/>
+                    <Item id="42061" name="Sort Lines As Integers Ascending"/>
+                    <Item id="42062" name="Sort Lines As Integers Descending"/>
+                    <Item id="42063" name="Sort Lines As Decimals (Comma) Ascending"/>
+                    <Item id="42064" name="Sort Lines As Decimals (Comma) Descending"/>
+                    <Item id="42065" name="Sort Lines As Decimals (Dot) Ascending"/>
+                    <Item id="42066" name="Sort Lines As Decimals (Dot) Descending"/>
+                    <Item id="42016" name="&amp;UPPERCASE"/>
+                    <Item id="42017" name="&amp;lowercase"/>
+                    <Item id="42067" name="&amp;Proper Case"/>
+                    <Item id="42068" name="Proper Case (blend)"/>
+                    <Item id="42069" name="&amp;Sentence case"/>
+                    <Item id="42070" name="Sentence case (blend)"/>
+                    <Item id="42071" name="&amp;iNVERT cASE"/>
+                    <Item id="42072" name="&amp;ranDOm CasE"/>
+                    <Item id="42073" name="Open File"/>
+                    <Item id="42074" name="Open Containing Folder in Explorer"/>
+                    <Item id="42075" name="Search on Internet"/>
+                    <Item id="42076" name="Change Search Engine..."/>
+                    <Item id="42018" name="Start Re&amp;cording"/>
+                    <Item id="42019" name="S&amp;top Recording"/>
+                    <Item id="42021" name="&amp;Playback"/>
+                    <Item id="42022" name="Toggle Single Line Comment"/>
+                    <Item id="42023" name="Block Comment"/>
+                    <Item id="42047" name="Block Uncomment"/>
+                    <Item id="42024" name="Trim Trailing Space"/>
+                    <Item id="42042" name="Trim Leading Space"/>
+                    <Item id="42043" name="Trim Leading and Trailing Space"/>
+                    <Item id="42044" name="EOL to Space"/>
+                    <Item id="42045" name="Remove Unnecessary Blank and EOL"/>
+                    <Item id="42046" name="TAB to Space"/>
+                    <Item id="42054" name="Space to TAB (All)"/>
+                    <Item id="42053" name="Space to TAB (Leading)"/>
+                    <Item id="42038" name="Paste HTML Content"/>
+                    <Item id="42039" name="Paste RTF Content"/>
+                    <Item id="42048" name="Copy Binary Content"/>
+                    <Item id="42049" name="Cut Binary Content"/>
+                    <Item id="42050" name="Paste Binary Content"/>
+                    <Item id="42037" name="Column Mode..."/>
+                    <Item id="42034" name="Column Editor..."/>
+                    <Item id="42051" name="Character Panel"/>
+                    <Item id="42052" name="Clipboard History"/>
+                    <Item id="42025" name="&amp;Save Currently Recorded Macro..."/>
+                    <Item id="42026" name="Text Direction RTL"/>
+                    <Item id="42027" name="Text Direction LTR"/>
+                    <Item id="42028" name="Set Read-Only"/>
+                    <Item id="42029" name="Current File Path to Clipboard"/>
+                    <Item id="42030" name="Current Filename to Clipboard"/>
+                    <Item id="42031" name="Current Dir. Path to Clipboard"/>
+                    <Item id="42032" name="&amp;Run a Macro Multiple Times..."/>
+                    <Item id="42033" name="Clear Read-Only Flag"/>
+                    <Item id="42035" name="Single Line Comment"/>
+                    <Item id="42036" name="Single Line Uncomment"/>
+                    <Item id="42055" name="Remove Empty Lines"/>
+                    <Item id="42056" name="Remove Empty Lines (Containing Blank characters)"/>
+                    <Item id="42057" name="Insert Blank Line Above Current"/>
+                    <Item id="42058" name="Insert Blank Line Below Current"/>
+                    <Item id="43001" name="&amp;Find..."/>
+                    <Item id="43002" name="Find &amp;Next"/>
+                    <Item id="43003" name="&amp;Replace..."/>
+                    <Item id="43004" name="&amp;Go to..."/>
+                    <Item id="43005" name="Toggle Bookmark"/>
+                    <Item id="43006" name="Next Bookmark"/>
+                    <Item id="43007" name="Previous Bookmark"/>
+                    <Item id="43008" name="Clear All Bookmarks"/>
+                    <Item id="43018" name="Cut Bookmarked Lines"/>
+                    <Item id="43019" name="Copy Bookmarked Lines"/>
+                    <Item id="43020" name="Paste to (Replace) Bookmarked Lines"/>
+                    <Item id="43021" name="Remove Bookmarked Lines"/>
+                    <Item id="43051" name="Remove Unmarked Lines"/>
+                    <Item id="43050" name="Inverse Bookmark"/>
+                    <Item id="43052" name="Find characters in range..."/>
+                    <Item id="43053" name="Select All Between Matching Braces"/>
+                    <Item id="43009" name="Go to Matching Brace"/>
+                    <Item id="43010" name="Find &amp;Previous"/>
+                    <Item id="43011" name="&amp;Incremental Search"/>
+                    <Item id="43013" name="Find in Files"/>
+                    <Item id="43014" name="Find (Volatile) Next"/>
+                    <Item id="43015" name="Find (Volatile) Previous"/>
+                    <Item id="43022" name="Using 1st Style"/>
+                    <Item id="43023" name="Clear 1st Style"/>
+                    <Item id="43024" name="Using 2nd Style"/>
+                    <Item id="43025" name="Clear 2nd Style"/>
+                    <Item id="43026" name="Using 3rd Style"/>
+                    <Item id="43027" name="Clear 3rd Style"/>
+                    <Item id="43028" name="Using 4th Style"/>
+                    <Item id="43029" name="Clear 4th Style"/>
+                    <Item id="43030" name="Using 5th Style"/>
+                    <Item id="43031" name="Clear 5th Style"/>
+                    <Item id="43032" name="Clear All Styles"/>
+                    <Item id="43033" name="1st style"/>
+                    <Item id="43034" name="2nd style"/>
+                    <Item id="43035" name="3rd style"/>
+                    <Item id="43036" name="4th style"/>
+                    <Item id="43037" name="5th style"/>
                     <Item id="43038" name="Find style"/>
                     <Item id="43039" name="1st style"/>
                     <Item id="43040" name="2nd style"/>
@@ -314,22 +314,22 @@
             <Splitter>
             </Splitter>
             <TabBar>
-                    <Item CMID="0" name="Isara ako"/>
-                    <Item CMID="1" name="Isara lahat maliban sa kin"/>
-                    <Item CMID="2" name="Itabi ako"/>
-                    <Item CMID="3" name="Itabi ako Bilang..."/>
-                    <Item CMID="4" name="I-Print ako"/>
-                    <Item CMID="5" name="Ilipat sa iba pang Tanawin"/>
-                    <Item CMID="6" name="I-Clone sa iba pang Tanawin"/>
-                    <Item CMID="7" name="Full file path to Clipboard"/>
-                    <Item CMID="8" name="File name to Clipboard"/>
-                    <Item CMID="9" name="Current dir path to Clipboard"/>
-                    <Item CMID="10" name="Pangalanang muli ako"/>
-                    <Item CMID="11" name="Burahin ako"/>
-                    <Item CMID="12" name="Basahin lang"/>
-                    <Item CMID="13" name="Burahin ang basahin lang na watawat"/>
-                    <Item CMID="14" name="Pumunta sa bagong kasaglitan"/>
-                    <Item CMID="15" name="Buksan sa bagong kasaglitan"/>
+                    <Item CMID="0" name="Close"/>
+                    <Item CMID="1" name="Close All BUT This"/>
+                    <Item CMID="2" name="Save"/>
+                    <Item CMID="3" name="Save As..."/>
+                    <Item CMID="4" name="Print"/>
+                    <Item CMID="5" name="Move to Other View"/>
+                    <Item CMID="6" name="Clone to Other View"/>
+                    <Item CMID="7" name="Full File Path to Clipboard"/>
+                    <Item CMID="8" name="Filename to Clipboard"/>
+                    <Item CMID="9" name="Current Dir. Path to Clipboard"/>
+                    <Item CMID="10" name="Rename"/>
+                    <Item CMID="11" name="Move to Recycle Bin"/>
+                    <Item CMID="12" name="Read-Only"/>
+                    <Item CMID="13" name="Clear Read-Only Flag"/>
+                    <Item CMID="14" name="Move to New Instance"/>
+                    <Item CMID="15" name="Open in New Instance"/>
                     <Item CMID="16" name="Reload"/>
                     <Item CMID="17" name="Close All to the Left"/>
                     <Item CMID="18" name="Close All to the Right"/>
@@ -340,41 +340,41 @@
         </Menu>
 
         <Dialog>
-            <Find title="" titleFind="Hanapin" titleReplace="Palitan" titleFindInFiles="Hanapin Sa Pila" titleMark="Mark">
-                <Item id="1" name="Hanapin ang susunod"/>
-                <Item id="1722" name="Isara"/>
-                <Item id="2" name="Hanapin ang :"/>
-                <Item id="1620" name="Itambal sa &amp;buong salita lamang"/>
-                <Item id="1603" name="Itambal sa &amp;kaso"/>
-                <Item id="1604" name="Karaniwang ka&amp;wikain"/>
-                <Item id="1605" name="Ibalot paiko&amp;t"/>
-                <Item id="1606" name="&amp;Taas"/>
-                <Item id="1614" name="&amp;Baba"/>
-                <Item id="1615" name="Bilang"/>
-                <Item id="1616" name="Hanapin Lahat"/>
-                <Item id="1618" name="Tatakan ang Taludtod"/>
-                <Item id="1611" name="Style found token"/>
-                <Item id="1608" name="Purgahin sa bawat paghahanap"/>
-                <Item id="1609" name="Patunguhan"/>
-                <Item id="1687" name="Re&amp;place with :"/>
-                <Item id="1688" name="&amp;Palitan"/>
-                <Item id="1632" name="Palitan &amp;Lahat"/>
-                <Item id="1633" name="Pagkaka-transparent"/>
-                <Item id="1635" name="Pag di tuon pansin"/>
-                <Item id="1636" name="Palagi"/>
-                <Item id="1654" name="Sa pagpipili"/>
-                <Item id="1655" name="Burahin"/>
-                <Item id="1656" name="Palitan lahat sa lahat ng nakabukas na kasulatan"/>
-                <Item id="1658" name="Hanapin lahat sa lahat ng nakabukas na kasulatan"/>
-                <Item id="1659" name="Hanapin sa mga pila"/>
-                <Item id="1624" name="Switch sa Dialog"/>
-                <Item id="1625" name="Pansala :"/>
-                <Item id="1626" name="Direktorya :"/>
-                <Item id="1660" name="Hanapin sila lahat"/>
-                <Item id="1661" name="Sa lahat ng sub-folder"/>
-                <Item id="1641" name="Sa lahat ng tagong folder"/>
-                <Item id="1686" name="Mode ng Paghahanap"/>
-                <Item id="1703" name="Normal"/>
+            <Find title="" titleFind="Find" titleReplace="Replace" titleFindInFiles="Find in Files" titleMark="Mark">
+                <Item id="1" name="Find Next"/>
+                <Item id="1722" name="Backward direction"/>
+                <Item id="2" name="Close"/>
+                <Item id="1620" name="&amp;Find what :"/>
+                <Item id="1603" name="Match &amp;whole word only"/>
+                <Item id="1604" name="Match &amp;case"/>
+                <Item id="1605" name="Re&amp;gular expression"/>
+                <Item id="1606" name="Wra&amp;p around"/>
+                <Item id="1614" name="Coun&amp;t"/>
+                <Item id="1615" name="Mark All"/>
+                <Item id="1616" name="Book&amp;mark line"/>
+                <Item id="1618" name="Purge for each search"/>
+                <Item id="1611" name="Rep&amp;lace with :"/>
+                <Item id="1608" name="&amp;Replace"/>
+                <Item id="1609" name="Replace &amp;All"/>
+                <Item id="1687" name="On losing focus"/>
+                <Item id="1688" name="Always"/>
+                <Item id="1632" name="In select&amp;ion"/>
+                <Item id="1633" name="Clear all marks"/>
+                <Item id="1635" name="Replace All in All &amp;Opened Documents"/>
+                <Item id="1636" name="Find All in All &amp;Opened Documents"/>
+                <Item id="1654" name="Filter&amp;s :"/>
+                <Item id="1655" name="Dir&amp;ectory :"/>
+                <Item id="1656" name="Find All"/>
+                <Item id="1658" name="In all su&amp;b-folders"/>
+                <Item id="1659" name="In &amp;hidden folders"/>
+                <Item id="1624" name="Search mode"/>
+                <Item id="1625" name="&amp;Normal"/>
+                <Item id="1626" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
+                <Item id="1660" name="&amp;Replace in Files"/>
+                <Item id="1661" name="Follow current doc."/>
+                <Item id="1641" name="Find All in Current Document"/>
+                <Item id="1686" name="Transparenc&amp;y"/>
+                <Item id="1703" name="&amp;. matches newline"/>
             </Find>
 
             <FindCharsInRange title="Find Characters in Range...">
@@ -389,21 +389,21 @@
                 <Item id="2910" name="Find"/>
             </FindCharsInRange>
 
-            <GoToLine title="Pumunta sa taludtod #">
-                <Item id="2007" name="Taludtod"/>
-                <Item id="2008" name="Pagkakalihis"/>
-                <Item id="1" name="&amp;Alis !"/>
-                <Item id="2" name="Wala akong pupuntahan"/>
-                <Item id="2004" name="Narito ka :"/>
-                <Item id="2005" name="Nais mong pumunta sa :"/>
-                <Item id="2006" name="Hindi ka maaaring pumunta sa kabila ng :"/>
+            <GoToLine title="Go to...">
+                <Item id="2007" name="&amp;Line"/>
+                <Item id="2008" name="&amp;Offset"/>
+                <Item id="1" name="Go"/>
+                <Item id="2" name="I'm going nowhere"/>
+                <Item id="2004" name="You are here:"/>
+                <Item id="2005" name="You want to go to:"/>
+                <Item id="2006" name="You can't go further than:"/>
             </GoToLine>
 
-            <Run title="Takbo...">
-                <Item id="1903" name="Ilagay ang patatakbuhing program dito"/>
-                <Item id="1" name="Takbo!"/>
-                <Item id="2" name="Wag na lang"/>
-                <Item id="1904" name="Itabi..."/>
+            <Run title="Run...">
+                <Item id="1903" name="The Program to Run"/>
+                <Item id="1" name="Run"/>
+                <Item id="2" name="Cancel"/>
+                <Item id="1904" name="Save..."/>
             </Run>
 
             <MD5FromFilesDlg title="Generate MD5 digest from files">
@@ -429,34 +429,34 @@
                 <Item id="2" name="Close"/>
             </PluginsAdminDlg>
 
-            <StyleConfig title="Pang-configure ng Style ">
-                <Item id="2" name="Subukan mo!"/>
-                <Item id="2301" name="Wag na lang"/>
-                <Item id="2303" name="Itabi &amp;&amp; Sarahan"/>
-                <Item id="2306" name="Pagkalabo"/>
+            <StyleConfig title="Style Configurator">
+                <Item id="2" name="Cancel"/>
+                <Item id="2301" name="Save &amp;&amp; Close"/>
+                <Item id="2303" name="Transparency"/>
+                <Item id="2306" name="Select theme: "/>
                 <SubDialog>
-                    <Item id="2204" name="Makapal"/>
-                    <Item id="2205" name="Malihis"/>
-                    <Item id="2206" name="Kulay ng Harap"/>
-                    <Item id="2207" name="Kulay ng Likod"/>
-                    <Item id="2208" name="Ngalan ng Font :"/>
-                    <Item id="2209" name="Laki ng Font :"/>
-                    <Item id="2211" name="Description ng Style :"/>
-                    <Item id="2212" name="Style ng Kulay"/>
-                    <Item id="2213" name="Style ng Font"/>
-                    <Item id="2214" name="Nakatalagang ext :"/>
-                    <Item id="2216" name="ext ng Gumagamit :"/>
-                    <Item id="2218" name="Salungguhit"/>
-                    <Item id="2219" name="Nakatalagang susing salita"/>
-                    <Item id="2221" name="Susing salitang dinefine ng Gumagamit"/>
-                    <Item id="2225" name="Wika :"/>
-                    <Item id="2226" name="Payagan ang global na kulay ng harap"/>
-                    <Item id="2227" name="Payagan ang global na kulay ng likod"/>
-                    <Item id="2228" name="Payagan ang global na font"/>
-                    <Item id="2229" name="Payagan ang global na laki ng font"/>
-                    <Item id="2230" name="Payagan global na makapal na style ng font"/>
-                    <Item id="2231" name="Payagan global na Palihis na style ng font"/>
-                    <Item id="2232" name="Payagan global na salungguhit na style ng font"/>
+                    <Item id="2204" name="Bold"/>
+                    <Item id="2205" name="Italic"/>
+                    <Item id="2206" name="Foreground colour"/>
+                    <Item id="2207" name="Background colour"/>
+                    <Item id="2208" name="Font name:"/>
+                    <Item id="2209" name="Font size:"/>
+                    <Item id="2211" name="Style:"/>
+                    <Item id="2212" name="Colour Style"/>
+                    <Item id="2213" name="Font Style"/>
+                    <Item id="2214" name="Default ext.:"/>
+                    <Item id="2216" name="User ext.:"/>
+                    <Item id="2218" name="Underline"/>
+                    <Item id="2219" name="Default keywords"/>
+                    <Item id="2221" name="User-defined keywords"/>
+                    <Item id="2225" name="Language:"/>
+                    <Item id="2226" name="Enable global foreground colour"/>
+                    <Item id="2227" name="Enable global background colour"/>
+                    <Item id="2228" name="Enable global font"/>
+                    <Item id="2229" name="Enable global font size"/>
+                    <Item id="2230" name="Enable global bold font style"/>
+                    <Item id="2231" name="Enable global italic font style"/>
+                    <Item id="2232" name="Enable global underline font style"/>
                 </SubDialog>
             </StyleConfig>
 
@@ -488,18 +488,18 @@
                 <Item id="5007" name="This will remove shortcut from this command"/>
                 <Item id="5012" name="CONFLICT FOUND!"/>
             </ShortcutMapperSubDialg>
-            <UserDefine title="Di-nefine ng Gumagamit">
-                <Item id="20001" name="Pangalanang muli"/>
-                <Item id="20002" name="Gumawa ng Bago..."/>
-                <Item id="20003" name="Tanggalin"/>
-                <Item id="20004" name="Itabi Bilang..."/>
-                <Item id="20005" name="Wika ng Gumagamit : "/>
-                <Item id="20007" name="Ext :"/>
-                <Item id="20009" name="Baliwalain ang kaso"/>
-                <Item id="20012" name="Pagkaka-transparent"/>
-                <Item id="20011" name="Style ng Kulay"/>
-                <Item id="20015" name="Kulay ng Harap"/>
-                <Item id="20016" name="Kulay ng Likod"/>
+            <UserDefine title="User-Defined">
+                <Item id="20001" name="Dock"/>
+                <Item id="20002" name="Rename"/>
+                <Item id="20003" name="Create New..."/>
+                <Item id="20004" name="Remove"/>
+                <Item id="20005" name="Save As..."/>
+                <Item id="20007" name="User language: "/>
+                <Item id="20009" name="Ext.:"/>
+                <Item id="20012" name="Ignore case"/>
+                <Item id="20011" name="Transparency"/>
+                <Item id="20015" name="Import..."/>
+                <Item id="20016" name="Export..."/>
                 <StylerDialog title="Styler Dialog">
                     <Item id="25030" name="Font options:"/>
                     <Item id="25006" name="Foreground colour"/>
@@ -534,10 +534,10 @@
                     <Item id="1" name="OK"/>
                     <Item id="2" name="Cancel"/>
                 </StylerDialog>
-                <Folder title="&amp;&amp; Nakatalaga sa Folder">
-                    <Item id="21101" name="Nakatalagang Kalagayan ng Style"/>
-                    <Item id="21102" name="Folder Open Keywords Setting"/>
-                    <Item id="21105" name="Folder Close Keywords Setting"/>
+                <Folder title="Folder &amp;&amp; Default">
+                    <Item id="21101" name="Default style"/>
+                    <Item id="21102" name="Styler"/>
+                    <Item id="21105" name="Documentation:"/>
                     <Item id="21104" name="Temporary doc site:"/>
                     <Item id="21106" name="Fold &amp;compact (fold empty lines too)"/>
                     <Item id="21220" name="Folding in code 1 style:"/>
@@ -556,15 +556,15 @@
                     <Item id="21426" name="Close:"/>
                     <Item id="21427" name="Styler"/>
                 </Folder>
-                <Keywords title="Tala ng Susing Salita">
-                    <Item id="22101" name="ika-1ng Pangkat"/>
-                    <Item id="22201" name="ika-2ng Pangkat"/>
-                    <Item id="22301" name="ika-3ng Pangkat"/>
-                    <Item id="22401" name="ika-4ng Pangkat"/>
-                    <Item id="22451" name="Mode ng Unlapi"/>
-                    <Item id="22501" name="Mode ng Unlapi"/>
-                    <Item id="22551" name="Mode ng Unlapi"/>
-                    <Item id="22601" name="Mode ng Unlapi"/>
+                <Keywords title="Keywords Lists">
+                    <Item id="22101" name="1st Group"/>
+                    <Item id="22201" name="2nd Group"/>
+                    <Item id="22301" name="3rd Group"/>
+                    <Item id="22401" name="4th Group"/>
+                    <Item id="22451" name="5th Group"/>
+                    <Item id="22501" name="6th Group"/>
+                    <Item id="22551" name="7th Group"/>
+                    <Item id="22601" name="8th Group"/>
                     <Item id="22121" name="Prefix mode"/>
                     <Item id="22221" name="Prefix mode"/>
                     <Item id="22321" name="Prefix mode"/>
@@ -582,14 +582,14 @@
                     <Item id="22572" name="Styler"/>
                     <Item id="22622" name="Styler"/>
                 </Keywords>
-                <Comment title="Bilang &amp;&amp; Taludtod">
-                    <Item id="23003" name="Taludtod ng Puna"/>
-                    <Item id="23004" name="Bloke ng Puna"/>
-                    <Item id="23005" name="Bukas Puna :"/>
-                    <Item id="23006" name="Sara Puna :"/>
-                    <Item id="23001" name="Ituring ang susing salita na sagisag"/>
-                    <Item id="23326" name="Ituring ang mga susing salita na mga sagisag"/>
-                    <Item id="23323" name="Bilang"/>
+                <Comment title="Comment &amp;&amp; Number">
+                    <Item id="23003" name="Line comment position"/>
+                    <Item id="23004" name="Allow anywhere"/>
+                    <Item id="23005" name="Force at beginning of line"/>
+                    <Item id="23006" name="Allow preceding whitespace"/>
+                    <Item id="23001" name="Allow folding of comments"/>
+                    <Item id="23326" name="Styler"/>
+                    <Item id="23323" name="Open"/>
                     <Item id="23324" name="Continue character"/>
                     <Item id="23325" name="Close"/>
                     <Item id="23301" name="Comment line style"/>
@@ -611,16 +611,16 @@
                     <Item id="23246" name="Comma"/>
                     <Item id="23247" name="Both"/>
                 </Comment>
-                <Operator title="Mga Operator">
-                    <Item id="24101" name="Mga Operator"/>
-                    <Item id="24113" name="Available na Sagisag"/>
-                    <Item id="24116" name="Na-activate na Operators"/>
-                    <Item id="24117" name="Delimiter 1"/>
-                    <Item id="24201" name="Boundary open :"/>
-                    <Item id="24220" name="Boundary close :"/>
-                    <Item id="24221" name="Delimiter 2"/>
-                    <Item id="24222" name="Boundary open :"/>
-                    <Item id="24223" name="Boundary close :"/>
+                <Operator title="Operators &amp;&amp; Delimiter">
+                    <Item id="24101" name="Operators style"/>
+                    <Item id="24113" name="Styler"/>
+                    <Item id="24116" name="Operators 1"/>
+                    <Item id="24117" name="Operators 2 (separators required)"/>
+                    <Item id="24201" name="Delimiter 1 style"/>
+                    <Item id="24220" name="Open:"/>
+                    <Item id="24221" name="Escape:"/>
+                    <Item id="24222" name="Close:"/>
+                    <Item id="24223" name="Styler"/>
                     <Item id="24301" name="Delimiter 2 style"/>
                     <Item id="24320" name="Open:"/>
                     <Item id="24321" name="Escape:"/>
@@ -658,60 +658,60 @@
                     <Item id="24673" name="Styler"/>
                 </Operator>
             </UserDefine>
-            <Preference title="Kanaisan">
-                <Item id="6001" name="Isara"/>
-                <Global title="Global">
-                    <Item id="6101" name="Tool bar"/>
-                    <Item id="6102" name="Itago"/>
-                    <Item id="6103" name="Maliliit na icon"/>
-                    <Item id="6104" name="Malalaking icon"/>
-                    <Item id="6105" name="Maliliit na standard na icon"/>
+            <Preference title="Preferences">
+                <Item id="6001" name="Close"/>
+                <Global title="General">
+                    <Item id="6101" name="Toolbar"/>
+                    <Item id="6102" name="Hide"/>
+                    <Item id="6103" name="Small icons"/>
+                    <Item id="6104" name="Big icons"/>
+                    <Item id="6105" name="Standard icons"/>
 
-                    <Item id="6106" name="Tab bar"/>
-                    <Item id="6107" name="Pauntiin"/>
-                    <Item id="6108" name="Ikalang (Walang Drag at Drop)"/>
-                    <Item id="6109" name="Iguhit ang mga inactive tab"/>
-                    <Item id="6110" name="Iguhit ang orang top bar"/>
+                    <Item id="6106" name="Tab Bar"/>
+                    <Item id="6107" name="Reduce"/>
+                    <Item id="6108" name="Lock (no drag and drop)"/>
+                    <Item id="6109" name="Darken inactive tabs"/>
+                    <Item id="6110" name="Draw a coloured bar on active tab"/>
 
-                    <Item id="6111" name="Ipakita ang Status Bar"/>
-                    <Item id="6112" name="Payagan ang close button sa bawat tab"/>
-                    <Item id="6113" name="Dalawang pindot para sumara ang kasulatan"/>
-                    <Item id="6118" name="Itago"/>
-                    <Item id="6119" name="Ma-taludtod"/>
-                    <Item id="6120" name="Patayo"/>
-                    <Item id="6121" name="Menu bar"/>
+                    <Item id="6111" name="Show status bar"/>
+                    <Item id="6112" name="Show close button on each tab"/>
+                    <Item id="6113" name="Double click to close document"/>
+                    <Item id="6118" name="Hide"/>
+                    <Item id="6119" name="Multi-line"/>
+                    <Item id="6120" name="Vertical"/>
+                    <Item id="6121" name="Exit on close the last tab"/>
 
-                    <Item id="6122" name="Itago (Gamitin ang Alt o F10 key para i-toggle ito)"/>
-                    <Item id="6123" name="Lokalisasyon"/>
+                    <Item id="6122" name="Hide menu bar (use Alt or F10 key to toggle)"/>
+                    <Item id="6123" name="Localization"/>
 
                     <Item id="6125" name="Document List Panel"/>
                     <Item id="6126" name="Show"/>
                     <Item id="6127" name="Disable extension column"/>
                 </Global>
-                <Scintillas title="Ayusin ang mga Component">
-                    <Item id="6216" name="Kaayusan ng Caret"/>
-                    <Item id="6217" name="Lapad :"/>
-                    <Item id="6219" name="Bilis ng Pagkurap :"/>
+                <Scintillas title="Editing">
+                    <Item id="6216" name="Caret Settings"/>
+                    <Item id="6217" name="Width :"/>
+                    <Item id="6219" name="Blink rate :"/>
                     <Item id="6221" name="F"/>
                     <Item id="6222" name="S"/>
-                    <Item id="6224" name="Kaayusan ng Tab"/>
-                    <Item id="6225" name="Paltan ng Puwang"/>
-                    <Item id="6201" name="Laki ng Tab : "/>
-                    <Item id="6202" name="Style ng Folder margin"/>
-                    <Item id="6203" name="Payak"/>
-                    <Item id="6204" name="Panuro"/>
-                    <Item id="6205" name="Bilog na puno"/>
-                    <Item id="6226" name="Kahong puno"/>
+                    <Item id="6224" name="Multi-Editing Settings"/>
+                    <Item id="6225" name="Enable (Ctrl+Mouse click/selection)"/>
+                    <Item id="6201" name="Folder Margin Style"/>
+                    <Item id="6202" name="Simple"/>
+                    <Item id="6203" name="Arrow"/>
+                    <Item id="6204" name="Circle tree"/>
+                    <Item id="6205" name="Box tree"/>
+                    <Item id="6226" name="None"/>
 
-                    <Item id="6227" name="Ipakita ang margin ng Bilang ng taludtod"/>
-                    <Item id="6228" name="Ipakita ang margin ng Aklat-tanda"/>
-                    <Item id="6229" name="Ipakita ang Patayong Gilid"/>
-                    <Item id="6230" name="Bilang ng Hanay : "/>
+                    <Item id="6227" name="Line Wrap"/>
+                    <Item id="6228" name="Default"/>
+                    <Item id="6229" name="Aligned"/>
+                    <Item id="6230" name="Indent"/>
 
-                    <Item id="6206" name="Kaayusan ng Patayong Gilid"/>
-                    <Item id="6207" name="Mode ng taludtod"/>
-                    <Item id="6208" name="mode ng likod"/>
-                    <Item id="6209" name="Highlight sa Kasalukuyang aktibong taludtod"/>
+                    <Item id="6206" name="Display line number"/>
+                    <Item id="6207" name="Display bookmark"/>
+                    <Item id="6208" name="Show vertical edge"/>
+                    <Item id="6209" name="Number of columns :"/>
                     <Item id="6234" name="Disable advanced scrolling feature (if you have touchpad problem)"/>
 
                     <Item id="6211" name="Vertical Edge Settings"/>
@@ -724,20 +724,20 @@
                     <Item id="6236" name="Enable scrolling beyond last line"/>
                 </Scintillas>
 
-                <NewDoc title="Bagong Kasulatan/Buksan Itabing Directory">
-                    <Item id="6401" name="Bagong Kasulatan"/>
-                    <Item id="6402" name="Anyo"/>
-                    <Item id="6403" name="Windows"/>
-                    <Item id="6404" name="Unix"/>
-                    <Item id="6405" name="Mac"/>
-                    <Item id="6406" name="Encoding"/>
-                    <Item id="6407" name="ANSI"/>
-                    <Item id="6408" name="UTF-8 without BOM"/>
-                    <Item id="6409" name="UTF-8"/>
-                    <Item id="6410" name="UCS-2 Big endian"/>
-                    <Item id="6411" name="UCS-2 small endian"/>
-                    <Item id="6419" name="Nakatakdang Wika :"/>
-                    <Item id="6420" name="Bukas ng Pila/Itabi ang Directory"/>
+                <NewDoc title="New Document">
+                    <Item id="6401" name="Format (Line ending)"/>
+                    <Item id="6402" name="Windows (CR LF)"/>
+                    <Item id="6403" name="Unix (LF)"/>
+                    <Item id="6404" name="Macintosh (CR)"/>
+                    <Item id="6405" name="Encoding"/>
+                    <Item id="6406" name="ANSI"/>
+                    <Item id="6407" name="UTF-8"/>
+                    <Item id="6408" name="UTF-8 with BOM"/>
+                    <Item id="6409" name="UCS-2 Big Endian with BOM"/>
+                    <Item id="6410" name="UCS-2 Little Endian with BOM"/>
+                    <Item id="6411" name="Default language :"/>
+                    <Item id="6419" name="New Document"/>
+                    <Item id="6420" name="Apply to opened ANSI files"/>
                 </NewDoc>
 
                 <DefaultDir title="Default Directory">
@@ -748,9 +748,9 @@
                     <Item id="6431" name="Open all files of folder instead of launching Folder as Workspace on folder dropping"/>
                 </DefaultDir>
 
-                <FileAssoc title="Association ng Pila">
-                    <Item id="4009" name="Suportadong exts :"/>
-                    <Item id="4010" name="Registradong exts :"/>
+                <FileAssoc title="File Association">
+                    <Item id="4009" name="Supported extensions:"/>
+                    <Item id="4010" name="Registered extensions:"/>
                 </FileAssoc>
                 <Language title="Language">
                     <Item id="6505" name="Available items"/>
@@ -777,31 +777,31 @@
                 </Highlighting>
 
                 <Print title="Print">
-                    <Item id="6601" name="I-Print ang Bilang ng Taludtod"/>
-                    <Item id="6602" name="Pili sa Kulay"/>
-                    <Item id="6603" name="ANMAANM"/>
-                    <Item id="6604" name="Baliktarin"/>
-                    <Item id="6605" name="Itim at puti"/>
-                    <Item id="6606" name="Walang kulay sa likod"/>
-                    <Item id="6607" name="Setting ng Marge (Unit:mm)"/>
-                    <Item id="6612" name="Kaliwa"/>
-                    <Item id="6613" name="Taas"/>
-                    <Item id="6614" name="Kanan"/>
-                    <Item id="6615" name="Baba"/>
-                    <Item id="6706" name="Makapal"/>
-                    <Item id="6707" name="Palihis"/>
-                    <Item id="6708" name="Ulunan"/>
-                    <Item id="6709" name="Kaliwang bahagi"/>
-                    <Item id="6710" name="Gitnang bahagi"/>
-                    <Item id="6711" name="Kanang bahagi"/>
-                    <Item id="6717" name="Makapal"/>
-                    <Item id="6718" name="Palihis"/>
-                    <Item id="6719" name="Paanan"/>
-                    <Item id="6720" name="Kaliwang bahagi"/>
-                    <Item id="6721" name="Gitnang bahagi"/>
-                    <Item id="6722" name="Kanang bahagi"/>
-                    <Item id="6723" name="Idagdag"/>
-                    <Item id="6725" name="Naiiba :"/>
+                    <Item id="6601" name="Print line number"/>
+                    <Item id="6602" name="Colour Options"/>
+                    <Item id="6603" name="WYSIWYG"/>
+                    <Item id="6604" name="Invert"/>
+                    <Item id="6605" name="Black on white"/>
+                    <Item id="6606" name="No background colour"/>
+                    <Item id="6607" name="Margin Settings (Unit:mm)"/>
+                    <Item id="6612" name="Left"/>
+                    <Item id="6613" name="Top"/>
+                    <Item id="6614" name="Right"/>
+                    <Item id="6615" name="Bottom"/>
+                    <Item id="6706" name="Bold"/>
+                    <Item id="6707" name="Italic"/>
+                    <Item id="6708" name="Header"/>
+                    <Item id="6709" name="Left part"/>
+                    <Item id="6710" name="Middle part"/>
+                    <Item id="6711" name="Right part"/>
+                    <Item id="6717" name="Bold"/>
+                    <Item id="6718" name="Italic"/>
+                    <Item id="6719" name="Footer"/>
+                    <Item id="6720" name="Left part"/>
+                    <Item id="6721" name="Middle part"/>
+                    <Item id="6722" name="Right part"/>
+                    <Item id="6723" name="Add"/>
+                    <Item id="6725" name="Variable:"/>
                     <Item id="6727" name="Here display your variable settings"/>
                     <Item id="6728" name="Header and Footer"/>
                 </Print>
@@ -817,19 +817,19 @@
                     <Item id="6427" name="Customize Maximum Length:"/>
                 </RecentFilesHistory>
 
-                <Backup title="Backup/Kusang pagbuo">
-                    <Item id="6817" name="Backup"/>
-                    <Item id="6818" name="Wala"/>
-                    <Item id="6819" name="Payak na Backup"/>
-                    <Item id="6821" name="Masalitang Backup"/>
-                    <Item id="6822" name="User custom backup directory"/>
-                    <Item id="6309" name="Directory :"/>
-                    <Item id="6801" name="Kusang pagbuo"/>
-                    <Item id="6315" name="Payagan ang Kusang pagbuo sa bawat input"/>
-                    <Item id="6316" name="Pagbuo ng function"/>
-                    <Item id="6317" name="Pagbuo ng salita"/>
-                    <Item id="6804" name="Galing"/>
-                    <Item id="6803" name="th characters"/>
+                <Backup title="Backup">
+                    <Item id="6817" name="Session snapshot and periodic backup"/>
+                    <Item id="6818" name="Enable session snapshot and periodic backup"/>
+                    <Item id="6819" name="Backup in every"/>
+                    <Item id="6821" name="seconds"/>
+                    <Item id="6822" name="Backup path:"/>
+                    <Item id="6309" name="Remember current session for next launch"/>
+                    <Item id="6801" name="Backup on save"/>
+                    <Item id="6315" name="None"/>
+                    <Item id="6316" name="Simple backup"/>
+                    <Item id="6317" name="Verbose backup"/>
+                    <Item id="6804" name="Custom Backup Directory"/>
+                    <Item id="6803" name="Directory :"/>
                 </Backup>
 
                 <AutoCompletion title="Auto-Completion">
@@ -887,58 +887,58 @@
                     <Item id="6278" name="Example: https://www.google.com/search?q=$(CURRENT_WORD)"/>
                 </SearchEngine>
 
-                <MISC title="KAnuAno">
-                    <Item id="6307" name="Kalagayan ng Kasaysayan ng Pila"/>
-                    <Item id="6308" name="Huwag i-check 'pag oras ng launch"/>
-                    <Item id="6312" name="Pinakamalaking Bilang ng Pila sa Kasaysayan :"/>
-                    <Item id="6313" name="Payagan"/>
-                    <Item id="6318" name="Paliitin sa sys tray"/>
-                    <Item id="6325" name="Tandaan ang kasalukuyang session sa susunod na launch"/>
-                    <Item id="6319" name="Auto-detection ng Kalagayan ng File"/>
-                    <Item id="6320" name="Mag-update nang tahimik"/>
-                    <Item id="6322" name="Kalagayan ng napipindot na kadugtungan"/>
-                    <Item id="6323" name="Mag-scroll sa huling taludtod matapos ng update"/>
-                    <Item id="6324" name="Payagan"/>
-                    <Item id="6331" name="Huwag magsalungguhit"/>
-                    <Item id="6334" name="Session file ext:"/>
-                    <Item id="6335" name="Payagan ang Notepad++ auto-updater"/>
-                    <Item id="6337" name="Document switcher (Ctrl+TAB)"/>
-                    <Item id="6114" name="Payagan ang matalinong pagha-highlight"/>
-                    <Item id="6115" name="I-highlight ang magkatambal na tag"/>
-                    <Item id="6117" name="Payagan"/>
-                    <Item id="6344" name="I=highlight ang mga tag attribute"/>
-                    <Item id="6345" name="I-highlight ang zone ng puna/php/asp"/>
-                    <Item id="6346" name="Show only filename in titlebar"/>
+                <MISC title="MISC.">
+                    <Item id="6307" name="Enable"/>
+                    <Item id="6308" name="Minimize to system tray"/>
+                    <Item id="6312" name="File Status Auto-Detection"/>
+                    <Item id="6313" name="Update silently"/>
+                    <Item id="6318" name="Clickable Link Settings"/>
+                    <Item id="6325" name="Scroll to the last line after update"/>
+                    <Item id="6319" name="Enable"/>
+                    <Item id="6320" name="No underline"/>
+                    <Item id="6322" name="Session file ext.:"/>
+                    <Item id="6323" name="Enable Notepad++ auto-updater"/>
+                    <Item id="6324" name="Document Switcher (Ctrl+TAB)"/>
+                    <Item id="6331" name="Show only filename in title bar"/>
+                    <Item id="6334" name="Autodetect character encoding"/>
+                    <Item id="6335" name="Treat backslash as escape character for SQL"/>
+                    <Item id="6337" name="Workspace file ext.:"/>
+                    <Item id="6114" name="Enable"/>
+                    <Item id="6115" name="Auto-indent"/>
+                    <Item id="6117" name="Enable MRU behaviour"/>
+                    <Item id="6344" name="Document Peeker"/>
+                    <Item id="6345" name="Peek on tab"/>
+                    <Item id="6346" name="Peek on document map"/>
                 </MISC>
             </Preference>
-            <MultiMacro title="Patakbuhin ang Macro nang Ilang Ulit">
-                <Item id="1" name="Takbo"/>
-                <Item id="2" name="Huwag na lang"/>
-                <Item id="8006" name="Macrong patatakbuhin :"/>
-                <Item id="8001" name="Takbo"/>
-                <Item id="8005" name="ulit"/>
-                <Item id="8002" name="Patakbuhin hanggang sa dulo ng pila"/>
+            <MultiMacro title="Run a Macro Multiple Times">
+                <Item id="1" name="&amp;Run"/>
+                <Item id="2" name="&amp;Cancel"/>
+                <Item id="8006" name="Macro to run :"/>
+                <Item id="8001" name="Run"/>
+                <Item id="8005" name="times"/>
+                <Item id="8002" name="Run until the &amp;end of file"/>
             </MultiMacro>
-            <Window title="Mga Dungawan">
-                <Item id="1" name="Activate"/>
-                <Item id="2" name="Ayos"/>
-                <Item id="7002" name="Itabi"/>
-                <Item id="7003" name="Isara ang Dungawan"/>
-                <Item id="7004" name="Ayusin ang mga Tab"/>
+            <Window title="Windows">
+                <Item id="1" name="&amp;Activate"/>
+                <Item id="2" name="&amp;OK"/>
+                <Item id="7002" name="&amp;Save"/>
+                <Item id="7003" name="&amp;Close window(s)"/>
+                <Item id="7004" name="Sort &amp;tabs"/>
             </Window>
-            <ColumnEditor title="Pang-ayos ng Hanay">
-                <Item id="2023" name="Sulat na isisingit"/>
-                <Item id="2033" name="Bilang na isisingit"/>
-                <Item id="2030" name="Unang bilang :"/>
-                <Item id="2031" name="Pataasin nang :"/>
-                <Item id="2035" name="Pangunang zero"/>
-                <Item id="2036" name="Anyo"/>
-                <Item id="2032" name="Dec"/>
-                <Item id="2024" name="Oct"/>
-                <Item id="2025" name="Hex"/>
-                <Item id="2026" name="Bin"/>
-                <Item id="2027" name="Ayos"/>
-                <Item id="1" name="Huwag na lang"/>
+            <ColumnEditor title="Column Editor">
+                <Item id="2023" name="Text to Insert"/>
+                <Item id="2033" name="Number to Insert"/>
+                <Item id="2030" name="Initial number :"/>
+                <Item id="2031" name="Increase by :"/>
+                <Item id="2035" name="Leading zeros"/>
+                <Item id="2036" name="Repeat :"/>
+                <Item id="2032" name="Format"/>
+                <Item id="2024" name="Dec"/>
+                <Item id="2025" name="Oct"/>
+                <Item id="2026" name="Hex"/>
+                <Item id="2027" name="Bin"/>
+                <Item id="1" name="OK"/>
                 <Item id="2" name="Cancel"/>
             </ColumnEditor>
             <FindInFinder title="Find in finder">
