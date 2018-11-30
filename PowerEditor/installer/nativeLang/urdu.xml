@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NotepadPlus>
-    <Native-Langue name="Urdu" filename="urdu.xml" version="7.5.5">
+    <Native-Langue name="English" filename="english.xml" version="7.5.5">
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
                 <Entries>
-                    <Item menuId="file" name="&amp;فائل"/>
-                    <Item menuId="edit" name="&amp;ترميم"/>
-                    <Item menuId="search" name="&amp;تلاش"/>
-                    <Item menuId="view" name="&amp;نمائش"/>
-                    <Item menuId="encoding" name="&amp;اينکوڈنگ"/>
-                    <Item menuId="language" name="&amp;پروگرامنگ زبان"/>
-                    <Item menuId="settings" name="&amp;ترتيبات"/>
-                    <Item menuId="tools" name="ميکرو"/>
-                    <Item menuId="macro" name="رن"/>
+                    <Item menuId="file" name="&amp;File"/>
+                    <Item menuId="edit" name="&amp;Edit"/>
+                    <Item menuId="search" name="&amp;Search"/>
+                    <Item menuId="view" name="&amp;View"/>
+                    <Item menuId="encoding" name="E&amp;ncoding"/>
+                    <Item menuId="language" name="&amp;Language"/>
+                    <Item menuId="settings" name="Se&amp;ttings"/>
+                    <Item menuId="tools" name="To&amp;ols"/>
+                    <Item menuId="macro" name="&amp;Macro"/>
                     <Item menuId="run" name="&amp;Run"/>
                     <Item idName="Plugins" name="&amp;Plugins"/>
                     <Item idName="Window" name="&amp;Window"/>
@@ -68,86 +68,86 @@
 
                 <!-- all menu item -->
                 <Commands>
-                    <Item id="41001" name="&amp;نيا Ctrl+N"/>
-                    <Item id="41002" name="&amp;کھوليں Ctrl+O"/>
-                    <Item id="41019" name="منسوخ Ctrl+W"/>
-                    <Item id="41020" name="&amp;سب بند کريں"/>
-                    <Item id="41003" name="حاليہ ڈاکيومنٹ کے علاوہ سب بند کريں"/>
-                    <Item id="41004" name="&amp;محفوظ Ctrl+S"/>
-                    <Item id="41005" name="&amp;سب محفوظ کريں Ctrl+Shift+S"/>
-                    <Item id="41009" name="محفوظ &amp;بشکل..."/>
-                    <Item id="41018" name="طباعت... Ctrl+P"/>
-                    <Item id="41006" name="&amp;خروج"/>
-                    <Item id="41007" name="نشست لوڈ..."/>
-                    <Item id="41008" name="نشست محفوظ..."/>
-                    <Item id="41010" name="&amp;کٹ Ctrl+X"/>
-                    <Item id="1001" name="&amp;نقل Ctrl+C"/>
-                    <Item id="41011" name="&amp;ان ڈو Ctrl+Z"/>
-                    <Item id="41012" name="&amp;ري ڈو Ctrl+Y"/>
-                    <Item id="41013" name="&amp;چسپاں Ctrl+V"/>
-                    <Item id="41014" name="&amp;حذف Del"/>
-                    <Item id="41015" name="سب&amp;منتخب Ctrl+A"/>
-                    <Item id="41016" name="ٹيب داخل کريں TAB"/>
-                    <Item id="41017" name="ٹيب ختم کريں Shift+TAB"/>
-                    <Item id="41021" name="حاليہ سطر کو ڈبل کريں Ctrl+D"/>
-                    <Item id="41022" name="حاليہ سطر کو منتقل کريں Ctrl+T"/>
-                    <Item id="41023" name="سطريں تقسيم کريں Ctrl+I"/>
-                    <Item id="42001" name="سطريں ملائيں Ctrl+J"/>
-                    <Item id="42002" name="حاليہ سطر کو اوپر منتقل کريں Ctrl+Shift+Up"/>
-                    <Item id="42003" name="حاليہ سطر کو نيچے منتقل کريں Ctrl+Shift+Down"/>
-                    <Item id="42004" name="انگريزي حروف بڑے Ctrl+Shift+U"/>
-                    <Item id="42005" name="انگريزي حروف چھوٹے Ctrl+U"/>
-                    <Item id="42006" name="&amp;اندراج شروع Ctrl+Shift+R"/>
-                    <Item id="42007" name="&amp;اندراج منسوخ Ctrl+Shift+R"/>
-                    <Item id="42020" name="&amp;واپپس Ctrl+Shift+P"/>
-                    <Item id="42008" name="زمرة تعليق/إلغاء تعليق"/>
-                    <Item id="42009" name="جاري تبصرہ"/>
-                    <Item id="42010" name="آخ ميں مسافتيں ختم کتيں"/>
-                    <Item id="42012" name="حاليہ مندرج ميکرو محفوظ کريں"/>
-                    <Item id="42013" name="متن دائيں سے بائيں Ctrl+Alt+R"/>
-                    <Item id="42014" name="متن بائيں سے دائيں Ctrl+Alt+L"/>
-                    <Item id="42015" name="&amp;تلاش... Ctrl+F"/>
-                    <Item id="42059" name="&amp;تخليق F3"/>
-                    <Item id="42060" name="تبديل... Ctrl+H"/>
-                    <Item id="42061" name="سطر پر جائيں Ctrl+G"/>
-                    <Item id="42062" name="ثبت المؤشر Ctrl+F2"/>
-                    <Item id="42063" name="المؤشر التالي F2"/>
-                    <Item id="42064" name="المؤشر اللاحق Shift+F2"/>
-                    <Item id="42065" name="مسح جميع المؤشرات"/>
-                    <Item id="42066" name="إذهب إلى القوس المطابق Ctrl+B"/>
-                    <Item id="42016" name="إيجاد السابق Shift+F3"/>
-                    <Item id="42017" name="فائلوں ميں تلاش Ctrl+Shift+F"/>
-                    <Item id="42067" name="سب کو فولڈ کريں Alt+0"/>
-                    <Item id="42068" name="تعريف حوار المستخدم"/>
-                    <Item id="42069" name="تمام حروف دکھائيں"/>
-                    <Item id="42070" name="أظهر موجه الطلب"/>
-                    <Item id="42071" name="غلِّف"/>
-                    <Item id="42072" name="&amp;تصغير Ctrl-Mouse Wheel Up"/>
-                    <Item id="42073" name="تك&amp;بير Ctrl-Mouse Wheel Down"/>
-                    <Item id="42074" name="أظهر المسافات البيضاء و تاب"/>
-                    <Item id="42075" name="سطر کا اختتام دکھائيں"/>
-                    <Item id="42076" name="عدم لف الكل Alt+Shift+0"/>
-                    <Item id="42018" name=" ألغي المستوى الحالي Ctrl+Alt+F"/>
-                    <Item id="42019" name="لا تلغي المستوى الحالي Ctrl+Alt+Shift+F"/>
-                    <Item id="42021" name="تكبير الشاشة  F11"/>
-                    <Item id="42022" name="إعدادات التقريب الإفتراضية Ctrl+/(keypad)"/>
-                    <Item id="42023" name="دائماً بالأعلى"/>
-                    <Item id="42047" name="تزامن التحريك العمودي"/>
-                    <Item id="42024" name="تزامن التحريك الأفقي"/>
-                    <Item id="42042" name="حول لصيغة ويندوز"/>
-                    <Item id="42043" name="حول لصيغة يونيكس"/>
-                    <Item id="42044" name="حول لصيغة ماكنتوش"/>
-                    <Item id="42045" name="رمز برائے ANSI"/>
-                    <Item id="42046" name="رمز برائے UTF-8"/>
-                    <Item id="42054" name=" رمز برائے (UCS-2 Big Endian)"/>
-                    <Item id="42053" name=" رمز برائے (UCS-2 Little Endian)"/>
-                    <Item id="42038" name=" رمز برائے (UTF-8 (without BOM))"/>
-                    <Item id="42039" name="إذهب إلى منظر آخر"/>
-                    <Item id="42048" name="انسخ إلى منظر آخر"/>
-                    <Item id="42049" name="نمط معرف ..."/>
-                    <Item id="42050" name="حول... F1"/>
-                    <Item id="42037" name="راسم الإختصار..."/>
-                    <Item id="42034" name="&amp;رن..."/>
+                    <Item id="41001" name="&amp;New"/>
+                    <Item id="41002" name="&amp;Open"/>
+                    <Item id="41019" name="Explorer"/>
+                    <Item id="41020" name="cmd"/>
+                    <Item id="41003" name="&amp;Close"/>
+                    <Item id="41004" name="Clos&amp;e All"/>
+                    <Item id="41005" name="Close All BUT Current Document"/>
+                    <Item id="41009" name="Close All to the Left"/>
+                    <Item id="41018" name="Close All to the Right"/>
+                    <Item id="41006" name="&amp;Save"/>
+                    <Item id="41007" name="Sav&amp;e All"/>
+                    <Item id="41008" name="Save &amp;As..."/>
+                    <Item id="41010" name="Print..."/>
+                    <Item id="1001" name="Print Now"/>
+                    <Item id="41011" name="E&amp;xit"/>
+                    <Item id="41012" name="Load Session..."/>
+                    <Item id="41013" name="Save Session..."/>
+                    <Item id="41014" name="Re&amp;load from Disk"/>
+                    <Item id="41015" name="Save a Copy As..."/>
+                    <Item id="41016" name="Move to Recycle Bin"/>
+                    <Item id="41017" name="Rename..."/>
+                    <Item id="41021" name="Restore Recent Closed File"/>
+                    <Item id="41022" name="Open Folder as Workspace..."/>
+                    <Item id="41023" name="Open in Default Viewer"/>
+                    <Item id="42001" name="Cu&amp;t"/>
+                    <Item id="42002" name="&amp;Copy"/>
+                    <Item id="42003" name="&amp;Undo"/>
+                    <Item id="42004" name="&amp;Redo"/>
+                    <Item id="42005" name="&amp;Paste"/>
+                    <Item id="42006" name="&amp;Delete"/>
+                    <Item id="42007" name="Select A&amp;ll"/>
+                    <Item id="42020" name="Begin/End Select"/>
+                    <Item id="42008" name="Increase Line Indent"/>
+                    <Item id="42009" name="Decrease Line Indent"/>
+                    <Item id="42010" name="Duplicate Current Line"/>
+                    <Item id="42012" name="Split Lines"/>
+                    <Item id="42013" name="Join Lines"/>
+                    <Item id="42014" name="Move Up Current Line"/>
+                    <Item id="42015" name="Move Down Current Line"/>
+                    <Item id="42059" name="Sort Lines Lexicographically Ascending"/>
+                    <Item id="42060" name="Sort Lines Lexicographically Descending"/>
+                    <Item id="42061" name="Sort Lines As Integers Ascending"/>
+                    <Item id="42062" name="Sort Lines As Integers Descending"/>
+                    <Item id="42063" name="Sort Lines As Decimals (Comma) Ascending"/>
+                    <Item id="42064" name="Sort Lines As Decimals (Comma) Descending"/>
+                    <Item id="42065" name="Sort Lines As Decimals (Dot) Ascending"/>
+                    <Item id="42066" name="Sort Lines As Decimals (Dot) Descending"/>
+                    <Item id="42016" name="&amp;UPPERCASE"/>
+                    <Item id="42017" name="&amp;lowercase"/>
+                    <Item id="42067" name="&amp;Proper Case"/>
+                    <Item id="42068" name="Proper Case (blend)"/>
+                    <Item id="42069" name="&amp;Sentence case"/>
+                    <Item id="42070" name="Sentence case (blend)"/>
+                    <Item id="42071" name="&amp;iNVERT cASE"/>
+                    <Item id="42072" name="&amp;ranDOm CasE"/>
+                    <Item id="42073" name="Open File"/>
+                    <Item id="42074" name="Open Containing Folder in Explorer"/>
+                    <Item id="42075" name="Search on Internet"/>
+                    <Item id="42076" name="Change Search Engine..."/>
+                    <Item id="42018" name="Start Re&amp;cording"/>
+                    <Item id="42019" name="S&amp;top Recording"/>
+                    <Item id="42021" name="&amp;Playback"/>
+                    <Item id="42022" name="Toggle Single Line Comment"/>
+                    <Item id="42023" name="Block Comment"/>
+                    <Item id="42047" name="Block Uncomment"/>
+                    <Item id="42024" name="Trim Trailing Space"/>
+                    <Item id="42042" name="Trim Leading Space"/>
+                    <Item id="42043" name="Trim Leading and Trailing Space"/>
+                    <Item id="42044" name="EOL to Space"/>
+                    <Item id="42045" name="Remove Unnecessary Blank and EOL"/>
+                    <Item id="42046" name="TAB to Space"/>
+                    <Item id="42054" name="Space to TAB (All)"/>
+                    <Item id="42053" name="Space to TAB (Leading)"/>
+                    <Item id="42038" name="Paste HTML Content"/>
+                    <Item id="42039" name="Paste RTF Content"/>
+                    <Item id="42048" name="Copy Binary Content"/>
+                    <Item id="42049" name="Cut Binary Content"/>
+                    <Item id="42050" name="Paste Binary Content"/>
+                    <Item id="42037" name="Column Mode..."/>
+                    <Item id="42034" name="Column Editor..."/>
                     <Item id="42051" name="Character Panel"/>
                     <Item id="42052" name="Clipboard History"/>
                     <Item id="42025" name="&amp;Save Currently Recorded Macro..."/>
@@ -314,13 +314,13 @@
             <Splitter>
             </Splitter>
             <TabBar>
-                    <Item CMID="0" name="اغلقني"/>
-                    <Item CMID="1" name="اغلقهم كلهم ماعداي"/>
-                    <Item CMID="2" name="احفظني"/>
-                    <Item CMID="3" name="احفظني باسم ..."/>
-                    <Item CMID="4" name="اطبعني"/>
-                    <Item CMID="5" name="اذهب الى منظر آخر"/>
-                    <Item CMID="6" name="انسخ الى منظر آخر"/>
+                    <Item CMID="0" name="Close"/>
+                    <Item CMID="1" name="Close All BUT This"/>
+                    <Item CMID="2" name="Save"/>
+                    <Item CMID="3" name="Save As..."/>
+                    <Item CMID="4" name="Print"/>
+                    <Item CMID="5" name="Move to Other View"/>
+                    <Item CMID="6" name="Clone to Other View"/>
                     <Item CMID="7" name="Full File Path to Clipboard"/>
                     <Item CMID="8" name="Filename to Clipboard"/>
                     <Item CMID="9" name="Current Dir. Path to Clipboard"/>
@@ -341,30 +341,30 @@
 
         <Dialog>
             <Find title="" titleFind="Find" titleReplace="Replace" titleFindInFiles="Find in Files" titleMark="Mark">
-                <Item id="1" name="جِد التالي"/>
-                <Item id="1722" name="منسوخ"/>
-                <Item id="2" name="تلاش برائے:"/>
-                <Item id="1620" name="طابق &amp;كامل الكلمة فقط"/>
-                <Item id="1603" name="طابق &amp;حالة"/>
-                <Item id="1604" name="اعتيادي &amp;التعبير"/>
-                <Item id="1605" name="حول التغليف&amp;"/>
-                <Item id="1606" name="&amp;اوپر"/>
-                <Item id="1614" name="&amp;نيچے"/>
-                <Item id="1615" name="شمار"/>
-                <Item id="1616" name="جد الكل"/>
-                <Item id="1618" name="خط معلَّم"/>
-                <Item id="1611" name="أسلوب إيجاد النموذج"/>
-                <Item id="1608" name="إزلة لكل بحث"/>
-                <Item id="1609" name="سمت"/>
-                <Item id="1687" name="أعد&amp;استبدل بـ:"/>
-                <Item id="1688" name="&amp;اعد استبدال"/>
-                <Item id="1632" name="اعد استبدال &amp;الكل"/>
-                <Item id="1633" name="الوضوح"/>
-                <Item id="1635" name="في الإختيار"/>
-                <Item id="1636" name="مٹائيں"/>
-                <Item id="1654" name="إستبدال الكل في جميع المستندات المفتوحة"/>
-                <Item id="1655" name="إيجاد الكل في جميع المستندات المفتوحة"/>
-                <Item id="1656" name="فائل ميں تلاش کريں"/>
+                <Item id="1" name="Find Next"/>
+                <Item id="1722" name="Backward direction"/>
+                <Item id="2" name="Close"/>
+                <Item id="1620" name="&amp;Find what :"/>
+                <Item id="1603" name="Match &amp;whole word only"/>
+                <Item id="1604" name="Match &amp;case"/>
+                <Item id="1605" name="Re&amp;gular expression"/>
+                <Item id="1606" name="Wra&amp;p around"/>
+                <Item id="1614" name="Coun&amp;t"/>
+                <Item id="1615" name="Mark All"/>
+                <Item id="1616" name="Book&amp;mark line"/>
+                <Item id="1618" name="Purge for each search"/>
+                <Item id="1611" name="Rep&amp;lace with :"/>
+                <Item id="1608" name="&amp;Replace"/>
+                <Item id="1609" name="Replace &amp;All"/>
+                <Item id="1687" name="On losing focus"/>
+                <Item id="1688" name="Always"/>
+                <Item id="1632" name="In select&amp;ion"/>
+                <Item id="1633" name="Clear all marks"/>
+                <Item id="1635" name="Replace All in All &amp;Opened Documents"/>
+                <Item id="1636" name="Find All in All &amp;Opened Documents"/>
+                <Item id="1654" name="Filter&amp;s :"/>
+                <Item id="1655" name="Dir&amp;ectory :"/>
+                <Item id="1656" name="Find All"/>
                 <Item id="1658" name="In all su&amp;b-folders"/>
                 <Item id="1659" name="In &amp;hidden folders"/>
                 <Item id="1624" name="Search mode"/>
@@ -389,21 +389,21 @@
                 <Item id="2910" name="Find"/>
             </FindCharsInRange>
 
-            <GoToLine title="اذهب للسطر رقم ">
-                <Item id="2007" name="&amp;جائيں!"/>
-                <Item id="2008" name="أنا ذاهب للا مكان"/>
-                <Item id="1" name="أنت هنا:"/>
-                <Item id="2" name="أنت تريد الذهاب :"/>
-                <Item id="2004" name="أنت لا تستطيع الذهاب أكثر من: "/>
+            <GoToLine title="Go to...">
+                <Item id="2007" name="&amp;Line"/>
+                <Item id="2008" name="&amp;Offset"/>
+                <Item id="1" name="Go"/>
+                <Item id="2" name="I'm going nowhere"/>
+                <Item id="2004" name="You are here:"/>
                 <Item id="2005" name="You want to go to:"/>
                 <Item id="2006" name="You can't go further than:"/>
             </GoToLine>
 
-            <Run title="رن ...">
-                <Item id="1903" name="يہاں رن کرنے کے ليے اپنا پروگرام لکھيں"/>
-                <Item id="1" name="رن کريں!"/>
-                <Item id="2" name="منسوخ کريں"/>
-                <Item id="1904" name="محفوظ کريں ..."/>
+            <Run title="Run...">
+                <Item id="1903" name="The Program to Run"/>
+                <Item id="1" name="Run"/>
+                <Item id="2" name="Cancel"/>
+                <Item id="1904" name="Save..."/>
             </Run>
 
             <MD5FromFilesDlg title="Generate MD5 digest from files">
@@ -429,27 +429,27 @@
                 <Item id="2" name="Close"/>
             </PluginsAdminDlg>
 
-            <StyleConfig title="معرف الأنماط">
-                <Item id="2" name="تجربہ کريں!"/>
-                <Item id="2301" name="منسوخ کريں"/>
-                <Item id="2303" name="محفوظ &amp;&amp; منسوخ"/>
-                <Item id="2306" name="شفافيت"/>
+            <StyleConfig title="Style Configurator">
+                <Item id="2" name="Cancel"/>
+                <Item id="2301" name="Save &amp;&amp; Close"/>
+                <Item id="2303" name="Transparency"/>
+                <Item id="2306" name="Select theme: "/>
                 <SubDialog>
-                    <Item id="2204" name="غامق"/>
-                    <Item id="2205" name="مائل"/>
-                    <Item id="2206" name="اللون الأمامي"/>
-                    <Item id="2207" name="لون الخلفية"/>
-                    <Item id="2208" name="فونٹ کا نام:"/>
-                    <Item id="2209" name="فونٹ کي جسامت:"/>
-                    <Item id="2211" name="احذر: تعريف هذا النمط سيصبح التعريف الإعتيادي للإنماط المعرفة جميعها"/>
-                    <Item id="2212" name="نمط الوصف"/>
-                    <Item id="2213" name="انداز رنگ"/>
-                    <Item id="2214" name="انداز فونٹ"/>
-                    <Item id="2216" name="عام خروج:"/>
-                    <Item id="2218" name="خروج صارف:"/>
-                    <Item id="2219" name="خط بالأسفل"/>
-                    <Item id="2221" name="كلمات دالة اعتيادية"/>
-                    <Item id="2225" name="كلمات دالة معرفة من المستخدم"/>
+                    <Item id="2204" name="Bold"/>
+                    <Item id="2205" name="Italic"/>
+                    <Item id="2206" name="Foreground colour"/>
+                    <Item id="2207" name="Background colour"/>
+                    <Item id="2208" name="Font name:"/>
+                    <Item id="2209" name="Font size:"/>
+                    <Item id="2211" name="Style:"/>
+                    <Item id="2212" name="Colour Style"/>
+                    <Item id="2213" name="Font Style"/>
+                    <Item id="2214" name="Default ext.:"/>
+                    <Item id="2216" name="User ext.:"/>
+                    <Item id="2218" name="Underline"/>
+                    <Item id="2219" name="Default keywords"/>
+                    <Item id="2221" name="User-defined keywords"/>
+                    <Item id="2225" name="Language:"/>
                     <Item id="2226" name="Enable global foreground colour"/>
                     <Item id="2227" name="Enable global background colour"/>
                     <Item id="2228" name="Enable global font"/>
@@ -488,18 +488,18 @@
                 <Item id="5007" name="This will remove shortcut from this command"/>
                 <Item id="5012" name="CONFLICT FOUND!"/>
             </ShortcutMapperSubDialg>
-            <UserDefine title="معرف المستخدم">
-                <Item id="20001" name="اعادة تسمية"/>
-                <Item id="20002" name="جديدة..."/>
-                <Item id="20003" name="منسوخ"/>
-                <Item id="20004" name="احفظ باسم ..."/>
-                <Item id="20005" name="لغة المستخدم: "/>
-                <Item id="20007" name="خروج:"/>
-                <Item id="20009" name="تجاهل الحالة"/>
-                <Item id="20012" name="الشفافية"/>
-                <Item id="20011" name="نمط اللون"/>
-                <Item id="20015" name="اللون الأمامي"/>
-                <Item id="20016" name="لون الخلفية"/>
+            <UserDefine title="User-Defined">
+                <Item id="20001" name="Dock"/>
+                <Item id="20002" name="Rename"/>
+                <Item id="20003" name="Create New..."/>
+                <Item id="20004" name="Remove"/>
+                <Item id="20005" name="Save As..."/>
+                <Item id="20007" name="User language: "/>
+                <Item id="20009" name="Ext.:"/>
+                <Item id="20012" name="Ignore case"/>
+                <Item id="20011" name="Transparency"/>
+                <Item id="20015" name="Import..."/>
+                <Item id="20016" name="Export..."/>
                 <StylerDialog title="Styler Dialog">
                     <Item id="25030" name="Font options:"/>
                     <Item id="25006" name="Foreground colour"/>
@@ -534,10 +534,10 @@
                     <Item id="1" name="OK"/>
                     <Item id="2" name="Cancel"/>
                 </StylerDialog>
-                <Folder title="المجلد &amp;&amp; الإفتراضي">
-                    <Item id="21101" name="نمط الإعدادات القياسي"/>
-                    <Item id="21102" name="فتح مجلد إعدادات الكلمات الدالة"/>
-                    <Item id="21105" name="إغلاق مجلد إعدادات الكلمات الدالة"/>
+                <Folder title="Folder &amp;&amp; Default">
+                    <Item id="21101" name="Default style"/>
+                    <Item id="21102" name="Styler"/>
+                    <Item id="21105" name="Documentation:"/>
                     <Item id="21104" name="Temporary doc site:"/>
                     <Item id="21106" name="Fold &amp;compact (fold empty lines too)"/>
                     <Item id="21220" name="Folding in code 1 style:"/>
@@ -556,15 +556,15 @@
                     <Item id="21426" name="Close:"/>
                     <Item id="21427" name="Styler"/>
                 </Folder>
-                <Keywords title="قوائم الكلمات الدالة">
-                    <Item id="22101" name="پہلا گروہ"/>
-                    <Item id="22201" name="دوسرا گروہ"/>
-                    <Item id="22301" name="تيسرا گروہ"/>
-                    <Item id="22401" name="چوتھا گروہ"/>
-                    <Item id="22451" name="نمط البادئ"/>
-                    <Item id="22501" name="نمط البادئ"/>
-                    <Item id="22551" name="نمط البادئ"/>
-                    <Item id="22601" name="نمط البادئ"/>
+                <Keywords title="Keywords Lists">
+                    <Item id="22101" name="1st Group"/>
+                    <Item id="22201" name="2nd Group"/>
+                    <Item id="22301" name="3rd Group"/>
+                    <Item id="22401" name="4th Group"/>
+                    <Item id="22451" name="5th Group"/>
+                    <Item id="22501" name="6th Group"/>
+                    <Item id="22551" name="7th Group"/>
+                    <Item id="22601" name="8th Group"/>
                     <Item id="22121" name="Prefix mode"/>
                     <Item id="22221" name="Prefix mode"/>
                     <Item id="22321" name="Prefix mode"/>
@@ -582,14 +582,14 @@
                     <Item id="22572" name="Styler"/>
                     <Item id="22622" name="Styler"/>
                 </Keywords>
-                <Comment title="تبصرہ &amp;&amp; عدد">
-                    <Item id="23003" name="يکسطري تبصرہ"/>
-                    <Item id="23004" name="گروہي تبصرہ"/>
-                    <Item id="23005" name="تبصرہ کھوليں:"/>
-                    <Item id="23006" name="تبصرہ بند کريں:"/>
-                    <Item id="23001" name="عامل الكلمات الدالة كرموز"/>
-                    <Item id="23326" name="عامل الكلمات الدالة كرموز"/>
-                    <Item id="23323" name="عدد"/>
+                <Comment title="Comment &amp;&amp; Number">
+                    <Item id="23003" name="Line comment position"/>
+                    <Item id="23004" name="Allow anywhere"/>
+                    <Item id="23005" name="Force at beginning of line"/>
+                    <Item id="23006" name="Allow preceding whitespace"/>
+                    <Item id="23001" name="Allow folding of comments"/>
+                    <Item id="23326" name="Styler"/>
+                    <Item id="23323" name="Open"/>
                     <Item id="23324" name="Continue character"/>
                     <Item id="23325" name="Close"/>
                     <Item id="23301" name="Comment line style"/>
@@ -611,16 +611,16 @@
                     <Item id="23246" name="Comma"/>
                     <Item id="23247" name="Both"/>
                 </Comment>
-                <Operator title="المشغلات">
-                    <Item id="24101" name="المشغل"/>
-                    <Item id="24113" name="دستياب رموز"/>
-                    <Item id="24116" name="المشغلات الناشطة"/>
-                    <Item id="24117" name="ديليميتر 1"/>
-                    <Item id="24201" name="الحد مفتوح:"/>
-                    <Item id="24220" name="الحد مغلق:"/>
-                    <Item id="24221" name="ديليميتر 2"/>
-                    <Item id="24222" name="الحد مفتوح:"/>
-                    <Item id="24223" name="الحد مغلق:"/>
+                <Operator title="Operators &amp;&amp; Delimiter">
+                    <Item id="24101" name="Operators style"/>
+                    <Item id="24113" name="Styler"/>
+                    <Item id="24116" name="Operators 1"/>
+                    <Item id="24117" name="Operators 2 (separators required)"/>
+                    <Item id="24201" name="Delimiter 1 style"/>
+                    <Item id="24220" name="Open:"/>
+                    <Item id="24221" name="Escape:"/>
+                    <Item id="24222" name="Close:"/>
+                    <Item id="24223" name="Styler"/>
                     <Item id="24301" name="Delimiter 2 style"/>
                     <Item id="24320" name="Open:"/>
                     <Item id="24321" name="Escape:"/>
