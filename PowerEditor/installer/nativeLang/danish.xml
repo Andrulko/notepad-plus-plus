@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <NotepadPlus>
     <Native-Langue name="Dansk" filename="danish.xml" version="7.5.5">
         <Menu>
@@ -63,7 +63,7 @@
                     <Item subMenuId="encoding-westernEuropean" name="Vesteuropæisk"/>
                     <Item subMenuId="encoding-vietnamese" name="Vietnamesisk"/>
                     <Item subMenuId="settings-import" name="Importér"/>
-                    <Item subMenuId="tools-md5"  name="MD5"/>
+                    <Item subMenuId="tools-md5" name="MD5"/>
                 </SubEntries>
 
                 <!-- all menu item -->
@@ -294,20 +294,21 @@
                     <Item id="48018" name="Rediger genvejsmenu"/>
                     <Item id="48009" name="Tastaturgenveje..."/>
                     <Item id="48011" name="Præferencer..."/>
-                    <Item id="48501" name="Generer..."/>
-                    <Item id="48502" name="Generer fra filer..."/>
-                    <Item id="48503" name="Generer ind i udklipsholder"/>
-                    <Item id="49000" name="&amp;Kør..."/>
+                    <Item id="48015" name="Generer..."/>
+                    <Item id="48501" name="Generer fra filer..."/>
+                    <Item id="48502" name="Generer ind i udklipsholder"/>
+                    <Item id="48503" name="&amp;Kør..."/>
+                    <Item id="49000" name="Fuldførelse af funktioner"/>
 
-                    <Item id="50000" name="Fuldførelse af funktioner"/>
-                    <Item id="50001" name="Fuldførelse af ord"/>
-                    <Item id="50002" name="Tip til funktionsparametre"/>
-                    <Item id="50006" name="Fuldførelse af sti"/>
-                    <Item id="44042" name="Skjul linjer"/>
-                    <Item id="42040" name="Åbn alle seneste filer"/>
-                    <Item id="42041" name="Ryd listen over seneste filer"/>
-                    <Item id="48016" name="Rediger genvej/slet makro..."/>
-                    <Item id="48017" name="Rediger genvej/slet kommando..."/>
+                    <Item id="50000" name="Fuldførelse af ord"/>
+                    <Item id="50001" name="Tip til funktionsparametre"/>
+                    <Item id="50002" name="Fuldførelse af sti"/>
+                    <Item id="50006" name="Skjul linjer"/>
+                    <Item id="44042" name="Åbn alle seneste filer"/>
+                    <Item id="42040" name="Ryd listen over seneste filer"/>
+                    <Item id="42041" name="Rediger genvej/slet makro..."/>
+                    <Item id="48016" name="Rediger genvej/slet kommando..."/>
+                    <Item id="48017" name="Modify Shortcut/Delete Command..."/>
                 </Commands>
             </Main>
             <Splitter>
@@ -340,9 +341,9 @@
 
         <Dialog>
             <Find title="" titleFind="Søg" titleReplace="Erstat" titleFindInFiles="Søg i filer" titleMark="Mærk">
-                <Item id="1"    name="Find næste"/>
+                <Item id="1" name="Find næste"/>
                 <Item id="1722" name="Baglæns retning"/>
-                <Item id="2"    name="Luk"/>
+                <Item id="2" name="Luk"/>
                 <Item id="1620" name="Søg efter:"/>
                 <Item id="1603" name="Søg kun på &amp;hele ord"/>
                 <Item id="1604" name="Forskel på store og små &amp;bogstaver"/>
@@ -391,8 +392,8 @@
             <GoToLine title="Gå til...">
                 <Item id="2007" name="Linje"/>
                 <Item id="2008" name="Forskydning"/>
-                <Item id="1"    name="&amp;Gå"/>
-                <Item id="2"    name="Jeg går ingen steder"/>
+                <Item id="1" name="&amp;Gå"/>
+                <Item id="2" name="Jeg går ingen steder"/>
                 <Item id="2004" name="Du er her:"/>
                 <Item id="2005" name="Du vil gå til:"/>
                 <Item id="2006" name="Du kan højst gå til:"/>
@@ -400,25 +401,36 @@
 
             <Run title="Kør...">
                 <Item id="1903" name="Programmet der skal køres"/>
-                <Item id="1"    name="Kør"/>
-                <Item id="2"    name="Annuller"/>
+                <Item id="1" name="Kør"/>
+                <Item id="2" name="Annuller"/>
                 <Item id="1904" name="Gem..."/>
             </Run>
 
             <MD5FromFilesDlg title="Generer MD5-digest fra filer">
                 <Item id="1922" name="Vælg filer til generering af MD5..."/>
                 <Item id="1924" name="Kopier til udklipsholder"/>
-                <Item id="2"    name="Luk"/>
+                <Item id="2" name="Luk"/>
             </MD5FromFilesDlg>
 
             <MD5FromTextDlg title="Generer MD5-digest">
                 <Item id="1932" name="Behandl hver linje som en separat streng"/>
                 <Item id="1934" name="Kopier til udklipsholder"/>
-                <Item id="2"    name="Luk"/>
+                <Item id="2" name="Luk"/>
             </MD5FromTextDlg>
 
+            <PluginsAdminDlg title="Plugins Admin" titleAvailable="Available" titleUpdates="Updates" titleInstalled="Installed">
+                <ColumnPlugin name="Plugin"/>
+                <ColumnVersion name="Version"/>
+                <Item id="5501" name="Search:"/>
+                <Item id="5503" name="Install"/>
+                <Item id="5504" name="Update"/>
+                <Item id="5505" name="Remove"/>
+                <Item id="5508" name="Next"/>
+                <Item id="2" name="Close"/>
+            </PluginsAdminDlg>
+
             <StyleConfig title="Udseende-konfigurator">
-                <Item id="2"    name="Annuller"/>
+                <Item id="2" name="Annuller"/>
                 <Item id="2301" name="Gem og luk"/>
                 <Item id="2303" name="Gennemsigtig"/>
                 <Item id="2306" name="Vælg tema: "/>
@@ -700,8 +712,7 @@
                     <Item id="6207" name="Vis bogmærker"/>
                     <Item id="6208" name="Vis lodret kant"/>
                     <Item id="6209" name="Antal kolonner: "/>
-                    <Item id="6234" name="Deaktivér avanceret rullefunktionalitet
-(ved problemer med touchpad)"/>
+                    <Item id="6234" name="Deaktivér avanceret rullefunktionalitet (ved problemer med touchpad)"/>
 
                     <Item id="6211" name="Indstillinger for lodret kant"/>
                     <Item id="6212" name="Linjetilstand"/>
@@ -856,8 +867,7 @@
                     <Item id="6256" name="Tillad på flere linjer"/>
                     <Item id="6161" name="Ordtegnsliste"/>
                     <Item id="6162" name="Brug standardordtegnsliste som den er"/>
-                    <Item id="6163" name="Tilføj dine tegn som del af ord
-(vælg den kun hvis du ved hvad du gør)"/>
+                    <Item id="6163" name="Tilføj dine tegn som del af ord (vælg den kun hvis du ved hvad du gør)"/>
                 </Delimiter>
 
                 <Cloud title="Skyen">
@@ -865,7 +875,7 @@
                     <Item id="6263" name="Ingen sky"/>
                     <Item id="6267" name="Sæt din sky-placeringssti her:"/>
                 </Cloud>
-                
+
                 <SearchEngine title="Søgetjeneste">
                     <Item id="6271" name="Søgetjeneste (til kommandoen &quot;Søg på internettet&quot;)"/>
                     <Item id="6272" name="DuckDuckGo"/>
@@ -931,91 +941,75 @@
                 <Item id="1" name="OK"/>
                 <Item id="2" name="Annuller"/>
             </ColumnEditor>
+            <FindInFinder title="Find in finder">
+                <Item id="1" name="Find All"/>
+                <Item id="2" name="Close"/>
+                <Item id="1711" name="&amp;Find what :"/>
+                <Item id="1713" name="Search only in found lines"/>
+                <Item id="1714" name="Match &amp;whole word only"/>
+                <Item id="1715" name="Match &amp;case"/>
+                <Item id="1716" name="Search Mode"/>
+                <Item id="1717" name="&amp;Normal"/>
+                <Item id="1719" name="Re&amp;gular expression"/>
+                <Item id="1718" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
+                <Item id="1720" name="&amp;. matches newline"/>
+            </FindInFinder>
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="Redigering af genvejsmenu" message="Ved redigering af contextMenu.xml kan du ændre genvejsmenuen i Notepad++.
-Du skal genstarte Notepad++ før ændringerne i contextMenu.xml træder i kraft."/>
-            <NppHelpAbsentWarning title="Filen findes ikke" message="
-findes ikke. Download den venligst fra Notepad++'s websted."/>
-            <SaveCurrentModifWarning title="Gem nuværende ændring" message="Du bør gemme den nuværende ændring.
-Alle gemte ændringer kan ikke fortrydes.
-
-Fortsæt?"/>
-            <LoseUndoAbilityWarning title="Advarsel om at miste fortryd" message="Du bør gemme den nuværende ændring.
-Alle gemte ændringer kan ikke fortrydes.
-
-Fortsæt?"/>
+            <ContextMenuXmlEditWarning title="Redigering af genvejsmenu" message="Ved redigering af contextMenu.xml kan du ændre genvejsmenuen i Notepad++. Du skal genstarte Notepad++ før ændringerne i contextMenu.xml træder i kraft."/>
+            <NppHelpAbsentWarning title="Filen findes ikke" message=" findes ikke. Download den venligst fra Notepad++'s websted."/>
+            <SaveCurrentModifWarning title="Gem nuværende ændring" message="Du bør gemme den nuværende ændring. Alle gemte ændringer kan ikke fortrydes.  Fortsæt?"/>
+            <LoseUndoAbilityWarning title="Advarsel om at miste fortryd" message="Du bør gemme den nuværende ændring. Alle gemte ændringer kan ikke fortrydes.  Fortsæt?"/>
             <CannotMoveDoc title="Flyt til ny instans af Notepad++" message="Dokument er ændret. Gem det og prøv igen."/>
             <DocReloadWarning title="Genindlæs" message="Er du sikker på, at du vil genindlæse den nuværende fil og miste de ændringer der er lavet i Notepad++?"/>
             <FileLockedWarning title="Gemning mislykkedes" message="Tjek venligst om filen allerede er åbnet i et andet program"/>
             <FileAlreadyOpenedInNpp title="" message="Filen er allerede åbnet i Notepad++."/>
             <DeleteFileFailed title="Slet fil" message="Sletning af filen mislykkedes"/>
-            
-            <NbFileToOpenImportantWarning title="Du er ved at åbne et stort antal filer" message="$INT_REPLACE$ filer er ved at blive åbnet.
-Er du sikker på, at du vil åbne dem?"/>
-			<SettingsOnCloudError title="Indstillinger i skyen" message="Det ser ud til at stien af indstillinger i skyen er sat på et skrivebeskyttet drev,
-eller på en mappe som kræver priviligerede rettigheder for at få skriveadgang.
-Dine indstillinger på sky annulleres. Nulstil venligst en relateret værdi i dialogen Præferencer."/>
-			<FilePathNotFoundWarning title="Åbning af fil" message="Filen du prøver at åbne findes ikke."/>
+
+            <NbFileToOpenImportantWarning title="Du er ved at åbne et stort antal filer" message="$INT_REPLACE$ filer er ved at blive åbnet. Er du sikker på, at du vil åbne dem?"/>
+            <SettingsOnCloudError title="Indstillinger i skyen" message="Det ser ud til at stien af indstillinger i skyen er sat på et skrivebeskyttet drev, eller på en mappe som kræver priviligerede rettigheder for at få skriveadgang. Dine indstillinger på sky annulleres. Nulstil venligst en relateret værdi i dialogen Præferencer."/>
+            <FilePathNotFoundWarning title="Åbning af fil" message="Filen du prøver at åbne findes ikke."/>
             <SessionFileInvalidError title="Kunne ikke indlæse session" message="Sessionsfilen er enten ødelagt eller ugyldig."/>
-            <DroppingFolderAsProjectModeWarning title="Ugyldig handling" message="Du kan kun slippe filer eller mapper men ikke begge dele, da du er i slippe mappe som projekt-tilstand.
-skal du aktivere &quot;Åbn alle mappens filer ved slip af mappe, fremfor at starte mappe som arbejdsområde&quot; i &quot;Standardmappe&quot;-afsnittet i Præferencer-dialogen for at få handlingen til at virke."/>
+            <DroppingFolderAsProjectModeWarning title="Ugyldig handling" message="Du kan kun slippe filer eller mapper men ikke begge dele, da du er i slippe mappe som projekt-tilstand. skal du aktivere &quot;Åbn alle mappens filer ved slip af mappe, fremfor at starte mappe som arbejdsområde&quot; i &quot;Standardmappe&quot;-afsnittet i Præferencer-dialogen for at få handlingen til at virke."/>
             <SortingError title="Fejl ved sortering" message="Kan ikke udføre numerisk sortering pga. linje $INT_REPLACE$."/>
             <ColumnModeTip title="Tip til kolonne-tilstand" message="Brug venligst &quot;ALT+Musemarking&quot; eller &quot;Alt+Skift+Piletast&quot; til at skifte kolonne-tilstand."/>
             <BufferInvalidWarning title="Gemning mislykkedes" message="Kan ikke gemme: Bufferen er ugyldig."/>
             <DoSaveOrNot title="Gem" message="Gem filen &quot;$STR_REPLACE$&quot;?"/>
-            <DoCloseOrNot title="Behold fil som ikke findes" message="Filen &quot;$STR_REPLACE$&quot; findes ikke længere.
-Behold filen i editoren?"/>
-            <DoDeleteOrNot title="Slet fil" message="Filen &quot;$STR_REPLACE$&quot;
-flyttes til din papirkurv og dokumentet lukkes.
-Fortsæt?"/>
-            <NoBackupDoSaveFile title="Gem" message="Kan ikke finde din sikkerhedskopieringsfil (slettet udefra).
-Gem den, ellers vil dine data gå tabt
-Vil du gemme filen &quot;$STR_REPLACE$&quot;?"/>
-            <DoReloadOrNot title="Genindlæs" message="&quot;$STR_REPLACE$&quot;
-
-Filen er blevet ændret af et andet program.
-Du vil genindlæse den?"/>
-            <DoReloadOrNotAndLooseChange title="Genindlæs" message="&quot;$STR_REPLACE$&quot;
-
-Filen er blevet ændret af et andet program.
-Vil du genindlæse den og miste ændringerne som er foretaget i Notepad++?"/>
+            <DoCloseOrNot title="Behold fil som ikke findes" message="Filen &quot;$STR_REPLACE$&quot; findes ikke længere. Behold filen i editoren?"/>
+            <DoDeleteOrNot title="Slet fil" message="Filen &quot;$STR_REPLACE$&quot; flyttes til din papirkurv og dokumentet lukkes. Fortsæt?"/>
+            <NoBackupDoSaveFile title="Gem" message="Kan ikke finde din sikkerhedskopieringsfil (slettet udefra). Gem den, ellers vil dine data gå tabt Vil du gemme filen &quot;$STR_REPLACE$&quot;?"/>
+            <DoReloadOrNot title="Genindlæs" message="&quot;$STR_REPLACE$&quot;  Filen er blevet ændret af et andet program. Du vil genindlæse den?"/>
+            <DoReloadOrNotAndLooseChange title="Genindlæs" message="&quot;$STR_REPLACE$&quot;  Filen er blevet ændret af et andet program. Vil du genindlæse den og miste ændringerne som er foretaget i Notepad++?"/>
             <PrehistoricSystemDetected title="Forhistorisk system registreret" message="Det ser ud til at du stadig bruger et forhistorisk system, funktionaliteten virker beklageligvis kun på et moderne system."/>
-            <XpUpdaterProblem title="Opdatering af Notepad++" message="Opdatering af Notepad++ er ikke kompatibel med XP pga. det forældede sikkerhedslag under XP.
-Vil du gå til Notepad++-siden for at downloade den seneste version?"/>
+            <XpUpdaterProblem title="Opdatering af Notepad++" message="Opdatering af Notepad++ er ikke kompatibel med XP pga. det forældede sikkerhedslag under XP. Vil du gå til Notepad++-siden for at downloade den seneste version?"/>
             <DocTooDirtyToMonitor title="Problem med overvågning" message="Dokumentet er beskidt. Gem venligst ændringen inden det overvåges."/>
             <DocNoExistToMonitor title="Problem med overvågning" message="Filen skal findes for at kunne overvåges."/>
             <FileTooBigToOpen title="Problem med filstørrelse" message="Filen er for stor til at blive åbnet af Notepad++"/>
             <CreateNewFileOrNot title="Opret ny fil" message="&quot;$INT_REPLACE$&quot; findes ikke. Skal den oprettes?."/>
             <CreateNewFileError title="Opret ny fil" message="Kan ikke oprette filen &quot;$INT_REPLACE$&quot;."/>
             <OpenFileError title="FEJL" message="Kan ikke åbne filen &quot;$INT_REPLACE$&quot;."/>
-            <FileBackupFailed title="Sikkerhedskopiering af fil mislykkedes" message="Den forrige version af filen kunne ikke gemmes i sikkerhedskopieringsmappen i &quot;$INT_REPLACE$&quot;.
-
-Vil du gemme den nuværende fil alligevel?"/>
+            <FileBackupFailed title="Sikkerhedskopiering af fil mislykkedes" message="Den forrige version af filen kunne ikke gemmes i sikkerhedskopieringsmappen i &quot;$INT_REPLACE$&quot;.  Vil du gemme den nuværende fil alligevel?"/>
             <LoadStylersFailed title="Indlæsning af stylers.xml mislykkedes" message="Indlæsning af &quot;$INT_REPLACE$&quot; mislykkedes!"/>
-            <LoadLangsFailed title="Konfigurator" message="Indlæsning af langs.xml mislykkedes!
-Vil du gendanne din langs.xml?"/>
+            <LoadLangsFailed title="Konfigurator" message="Indlæsning af langs.xml mislykkedes! Vil du gendanne din langs.xml?"/>
             <LoadLangsFailedFinal title="Konfigurator" message="Indlæsning af langs.xml mislykkedes!"/>
-            <FolderAsWorspaceSubfolderExists title="Problem med at tilføje mappe med Mappe som arbejdsområde" message="En undermappe i mappen du vil tilføje findes.
-Fjern venligst den rod fra panelet inden du tilføje mappen &quot;$STR_REPLACE$&quot;."/>
+            <FolderAsWorspaceSubfolderExists title="Problem med at tilføje mappe med Mappe som arbejdsområde" message="En undermappe i mappen du vil tilføje findes. Fjern venligst den rod fra panelet inden du tilføje mappen &quot;$STR_REPLACE$&quot;."/>
 
             <ProjectPanelChanged title="$STR_REPLACE$" message="Arbejdsområdet er ændret. Vil du gemme det?"/>
             <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Dit arbejdsområde er ikke gemt."/>
             <ProjectPanelOpenDoSaveDirtyWsOrNot title="Åbn arbejdsområde" message="Det nuværende arbejdsområde blev ændret. Vil du gemme det nuværende projekt?"/>
             <ProjectPanelNewDoSaveDirtyWsOrNot title="Nyt arbejdsområde" message="Det nuværende arbejdsområde blev ændret. Vil du gemme det nuværende projekt?"/>
-            <ProjectPanelOpenFailed title="Åbn arbejdsområde" message="Arbejdsområdet kunne ikke åbnes.
-Det ser ud til at filen som skal åbnes ikke er en gyldig projektfil."/>
-            <ProjectPanelRemoveFolderFromProject title="Fjern mappe fra projekt" message="Alle underpunkterne fjernes.
-Er du sikker på, at du vil fjerne mappen fra projektet?"/>
+            <ProjectPanelOpenFailed title="Åbn arbejdsområde" message="Arbejdsområdet kunne ikke åbnes. Det ser ud til at filen som skal åbnes ikke er en gyldig projektfil."/>
+            <ProjectPanelRemoveFolderFromProject title="Fjern mappe fra projekt" message="Alle underpunkterne fjernes. Er du sikker på, at du vil fjerne mappen fra projektet?"/>
             <ProjectPanelRemoveFileFromProject title="Fjern fil fra projekt" message="Er du sikker på, at du vil fjerne filen fra projektet?"/>
             <ProjectPanelReloadError title="Genindlæs arbejdsområde" message="Kan ikke finde filen som skal genindlæses."/>
-            <ProjectPanelReloadDirty title="Genindlæs arbejdsområde" message="Det nuværende arbejdsområde er blevet ændret. Genindlæsning vil forkaste alle ændringer.
-Vil du fortsætte?"/>
-            <UDLNewNameError title="Fejl ved UDL" message="Navnet bruges af et andet sprog,
-giv venligst et andet."/>
+            <ProjectPanelReloadDirty title="Genindlæs arbejdsområde" message="Det nuværende arbejdsområde er blevet ændret. Genindlæsning vil forkaste alle ændringer. Vil du fortsætte?"/>
+            <UDLNewNameError title="Fejl ved UDL" message="Navnet bruges af et andet sprog, giv venligst et andet."/>
             <UDLRemoveCurrentLang title="Fjern det nuværende sprog" message="Er du sikker?"/>
             <SCMapperDoDeleteOrNot title="Er du sikker?" message="Er du sikker på, at du vil slette genvejen?"/>
             <FindCharRangeValueError title="Problem med områdeværdi" message="Du skal skrive fra 0 til 255."/>
+            <OpenInAdminMode title="Save failed" message="The file cannot be saved and it may be protected. Do you want to launch Notepad++ in Administrator mode?"/>
+            <OpenInAdminModeWithoutCloseCurrent title="Save failed" message="The file cannot be saved and it may be protected. Do you want to launch Notepad++ in Administrator mode?"/>
+            <OpenInAdminModeFailed title="Open in Administrator mode failed" message="Notepad++ cannot be opened in Administrator mode."/>
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="Udklipsholder historik"/>
@@ -1025,6 +1019,11 @@ giv venligst et andet."/>
             <ColumnName name="Navn"/>
             <ColumnExt name="Filtype"/>
         </DocSwitcher>
+        <WindowsDlg>
+            <ColumnName name="Name"/>
+            <ColumnPath name="Path"/>
+            <ColumnType name="Type"/>
+        </WindowsDlg>
         <AsciiInsertion>
             <PanelTitle name="ASCII indsætningspanel"/>
             <ColumnVal name="Værdi"/>
@@ -1101,11 +1100,10 @@ giv venligst et andet."/>
             </Menus>
         </ProjectManager>
         <MiscStrings>
+            <!-- $INT_REPLACE$  and $STR_REPLACE$ are a place holders, don't translate these place holders -->
             <word-chars-list-tip value="Det giver dig mulighed for at inkludere yderligere tegn i nuværende ordtegn ved dobbeltklik til markering eller søgning når valgmuligheden &quot;Søg kun på hele ord&quot; er valgt til."/>
             <word-chars-list-warning-begin value="OBS: "/>
-            <!-- $INT_REPLACE$ is a place holder, don't translate it -->
             <word-chars-list-space-warning value="$INT_REPLACE$ mellemrum"/>
-            <!-- $INT_REPLACE$ is a place holder, don't translate it -->
             <word-chars-list-tab-warning value="$INT_REPLACE$ tabulator(er)"/>
             <word-chars-list-warning-end value="  i din tegnliste."/>
             <cloud-invalid-warning value="Ugyldig sti."/>
@@ -1138,7 +1136,14 @@ giv venligst et andet."/>
             <find-status-replace-not-found value="Erstat: ingen forekomster blev fundet"/>
             <find-status-replace-readonly value="Erstat: Kan ikke erstatte tekst. Det nuværende dokument er skrivebeskyttet"/>
             <find-status-cannot-find value="Søg: Kan ikke finde teksten &quot;$STR_REPLACE$&quot;"/>
-            <find-status-mark-nb-matches value="$INT_REPLACE$ forekomster"/>
+            <finder-find-in-finder value="Find in this found results..."/>
+            <finder-close-this value="Close this finder"/>
+            <finder-collapse-all value="Collapse all"/>
+            <finder-uncollapse-all value="Uncollapse all"/>
+            <finder-copy value="Copy"/>
+            <finder-select-all value="Select all"/>
+            <finder-clear-all value="Clear all"/>
+            <finder-open-all value="Open all"/>
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
