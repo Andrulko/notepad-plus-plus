@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NotepadPlus>
-    <Native-Langue name="Lëtzebuergesch" filename="luxembourgish.xml" version="7.5.5">
+    <Native-Langue name="English" filename="english.xml" version="7.5.5">
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
                 <Entries>
-                    <Item menuId="file" name="&amp;Datei"/>
-                    <Item menuId="edit" name="&amp;Beaarbechten"/>
-                    <Item menuId="search" name="&amp;Sichen"/>
-                    <Item menuId="view" name="&amp;Usiicht"/>
-                    <Item menuId="encoding" name="&amp;Format"/>
-                    <Item menuId="language" name="S&amp;prooch"/>
-                    <Item menuId="settings" name="&amp;Astellungen"/>
-                    <Item menuId="tools" name="&amp;Makro"/>
-                    <Item menuId="macro" name="Ausféie&amp;ren"/>
-                    <Item menuId="run" name="Er&amp;weiderungen"/>
-                    <Item idName="Plugins" name="Fë&amp;nster"/>
+                    <Item menuId="file" name="&amp;File"/>
+                    <Item menuId="edit" name="&amp;Edit"/>
+                    <Item menuId="search" name="&amp;Search"/>
+                    <Item menuId="view" name="&amp;View"/>
+                    <Item menuId="encoding" name="E&amp;ncoding"/>
+                    <Item menuId="language" name="&amp;Language"/>
+                    <Item menuId="settings" name="Se&amp;ttings"/>
+                    <Item menuId="tools" name="To&amp;ols"/>
+                    <Item menuId="macro" name="&amp;Macro"/>
+                    <Item menuId="run" name="&amp;Run"/>
+                    <Item idName="Plugins" name="&amp;Plugins"/>
                     <Item idName="Window" name="&amp;Window"/>
                 </Entries>
                 <!-- Sub Menu Entries -->
                 <SubEntries>
-                    <Item subMenuId="file-openFolder" name="Te&amp;xtbléck opmaachen"/>
-                    <Item subMenuId="file-closeMore" name="Te&amp;xtbléck zoumaachen"/>
+                    <Item subMenuId="file-openFolder" name="Open Containing Folder"/>
+                    <Item subMenuId="file-closeMore" name="Close More"/>
                     <Item subMenuId="file-recentFiles" name="&amp;Recent Files"/>
                     <Item subMenuId="edit-copyToClipboard" name="Copy to Clipboard"/>
                     <Item subMenuId="edit-indent" name="Indent"/>
@@ -68,131 +68,131 @@
 
                 <!-- all menu item -->
                 <Commands>
-                    <Item id="41001" name="&amp;Nei"/>
-                    <Item id="41002" name="&amp;Opmaachen"/>
-                    <Item id="41019" name="&amp;Zoumaachen"/>
-                    <Item id="41020" name="All&amp;es zoumaachen"/>
-                    <Item id="41003" name="Alles zoumaachen bis op dat aktuellt Dokumen&amp;t"/>
-                    <Item id="41004" name="&amp;Späicheren"/>
-                    <Item id="41005" name="&amp;Alles späicheren"/>
-                    <Item id="41009" name="Späicheren &amp;ënnert ..."/>
-                    <Item id="41018" name="&amp;Drécken ..."/>
-                    <Item id="41006" name="&amp;Elo drécken!"/>
-                    <Item id="41007" name="B&amp;eenden"/>
-                    <Item id="41008" name="Sët&amp;zung opmaachen ..."/>
-                    <Item id="41010" name="Sët&amp;zung späicheren ..."/>
-                    <Item id="1001" name="Nei &amp;lueden"/>
-                    <Item id="41011" name="&amp;Kopie späicheren ënnert ..."/>
-                    <Item id="41012" name="Vum Datendr&amp;éier läschen"/>
-                    <Item id="41013" name="Ëm&amp;benennen ..."/>
-                    <Item id="41014" name="Aus&amp;schneiden"/>
-                    <Item id="41015" name="&amp;Kopéieren"/>
-                    <Item id="41016" name="&amp;Réckgängeg"/>
-                    <Item id="41017" name="&amp;Widderhuelen"/>
-                    <Item id="41021" name="&amp;Afügen"/>
-                    <Item id="41022" name="&amp;Läschen"/>
-                    <Item id="41023" name="&amp;Alles auswielen"/>
-                    <Item id="42001" name="Tab afügen (arécke&amp;n)"/>
-                    <Item id="42002" name="Tab läschen (ausr&amp;écken)"/>
-                    <Item id="42003" name="Zeil wie&amp;derhuelen"/>
-                    <Item id="42004" name="Zeil am Fënsterrand &amp;deelen"/>
-                    <Item id="42005" name="&amp;Zeilen zesummefaassen"/>
-                    <Item id="42006" name="Zeil &amp;erop réckelen"/>
-                    <Item id="42007" name="Zeil e&amp;rof réckelen"/>
-                    <Item id="42020" name="An &amp;Groussbuschtawen ëmwandelen"/>
-                    <Item id="42008" name="An Klengbuschtawen ëmw&amp;andelen"/>
-                    <Item id="42009" name="Opzeechnung s&amp;tarten"/>
-                    <Item id="42010" name="Opzeechnung st&amp;oppen"/>
-                    <Item id="42012" name="Makro ausféie&amp;ren"/>
-                    <Item id="42013" name="Zeilenwais an-/auskommentéieren"/>
-                    <Item id="42014" name="Markéierung auskommentéieren"/>
-                    <Item id="42015" name="Ofstand um Zeilenenn l&amp;äschen"/>
-                    <Item id="42059" name="Opgehuelenen Makro s&amp;päicheren"/>
-                    <Item id="42060" name="Schreif&amp;richtung R-&gt;L"/>
-                    <Item id="42061" name="Schreif&amp;richtung L-&gt;R"/>
-                    <Item id="42062" name="Schreifschut&amp;z"/>
-                    <Item id="42063" name="Gesamten akt. Datei&amp;pad kopéieren"/>
-                    <Item id="42064" name="Aktiven Datei&amp;numm kopéieren"/>
-                    <Item id="42065" name="Aktiven &amp;Repertoire kopéieren"/>
-                    <Item id="42066" name="Makro &amp;puer mol ausféieren ..."/>
-                    <Item id="42016" name="Schreifschut&amp;z ophiewen"/>
-                    <Item id="42017" name="&amp;Block-Editor ..."/>
-                    <Item id="42067" name="Block auskommentéieren"/>
-                    <Item id="42068" name="Block ankommentéieren"/>
-                    <Item id="42069" name="Alleguer fir d'lescht &amp;benotzt Dateien opmaachen"/>
-                    <Item id="42070" name="D'Lëscht vun den fir d'lescht benot&amp;zten Dateien läschen"/>
-                    <Item id="42071" name="&amp;Sichen ..."/>
-                    <Item id="42072" name="&amp;Weidersichen"/>
-                    <Item id="42073" name="&amp;Ersetzen ..."/>
-                    <Item id="42074" name="&amp;Goen bei ..."/>
-                    <Item id="42075" name="&amp;Lieszeechen setzen/läschen"/>
-                    <Item id="42076" name="&amp;Nächst Lieszeechen"/>
-                    <Item id="42018" name="&amp;Viregt Lieszeechen"/>
-                    <Item id="42019" name="Lieszeechen alleguer l&amp;äschen"/>
-                    <Item id="42021" name="Déi zugehéiereg &amp;Klammer sichen"/>
-                    <Item id="42022" name="&amp;Hannertzeg sichen"/>
-                    <Item id="42023" name="&amp;Inkrementel Sich"/>
-                    <Item id="42047" name="An &amp;Dateien sichen"/>
-                    <Item id="42024" name="Wuert ab dem &amp;Cursor sichen"/>
-                    <Item id="42042" name="Wuert ab dem Cursor h&amp;annertzeg sichen"/>
-                    <Item id="42043" name="All déi gläich Wierder &amp;markéieren"/>
-                    <Item id="42044" name="All M&amp;arkéierungen läschen"/>
-                    <Item id="42045" name="&amp;Zeilen mat Lieszeechen ausschneiden"/>
-                    <Item id="42046" name="&amp;Zeilen mat Lieszeechen kopéieren"/>
-                    <Item id="42054" name="&amp;Zeilen mat Lieszeechen duerch Tëschentablag ersetzen"/>
-                    <Item id="42053" name="&amp;Zeilen mat Lieszeechen läschen"/>
-                    <Item id="42038" name="D'Te&amp;xtbléck alleguer zoumaachen"/>
-                    <Item id="42039" name="Benotzerdefinéiert Sproo&amp;ch ..."/>
-                    <Item id="42048" name="D'Zeechen &amp;alleguer uweisen"/>
-                    <Item id="42049" name="Anzich uw&amp;eisen"/>
-                    <Item id="42050" name="Zeilen&amp;ëmbroch"/>
-                    <Item id="42037" name="Schrëft ver&amp;gréisseren"/>
-                    <Item id="42034" name="Schrëft ver&amp;klengeren"/>
-                    <Item id="42051" name="Ofstänn an Tabu&amp;latoren uweisen"/>
-                    <Item id="42052" name="Zeilenenn uwe&amp;isen"/>
-                    <Item id="42025" name="D'Te&amp;xtbléck alleguer opmaachen"/>
-                    <Item id="42026" name="Te&amp;xtblock zoumaachen"/>
-                    <Item id="42027" name="Te&amp;xtblock opmaachen"/>
-                    <Item id="42028" name="Voll&amp;bild"/>
-                    <Item id="42029" name="Standardgréi&amp;sst"/>
-                    <Item id="42030" name="Ëmmer am Vierdergrond &amp;halen"/>
-                    <Item id="42031" name="S&amp;ynchront vertikalt Scrollen"/>
-                    <Item id="42032" name="Synchront &amp;horizontalt Scrollen"/>
-                    <Item id="42033" name="Symbol bei &amp;Zeilenëmbroch uweisen"/>
-                    <Item id="42035" name="&amp;Primär Usiicht aktivéieren"/>
-                    <Item id="42036" name="&amp;Sekundär Usiicht aktivéieren"/>
-                    <Item id="42055" name="&amp;Zeilen ausblenden"/>
-                    <Item id="42056" name="Zu &amp;Windows konvertéieren"/>
-                    <Item id="42057" name="Zu &amp;Unix konvertéieren"/>
-                    <Item id="42058" name="Zu &amp;Mac konvertéieren"/>
-                    <Item id="43001" name="&amp;ANSI"/>
-                    <Item id="43002" name="UTF-&amp;8"/>
-                    <Item id="43003" name="UCS-2 &amp;Big Endian"/>
-                    <Item id="43004" name="UCS-2 &amp;Little Endian"/>
-                    <Item id="43005" name="UTF-8 &amp;ouni BOM"/>
-                    <Item id="43006" name="Zu ANSI Ko&amp;nvertéieren"/>
-                    <Item id="43007" name="Zu UTF-8 ouni BOM kon&amp;vertéieren"/>
-                    <Item id="43008" name="Zu UTF-8 konv&amp;ertéieren"/>
-                    <Item id="43018" name="Zu UCS-2 Big Endian konve&amp;rtéieren"/>
-                    <Item id="43019" name="Zu UCS-2 Little Endian konver&amp;téieren"/>
-                    <Item id="43020" name="An déi z&amp;weet Usiicht réckelen"/>
-                    <Item id="43021" name="An der zweeter Usiicht k&amp;opéieren"/>
-                    <Item id="43051" name="An eng &amp;nei Instanz réckelen"/>
-                    <Item id="43050" name="An eng nei Instan&amp;z kopéieren"/>
-                    <Item id="43052" name="&amp;Stile ..."/>
-                    <Item id="43053" name="Benotzerdefinéiert"/>
-                    <Item id="43009" name="&amp;Info ..."/>
-                    <Item id="43010" name="Notepad++ am &amp;Web"/>
-                    <Item id="43011" name="Notepad++ bei &amp;Sourceforge"/>
-                    <Item id="43013" name="Online-&amp;Hëllef"/>
-                    <Item id="43014" name="&amp;Forum"/>
-                    <Item id="43015" name="&amp;Erweiderungen"/>
-                    <Item id="43022" name="&amp;Tastatur ..."/>
-                    <Item id="43023" name="&amp;Astellungen ..."/>
-                    <Item id="43024" name="&amp;Ausféieren ..."/>
-                    <Item id="43025" name="Funktiounsvervollstännegung"/>
-                    <Item id="43026" name="Wuertvervollstännegung"/>
-                    <Item id="43027" name="Funktiounsparameter uweisen"/>
+                    <Item id="41001" name="&amp;New"/>
+                    <Item id="41002" name="&amp;Open"/>
+                    <Item id="41019" name="Explorer"/>
+                    <Item id="41020" name="cmd"/>
+                    <Item id="41003" name="&amp;Close"/>
+                    <Item id="41004" name="Clos&amp;e All"/>
+                    <Item id="41005" name="Close All BUT Current Document"/>
+                    <Item id="41009" name="Close All to the Left"/>
+                    <Item id="41018" name="Close All to the Right"/>
+                    <Item id="41006" name="&amp;Save"/>
+                    <Item id="41007" name="Sav&amp;e All"/>
+                    <Item id="41008" name="Save &amp;As..."/>
+                    <Item id="41010" name="Print..."/>
+                    <Item id="1001" name="Print Now"/>
+                    <Item id="41011" name="E&amp;xit"/>
+                    <Item id="41012" name="Load Session..."/>
+                    <Item id="41013" name="Save Session..."/>
+                    <Item id="41014" name="Re&amp;load from Disk"/>
+                    <Item id="41015" name="Save a Copy As..."/>
+                    <Item id="41016" name="Move to Recycle Bin"/>
+                    <Item id="41017" name="Rename..."/>
+                    <Item id="41021" name="Restore Recent Closed File"/>
+                    <Item id="41022" name="Open Folder as Workspace..."/>
+                    <Item id="41023" name="Open in Default Viewer"/>
+                    <Item id="42001" name="Cu&amp;t"/>
+                    <Item id="42002" name="&amp;Copy"/>
+                    <Item id="42003" name="&amp;Undo"/>
+                    <Item id="42004" name="&amp;Redo"/>
+                    <Item id="42005" name="&amp;Paste"/>
+                    <Item id="42006" name="&amp;Delete"/>
+                    <Item id="42007" name="Select A&amp;ll"/>
+                    <Item id="42020" name="Begin/End Select"/>
+                    <Item id="42008" name="Increase Line Indent"/>
+                    <Item id="42009" name="Decrease Line Indent"/>
+                    <Item id="42010" name="Duplicate Current Line"/>
+                    <Item id="42012" name="Split Lines"/>
+                    <Item id="42013" name="Join Lines"/>
+                    <Item id="42014" name="Move Up Current Line"/>
+                    <Item id="42015" name="Move Down Current Line"/>
+                    <Item id="42059" name="Sort Lines Lexicographically Ascending"/>
+                    <Item id="42060" name="Sort Lines Lexicographically Descending"/>
+                    <Item id="42061" name="Sort Lines As Integers Ascending"/>
+                    <Item id="42062" name="Sort Lines As Integers Descending"/>
+                    <Item id="42063" name="Sort Lines As Decimals (Comma) Ascending"/>
+                    <Item id="42064" name="Sort Lines As Decimals (Comma) Descending"/>
+                    <Item id="42065" name="Sort Lines As Decimals (Dot) Ascending"/>
+                    <Item id="42066" name="Sort Lines As Decimals (Dot) Descending"/>
+                    <Item id="42016" name="&amp;UPPERCASE"/>
+                    <Item id="42017" name="&amp;lowercase"/>
+                    <Item id="42067" name="&amp;Proper Case"/>
+                    <Item id="42068" name="Proper Case (blend)"/>
+                    <Item id="42069" name="&amp;Sentence case"/>
+                    <Item id="42070" name="Sentence case (blend)"/>
+                    <Item id="42071" name="&amp;iNVERT cASE"/>
+                    <Item id="42072" name="&amp;ranDOm CasE"/>
+                    <Item id="42073" name="Open File"/>
+                    <Item id="42074" name="Open Containing Folder in Explorer"/>
+                    <Item id="42075" name="Search on Internet"/>
+                    <Item id="42076" name="Change Search Engine..."/>
+                    <Item id="42018" name="Start Re&amp;cording"/>
+                    <Item id="42019" name="S&amp;top Recording"/>
+                    <Item id="42021" name="&amp;Playback"/>
+                    <Item id="42022" name="Toggle Single Line Comment"/>
+                    <Item id="42023" name="Block Comment"/>
+                    <Item id="42047" name="Block Uncomment"/>
+                    <Item id="42024" name="Trim Trailing Space"/>
+                    <Item id="42042" name="Trim Leading Space"/>
+                    <Item id="42043" name="Trim Leading and Trailing Space"/>
+                    <Item id="42044" name="EOL to Space"/>
+                    <Item id="42045" name="Remove Unnecessary Blank and EOL"/>
+                    <Item id="42046" name="TAB to Space"/>
+                    <Item id="42054" name="Space to TAB (All)"/>
+                    <Item id="42053" name="Space to TAB (Leading)"/>
+                    <Item id="42038" name="Paste HTML Content"/>
+                    <Item id="42039" name="Paste RTF Content"/>
+                    <Item id="42048" name="Copy Binary Content"/>
+                    <Item id="42049" name="Cut Binary Content"/>
+                    <Item id="42050" name="Paste Binary Content"/>
+                    <Item id="42037" name="Column Mode..."/>
+                    <Item id="42034" name="Column Editor..."/>
+                    <Item id="42051" name="Character Panel"/>
+                    <Item id="42052" name="Clipboard History"/>
+                    <Item id="42025" name="&amp;Save Currently Recorded Macro..."/>
+                    <Item id="42026" name="Text Direction RTL"/>
+                    <Item id="42027" name="Text Direction LTR"/>
+                    <Item id="42028" name="Set Read-Only"/>
+                    <Item id="42029" name="Current File Path to Clipboard"/>
+                    <Item id="42030" name="Current Filename to Clipboard"/>
+                    <Item id="42031" name="Current Dir. Path to Clipboard"/>
+                    <Item id="42032" name="&amp;Run a Macro Multiple Times..."/>
+                    <Item id="42033" name="Clear Read-Only Flag"/>
+                    <Item id="42035" name="Single Line Comment"/>
+                    <Item id="42036" name="Single Line Uncomment"/>
+                    <Item id="42055" name="Remove Empty Lines"/>
+                    <Item id="42056" name="Remove Empty Lines (Containing Blank characters)"/>
+                    <Item id="42057" name="Insert Blank Line Above Current"/>
+                    <Item id="42058" name="Insert Blank Line Below Current"/>
+                    <Item id="43001" name="&amp;Find..."/>
+                    <Item id="43002" name="Find &amp;Next"/>
+                    <Item id="43003" name="&amp;Replace..."/>
+                    <Item id="43004" name="&amp;Go to..."/>
+                    <Item id="43005" name="Toggle Bookmark"/>
+                    <Item id="43006" name="Next Bookmark"/>
+                    <Item id="43007" name="Previous Bookmark"/>
+                    <Item id="43008" name="Clear All Bookmarks"/>
+                    <Item id="43018" name="Cut Bookmarked Lines"/>
+                    <Item id="43019" name="Copy Bookmarked Lines"/>
+                    <Item id="43020" name="Paste to (Replace) Bookmarked Lines"/>
+                    <Item id="43021" name="Remove Bookmarked Lines"/>
+                    <Item id="43051" name="Remove Unmarked Lines"/>
+                    <Item id="43050" name="Inverse Bookmark"/>
+                    <Item id="43052" name="Find characters in range..."/>
+                    <Item id="43053" name="Select All Between Matching Braces"/>
+                    <Item id="43009" name="Go to Matching Brace"/>
+                    <Item id="43010" name="Find &amp;Previous"/>
+                    <Item id="43011" name="&amp;Incremental Search"/>
+                    <Item id="43013" name="Find in Files"/>
+                    <Item id="43014" name="Find (Volatile) Next"/>
+                    <Item id="43015" name="Find (Volatile) Previous"/>
+                    <Item id="43022" name="Using 1st Style"/>
+                    <Item id="43023" name="Clear 1st Style"/>
+                    <Item id="43024" name="Using 2nd Style"/>
+                    <Item id="43025" name="Clear 2nd Style"/>
+                    <Item id="43026" name="Using 3rd Style"/>
+                    <Item id="43027" name="Clear 3rd Style"/>
                     <Item id="43028" name="Using 4th Style"/>
                     <Item id="43029" name="Clear 4th Style"/>
                     <Item id="43030" name="Using 5th Style"/>
@@ -314,22 +314,22 @@
             <Splitter>
             </Splitter>
             <TabBar>
-                    <Item CMID="0" name="Zoumaa&amp;chen"/>
-                    <Item CMID="1" name="&amp;All déi anner zoumaachen"/>
-                    <Item CMID="2" name="S&amp;päicheren"/>
-                    <Item CMID="3" name="Späicheren &amp;ënnert ..."/>
-                    <Item CMID="4" name="Datei ëm&amp;benennen"/>
-                    <Item CMID="5" name="Datei &amp;läschen"/>
-                    <Item CMID="6" name="&amp;Drécken"/>
-                    <Item CMID="7" name="Schreifschut&amp;z"/>
-                    <Item CMID="8" name="Schreifschutz ophiwen"/>
-                    <Item CMID="9" name="Vollstännegen Pad &amp;kopéieren"/>
-                    <Item CMID="10" name="Nëmmen d'Datei&amp;nimm kopéieren"/>
-                    <Item CMID="11" name="Nëmmen d'Repertoire&amp;pied kopéieren"/>
-                    <Item CMID="12" name="An déi z&amp;weeter Usiicht réckelen"/>
-                    <Item CMID="13" name="An der zwee&amp;ter Usiicht kopéieren"/>
-                    <Item CMID="14" name="An eng nei &amp;Instanz réckelen"/>
-                    <Item CMID="15" name="An eng nei Instan&amp;z kopéieren"/>
+                    <Item CMID="0" name="Close"/>
+                    <Item CMID="1" name="Close All BUT This"/>
+                    <Item CMID="2" name="Save"/>
+                    <Item CMID="3" name="Save As..."/>
+                    <Item CMID="4" name="Print"/>
+                    <Item CMID="5" name="Move to Other View"/>
+                    <Item CMID="6" name="Clone to Other View"/>
+                    <Item CMID="7" name="Full File Path to Clipboard"/>
+                    <Item CMID="8" name="Filename to Clipboard"/>
+                    <Item CMID="9" name="Current Dir. Path to Clipboard"/>
+                    <Item CMID="10" name="Rename"/>
+                    <Item CMID="11" name="Move to Recycle Bin"/>
+                    <Item CMID="12" name="Read-Only"/>
+                    <Item CMID="13" name="Clear Read-Only Flag"/>
+                    <Item CMID="14" name="Move to New Instance"/>
+                    <Item CMID="15" name="Open in New Instance"/>
                     <Item CMID="16" name="Reload"/>
                     <Item CMID="17" name="Close All to the Left"/>
                     <Item CMID="18" name="Close All to the Right"/>
@@ -340,41 +340,41 @@
         </Menu>
 
         <Dialog>
-            <Find title="" titleFind="Sichen" titleReplace="Remplacéieren" titleFindInFiles="An Dateien sichen" titleMark="Mark">
-                <Item id="1" name="&amp;Weidersichen"/>
-                <Item id="1722" name="Zoumaac&amp;hen"/>
-                <Item id="2" name="Sichen no"/>
-                <Item id="1620" name="Nëmmen &amp;ganz Wierder sichen"/>
-                <Item id="1603" name="Grouss-/&amp;Klengbuschtawen"/>
-                <Item id="1604" name="&amp;Regulär Ausdréck"/>
-                <Item id="1605" name="&amp;Um Enn erëm vun vir ufängen"/>
-                <Item id="1606" name="H&amp;annertzeg"/>
-                <Item id="1614" name="&amp;Vijenzeg"/>
-                <Item id="1615" name="&amp;Zielen"/>
-                <Item id="1616" name="Alleguer sichen"/>
-                <Item id="1618" name="&amp;Lieszeechen setzen"/>
-                <Item id="1611" name="&amp;Treffer markéieren"/>
-                <Item id="1608" name="Fir &amp;jidder Sich läschen"/>
-                <Item id="1609" name="Sichrichtung"/>
-                <Item id="1687" name="&amp;Remplacéieren duerch"/>
-                <Item id="1688" name="&amp;Remplacéieren"/>
-                <Item id="1632" name="&amp;Alles remplacéieren"/>
-                <Item id="1633" name="Transparenz"/>
-                <Item id="1635" name="Sichmodus"/>
-                <Item id="1636" name="&amp;Normal"/>
-                <Item id="1654" name="&amp;Erweidert (\n, \r, \t, \0, \x ...)"/>
-                <Item id="1655" name="Ënnen"/>
-                <Item id="1656" name="An d'&amp;Markéierung"/>
-                <Item id="1658" name="Zrécksetzen"/>
-                <Item id="1659" name="Alles wat fonnd ginn ass, an allen &amp;oppenen Dateien ersetzen"/>
-                <Item id="1624" name="Sichen an allen &amp;oppen Dateien"/>
-                <Item id="1625" name="An Dateien sichen"/>
-                <Item id="1626" name="Ëmschaltdialog"/>
-                <Item id="1660" name="&amp;Verstoppen Repertoiren"/>
-                <Item id="1661" name="Filter"/>
-                <Item id="1641" name="Repertoire"/>
-                <Item id="1686" name="Alleguer sichen"/>
-                <Item id="1703" name="&amp;Ënnerrepertoiren"/>
+            <Find title="" titleFind="Find" titleReplace="Replace" titleFindInFiles="Find in Files" titleMark="Mark">
+                <Item id="1" name="Find Next"/>
+                <Item id="1722" name="Backward direction"/>
+                <Item id="2" name="Close"/>
+                <Item id="1620" name="&amp;Find what :"/>
+                <Item id="1603" name="Match &amp;whole word only"/>
+                <Item id="1604" name="Match &amp;case"/>
+                <Item id="1605" name="Re&amp;gular expression"/>
+                <Item id="1606" name="Wra&amp;p around"/>
+                <Item id="1614" name="Coun&amp;t"/>
+                <Item id="1615" name="Mark All"/>
+                <Item id="1616" name="Book&amp;mark line"/>
+                <Item id="1618" name="Purge for each search"/>
+                <Item id="1611" name="Rep&amp;lace with :"/>
+                <Item id="1608" name="&amp;Replace"/>
+                <Item id="1609" name="Replace &amp;All"/>
+                <Item id="1687" name="On losing focus"/>
+                <Item id="1688" name="Always"/>
+                <Item id="1632" name="In select&amp;ion"/>
+                <Item id="1633" name="Clear all marks"/>
+                <Item id="1635" name="Replace All in All &amp;Opened Documents"/>
+                <Item id="1636" name="Find All in All &amp;Opened Documents"/>
+                <Item id="1654" name="Filter&amp;s :"/>
+                <Item id="1655" name="Dir&amp;ectory :"/>
+                <Item id="1656" name="Find All"/>
+                <Item id="1658" name="In all su&amp;b-folders"/>
+                <Item id="1659" name="In &amp;hidden folders"/>
+                <Item id="1624" name="Search mode"/>
+                <Item id="1625" name="&amp;Normal"/>
+                <Item id="1626" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
+                <Item id="1660" name="&amp;Replace in Files"/>
+                <Item id="1661" name="Follow current doc."/>
+                <Item id="1641" name="Find All in Current Document"/>
+                <Item id="1686" name="Transparenc&amp;y"/>
+                <Item id="1703" name="&amp;. matches newline"/>
             </Find>
 
             <FindCharsInRange title="Find Characters in Range...">
@@ -389,21 +389,21 @@
                 <Item id="2910" name="Find"/>
             </FindCharsInRange>
 
-            <GoToLine title="Gehe zu">
-                <Item id="2007" name="&amp;Goen bei"/>
-                <Item id="2008" name="&amp;Ofbriechen"/>
-                <Item id="1" name="Aktuell"/>
-                <Item id="2" name="Ziel"/>
-                <Item id="2004" name="Insgesamt an der Datei"/>
-                <Item id="2005" name="&amp;Zeil"/>
-                <Item id="2006" name="Z&amp;eechen"/>
+            <GoToLine title="Go to...">
+                <Item id="2007" name="&amp;Line"/>
+                <Item id="2008" name="&amp;Offset"/>
+                <Item id="1" name="Go"/>
+                <Item id="2" name="I'm going nowhere"/>
+                <Item id="2004" name="You are here:"/>
+                <Item id="2005" name="You want to go to:"/>
+                <Item id="2006" name="You can't go further than:"/>
             </GoToLine>
 
-            <Run title="Ausféieren ...">
-                <Item id="1903" name="Auszeféierenden Programm hei aginn"/>
-                <Item id="1" name="&amp;Ausféieren"/>
-                <Item id="2" name="O&amp;fbriechen"/>
-                <Item id="1904" name="&amp;Späicheren"/>
+            <Run title="Run...">
+                <Item id="1903" name="The Program to Run"/>
+                <Item id="1" name="Run"/>
+                <Item id="2" name="Cancel"/>
+                <Item id="1904" name="Save..."/>
             </Run>
 
             <MD5FromFilesDlg title="Generate MD5 digest from files">
@@ -429,34 +429,34 @@
                 <Item id="2" name="Close"/>
             </PluginsAdminDlg>
 
-            <StyleConfig title="Stile">
-                <Item id="2" name="Iwwerhuelen"/>
-                <Item id="2301" name="Ofbriechen"/>
-                <Item id="2303" name="Späicheren"/>
-                <Item id="2306" name="Transparenz"/>
+            <StyleConfig title="Style Configurator">
+                <Item id="2" name="Cancel"/>
+                <Item id="2301" name="Save &amp;&amp; Close"/>
+                <Item id="2303" name="Transparency"/>
+                <Item id="2306" name="Select theme: "/>
                 <SubDialog>
-                    <Item id="2204" name="Fett"/>
-                    <Item id="2205" name="Kursiv"/>
-                    <Item id="2206" name="Vierdergrondfaarf"/>
-                    <Item id="2207" name="Hannergrondfaarf"/>
-                    <Item id="2208" name="Schrëftart"/>
-                    <Item id="2209" name="Gréisst"/>
-                    <Item id="2211" name="Stilbeschreiwung"/>
-                    <Item id="2212" name="Faarfen"/>
-                    <Item id="2213" name="Schrëften"/>
-                    <Item id="2214" name="Standard-Erw."/>
-                    <Item id="2216" name="Benotzer-Erw."/>
-                    <Item id="2218" name="Ënnerstrach"/>
-                    <Item id="2219" name="Standard-Schlësselwierder"/>
-                    <Item id="2221" name="Benotzerdefinéiert Schlësselwierder"/>
-                    <Item id="2225" name="Sprooch"/>
-                    <Item id="2226" name="Standard-Vierdergrondfaarf"/>
-                    <Item id="2227" name="Standard-Hannergrondfaarf"/>
-                    <Item id="2228" name="Schrëft als Standard setzen"/>
-                    <Item id="2229" name="Schrëftgréisst als Standard setzen"/>
-                    <Item id="2230" name="Fettschrëft als Standard setzen"/>
-                    <Item id="2231" name="Kursivschrëft als Standard setzen"/>
-                    <Item id="2232" name="Ënnerstrach als Standard setzen"/>
+                    <Item id="2204" name="Bold"/>
+                    <Item id="2205" name="Italic"/>
+                    <Item id="2206" name="Foreground colour"/>
+                    <Item id="2207" name="Background colour"/>
+                    <Item id="2208" name="Font name:"/>
+                    <Item id="2209" name="Font size:"/>
+                    <Item id="2211" name="Style:"/>
+                    <Item id="2212" name="Colour Style"/>
+                    <Item id="2213" name="Font Style"/>
+                    <Item id="2214" name="Default ext.:"/>
+                    <Item id="2216" name="User ext.:"/>
+                    <Item id="2218" name="Underline"/>
+                    <Item id="2219" name="Default keywords"/>
+                    <Item id="2221" name="User-defined keywords"/>
+                    <Item id="2225" name="Language:"/>
+                    <Item id="2226" name="Enable global foreground colour"/>
+                    <Item id="2227" name="Enable global background colour"/>
+                    <Item id="2228" name="Enable global font"/>
+                    <Item id="2229" name="Enable global font size"/>
+                    <Item id="2230" name="Enable global bold font style"/>
+                    <Item id="2231" name="Enable global italic font style"/>
+                    <Item id="2232" name="Enable global underline font style"/>
                 </SubDialog>
             </StyleConfig>
 
@@ -488,18 +488,18 @@
                 <Item id="5007" name="This will remove shortcut from this command"/>
                 <Item id="5012" name="CONFLICT FOUND!"/>
             </ShortcutMapperSubDialg>
-            <UserDefine title="Benotzerdefinéiert Sprooch">
-                <Item id="20001" name="Ëmbenennen"/>
-                <Item id="20002" name="Nei erstellen"/>
-                <Item id="20003" name="Läschen"/>
-                <Item id="20004" name="Späicheren ënnert"/>
-                <Item id="20005" name="Benotzersprooch"/>
-                <Item id="20007" name="Erw."/>
-                <Item id="20009" name="Grouss/kleng ignoréieren"/>
-                <Item id="20012" name="Transparenz"/>
-                <Item id="20011" name="Faarfen"/>
-                <Item id="20015" name="Vierdergrond"/>
-                <Item id="20016" name="Hannergrond"/>
+            <UserDefine title="User-Defined">
+                <Item id="20001" name="Dock"/>
+                <Item id="20002" name="Rename"/>
+                <Item id="20003" name="Create New..."/>
+                <Item id="20004" name="Remove"/>
+                <Item id="20005" name="Save As..."/>
+                <Item id="20007" name="User language: "/>
+                <Item id="20009" name="Ext.:"/>
+                <Item id="20012" name="Ignore case"/>
+                <Item id="20011" name="Transparency"/>
+                <Item id="20015" name="Import..."/>
+                <Item id="20016" name="Export..."/>
                 <StylerDialog title="Styler Dialog">
                     <Item id="25030" name="Font options:"/>
                     <Item id="25006" name="Foreground colour"/>
@@ -534,10 +534,10 @@
                     <Item id="1" name="OK"/>
                     <Item id="2" name="Cancel"/>
                 </StylerDialog>
-                <Folder title="Textblockdef. &amp;&amp; Virastellungen">
-                    <Item id="21101" name="Standard Stil-Astellungen"/>
-                    <Item id="21102" name="Schlësselwierder Textblockufank"/>
-                    <Item id="21105" name="Schlësselwierder Textblockenn"/>
+                <Folder title="Folder &amp;&amp; Default">
+                    <Item id="21101" name="Default style"/>
+                    <Item id="21102" name="Styler"/>
+                    <Item id="21105" name="Documentation:"/>
                     <Item id="21104" name="Temporary doc site:"/>
                     <Item id="21106" name="Fold &amp;compact (fold empty lines too)"/>
                     <Item id="21220" name="Folding in code 1 style:"/>
@@ -556,15 +556,15 @@
                     <Item id="21426" name="Close:"/>
                     <Item id="21427" name="Styler"/>
                 </Folder>
-                <Keywords title="Schlësselwierder">
-                    <Item id="22101" name="1. Grupp"/>
-                    <Item id="22201" name="2. Grupp"/>
-                    <Item id="22301" name="3. Grupp"/>
-                    <Item id="22401" name="4. Grupp"/>
-                    <Item id="22451" name="Präfixmodus"/>
-                    <Item id="22501" name="Präfixmodus"/>
-                    <Item id="22551" name="Präfixmodus"/>
-                    <Item id="22601" name="Präfixmodus"/>
+                <Keywords title="Keywords Lists">
+                    <Item id="22101" name="1st Group"/>
+                    <Item id="22201" name="2nd Group"/>
+                    <Item id="22301" name="3rd Group"/>
+                    <Item id="22401" name="4th Group"/>
+                    <Item id="22451" name="5th Group"/>
+                    <Item id="22501" name="6th Group"/>
+                    <Item id="22551" name="7th Group"/>
+                    <Item id="22601" name="8th Group"/>
                     <Item id="22121" name="Prefix mode"/>
                     <Item id="22221" name="Prefix mode"/>
                     <Item id="22321" name="Prefix mode"/>
@@ -582,14 +582,14 @@
                     <Item id="22572" name="Styler"/>
                     <Item id="22622" name="Styler"/>
                 </Keywords>
-                <Comment title="Kommentar &amp;&amp; Zuelen">
-                    <Item id="23003" name="Kommentarzeil"/>
-                    <Item id="23004" name="Kommentarblock"/>
-                    <Item id="23005" name="Kommentarufank"/>
-                    <Item id="23006" name="Kommentarenn"/>
-                    <Item id="23001" name="Wierder wei Symboler behandelen"/>
-                    <Item id="23326" name="Wierder wei Symboler behandelen"/>
-                    <Item id="23323" name="Zuelen"/>
+                <Comment title="Comment &amp;&amp; Number">
+                    <Item id="23003" name="Line comment position"/>
+                    <Item id="23004" name="Allow anywhere"/>
+                    <Item id="23005" name="Force at beginning of line"/>
+                    <Item id="23006" name="Allow preceding whitespace"/>
+                    <Item id="23001" name="Allow folding of comments"/>
+                    <Item id="23326" name="Styler"/>
+                    <Item id="23323" name="Open"/>
                     <Item id="23324" name="Continue character"/>
                     <Item id="23325" name="Close"/>
                     <Item id="23301" name="Comment line style"/>
@@ -611,16 +611,16 @@
                     <Item id="23246" name="Comma"/>
                     <Item id="23247" name="Both"/>
                 </Comment>
-                <Operator title="Operatoren">
-                    <Item id="24101" name="Operatoren"/>
-                    <Item id="24113" name="Disponibel Symboler"/>
-                    <Item id="24116" name="Aktivéiert Operatoren"/>
-                    <Item id="24117" name="Trenner 1"/>
-                    <Item id="24201" name="Ufankszeechen"/>
-                    <Item id="24220" name="Ofschlosszeechen"/>
-                    <Item id="24221" name="Trenner 2"/>
-                    <Item id="24222" name="Ufankszeechen"/>
-                    <Item id="24223" name="Ofschlosszeechen"/>
+                <Operator title="Operators &amp;&amp; Delimiter">
+                    <Item id="24101" name="Operators style"/>
+                    <Item id="24113" name="Styler"/>
+                    <Item id="24116" name="Operators 1"/>
+                    <Item id="24117" name="Operators 2 (separators required)"/>
+                    <Item id="24201" name="Delimiter 1 style"/>
+                    <Item id="24220" name="Open:"/>
+                    <Item id="24221" name="Escape:"/>
+                    <Item id="24222" name="Close:"/>
+                    <Item id="24223" name="Styler"/>
                     <Item id="24301" name="Delimiter 2 style"/>
                     <Item id="24320" name="Open:"/>
                     <Item id="24321" name="Escape:"/>
@@ -658,60 +658,60 @@
                     <Item id="24673" name="Styler"/>
                 </Operator>
             </UserDefine>
-            <Preference title="Astellungen">
-                <Item id="6001" name="Zoumaachen"/>
-                <Global title="Allgemein">
-                    <Item id="6101" name="Symbolleescht"/>
-                    <Item id="6102" name="Ausblenden"/>
-                    <Item id="6103" name="Kleng Icons"/>
-                    <Item id="6104" name="Grouss Icons"/>
-                    <Item id="6105" name="Kleng Standard-Icons"/>
+            <Preference title="Preferences">
+                <Item id="6001" name="Close"/>
+                <Global title="General">
+                    <Item id="6101" name="Toolbar"/>
+                    <Item id="6102" name="Hide"/>
+                    <Item id="6103" name="Small icons"/>
+                    <Item id="6104" name="Big icons"/>
+                    <Item id="6105" name="Standard icons"/>
 
-                    <Item id="6106" name="Tableescht"/>
-                    <Item id="6107" name="Verklengeren"/>
-                    <Item id="6108" name="Sperren (keen Drag &amp;&amp; Drop)"/>
-                    <Item id="6109" name="Inaktiv Reiter gro markéieren"/>
-                    <Item id="6110" name="Aktiv Reiter orange markéieren"/>
+                    <Item id="6106" name="Tab Bar"/>
+                    <Item id="6107" name="Reduce"/>
+                    <Item id="6108" name="Lock (no drag and drop)"/>
+                    <Item id="6109" name="Darken inactive tabs"/>
+                    <Item id="6110" name="Draw a coloured bar on active tab"/>
 
-                    <Item id="6111" name="Weis Statusleescht"/>
-                    <Item id="6112" name="Zoumaachen-Kräiz op jieder Tab"/>
-                    <Item id="6113" name="Duebbelklick mächt d'Dokument zou"/>
-                    <Item id="6118" name="Ausblenden"/>
-                    <Item id="6119" name="Mehrzeileg"/>
-                    <Item id="6120" name="Vertikal"/>
-                    <Item id="6121" name="Menüleescht"/>
+                    <Item id="6111" name="Show status bar"/>
+                    <Item id="6112" name="Show close button on each tab"/>
+                    <Item id="6113" name="Double click to close document"/>
+                    <Item id="6118" name="Hide"/>
+                    <Item id="6119" name="Multi-line"/>
+                    <Item id="6120" name="Vertical"/>
+                    <Item id="6121" name="Exit on close the last tab"/>
 
-                    <Item id="6122" name="Ausblenden (Wiesselen: Alt oder F10)"/>
+                    <Item id="6122" name="Hide menu bar (use Alt or F10 key to toggle)"/>
                     <Item id="6123" name="Localization"/>
 
                     <Item id="6125" name="Document List Panel"/>
                     <Item id="6126" name="Show"/>
                     <Item id="6127" name="Disable extension column"/>
                 </Global>
-                <Scintillas title="Usiicht">
-                    <Item id="6216" name="Cursor"/>
-                    <Item id="6217" name="Breet"/>
-                    <Item id="6219" name="Vitesse"/>
-                    <Item id="6221" name="S"/>
-                    <Item id="6222" name="L"/>
-                    <Item id="6224" name="Tabulatoren"/>
-                    <Item id="6225" name="duerch Ofstänn ersetzen"/>
-                    <Item id="6201" name="Tabulatorbreet:"/>
-                    <Item id="6202" name="Textblock-Faltung"/>
-                    <Item id="6203" name="Einfachen Stil"/>
-                    <Item id="6204" name="Feilstil"/>
-                    <Item id="6205" name="Krees-Bamstil"/>
-                    <Item id="6226" name="Boxen-Baumstil"/>
+                <Scintillas title="Editing">
+                    <Item id="6216" name="Caret Settings"/>
+                    <Item id="6217" name="Width :"/>
+                    <Item id="6219" name="Blink rate :"/>
+                    <Item id="6221" name="F"/>
+                    <Item id="6222" name="S"/>
+                    <Item id="6224" name="Multi-Editing Settings"/>
+                    <Item id="6225" name="Enable (Ctrl+Mouse click/selection)"/>
+                    <Item id="6201" name="Folder Margin Style"/>
+                    <Item id="6202" name="Simple"/>
+                    <Item id="6203" name="Arrow"/>
+                    <Item id="6204" name="Circle tree"/>
+                    <Item id="6205" name="Box tree"/>
+                    <Item id="6226" name="None"/>
 
-                    <Item id="6227" name="Zeilennummerenrand"/>
-                    <Item id="6228" name="Lieszeechenrand"/>
-                    <Item id="6229" name="Begrenzung uweisen"/>
-                    <Item id="6230" name="Unzuel vun den Spalten:"/>
+                    <Item id="6227" name="Line Wrap"/>
+                    <Item id="6228" name="Default"/>
+                    <Item id="6229" name="Aligned"/>
+                    <Item id="6230" name="Indent"/>
 
-                    <Item id="6206" name="Rietsen Rand"/>
-                    <Item id="6207" name="Vertikale Line"/>
-                    <Item id="6208" name="faarfegen Hannergrond"/>
-                    <Item id="6209" name="Aktuell Zeil hervirhiewen"/>
+                    <Item id="6206" name="Display line number"/>
+                    <Item id="6207" name="Display bookmark"/>
+                    <Item id="6208" name="Show vertical edge"/>
+                    <Item id="6209" name="Number of columns :"/>
                     <Item id="6234" name="Disable advanced scrolling feature (if you have touchpad problem)"/>
 
                     <Item id="6211" name="Vertical Edge Settings"/>
@@ -724,20 +724,20 @@
                     <Item id="6236" name="Enable scrolling beyond last line"/>
                 </Scintillas>
 
-                <NewDoc title="Nei/Opmaachen/Späicheren">
-                    <Item id="6401" name="Nei Datei"/>
-                    <Item id="6402" name="Format"/>
-                    <Item id="6403" name="Windows"/>
-                    <Item id="6404" name="UNIX"/>
-                    <Item id="6405" name="Mac"/>
-                    <Item id="6406" name="Kodierung"/>
-                    <Item id="6407" name="ANSI"/>
-                    <Item id="6408" name="UTF-8 ouni BOM"/>
-                    <Item id="6409" name="UTF-8"/>
-                    <Item id="6410" name="UCS2 Big Endian"/>
-                    <Item id="6411" name="UCS2 Little Endian"/>
-                    <Item id="6419" name="Standardsprooch"/>
-                    <Item id="6420" name="Repertoire beim Öpmaachen/Späicheren"/>
+                <NewDoc title="New Document">
+                    <Item id="6401" name="Format (Line ending)"/>
+                    <Item id="6402" name="Windows (CR LF)"/>
+                    <Item id="6403" name="Unix (LF)"/>
+                    <Item id="6404" name="Macintosh (CR)"/>
+                    <Item id="6405" name="Encoding"/>
+                    <Item id="6406" name="ANSI"/>
+                    <Item id="6407" name="UTF-8"/>
+                    <Item id="6408" name="UTF-8 with BOM"/>
+                    <Item id="6409" name="UCS-2 Big Endian with BOM"/>
+                    <Item id="6410" name="UCS-2 Little Endian with BOM"/>
+                    <Item id="6411" name="Default language :"/>
+                    <Item id="6419" name="New Document"/>
+                    <Item id="6420" name="Apply to opened ANSI files"/>
                 </NewDoc>
 
                 <DefaultDir title="Default Directory">
@@ -748,9 +748,9 @@
                     <Item id="6431" name="Open all files of folder instead of launching Folder as Workspace on folder dropping"/>
                 </DefaultDir>
 
-                <FileAssoc title="Datei-Verknëppungen">
-                    <Item id="4009" name="Ënnerstëtzt Erw.:"/>
-                    <Item id="4010" name="Registréiert Erw.:"/>
+                <FileAssoc title="File Association">
+                    <Item id="4009" name="Supported extensions:"/>
+                    <Item id="4010" name="Registered extensions:"/>
                 </FileAssoc>
                 <Language title="Language">
                     <Item id="6505" name="Available items"/>
@@ -776,32 +776,32 @@
                     <Item id="6330" name="Highlight comment/php/asp zone"/>
                 </Highlighting>
 
-                <Print title="Drécken Faarfen &amp;&amp; Ränner">
-                    <Item id="6601" name="Zeilennummeren drécken"/>
-                    <Item id="6602" name="Faarfoptiounen"/>
-                    <Item id="6603" name="Wéi ugewies"/>
-                    <Item id="6604" name="Invertéieren"/>
-                    <Item id="6605" name="Schwaarz op Wäiss"/>
-                    <Item id="6606" name="Keng Hannergrondfaarf"/>
-                    <Item id="6607" name="Säitenränner (mm)"/>
-                    <Item id="6612" name="Lénks"/>
-                    <Item id="6613" name="Uewen"/>
-                    <Item id="6614" name="Riets"/>
-                    <Item id="6615" name="Ënnen"/>
-                    <Item id="6706" name="Fett"/>
-                    <Item id="6707" name="Kursiv"/>
-                    <Item id="6708" name="Kappdeel"/>
-                    <Item id="6709" name="Lénks Säit"/>
-                    <Item id="6710" name="Mëttelsten Deel"/>
-                    <Item id="6711" name="Riets Säit"/>
-                    <Item id="6717" name="Fett"/>
-                    <Item id="6718" name="Kursiv"/>
-                    <Item id="6719" name="Foussdeel"/>
-                    <Item id="6720" name="Lénks Säit"/>
-                    <Item id="6721" name="Mëttelsten Deel"/>
-                    <Item id="6722" name="Riets Säit"/>
-                    <Item id="6723" name="Bäifügen"/>
-                    <Item id="6725" name="Element"/>
+                <Print title="Print">
+                    <Item id="6601" name="Print line number"/>
+                    <Item id="6602" name="Colour Options"/>
+                    <Item id="6603" name="WYSIWYG"/>
+                    <Item id="6604" name="Invert"/>
+                    <Item id="6605" name="Black on white"/>
+                    <Item id="6606" name="No background colour"/>
+                    <Item id="6607" name="Margin Settings (Unit:mm)"/>
+                    <Item id="6612" name="Left"/>
+                    <Item id="6613" name="Top"/>
+                    <Item id="6614" name="Right"/>
+                    <Item id="6615" name="Bottom"/>
+                    <Item id="6706" name="Bold"/>
+                    <Item id="6707" name="Italic"/>
+                    <Item id="6708" name="Header"/>
+                    <Item id="6709" name="Left part"/>
+                    <Item id="6710" name="Middle part"/>
+                    <Item id="6711" name="Right part"/>
+                    <Item id="6717" name="Bold"/>
+                    <Item id="6718" name="Italic"/>
+                    <Item id="6719" name="Footer"/>
+                    <Item id="6720" name="Left part"/>
+                    <Item id="6721" name="Middle part"/>
+                    <Item id="6722" name="Right part"/>
+                    <Item id="6723" name="Add"/>
+                    <Item id="6725" name="Variable:"/>
                     <Item id="6727" name="Here display your variable settings"/>
                     <Item id="6728" name="Header and Footer"/>
                 </Print>
@@ -817,19 +817,19 @@
                     <Item id="6427" name="Customize Maximum Length:"/>
                 </RecentFilesHistory>
 
-                <Backup title="Sécherheetskopie/Autovervollstännegen">
-                    <Item id="6817" name="Sécherheetskopie"/>
-                    <Item id="6818" name="Keng"/>
-                    <Item id="6819" name="Einfach"/>
-                    <Item id="6821" name="Erweidert"/>
-                    <Item id="6822" name="Repertoire uginn fir d'Sécherheetskopien"/>
-                    <Item id="6309" name="Repertoire"/>
-                    <Item id="6801" name="Autovervollstännegung"/>
-                    <Item id="6315" name="Autovervollstännegung aktivéieren"/>
-                    <Item id="6316" name="Funktiounsvervollstännegung"/>
-                    <Item id="6317" name="Wierdervervollstännegung"/>
-                    <Item id="6804" name="Ab"/>
-                    <Item id="6803" name="Zeechen"/>
+                <Backup title="Backup">
+                    <Item id="6817" name="Session snapshot and periodic backup"/>
+                    <Item id="6818" name="Enable session snapshot and periodic backup"/>
+                    <Item id="6819" name="Backup in every"/>
+                    <Item id="6821" name="seconds"/>
+                    <Item id="6822" name="Backup path:"/>
+                    <Item id="6309" name="Remember current session for next launch"/>
+                    <Item id="6801" name="Backup on save"/>
+                    <Item id="6315" name="None"/>
+                    <Item id="6316" name="Simple backup"/>
+                    <Item id="6317" name="Verbose backup"/>
+                    <Item id="6804" name="Custom Backup Directory"/>
+                    <Item id="6803" name="Directory :"/>
                 </Backup>
 
                 <AutoCompletion title="Auto-Completion">
@@ -887,58 +887,58 @@
                     <Item id="6278" name="Example: https://www.google.com/search?q=$(CURRENT_WORD)"/>
                 </SearchEngine>
 
-                <MISC title="Diverses">
-                    <Item id="6307" name="Dateiverlaf"/>
-                    <Item id="6308" name="Beim Start net iwwerpréiwen"/>
-                    <Item id="6312" name="Max. Gréisst vum Dateiverlaf:"/>
-                    <Item id="6313" name="Aktivéieren"/>
-                    <Item id="6318" name="An den Infoberäich miniméieren"/>
-                    <Item id="6325" name="Aktuell Sëtzung bis zum nächsten Start behalen"/>
-                    <Item id="6319" name="Automatesch Ännerungserkennung"/>
-                    <Item id="6320" name="Ouni Réckfro aktualiséieren"/>
-                    <Item id="6322" name="Aktivéieren"/>
-                    <Item id="6323" name="Automatesch Zeilenanzuch"/>
-                    <Item id="6324" name="Den leschten benotzten Repertoire behalen"/>
-                    <Item id="6331" name="Aktivéier MRU-Verhaaen"/>
-                    <Item id="6334" name="Klickbar Links"/>
-                    <Item id="6335" name="Aktivéieren"/>
-                    <Item id="6337" name="Links net ënnersträichen"/>
-                    <Item id="6114" name="Sëtzungsdatei Erw.:"/>
-                    <Item id="6115" name="Automatesch Updates aktivéieren"/>
-                    <Item id="6117" name="Dokumentenëmschalter (Strg+Tab)"/>
-                    <Item id="6344" name="No der Aktualiséierung un den Schluss scrollen"/>
-                    <Item id="6345" name="Intelligent Ervirhiewen"/>
-                    <Item id="6346" name="Tags ervirhiewen"/>
+                <MISC title="MISC.">
+                    <Item id="6307" name="Enable"/>
+                    <Item id="6308" name="Minimize to system tray"/>
+                    <Item id="6312" name="File Status Auto-Detection"/>
+                    <Item id="6313" name="Update silently"/>
+                    <Item id="6318" name="Clickable Link Settings"/>
+                    <Item id="6325" name="Scroll to the last line after update"/>
+                    <Item id="6319" name="Enable"/>
+                    <Item id="6320" name="No underline"/>
+                    <Item id="6322" name="Session file ext.:"/>
+                    <Item id="6323" name="Enable Notepad++ auto-updater"/>
+                    <Item id="6324" name="Document Switcher (Ctrl+TAB)"/>
+                    <Item id="6331" name="Show only filename in title bar"/>
+                    <Item id="6334" name="Autodetect character encoding"/>
+                    <Item id="6335" name="Treat backslash as escape character for SQL"/>
+                    <Item id="6337" name="Workspace file ext.:"/>
+                    <Item id="6114" name="Enable"/>
+                    <Item id="6115" name="Auto-indent"/>
+                    <Item id="6117" name="Enable MRU behaviour"/>
+                    <Item id="6344" name="Document Peeker"/>
+                    <Item id="6345" name="Peek on tab"/>
+                    <Item id="6346" name="Peek on document map"/>
                 </MISC>
             </Preference>
-            <MultiMacro title="Makro">
-                <Item id="1" name="Ausféie&amp;ren"/>
-                <Item id="2" name="Of&amp;briechen"/>
-                <Item id="8006" name="Makro auswielen"/>
-                <Item id="8001" name="&amp;Starten"/>
-                <Item id="8005" name="Mol"/>
-                <Item id="8002" name="Bis zum &amp;Enn vun der Datei ausféieren"/>
+            <MultiMacro title="Run a Macro Multiple Times">
+                <Item id="1" name="&amp;Run"/>
+                <Item id="2" name="&amp;Cancel"/>
+                <Item id="8006" name="Macro to run :"/>
+                <Item id="8001" name="Run"/>
+                <Item id="8005" name="times"/>
+                <Item id="8002" name="Run until the &amp;end of file"/>
             </MultiMacro>
-            <Window title="Fënster">
-                <Item id="1" name="Ervir&amp;hiewen"/>
+            <Window title="Windows">
+                <Item id="1" name="&amp;Activate"/>
                 <Item id="2" name="&amp;OK"/>
-                <Item id="7002" name="S&amp;päicheren"/>
-                <Item id="7003" name="Fën&amp;ster zoumaachen"/>
-                <Item id="7004" name="Tabs &amp;sortéieren"/>
+                <Item id="7002" name="&amp;Save"/>
+                <Item id="7003" name="&amp;Close window(s)"/>
+                <Item id="7004" name="Sort &amp;tabs"/>
             </Window>
-            <ColumnEditor title="Block-Editor">
-                <Item id="2023" name="Text afügen"/>
-                <Item id="2033" name="Zuelen afügen"/>
-                <Item id="2030" name="Ufänken mat"/>
-                <Item id="2031" name="Erhéijen ëm"/>
-                <Item id="2035" name="Féierend Nullen"/>
-                <Item id="2036" name="Format"/>
-                <Item id="2032" name="Dec"/>
-                <Item id="2024" name="Oct"/>
-                <Item id="2025" name="Hex"/>
-                <Item id="2026" name="Bin"/>
-                <Item id="2027" name="Ausféie&amp;ren"/>
-                <Item id="1" name="Of&amp;briechen"/>
+            <ColumnEditor title="Column Editor">
+                <Item id="2023" name="Text to Insert"/>
+                <Item id="2033" name="Number to Insert"/>
+                <Item id="2030" name="Initial number :"/>
+                <Item id="2031" name="Increase by :"/>
+                <Item id="2035" name="Leading zeros"/>
+                <Item id="2036" name="Repeat :"/>
+                <Item id="2032" name="Format"/>
+                <Item id="2024" name="Dec"/>
+                <Item id="2025" name="Oct"/>
+                <Item id="2026" name="Hex"/>
+                <Item id="2027" name="Bin"/>
+                <Item id="1" name="OK"/>
                 <Item id="2" name="Cancel"/>
             </ColumnEditor>
             <FindInFinder title="Find in finder">
