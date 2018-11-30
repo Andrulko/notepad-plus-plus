@@ -1,312 +1,312 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NotepadPlus>
-    <Native-Langue name="Slovenski jezik" filename="slovenian.xml" version="7.5.5">
+    <Native-Langue name="English" filename="english.xml" version="7.5.5">
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
                 <Entries>
-                    <Item menuId="file" name="&amp;Datoteka"/>
-                    <Item menuId="edit" name="&amp;Uredi"/>
-                    <Item menuId="search" name="&amp;Najdi"/>
-                    <Item menuId="view" name="&amp;Pogled"/>
-                    <Item menuId="encoding" name="K&amp;odiranje"/>
-                    <Item menuId="language" name="&amp;Sintaksa jezika"/>
-                    <Item menuId="settings" name="Nas&amp;tavitve"/>
-                    <Item menuId="tools" name="Oro&amp;dja"/>
-                    <Item menuId="macro" name="Makro"/>
-                    <Item menuId="run" name="Poženi"/>
-                    <Item idName="Plugins" name="Vtičniki"/>
-                    <Item idName="Window" name="Okno"/>
+                    <Item menuId="file" name="&amp;File"/>
+                    <Item menuId="edit" name="&amp;Edit"/>
+                    <Item menuId="search" name="&amp;Search"/>
+                    <Item menuId="view" name="&amp;View"/>
+                    <Item menuId="encoding" name="E&amp;ncoding"/>
+                    <Item menuId="language" name="&amp;Language"/>
+                    <Item menuId="settings" name="Se&amp;ttings"/>
+                    <Item menuId="tools" name="To&amp;ols"/>
+                    <Item menuId="macro" name="&amp;Macro"/>
+                    <Item menuId="run" name="&amp;Run"/>
+                    <Item idName="Plugins" name="&amp;Plugins"/>
+                    <Item idName="Window" name="&amp;Window"/>
                 </Entries>
                 <!-- Sub Menu Entries -->
                 <SubEntries>
-                    <Item subMenuId="file-openFolder" name="Odpri vsebino mape"/>
-                    <Item subMenuId="file-closeMore" name="Zapri na več načinov"/>
-                    <Item subMenuId="file-recentFiles" name="Nedavne datoteke"/>
-                    <Item subMenuId="edit-copyToClipboard" name="Kopiraj v odložišče"/>
-                    <Item subMenuId="edit-indent" name="Zamik"/>
-                    <Item subMenuId="edit-convertCaseTo" name="Pretvori VELIKE/male črke"/>
-                    <Item subMenuId="edit-lineOperations" name="Vrstične operacije"/>
-                    <Item subMenuId="edit-comment" name="Komentiraj/odkomentiraj"/>
-                    <Item subMenuId="edit-autoCompletion" name="Samodokončanje"/>
-                    <Item subMenuId="edit-eolConversion" name="Pretvorba konca vrstic"/>
-                    <Item subMenuId="edit-blankOperations" name="Obravnava praznin"/>
-                    <Item subMenuId="edit-pasteSpecial" name="Posebno lepljenje"/>
-                    <Item subMenuId="edit-onSelection" name="Na izbiro"/>
-                    <Item subMenuId="search-markAll" name="Označi vse"/>
-                    <Item subMenuId="search-unmarkAll" name="Odznači vse"/>
-                    <Item subMenuId="search-jumpUp" name="Skoči navzgor"/>
-                    <Item subMenuId="search-jumpDown" name="Skoči navzdol"/>
-                    <Item subMenuId="search-bookmark" name="Zaznamek"/>
-                    <Item subMenuId="view-showSymbol" name="Pokaži simbol"/>
-                    <Item subMenuId="view-zoom" name="Povečava"/>
-                    <Item subMenuId="view-moveCloneDocument" name="Premakni/Kloniraj trenutni dokument"/>
-                    <Item subMenuId="view-tab" name="Tabulator"/>
-                    <Item subMenuId="view-collapseLevel" name="Strni raven"/>
-                    <Item subMenuId="view-uncollapseLevel" name="Razprostri raven"/>
-                    <Item subMenuId="view-project" name="Projekt"/>
-                    <Item subMenuId="encoding-characterSets" name="Nabor znakov"/>
-                    <Item subMenuId="encoding-arabic" name="arabski"/>
-                    <Item subMenuId="encoding-baltic" name="baltski"/>
-                    <Item subMenuId="encoding-celtic" name="keltski"/>
-                    <Item subMenuId="encoding-cyrillic" name="cirilični"/>
-                    <Item subMenuId="encoding-centralEuropean" name="srednjeevropski"/>
-                    <Item subMenuId="encoding-chinese" name="kitajski"/>
-                    <Item subMenuId="encoding-easternEuropean" name="vzhodnoevropski"/>
-                    <Item subMenuId="encoding-greek" name="grški"/>
-                    <Item subMenuId="encoding-hebrew" name="hebrejski"/>
-                    <Item subMenuId="encoding-japanese" name="japonski"/>
-                    <Item subMenuId="encoding-korean" name="korejski"/>
-                    <Item subMenuId="encoding-northEuropean" name="severnoevropski"/>
-                    <Item subMenuId="encoding-thai" name="tajski"/>
-                    <Item subMenuId="encoding-turkish" name="turški"/>
-                    <Item subMenuId="encoding-westernEuropean" name="zahodnoevropski"/>
-                    <Item subMenuId="encoding-vietnamese" name="vietnamski"/>
-                    <Item subMenuId="settings-import" name="Uvozi"/>
+                    <Item subMenuId="file-openFolder" name="Open Containing Folder"/>
+                    <Item subMenuId="file-closeMore" name="Close More"/>
+                    <Item subMenuId="file-recentFiles" name="&amp;Recent Files"/>
+                    <Item subMenuId="edit-copyToClipboard" name="Copy to Clipboard"/>
+                    <Item subMenuId="edit-indent" name="Indent"/>
+                    <Item subMenuId="edit-convertCaseTo" name="Convert Case to"/>
+                    <Item subMenuId="edit-lineOperations" name="Line Operations"/>
+                    <Item subMenuId="edit-comment" name="Comment/Uncomment"/>
+                    <Item subMenuId="edit-autoCompletion" name="Auto-Completion"/>
+                    <Item subMenuId="edit-eolConversion" name="EOL Conversion"/>
+                    <Item subMenuId="edit-blankOperations" name="Blank Operations"/>
+                    <Item subMenuId="edit-pasteSpecial" name="Paste Special"/>
+                    <Item subMenuId="edit-onSelection" name="On Selection"/>
+                    <Item subMenuId="search-markAll" name="Mark All"/>
+                    <Item subMenuId="search-unmarkAll" name="Unmark All"/>
+                    <Item subMenuId="search-jumpUp" name="Jump Up"/>
+                    <Item subMenuId="search-jumpDown" name="Jump Down"/>
+                    <Item subMenuId="search-bookmark" name="Bookmark"/>
+                    <Item subMenuId="view-showSymbol" name="Show Symbol"/>
+                    <Item subMenuId="view-zoom" name="Zoom"/>
+                    <Item subMenuId="view-moveCloneDocument" name="Move/Clone Current Document"/>
+                    <Item subMenuId="view-tab" name="Tab"/>
+                    <Item subMenuId="view-collapseLevel" name="Collapse Level"/>
+                    <Item subMenuId="view-uncollapseLevel" name="Uncollapse Level"/>
+                    <Item subMenuId="view-project" name="Project"/>
+                    <Item subMenuId="encoding-characterSets" name="Character Set"/>
+                    <Item subMenuId="encoding-arabic" name="Arabic"/>
+                    <Item subMenuId="encoding-baltic" name="Baltic"/>
+                    <Item subMenuId="encoding-celtic" name="Celtic"/>
+                    <Item subMenuId="encoding-cyrillic" name="Cyrillic"/>
+                    <Item subMenuId="encoding-centralEuropean" name="Central European"/>
+                    <Item subMenuId="encoding-chinese" name="Chinese"/>
+                    <Item subMenuId="encoding-easternEuropean" name="Eastern European"/>
+                    <Item subMenuId="encoding-greek" name="Greek"/>
+                    <Item subMenuId="encoding-hebrew" name="Hebrew"/>
+                    <Item subMenuId="encoding-japanese" name="Japanese"/>
+                    <Item subMenuId="encoding-korean" name="Korean"/>
+                    <Item subMenuId="encoding-northEuropean" name="North European"/>
+                    <Item subMenuId="encoding-thai" name="Thai"/>
+                    <Item subMenuId="encoding-turkish" name="Turkish"/>
+                    <Item subMenuId="encoding-westernEuropean" name="Western European"/>
+                    <Item subMenuId="encoding-vietnamese" name="Vietnamese"/>
+                    <Item subMenuId="settings-import" name="Import"/>
                     <Item subMenuId="tools-md5" name="MD5"/>
                 </SubEntries>
 
                 <!-- all menu item -->
                 <Commands>
-                    <Item id="41001" name="&amp;Nova"/>
-                    <Item id="41002" name="&amp;Odpri"/>
-                    <Item id="41019" name="Raziskovalec"/>
-                    <Item id="41020" name="cmd.exe"/>
-                    <Item id="41003" name="Zapri"/>
-                    <Item id="41004" name="&amp;Zapri vse"/>
-                    <Item id="41005" name="Zapri vse razen trenutnega"/>
-                    <Item id="41009" name="Zapri vse na levi"/>
-                    <Item id="41018" name="Zapri vse na desni"/>
-                    <Item id="41006" name="&amp;Shrani"/>
-                    <Item id="41007" name="Shrani &amp;vse"/>
-                    <Item id="41008" name="Shrani &amp;kot..."/>
-                    <Item id="41010" name="Natisni..."/>
-                    <Item id="1001" name="Natisni zdaj"/>
-                    <Item id="41011" name="Iz&amp;hod"/>
-                    <Item id="41012" name="Naloži sejo..."/>
-                    <Item id="41013" name="Shrani sejo..."/>
-                    <Item id="41014" name="Ponovno naloži z diska"/>
-                    <Item id="41015" name="Shrani kopijo kot..."/>
-                    <Item id="41016" name="Izbriši z diska"/>
-                    <Item id="41017" name="Preimenuj..."/>
-                    <Item id="41021" name="Obnovi nedavno zaprto datoteko"/>
-                    <Item id="41022" name="Odpri mapo kot &amp;delovni prostor"/>
-                    <Item id="41023" name="Iz&amp;reži"/>
-                    <Item id="42001" name="&amp;Kopiraj"/>
-                    <Item id="42002" name="&amp;Razveljavi"/>
-                    <Item id="42003" name="&amp;Znova uveljavi"/>
-                    <Item id="42004" name="&amp;Prilepi"/>
-                    <Item id="42005" name="I&amp;zbriši"/>
-                    <Item id="42006" name="&amp;Izberi vse"/>
-                    <Item id="42007" name="Izberi Začetek/Konec"/>
-                    <Item id="42020" name="Povečaj zamik vrstice"/>
-                    <Item id="42008" name="Zmanjšaj zamik vrstice"/>
-                    <Item id="42009" name="Podvoji trenutno vrstico"/>
-                    <Item id="42010" name="Razdeli vrstice"/>
-                    <Item id="42012" name="Združi vrstice"/>
-                    <Item id="42013" name="Pomakni trenutno vrstico navzgor"/>
-                    <Item id="42014" name="Pomakni trenutno vrstico navzdol"/>
-                    <Item id="42015" name="Razvrsti vrstice leksikografsko Naraščajoče"/>
-                    <Item id="42059" name="Razvrsti vrstice leksikografsko Padajoče"/>
-                    <Item id="42060" name="Razvrsti vrstice kot cela števila Naraščujoče"/>
-                    <Item id="42061" name="Razvrsti vrstice kot cela števila Padajoče"/>
-                    <Item id="42062" name="Razvrsti vrstice kot decimalke (z vejico) Naraščujoče"/>
-                    <Item id="42063" name="Razvrsti vrstice kot decimalke (z vejico) Padajoče"/>
-                    <Item id="42064" name="Razvrsti vrstice kot decimalke (s piko) Naraščujoče"/>
-                    <Item id="42065" name="Razvrsti vrstice kot decimalke (s piko) Padajoče"/>
-                    <Item id="42066" name="V VELIKE ČRKE"/>
-                    <Item id="42016" name="v male črke"/>
-                    <Item id="42017" name="Naslovne črke"/>
-                    <Item id="42067" name="Naslovne črke (mešanica)"/>
-                    <Item id="42068" name="Stavčne črke"/>
-                    <Item id="42069" name="Stavčne črke (mešanica)"/>
-                    <Item id="42070" name="iNVERT čRKE"/>
-                    <Item id="42071" name="nakLJUčne ČrkE"/>
-                    <Item id="42072" name="Odpri datoteko"/>
-                    <Item id="42073" name="Odpri vsebino mape v Raziskovalcu"/>
-                    <Item id="42074" name="Iskanje na spletu"/>
-                    <Item id="42075" name="Sprememba iskalnika..."/>
-                    <Item id="42076" name="&amp;Začni snemanje"/>
-                    <Item id="42018" name="&amp;Nehaj snemanje"/>
-                    <Item id="42019" name="&amp;Predvajaj"/>
-                    <Item id="42021" name="Preklopi enovrstični komentar"/>
-                    <Item id="42022" name="Komentar bloka"/>
-                    <Item id="42023" name="Odkoment bloka"/>
-                    <Item id="42047" name="Odstrani zaključne presledke"/>
-                    <Item id="42024" name="Odstrani vodilne presledke"/>
-                    <Item id="42042" name="Odstrani vodilne in zaključne presledke"/>
-                    <Item id="42043" name="Konca vrstic v presledke"/>
-                    <Item id="42044" name="Odstrani nepotrebne praznine in konce vrstice"/>
-                    <Item id="42045" name="Tabulator v presledek"/>
-                    <Item id="42046" name="Presledek v tabulator (vse)"/>
-                    <Item id="42054" name="Presledek v tabulator (vodilni)"/>
-                    <Item id="42053" name="Prilepi HTML vsebino"/>
-                    <Item id="42038" name="Prilepi RTF vsebino"/>
-                    <Item id="42039" name="Kopiraj binarno vsebino"/>
-                    <Item id="42048" name="Izreži binarno vsebino"/>
-                    <Item id="42049" name="Prilepi binarno vsebino"/>
-                    <Item id="42050" name="Način stolpca..."/>
-                    <Item id="42037" name="Urejevalnik stolpca..."/>
-                    <Item id="42034" name="Panel znakov"/>
-                    <Item id="42051" name="Zgodovina odložišča"/>
-                    <Item id="42052" name="Shrani trenutno posneti makro"/>
-                    <Item id="42025" name="Smer besedila D-&gt;L"/>
-                    <Item id="42026" name="Smer besedila L-&gt;D"/>
-                    <Item id="42027" name="Nastavi samo za branje"/>
-                    <Item id="42028" name="Polna pot trenutne datoteke v odložišče"/>
-                    <Item id="42029" name="Ime trenutne datoteke v odložišče"/>
-                    <Item id="42030" name="Pot trenutne mape v odložišče"/>
-                    <Item id="42031" name="Poženi makro večkrat..."/>
-                    <Item id="42032" name="Počisti zastavico Samo za branje"/>
-                    <Item id="42033" name="Komentiraj enovrstični komentar"/>
-                    <Item id="42035" name="Odkomentiraj enovrstični komentar"/>
-                    <Item id="42036" name="Odstrani prazne vrstice"/>
-                    <Item id="42055" name="Odstrani prazne vrstice (Vsebujejo prazne znake)"/>
-                    <Item id="42056" name="Vstavi prazno vrstico nad trenutno"/>
-                    <Item id="42057" name="Vstavi prazno vrstico pod trenutno"/>
-                    <Item id="42058" name="&amp;Najdi..."/>
-                    <Item id="43001" name="Najdi n&amp;aslednjega"/>
-                    <Item id="43002" name="Zamenjaj..."/>
-                    <Item id="43003" name="Pojdi v vrstico..."/>
-                    <Item id="43004" name="Preklopi zaznamek"/>
-                    <Item id="43005" name="Naslednji zaznamek"/>
-                    <Item id="43006" name="Prejšnji zaznamek"/>
-                    <Item id="43007" name="Počisti vse zaznamke"/>
-                    <Item id="43008" name="Izreži zaznamovane vrstice"/>
-                    <Item id="43018" name="Kopiraj zaznamovane vrstice"/>
-                    <Item id="43019" name="Prilepi v (zamenjaj) zaznamovane vrstice"/>
-                    <Item id="43020" name="Izbriši zaznamovane vrstice"/>
-                    <Item id="43021" name="Odstrani neoznačene vrstice"/>
-                    <Item id="43051" name="Inverzni zaznamek"/>
-                    <Item id="43050" name="Najdi znake v območju..."/>
-                    <Item id="43052" name="Izberi vse ujemanje med oklepaji"/>
-                    <Item id="43053" name="Pojdi na ujemanja"/>
-                    <Item id="43009" name="Najdi prejšnje"/>
-                    <Item id="43010" name="&amp;Inkrementalno iskanje"/>
-                    <Item id="43011" name="Najdi v datotekah"/>
-                    <Item id="43013" name="Najdi (začasno) Naprej"/>
-                    <Item id="43014" name="Najdi (začasno) Nazaj"/>
-                    <Item id="43015" name="Uporaba 1. sloga"/>
-                    <Item id="43022" name="Počisti 1. slog"/>
-                    <Item id="43023" name="Uporaba 2. sloga"/>
-                    <Item id="43024" name="Počisti 2. slog"/>
-                    <Item id="43025" name="Uporaba 3. sloga"/>
-                    <Item id="43026" name="Počisti 3. slog"/>
-                    <Item id="43027" name="Uporaba 4. sloga"/>
-                    <Item id="43028" name="Počisti 4. slog"/>
-                    <Item id="43029" name="Uporaba 5. sloga"/>
-                    <Item id="43030" name="Počisti 5. slog"/>
-                    <Item id="43031" name="Počisti vse sloge"/>
-                    <Item id="43032" name="1. slog"/>
-                    <Item id="43033" name="2. slog"/>
-                    <Item id="43034" name="3. slog"/>
-                    <Item id="43035" name="4. slog"/>
-                    <Item id="43036" name="5. slog"/>
-                    <Item id="43037" name="Najdi slog"/>
-                    <Item id="43038" name="1. slog"/>
-                    <Item id="43039" name="2. slog"/>
-                    <Item id="43040" name="3. slog"/>
-                    <Item id="43041" name="4. slog"/>
-                    <Item id="43042" name="5. slog"/>
-                    <Item id="43043" name="Najdi slog"/>
-                    <Item id="43044" name="Okno z rezultati iskanja"/>
-                    <Item id="43045" name="Naslednji rezultat iskanja"/>
-                    <Item id="43046" name="Prejšnji rezultat iskanja"/>
-                    <Item id="43047" name="Izberi in najdi naslednje"/>
-                    <Item id="43048" name="Izberi in najdi prejšnje"/>
-                    <Item id="43049" name="Označi..."/>
-                    <Item id="43054" name="Lepljivček"/>
-                    <Item id="44009" name="Strni vse"/>
-                    <Item id="44010" name="Pokaži vse znake"/>
-                    <Item id="44019" name="Pokaži vodilo zamika"/>
-                    <Item id="44020" name="Prelomi besedilo"/>
-                    <Item id="44022" name="Po&amp;večaj Ctrl+Kolešček miške gor"/>
-                    <Item id="44023" name="Po&amp;manjšaj Ctrl+Kolešček miške dol"/>
-                    <Item id="44024" name="Pokaži presledke in tabulatorje"/>
-                    <Item id="44025" name="Pokaži konce vrstic"/>
-                    <Item id="44026" name="Razprostri vse"/>
-                    <Item id="44029" name="Strni trenutno raven"/>
-                    <Item id="44030" name="Razprostri trenutno raven"/>
-                    <Item id="44031" name="Povzetek..."/>
-                    <Item id="44049" name="Mapa dokumenta"/>
-                    <Item id="44080" name="Seznam funkcij"/>
-                    <Item id="44084" name="Mapa kot &amp;delovni prostor"/>
-                    <Item id="44085" name="1. tabulator"/>
-                    <Item id="44086" name="2. tabulator"/>
-                    <Item id="44087" name="3. tabulator"/>
-                    <Item id="44088" name="4. tabulator"/>
-                    <Item id="44089" name="5. tabulator"/>
-                    <Item id="44090" name="6. tabulator"/>
-                    <Item id="44091" name="7. tabulator"/>
-                    <Item id="44092" name="8. tabulator"/>
-                    <Item id="44093" name="9. tabulator"/>
-                    <Item id="44094" name="Naslednji tabulator"/>
-                    <Item id="44095" name="Predhodni tabulator"/>
-                    <Item id="44096" name="Spremljanje (tail -f)"/>
-                    <Item id="44097" name="Premakni zavihek v ospredje"/>
-                    <Item id="44098" name="Premakni zavihek v ozadje"/>
-                    <Item id="44099" name="Preklopi celozaslonski način"/>
-                    <Item id="44032" name="Povrni privzeto povečavo"/>
-                    <Item id="44033" name="Vedno na vrhu"/>
-                    <Item id="44034" name="Sinhroniziraj navpično drsenje"/>
-                    <Item id="44035" name="Sinhroniziraj vodoravno drsenje"/>
-                    <Item id="44036" name="Pokaži simbol preloma vrstic"/>
-                    <Item id="44041" name="Žarišče na drug prikaz"/>
-                    <Item id="44072" name="Projekt Panel 1"/>
-                    <Item id="44081" name="Projekt Panel 2"/>
-                    <Item id="44082" name="Projekt Panel 3"/>
-                    <Item id="44083" name="Pretvori v obliko Windows"/>
-                    <Item id="45001" name="Pretvori v obliko UNIX"/>
-                    <Item id="45002" name="Pretvori v obliko MAC"/>
-                    <Item id="45003" name="Kodiraj v ANSI"/>
-                    <Item id="45004" name="Kodiraj v UTF-8"/>
-                    <Item id="45005" name="Kodiraj v UCS-2 Big Endian"/>
-                    <Item id="45006" name="Kodiraj v UCS-2 Little Endian"/>
-                    <Item id="45007" name="Kodiraj v UTF-8 brez BOM"/>
-                    <Item id="45008" name="Pretvori v ANSI"/>
-                    <Item id="45009" name="Pretvori v UTF-8 brez BOM"/>
-                    <Item id="45010" name="Pretvori v UTF-8"/>
-                    <Item id="45011" name="Pretvori v UCS-2 Big Endian"/>
-                    <Item id="45012" name="Pretvori v UCS-2 Little Endian"/>
-                    <Item id="45013" name="Premakni v drugi pogled"/>
+                    <Item id="41001" name="&amp;New"/>
+                    <Item id="41002" name="&amp;Open"/>
+                    <Item id="41019" name="Explorer"/>
+                    <Item id="41020" name="cmd"/>
+                    <Item id="41003" name="&amp;Close"/>
+                    <Item id="41004" name="Clos&amp;e All"/>
+                    <Item id="41005" name="Close All BUT Current Document"/>
+                    <Item id="41009" name="Close All to the Left"/>
+                    <Item id="41018" name="Close All to the Right"/>
+                    <Item id="41006" name="&amp;Save"/>
+                    <Item id="41007" name="Sav&amp;e All"/>
+                    <Item id="41008" name="Save &amp;As..."/>
+                    <Item id="41010" name="Print..."/>
+                    <Item id="1001" name="Print Now"/>
+                    <Item id="41011" name="E&amp;xit"/>
+                    <Item id="41012" name="Load Session..."/>
+                    <Item id="41013" name="Save Session..."/>
+                    <Item id="41014" name="Re&amp;load from Disk"/>
+                    <Item id="41015" name="Save a Copy As..."/>
+                    <Item id="41016" name="Move to Recycle Bin"/>
+                    <Item id="41017" name="Rename..."/>
+                    <Item id="41021" name="Restore Recent Closed File"/>
+                    <Item id="41022" name="Open Folder as Workspace..."/>
+                    <Item id="41023" name="Open in Default Viewer"/>
+                    <Item id="42001" name="Cu&amp;t"/>
+                    <Item id="42002" name="&amp;Copy"/>
+                    <Item id="42003" name="&amp;Undo"/>
+                    <Item id="42004" name="&amp;Redo"/>
+                    <Item id="42005" name="&amp;Paste"/>
+                    <Item id="42006" name="&amp;Delete"/>
+                    <Item id="42007" name="Select A&amp;ll"/>
+                    <Item id="42020" name="Begin/End Select"/>
+                    <Item id="42008" name="Increase Line Indent"/>
+                    <Item id="42009" name="Decrease Line Indent"/>
+                    <Item id="42010" name="Duplicate Current Line"/>
+                    <Item id="42012" name="Split Lines"/>
+                    <Item id="42013" name="Join Lines"/>
+                    <Item id="42014" name="Move Up Current Line"/>
+                    <Item id="42015" name="Move Down Current Line"/>
+                    <Item id="42059" name="Sort Lines Lexicographically Ascending"/>
+                    <Item id="42060" name="Sort Lines Lexicographically Descending"/>
+                    <Item id="42061" name="Sort Lines As Integers Ascending"/>
+                    <Item id="42062" name="Sort Lines As Integers Descending"/>
+                    <Item id="42063" name="Sort Lines As Decimals (Comma) Ascending"/>
+                    <Item id="42064" name="Sort Lines As Decimals (Comma) Descending"/>
+                    <Item id="42065" name="Sort Lines As Decimals (Dot) Ascending"/>
+                    <Item id="42066" name="Sort Lines As Decimals (Dot) Descending"/>
+                    <Item id="42016" name="&amp;UPPERCASE"/>
+                    <Item id="42017" name="&amp;lowercase"/>
+                    <Item id="42067" name="&amp;Proper Case"/>
+                    <Item id="42068" name="Proper Case (blend)"/>
+                    <Item id="42069" name="&amp;Sentence case"/>
+                    <Item id="42070" name="Sentence case (blend)"/>
+                    <Item id="42071" name="&amp;iNVERT cASE"/>
+                    <Item id="42072" name="&amp;ranDOm CasE"/>
+                    <Item id="42073" name="Open File"/>
+                    <Item id="42074" name="Open Containing Folder in Explorer"/>
+                    <Item id="42075" name="Search on Internet"/>
+                    <Item id="42076" name="Change Search Engine..."/>
+                    <Item id="42018" name="Start Re&amp;cording"/>
+                    <Item id="42019" name="S&amp;top Recording"/>
+                    <Item id="42021" name="&amp;Playback"/>
+                    <Item id="42022" name="Toggle Single Line Comment"/>
+                    <Item id="42023" name="Block Comment"/>
+                    <Item id="42047" name="Block Uncomment"/>
+                    <Item id="42024" name="Trim Trailing Space"/>
+                    <Item id="42042" name="Trim Leading Space"/>
+                    <Item id="42043" name="Trim Leading and Trailing Space"/>
+                    <Item id="42044" name="EOL to Space"/>
+                    <Item id="42045" name="Remove Unnecessary Blank and EOL"/>
+                    <Item id="42046" name="TAB to Space"/>
+                    <Item id="42054" name="Space to TAB (All)"/>
+                    <Item id="42053" name="Space to TAB (Leading)"/>
+                    <Item id="42038" name="Paste HTML Content"/>
+                    <Item id="42039" name="Paste RTF Content"/>
+                    <Item id="42048" name="Copy Binary Content"/>
+                    <Item id="42049" name="Cut Binary Content"/>
+                    <Item id="42050" name="Paste Binary Content"/>
+                    <Item id="42037" name="Column Mode..."/>
+                    <Item id="42034" name="Column Editor..."/>
+                    <Item id="42051" name="Character Panel"/>
+                    <Item id="42052" name="Clipboard History"/>
+                    <Item id="42025" name="&amp;Save Currently Recorded Macro..."/>
+                    <Item id="42026" name="Text Direction RTL"/>
+                    <Item id="42027" name="Text Direction LTR"/>
+                    <Item id="42028" name="Set Read-Only"/>
+                    <Item id="42029" name="Current File Path to Clipboard"/>
+                    <Item id="42030" name="Current Filename to Clipboard"/>
+                    <Item id="42031" name="Current Dir. Path to Clipboard"/>
+                    <Item id="42032" name="&amp;Run a Macro Multiple Times..."/>
+                    <Item id="42033" name="Clear Read-Only Flag"/>
+                    <Item id="42035" name="Single Line Comment"/>
+                    <Item id="42036" name="Single Line Uncomment"/>
+                    <Item id="42055" name="Remove Empty Lines"/>
+                    <Item id="42056" name="Remove Empty Lines (Containing Blank characters)"/>
+                    <Item id="42057" name="Insert Blank Line Above Current"/>
+                    <Item id="42058" name="Insert Blank Line Below Current"/>
+                    <Item id="43001" name="&amp;Find..."/>
+                    <Item id="43002" name="Find &amp;Next"/>
+                    <Item id="43003" name="&amp;Replace..."/>
+                    <Item id="43004" name="&amp;Go to..."/>
+                    <Item id="43005" name="Toggle Bookmark"/>
+                    <Item id="43006" name="Next Bookmark"/>
+                    <Item id="43007" name="Previous Bookmark"/>
+                    <Item id="43008" name="Clear All Bookmarks"/>
+                    <Item id="43018" name="Cut Bookmarked Lines"/>
+                    <Item id="43019" name="Copy Bookmarked Lines"/>
+                    <Item id="43020" name="Paste to (Replace) Bookmarked Lines"/>
+                    <Item id="43021" name="Remove Bookmarked Lines"/>
+                    <Item id="43051" name="Remove Unmarked Lines"/>
+                    <Item id="43050" name="Inverse Bookmark"/>
+                    <Item id="43052" name="Find characters in range..."/>
+                    <Item id="43053" name="Select All Between Matching Braces"/>
+                    <Item id="43009" name="Go to Matching Brace"/>
+                    <Item id="43010" name="Find &amp;Previous"/>
+                    <Item id="43011" name="&amp;Incremental Search"/>
+                    <Item id="43013" name="Find in Files"/>
+                    <Item id="43014" name="Find (Volatile) Next"/>
+                    <Item id="43015" name="Find (Volatile) Previous"/>
+                    <Item id="43022" name="Using 1st Style"/>
+                    <Item id="43023" name="Clear 1st Style"/>
+                    <Item id="43024" name="Using 2nd Style"/>
+                    <Item id="43025" name="Clear 2nd Style"/>
+                    <Item id="43026" name="Using 3rd Style"/>
+                    <Item id="43027" name="Clear 3rd Style"/>
+                    <Item id="43028" name="Using 4th Style"/>
+                    <Item id="43029" name="Clear 4th Style"/>
+                    <Item id="43030" name="Using 5th Style"/>
+                    <Item id="43031" name="Clear 5th Style"/>
+                    <Item id="43032" name="Clear All Styles"/>
+                    <Item id="43033" name="1st style"/>
+                    <Item id="43034" name="2nd style"/>
+                    <Item id="43035" name="3rd style"/>
+                    <Item id="43036" name="4th style"/>
+                    <Item id="43037" name="5th style"/>
+                    <Item id="43038" name="Find style"/>
+                    <Item id="43039" name="1st style"/>
+                    <Item id="43040" name="2nd style"/>
+                    <Item id="43041" name="3rd style"/>
+                    <Item id="43042" name="4th style"/>
+                    <Item id="43043" name="5th style"/>
+                    <Item id="43044" name="Find style"/>
+                    <Item id="43045" name="Search Results Window"/>
+                    <Item id="43046" name="Next Search Result"/>
+                    <Item id="43047" name="Previous Search Result"/>
+                    <Item id="43048" name="Select and Find Next"/>
+                    <Item id="43049" name="Select and Find Previous"/>
+                    <Item id="43054" name="Mar&amp;k..."/>
+                    <Item id="44009" name="Post-It"/>
+                    <Item id="44010" name="Fold All"/>
+                    <Item id="44019" name="Show All Characters"/>
+                    <Item id="44020" name="Show Indent Guide"/>
+                    <Item id="44022" name="Word wrap"/>
+                    <Item id="44023" name="Zoom &amp;In (Ctrl+Mouse Wheel Up)"/>
+                    <Item id="44024" name="Zoom &amp;Out (Ctrl+Mouse Wheel Down)"/>
+                    <Item id="44025" name="Show White Space and TAB"/>
+                    <Item id="44026" name="Show End of Line"/>
+                    <Item id="44029" name="Unfold All"/>
+                    <Item id="44030" name="Collapse Current Level"/>
+                    <Item id="44031" name="Uncollapse Current Level"/>
+                    <Item id="44049" name="Summary..."/>
+                    <Item id="44080" name="Document Map"/>
+                    <Item id="44084" name="Function List"/>
+                    <Item id="44085" name="Folder as Workspace"/>
+                    <Item id="44086" name="1st Tab"/>
+                    <Item id="44087" name="2nd Tab"/>
+                    <Item id="44088" name="3rd Tab"/>
+                    <Item id="44089" name="4th Tab"/>
+                    <Item id="44090" name="5th Tab"/>
+                    <Item id="44091" name="6th Tab"/>
+                    <Item id="44092" name="7th Tab"/>
+                    <Item id="44093" name="8th Tab"/>
+                    <Item id="44094" name="9th Tab"/>
+                    <Item id="44095" name="Next Tab"/>
+                    <Item id="44096" name="Previous Tab"/>
+                    <Item id="44097" name="Monitoring (tail -f)"/>
+                    <Item id="44098" name="Move Tab Forward"/>
+                    <Item id="44099" name="Move Tab Backward"/>
+                    <Item id="44032" name="Toggle Full Screen Mode"/>
+                    <Item id="44033" name="Restore Default Zoom"/>
+                    <Item id="44034" name="Always on Top"/>
+                    <Item id="44035" name="Synchronise Vertical Scrolling"/>
+                    <Item id="44036" name="Synchronise Horizontal Scrolling"/>
+                    <Item id="44041" name="Show Wrap Symbol"/>
+                    <Item id="44072" name="Focus on Another View"/>
+                    <Item id="44081" name="Project Panel 1"/>
+                    <Item id="44082" name="Project Panel 2"/>
+                    <Item id="44083" name="Project Panel 3"/>
+                    <Item id="45001" name="Windows (CR LF)"/>
+                    <Item id="45002" name="Unix (LF)"/>
+                    <Item id="45003" name="Macintosh (CR)"/>
+                    <Item id="45004" name="Encode in ANSI"/>
+                    <Item id="45005" name="Encode in UTF-8-BOM"/>
+                    <Item id="45006" name="Encode in UCS-2 BE BOM"/>
+                    <Item id="45007" name="Encode in UCS-2 LE BOM"/>
+                    <Item id="45008" name="Encode in UTF-8"/>
+                    <Item id="45009" name="Convert to ANSI"/>
+                    <Item id="45010" name="Convert to UTF-8"/>
+                    <Item id="45011" name="Convert to UTF-8-BOM"/>
+                    <Item id="45012" name="Convert to UCS-2 BE BOM"/>
+                    <Item id="45013" name="Convert to UCS-2 LE BOM"/>
 
-                    <Item id="10001" name="Kloniraj v drugi pogled"/>
-                    <Item id="10002" name="Premakni v novo pojavitev"/>
-                    <Item id="10003" name="Odpri v novi pojavitvi"/>
-                    <Item id="10004" name="Nastavljanje sloga..."/>
+                    <Item id="10001" name="Move to Other View"/>
+                    <Item id="10002" name="Clone to Other View"/>
+                    <Item id="10003" name="Move to New Instance"/>
+                    <Item id="10004" name="Open in New Instance"/>
 
-                    <Item id="46001" name="Določite svoj jezik..."/>
-                    <Item id="46250" name="Uporabniško določeno"/>
-                    <Item id="46180" name="Vizitka Notepad++ ..."/>
-                    <Item id="47000" name="Argumenti ukazne vrstice..."/>
-                    <Item id="47010" name="Domača stran Notepad++"/>
-                    <Item id="47001" name="Stran projekta Notepad++"/>
-                    <Item id="47002" name="Spletna dokumentacija"/>
-                    <Item id="47003" name="Notepad++ Skupnost (Forum)"/>
-                    <Item id="47004" name="Podpora v živo"/>
-                    <Item id="47011" name="Info o razhroščevanju..."/>
-                    <Item id="47012" name="Dodatni vtičniki"/>
-                    <Item id="47005" name="Posodobi Notepad++"/>
-                    <Item id="47006" name="Nastavite Updater Proxy..."/>
-                    <Item id="47009" name="Uvozi vtičnike..."/>
-                    <Item id="48005" name="Uvozi teme..."/>
-                    <Item id="48006" name="Uredi pojavno okno kontekstnega menija"/>
-                    <Item id="48018" name="Bližnjice..."/>
-                    <Item id="48009" name="Nastavitve..."/>
-                    <Item id="48011" name="Generaj..."/>
-                    <Item id="48015" name="Generiraj iz datoteke..."/>
-                    <Item id="48501" name="Generiraj v odložišče"/>
-                    <Item id="48502" name="&amp;Poženi ..."/>
-                    <Item id="48503" name="Dopolnjevanje funkcij"/>
-                    <Item id="49000" name="Dopolnjevanje besed"/>
+                    <Item id="46001" name="Style Configurator..."/>
+                    <Item id="46250" name="Define your language..."/>
+                    <Item id="46180" name="User-Defined"/>
+                    <Item id="47000" name="About Notepad++"/>
+                    <Item id="47010" name="Command Line Arguments..."/>
+                    <Item id="47001" name="Notepad++ Home"/>
+                    <Item id="47002" name="Notepad++ Project Page"/>
+                    <Item id="47003" name="Online Documentation"/>
+                    <Item id="47004" name="Notepad++ Community (Forum)"/>
+                    <Item id="47011" name="Live Support"/>
+                    <Item id="47012" name="Debug Info..."/>
+                    <Item id="47005" name="Get More Plugins"/>
+                    <Item id="47006" name="Update Notepad++"/>
+                    <Item id="47009" name="Set Updater Proxy..."/>
+                    <Item id="48005" name="Import plugin(s)..."/>
+                    <Item id="48006" name="Import style theme(s)..."/>
+                    <Item id="48018" name="Edit Popup ContextMenu"/>
+                    <Item id="48009" name="Shortcut Mapper..."/>
+                    <Item id="48011" name="Preferences..."/>
+                    <Item id="48015" name="Plugins Admin..."/>
+                    <Item id="48501" name="Generate..."/>
+                    <Item id="48502" name="Generate from files..."/>
+                    <Item id="48503" name="Generate into clipboard"/>
+                    <Item id="49000" name="&amp;Run..."/>
 
-                    <Item id="50000" name="Namig za parametre funkcij"/>
-                    <Item id="50001" name="Pot dopolnitev"/>
-                    <Item id="50002" name="Skrij vrstice"/>
-                    <Item id="50006" name="Odpri vse nedavne datoteke"/>
-                    <Item id="44042" name="Počisti seznam nedavno odprtih datotek"/>
-                    <Item id="42040" name="Spremeni bližnjico/Izbriši makro..."/>
-                    <Item id="42041" name="Spremeni bližnjico/Izbriši ukaz..."/>
+                    <Item id="50000" name="Function Completion"/>
+                    <Item id="50001" name="Word Completion"/>
+                    <Item id="50002" name="Function Parameters Hint"/>
+                    <Item id="50006" name="Path Completion"/>
+                    <Item id="44042" name="Hide Lines"/>
+                    <Item id="42040" name="Open All Recent Files"/>
+                    <Item id="42041" name="Empty Recent Files List"/>
                     <Item id="48016" name="Modify Shortcut/Delete Macro..."/>
                     <Item id="48017" name="Modify Shortcut/Delete Command..."/>
                 </Commands>
@@ -314,108 +314,108 @@
             <Splitter>
             </Splitter>
             <TabBar>
-                    <Item CMID="0" name="Zapri"/>
-                    <Item CMID="1" name="Zapri vse razen tega"/>
-                    <Item CMID="2" name="Shrani"/>
-                    <Item CMID="3" name="Shrani kot..."/>
-                    <Item CMID="4" name="Natisni"/>
-                    <Item CMID="5" name="Premakni v drugi pogled"/>
-                    <Item CMID="6" name="Kloniraj v drugi pogled"/>
-                    <Item CMID="7" name="Polna pot trenutne datoteke v odložišče"/>
-                    <Item CMID="8" name="Ime datoteke v odložišče"/>
-                    <Item CMID="9" name="Pot trenutne mape v odložišče"/>
-                    <Item CMID="10" name="Preimenuj"/>
-                    <Item CMID="11" name="Premakni v Koš"/>
-                    <Item CMID="12" name="Samo za branje"/>
-                    <Item CMID="13" name="Počisti oznako Samo za branje"/>
-                    <Item CMID="14" name="Premakni v novo pojavitev"/>
-                    <Item CMID="15" name="Odpri v novi pojavitvi"/>
-                    <Item CMID="16" name="Osveži"/>
-                    <Item CMID="17" name="Zapri vse na levo"/>
-                    <Item CMID="18" name="Zapri vse na desno"/>
-                    <Item CMID="19" name="Odpri vsebino mape v Raziskovalcu"/>
-                    <Item CMID="20" name="Odpri vsebino mape v cmd.exe oknu"/>
+                    <Item CMID="0" name="Close"/>
+                    <Item CMID="1" name="Close All BUT This"/>
+                    <Item CMID="2" name="Save"/>
+                    <Item CMID="3" name="Save As..."/>
+                    <Item CMID="4" name="Print"/>
+                    <Item CMID="5" name="Move to Other View"/>
+                    <Item CMID="6" name="Clone to Other View"/>
+                    <Item CMID="7" name="Full File Path to Clipboard"/>
+                    <Item CMID="8" name="Filename to Clipboard"/>
+                    <Item CMID="9" name="Current Dir. Path to Clipboard"/>
+                    <Item CMID="10" name="Rename"/>
+                    <Item CMID="11" name="Move to Recycle Bin"/>
+                    <Item CMID="12" name="Read-Only"/>
+                    <Item CMID="13" name="Clear Read-Only Flag"/>
+                    <Item CMID="14" name="Move to New Instance"/>
+                    <Item CMID="15" name="Open in New Instance"/>
+                    <Item CMID="16" name="Reload"/>
+                    <Item CMID="17" name="Close All to the Left"/>
+                    <Item CMID="18" name="Close All to the Right"/>
+                    <Item CMID="19" name="Open Containing Folder in Explorer"/>
+                    <Item CMID="20" name="Open Containing Folder in cmd"/>
                     <Item CMID="21" name="Open in Default Viewer"/>
             </TabBar>
         </Menu>
 
         <Dialog>
-            <Find title="" titleFind="Najdi" titleReplace="Zamenjaj" titleFindInFiles="Najdi v datotekah" titleMark="Označi">
-                <Item id="1" name="Najdi naslednjega"/>
-                <Item id="1722" name="Zapri"/>
-                <Item id="2" name="Najdi:"/>
-                <Item id="1620" name="Upoštevaj samo &amp;cele besede"/>
-                <Item id="1603" name="Upoštevaj &amp;VELIKE/male črke"/>
-                <Item id="1604" name="&amp;Regularni izraz"/>
-                <Item id="1605" name="&amp;Prelom"/>
-                <Item id="1606" name="Navz&amp;gor"/>
-                <Item id="1614" name="Navz&amp;dol"/>
-                <Item id="1615" name="Preštej"/>
-                <Item id="1616" name="Najdi vse"/>
-                <Item id="1618" name="Označi vrstico"/>
-                <Item id="1611" name="Počisti ob vsakem iskanju"/>
-                <Item id="1608" name="Smer"/>
-                <Item id="1609" name="Z&amp;amenjaj z:"/>
-                <Item id="1687" name="&amp;Zamenjaj"/>
-                <Item id="1688" name="Zamenjaj &amp;vse"/>
-                <Item id="1632" name="Ob izgubljeni pozornosti"/>
-                <Item id="1633" name="Vedno"/>
-                <Item id="1635" name="V izboru"/>
-                <Item id="1636" name="Počisti"/>
-                <Item id="1654" name="Zamenjaj vse v vseh odprtih dokumentih"/>
-                <Item id="1655" name="Najdi vse v vseh odprtih dokumentih"/>
-                <Item id="1656" name="Filtri:"/>
-                <Item id="1658" name="Mapa:"/>
-                <Item id="1659" name="Najdi vse"/>
-                <Item id="1624" name="V vseh podmapah"/>
-                <Item id="1625" name="V skritih mapah"/>
-                <Item id="1626" name="Iskalni način"/>
-                <Item id="1660" name="Navaden"/>
-                <Item id="1661" name="Razširjen (\n, \r, \t, \0, \x...)"/>
-                <Item id="1641" name="Zamenjaj v datotekah"/>
-                <Item id="1686" name="Sledi trenutni dok."/>
-                <Item id="1703" name="Najdi vse v trenutnem dokumentu"/>
+            <Find title="" titleFind="Find" titleReplace="Replace" titleFindInFiles="Find in Files" titleMark="Mark">
+                <Item id="1" name="Find Next"/>
+                <Item id="1722" name="Backward direction"/>
+                <Item id="2" name="Close"/>
+                <Item id="1620" name="&amp;Find what :"/>
+                <Item id="1603" name="Match &amp;whole word only"/>
+                <Item id="1604" name="Match &amp;case"/>
+                <Item id="1605" name="Re&amp;gular expression"/>
+                <Item id="1606" name="Wra&amp;p around"/>
+                <Item id="1614" name="Coun&amp;t"/>
+                <Item id="1615" name="Mark All"/>
+                <Item id="1616" name="Book&amp;mark line"/>
+                <Item id="1618" name="Purge for each search"/>
+                <Item id="1611" name="Rep&amp;lace with :"/>
+                <Item id="1608" name="&amp;Replace"/>
+                <Item id="1609" name="Replace &amp;All"/>
+                <Item id="1687" name="On losing focus"/>
+                <Item id="1688" name="Always"/>
+                <Item id="1632" name="In select&amp;ion"/>
+                <Item id="1633" name="Clear all marks"/>
+                <Item id="1635" name="Replace All in All &amp;Opened Documents"/>
+                <Item id="1636" name="Find All in All &amp;Opened Documents"/>
+                <Item id="1654" name="Filter&amp;s :"/>
+                <Item id="1655" name="Dir&amp;ectory :"/>
+                <Item id="1656" name="Find All"/>
+                <Item id="1658" name="In all su&amp;b-folders"/>
+                <Item id="1659" name="In &amp;hidden folders"/>
+                <Item id="1624" name="Search mode"/>
+                <Item id="1625" name="&amp;Normal"/>
+                <Item id="1626" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
+                <Item id="1660" name="&amp;Replace in Files"/>
+                <Item id="1661" name="Follow current doc."/>
+                <Item id="1641" name="Find All in Current Document"/>
+                <Item id="1686" name="Transparenc&amp;y"/>
+                <Item id="1703" name="&amp;. matches newline"/>
             </Find>
 
-            <FindCharsInRange title="Najdi znake v območju...">
-                <Item id="2" name="Zapri"/>
-                <Item id="2901" name="Niso-ASCII znaki (128-255)"/>
-                <Item id="2902" name="ASCII znaki (0-127)"/>
-                <Item id="2903" name="Moje območje:"/>
-                <Item id="2906" name="&amp;Navzgor"/>
-                <Item id="2907" name="&amp;Navzdol"/>
-                <Item id="2908" name="Smer"/>
-                <Item id="2909" name="Oklepaj&amp;oče"/>
-                <Item id="2910" name="Najdi"/>
+            <FindCharsInRange title="Find Characters in Range...">
+                <Item id="2" name="Close"/>
+                <Item id="2901" name="Non-ASCII Characters (128-255)"/>
+                <Item id="2902" name="ASCII Characters (0-127)"/>
+                <Item id="2903" name="My range:"/>
+                <Item id="2906" name="&amp;Up"/>
+                <Item id="2907" name="&amp;Down"/>
+                <Item id="2908" name="Direction"/>
+                <Item id="2909" name="Wra&amp;p around"/>
+                <Item id="2910" name="Find"/>
             </FindCharsInRange>
 
-            <GoToLine title="Pojdi v vrstico ...">
-                <Item id="2007" name="Vrstica"/>
-                <Item id="2008" name="Zamik"/>
-                <Item id="1" name="&amp;Pojdi"/>
-                <Item id="2" name="Prekliči"/>
-                <Item id="2004" name="Trenutno ste v:"/>
-                <Item id="2005" name="Želite v:"/>
-                <Item id="2006" name="Ne morete iti dlje od:"/>
+            <GoToLine title="Go to...">
+                <Item id="2007" name="&amp;Line"/>
+                <Item id="2008" name="&amp;Offset"/>
+                <Item id="1" name="Go"/>
+                <Item id="2" name="I'm going nowhere"/>
+                <Item id="2004" name="You are here:"/>
+                <Item id="2005" name="You want to go to:"/>
+                <Item id="2006" name="You can't go further than:"/>
             </GoToLine>
 
-            <Run title="Poženi...">
-                <Item id="1903" name="Vnesite program za zagon"/>
-                <Item id="1" name="Poženi"/>
-                <Item id="2" name="Prekliči"/>
-                <Item id="1904" name="Shrani..."/>
+            <Run title="Run...">
+                <Item id="1903" name="The Program to Run"/>
+                <Item id="1" name="Run"/>
+                <Item id="2" name="Cancel"/>
+                <Item id="1904" name="Save..."/>
             </Run>
 
-            <MD5FromFilesDlg title="Generiraj MD5 povzetek iz datotek">
-                <Item id="1922" name="Izberite datoteke za generiranje MD5..."/>
-                <Item id="1924" name="Kopiraj v odložišče"/>
-                <Item id="2" name="Zapri"/>
+            <MD5FromFilesDlg title="Generate MD5 digest from files">
+                <Item id="1922" name="Choose files to generate MD5..."/>
+                <Item id="1924" name="Copy to Clipboard"/>
+                <Item id="2" name="Close"/>
             </MD5FromFilesDlg>
 
-            <MD5FromTextDlg title="Generiraj MD5 povzetek">
-                <Item id="1932" name="Obravnavaj vsako vrstico kot ločen niz"/>
-                <Item id="1934" name="Kopiraj v odložišče"/>
-                <Item id="2" name="Zapri"/>
+            <MD5FromTextDlg title="Generate MD5 digest">
+                <Item id="1932" name="Treat each line as a separate string"/>
+                <Item id="1934" name="Copy to Clipboard"/>
+                <Item id="2" name="Close"/>
             </MD5FromTextDlg>
 
             <PluginsAdminDlg title="Plugins Admin" titleAvailable="Available" titleUpdates="Updates" titleInstalled="Installed">
@@ -429,34 +429,34 @@
                 <Item id="2" name="Close"/>
             </PluginsAdminDlg>
 
-            <StyleConfig title="Prilagoditev sloga">
-                <Item id="2" name="Prekliči"/>
-                <Item id="2301" name="Shrani in zapri"/>
-                <Item id="2303" name="Prosojnost"/>
-                <Item id="2306" name="Izberite temo: "/>
+            <StyleConfig title="Style Configurator">
+                <Item id="2" name="Cancel"/>
+                <Item id="2301" name="Save &amp;&amp; Close"/>
+                <Item id="2303" name="Transparency"/>
+                <Item id="2306" name="Select theme: "/>
                 <SubDialog>
-                    <Item id="2204" name="Krepko"/>
-                    <Item id="2205" name="Ležeče"/>
-                    <Item id="2206" name="Barva pisave"/>
-                    <Item id="2207" name="Barva ozadja"/>
-                    <Item id="2208" name="Ime pisave:"/>
-                    <Item id="2209" name="Velikost pisave:"/>
-                    <Item id="2211" name="Slog:"/>
-                    <Item id="2212" name="Barve sloga"/>
-                    <Item id="2213" name="Slog pisave"/>
-                    <Item id="2214" name="Privzeta razširitev:"/>
-                    <Item id="2216" name="Uporabniška razširitev:"/>
-                    <Item id="2218" name="Podčrtano"/>
-                    <Item id="2219" name="Privzete ključne besede"/>
-                    <Item id="2221" name="Uporabniško določene ključne besede"/>
-                    <Item id="2225" name="Jezik:"/>
-                    <Item id="2226" name="Omogoči splošno barvo ospredja"/>
-                    <Item id="2227" name="Omogoči splošno barvo ozadja"/>
-                    <Item id="2228" name="Omogoči splošno pisavo"/>
-                    <Item id="2229" name="Omogoči splošno velikost pisave"/>
-                    <Item id="2230" name="Omogoči splošni krepki slog pisave"/>
-                    <Item id="2231" name="Omogoči splošni ležeči slog pisave"/>
-                    <Item id="2232" name="Omogoči splošni podčrtani slog pisave"/>
+                    <Item id="2204" name="Bold"/>
+                    <Item id="2205" name="Italic"/>
+                    <Item id="2206" name="Foreground colour"/>
+                    <Item id="2207" name="Background colour"/>
+                    <Item id="2208" name="Font name:"/>
+                    <Item id="2209" name="Font size:"/>
+                    <Item id="2211" name="Style:"/>
+                    <Item id="2212" name="Colour Style"/>
+                    <Item id="2213" name="Font Style"/>
+                    <Item id="2214" name="Default ext.:"/>
+                    <Item id="2216" name="User ext.:"/>
+                    <Item id="2218" name="Underline"/>
+                    <Item id="2219" name="Default keywords"/>
+                    <Item id="2221" name="User-defined keywords"/>
+                    <Item id="2225" name="Language:"/>
+                    <Item id="2226" name="Enable global foreground colour"/>
+                    <Item id="2227" name="Enable global background colour"/>
+                    <Item id="2228" name="Enable global font"/>
+                    <Item id="2229" name="Enable global font size"/>
+                    <Item id="2230" name="Enable global bold font style"/>
+                    <Item id="2231" name="Enable global italic font style"/>
+                    <Item id="2232" name="Enable global underline font style"/>
                 </SubDialog>
             </StyleConfig>
 
@@ -488,458 +488,458 @@
                 <Item id="5007" name="This will remove shortcut from this command"/>
                 <Item id="5012" name="CONFLICT FOUND!"/>
             </ShortcutMapperSubDialg>
-            <UserDefine title="Uporabniško določen">
-                <Item id="20001" name="Zasidraj"/>
-                <Item id="20002" name="Preimenuj"/>
-                <Item id="20003" name="Ustvari novega..."/>
-                <Item id="20004" name="Odstrani"/>
-                <Item id="20005" name="Shrani kot..."/>
-                <Item id="20007" name="Jezik vmesnika: "/>
-                <Item id="20009" name="Pripona:"/>
-                <Item id="20012" name="Ne razlikuj VELIKE/male črke"/>
-                <Item id="20011" name="Prosojnost"/>
-                <Item id="20015" name="Uvoz..."/>
-                <Item id="20016" name="Izvoz..."/>
-                <StylerDialog title="Pogovorno okno Slogovnika">
-                    <Item id="25030" name="Možnosti pisave:"/>
-                    <Item id="25006" name="Barva pisave"/>
-                    <Item id="25007" name="Barva ozadja"/>
-                    <Item id="25031" name="Ime:"/>
-                    <Item id="25032" name="Velikost:"/>
-                    <Item id="25001" name="Krepko"/>
-                    <Item id="25002" name="Ležeče"/>
-                    <Item id="25003" name="Podčrtano"/>
-                    <Item id="25029" name="Gnezdenje:"/>
-                    <Item id="25008" name="Razmejilnik 1"/>
-                    <Item id="25009" name="Razmejilnik 2"/>
-                    <Item id="25010" name="Razmejilnik 3"/>
-                    <Item id="25011" name="Razmejilnik 4"/>
-                    <Item id="25012" name="Razmejilnik 5"/>
-                    <Item id="25013" name="Razmejilnik 6"/>
-                    <Item id="25014" name="Razmejilnik 7"/>
-                    <Item id="25015" name="Razmejilnik 8"/>
-                    <Item id="25018" name="Ključna beseda 1"/>
-                    <Item id="25019" name="Ključna beseda 2"/>
-                    <Item id="25020" name="Ključna beseda 3"/>
-                    <Item id="25021" name="Ključna beseda 4"/>
-                    <Item id="25022" name="Ključna beseda 5"/>
-                    <Item id="25023" name="Ključna beseda 6"/>
-                    <Item id="25024" name="Ključna beseda 7"/>
-                    <Item id="25025" name="Ključna beseda 8"/>
-                    <Item id="25016" name="Komentar"/>
-                    <Item id="25017" name="Vrstica komentarja"/>
+            <UserDefine title="User-Defined">
+                <Item id="20001" name="Dock"/>
+                <Item id="20002" name="Rename"/>
+                <Item id="20003" name="Create New..."/>
+                <Item id="20004" name="Remove"/>
+                <Item id="20005" name="Save As..."/>
+                <Item id="20007" name="User language: "/>
+                <Item id="20009" name="Ext.:"/>
+                <Item id="20012" name="Ignore case"/>
+                <Item id="20011" name="Transparency"/>
+                <Item id="20015" name="Import..."/>
+                <Item id="20016" name="Export..."/>
+                <StylerDialog title="Styler Dialog">
+                    <Item id="25030" name="Font options:"/>
+                    <Item id="25006" name="Foreground colour"/>
+                    <Item id="25007" name="Background colour"/>
+                    <Item id="25031" name="Name:"/>
+                    <Item id="25032" name="Size:"/>
+                    <Item id="25001" name="Bold"/>
+                    <Item id="25002" name="Italic"/>
+                    <Item id="25003" name="Underline"/>
+                    <Item id="25029" name="Nesting:"/>
+                    <Item id="25008" name="Delimiter 1"/>
+                    <Item id="25009" name="Delimiter 2"/>
+                    <Item id="25010" name="Delimiter 3"/>
+                    <Item id="25011" name="Delimiter 4"/>
+                    <Item id="25012" name="Delimiter 5"/>
+                    <Item id="25013" name="Delimiter 6"/>
+                    <Item id="25014" name="Delimiter 7"/>
+                    <Item id="25015" name="Delimiter 8"/>
+                    <Item id="25018" name="Keyword 1"/>
+                    <Item id="25019" name="Keyword 2"/>
+                    <Item id="25020" name="Keyword 3"/>
+                    <Item id="25021" name="Keyword 4"/>
+                    <Item id="25022" name="Keyword 5"/>
+                    <Item id="25023" name="Keyword 6"/>
+                    <Item id="25024" name="Keyword 7"/>
+                    <Item id="25025" name="Keyword 8"/>
+                    <Item id="25016" name="Comment"/>
+                    <Item id="25017" name="Comment line"/>
                     <Item id="25026" name="Operator 1"/>
                     <Item id="25027" name="Operator 2"/>
-                    <Item id="25028" name="Števila"/>
-                    <Item id="1" name="V redu"/>
-                    <Item id="2" name="Prekliči"/>
+                    <Item id="25028" name="Numbers"/>
+                    <Item id="1" name="OK"/>
+                    <Item id="2" name="Cancel"/>
                 </StylerDialog>
-                <Folder title="Mapa &amp;&amp; Privzeto">
-                    <Item id="21101" name="Privzete nastavitve sloga"/>
-                    <Item id="21102" name="Slogovnik"/>
-                    <Item id="21105" name="Dokumentacija:"/>
-                    <Item id="21104" name="Začasna stran dok:"/>
-                    <Item id="21106" name="Zloži kompaktno (zloži tudi prazne vrstice)"/>
-                    <Item id="21220" name="Zlaganje v kodi 1 sloga:"/>
-                    <Item id="21224" name="Odpri:"/>
-                    <Item id="21225" name="Sredina:"/>
-                    <Item id="21226" name="Zapri:"/>
-                    <Item id="21227" name="Slogovnik"/>
-                    <Item id="21320" name="Zlaganje v kodi 2. sloga (potrebni separatorji):"/>
-                    <Item id="21324" name="Odpri:"/>
-                    <Item id="21325" name="Sredina:"/>
-                    <Item id="21326" name="Zapri:"/>
-                    <Item id="21327" name="Slogovnik"/>
-                    <Item id="21420" name="Zlaganje v slogu komentarja:"/>
-                    <Item id="21424" name="Odpri:"/>
-                    <Item id="21425" name="Sredina:"/>
-                    <Item id="21426" name="Zapri:"/>
-                    <Item id="21427" name="Slogovnik"/>
+                <Folder title="Folder &amp;&amp; Default">
+                    <Item id="21101" name="Default style"/>
+                    <Item id="21102" name="Styler"/>
+                    <Item id="21105" name="Documentation:"/>
+                    <Item id="21104" name="Temporary doc site:"/>
+                    <Item id="21106" name="Fold &amp;compact (fold empty lines too)"/>
+                    <Item id="21220" name="Folding in code 1 style:"/>
+                    <Item id="21224" name="Open:"/>
+                    <Item id="21225" name="Middle:"/>
+                    <Item id="21226" name="Close:"/>
+                    <Item id="21227" name="Styler"/>
+                    <Item id="21320" name="Folding in code 2 style (separators needed):"/>
+                    <Item id="21324" name="Open:"/>
+                    <Item id="21325" name="Middle:"/>
+                    <Item id="21326" name="Close:"/>
+                    <Item id="21327" name="Styler"/>
+                    <Item id="21420" name="Folding in comment style:"/>
+                    <Item id="21424" name="Open:"/>
+                    <Item id="21425" name="Middle:"/>
+                    <Item id="21426" name="Close:"/>
+                    <Item id="21427" name="Styler"/>
                 </Folder>
-                <Keywords title="Seznam ključnih besed">
-                    <Item id="22101" name="1. skupina"/>
-                    <Item id="22201" name="2. skupina"/>
-                    <Item id="22301" name="3. skupina"/>
-                    <Item id="22401" name="4. skupina"/>
-                    <Item id="22451" name="5. skupina"/>
-                    <Item id="22501" name="6. skupina"/>
-                    <Item id="22551" name="7. skupina"/>
-                    <Item id="22601" name="8. skupina"/>
-                    <Item id="22121" name="Način predpone"/>
-                    <Item id="22221" name="Način predpone"/>
-                    <Item id="22321" name="Način predpone"/>
-                    <Item id="22421" name="Način predpone"/>
-                    <Item id="22471" name="Način predpone"/>
-                    <Item id="22521" name="Način predpone"/>
-                    <Item id="22571" name="Način predpone"/>
-                    <Item id="22621" name="Način predpone"/>
-                    <Item id="22122" name="Slogovnik"/>
-                    <Item id="22222" name="Slogovnik"/>
-                    <Item id="22322" name="Slogovnik"/>
-                    <Item id="22422" name="Slogovnik"/>
-                    <Item id="22472" name="Slogovnik"/>
-                    <Item id="22522" name="Slogovnik"/>
-                    <Item id="22572" name="Slogovnik"/>
-                    <Item id="22622" name="Slogovnik"/>
+                <Keywords title="Keywords Lists">
+                    <Item id="22101" name="1st Group"/>
+                    <Item id="22201" name="2nd Group"/>
+                    <Item id="22301" name="3rd Group"/>
+                    <Item id="22401" name="4th Group"/>
+                    <Item id="22451" name="5th Group"/>
+                    <Item id="22501" name="6th Group"/>
+                    <Item id="22551" name="7th Group"/>
+                    <Item id="22601" name="8th Group"/>
+                    <Item id="22121" name="Prefix mode"/>
+                    <Item id="22221" name="Prefix mode"/>
+                    <Item id="22321" name="Prefix mode"/>
+                    <Item id="22421" name="Prefix mode"/>
+                    <Item id="22471" name="Prefix mode"/>
+                    <Item id="22521" name="Prefix mode"/>
+                    <Item id="22571" name="Prefix mode"/>
+                    <Item id="22621" name="Prefix mode"/>
+                    <Item id="22122" name="Styler"/>
+                    <Item id="22222" name="Styler"/>
+                    <Item id="22322" name="Styler"/>
+                    <Item id="22422" name="Styler"/>
+                    <Item id="22472" name="Styler"/>
+                    <Item id="22522" name="Styler"/>
+                    <Item id="22572" name="Styler"/>
+                    <Item id="22622" name="Styler"/>
                 </Keywords>
-                <Comment title="Komentarji &amp;&amp; števila">
-                    <Item id="23003" name="Pozicija vrstice komentarja"/>
-                    <Item id="23004" name="Dovoli kjerkoli"/>
-                    <Item id="23005" name="Prisili na začetek vrstice"/>
-                    <Item id="23006" name="Dovoli predhodne presledke"/>
-                    <Item id="23001" name="Dovoli zlaganje komentarjev"/>
-                    <Item id="23326" name="Slogovnik"/>
-                    <Item id="23323" name="Odpri"/>
-                    <Item id="23324" name="Nadaljuj znak"/>
-                    <Item id="23325" name="Zapri"/>
-                    <Item id="23301" name="Komentar vrstice sloga"/>
-                    <Item id="23124" name="Slogovnik"/>
-                    <Item id="23122" name="Odpri"/>
-                    <Item id="23123" name="Zapri"/>
-                    <Item id="23101" name="Komentar sloga"/>
-                    <Item id="23201" name="Številka sloga"/>
-                    <Item id="23220" name="Slogovnik"/>
-                    <Item id="23230" name="Predpona 1"/>
-                    <Item id="23232" name="Predpona 2"/>
-                    <Item id="23234" name="Dodatne možnosti 1"/>
-                    <Item id="23236" name="Dodatne možnosti 2"/>
-                    <Item id="23238" name="Pripona 1"/>
-                    <Item id="23240" name="Pripona 2"/>
-                    <Item id="23242" name="Območje:"/>
-                    <Item id="23244" name="Decimalno ločilo"/>
-                    <Item id="23245" name="Pika"/>
-                    <Item id="23246" name="Vejica"/>
-                    <Item id="23247" name="Oboje"/>
+                <Comment title="Comment &amp;&amp; Number">
+                    <Item id="23003" name="Line comment position"/>
+                    <Item id="23004" name="Allow anywhere"/>
+                    <Item id="23005" name="Force at beginning of line"/>
+                    <Item id="23006" name="Allow preceding whitespace"/>
+                    <Item id="23001" name="Allow folding of comments"/>
+                    <Item id="23326" name="Styler"/>
+                    <Item id="23323" name="Open"/>
+                    <Item id="23324" name="Continue character"/>
+                    <Item id="23325" name="Close"/>
+                    <Item id="23301" name="Comment line style"/>
+                    <Item id="23124" name="Styler"/>
+                    <Item id="23122" name="Open"/>
+                    <Item id="23123" name="Close"/>
+                    <Item id="23101" name="Comment style"/>
+                    <Item id="23201" name="Number style"/>
+                    <Item id="23220" name="Styler"/>
+                    <Item id="23230" name="Prefix 1"/>
+                    <Item id="23232" name="Prefix 2"/>
+                    <Item id="23234" name="Extras 1"/>
+                    <Item id="23236" name="Extras 2"/>
+                    <Item id="23238" name="Suffix 1"/>
+                    <Item id="23240" name="Suffix 2"/>
+                    <Item id="23242" name="Range:"/>
+                    <Item id="23244" name="Decimal separator"/>
+                    <Item id="23245" name="Dot"/>
+                    <Item id="23246" name="Comma"/>
+                    <Item id="23247" name="Both"/>
                 </Comment>
-                <Operator title="Operatorji amp;&amp; Razmejilnik">
-                    <Item id="24101" name="Slog operatorjev"/>
-                    <Item id="24113" name="Slogovnik"/>
-                    <Item id="24116" name="Operatorji 1"/>
-                    <Item id="24117" name="Operatorji 2 (zahteva separatorje)"/>
-                    <Item id="24201" name="Razmejilnik 1 slog"/>
-                    <Item id="24220" name="Odpri:"/>
-                    <Item id="24221" name="Pobeg:"/>
-                    <Item id="24222" name="Zapri:"/>
-                    <Item id="24223" name="Slogovnik"/>
-                    <Item id="24301" name="Razmejilnik 2 slog"/>
-                    <Item id="24320" name="Odpri:"/>
-                    <Item id="24321" name="Pobeg:"/>
-                    <Item id="24322" name="Zapri:"/>
-                    <Item id="24323" name="Slogovnik"/>
-                    <Item id="24401" name="Razmejilnik 3 slog"/>
-                    <Item id="24420" name="Odpri:"/>
-                    <Item id="24421" name="Pobeg:"/>
-                    <Item id="24422" name="Zapri:"/>
-                    <Item id="24423" name="Slogovnik"/>
-                    <Item id="24451" name="Razmejilnik 4 slog"/>
-                    <Item id="24470" name="Odpri:"/>
-                    <Item id="24471" name="Pobeg:"/>
-                    <Item id="24472" name="Zapri:"/>
-                    <Item id="24473" name="Slogovnik"/>
-                    <Item id="24501" name="Razmejilnik 5 slog"/>
-                    <Item id="24520" name="Odpri:"/>
-                    <Item id="24521" name="Pobeg:"/>
-                    <Item id="24522" name="Zapri:"/>
-                    <Item id="24523" name="Slogovnik"/>
-                    <Item id="24551" name="Razmejilnik 6 slog"/>
-                    <Item id="24570" name="Odpri:"/>
-                    <Item id="24571" name="Pobeg:"/>
-                    <Item id="24572" name="Zapri:"/>
-                    <Item id="24573" name="Slogovnik"/>
-                    <Item id="24601" name="Razmejilnik 7 slog"/>
-                    <Item id="24620" name="Odpri:"/>
-                    <Item id="24621" name="Pobeg:"/>
-                    <Item id="24622" name="Zapri:"/>
-                    <Item id="24623" name="Slogovnik"/>
-                    <Item id="24651" name="Razmejilnik 8 slog"/>
-                    <Item id="24670" name="Odpri:"/>
-                    <Item id="24671" name="Pobeg:"/>
-                    <Item id="24672" name="Zapri:"/>
-                    <Item id="24673" name="Slogovnik"/>
+                <Operator title="Operators &amp;&amp; Delimiter">
+                    <Item id="24101" name="Operators style"/>
+                    <Item id="24113" name="Styler"/>
+                    <Item id="24116" name="Operators 1"/>
+                    <Item id="24117" name="Operators 2 (separators required)"/>
+                    <Item id="24201" name="Delimiter 1 style"/>
+                    <Item id="24220" name="Open:"/>
+                    <Item id="24221" name="Escape:"/>
+                    <Item id="24222" name="Close:"/>
+                    <Item id="24223" name="Styler"/>
+                    <Item id="24301" name="Delimiter 2 style"/>
+                    <Item id="24320" name="Open:"/>
+                    <Item id="24321" name="Escape:"/>
+                    <Item id="24322" name="Close:"/>
+                    <Item id="24323" name="Styler"/>
+                    <Item id="24401" name="Delimiter 3 style"/>
+                    <Item id="24420" name="Open:"/>
+                    <Item id="24421" name="Escape:"/>
+                    <Item id="24422" name="Close:"/>
+                    <Item id="24423" name="Styler"/>
+                    <Item id="24451" name="Delimiter 4 style"/>
+                    <Item id="24470" name="Open:"/>
+                    <Item id="24471" name="Escape:"/>
+                    <Item id="24472" name="Close:"/>
+                    <Item id="24473" name="Styler"/>
+                    <Item id="24501" name="Delimiter 5 style"/>
+                    <Item id="24520" name="Open:"/>
+                    <Item id="24521" name="Escape:"/>
+                    <Item id="24522" name="Close:"/>
+                    <Item id="24523" name="Styler"/>
+                    <Item id="24551" name="Delimiter 6 style"/>
+                    <Item id="24570" name="Open:"/>
+                    <Item id="24571" name="Escape:"/>
+                    <Item id="24572" name="Close:"/>
+                    <Item id="24573" name="Styler"/>
+                    <Item id="24601" name="Delimiter 7 style"/>
+                    <Item id="24620" name="Open:"/>
+                    <Item id="24621" name="Escape:"/>
+                    <Item id="24622" name="Close:"/>
+                    <Item id="24623" name="Styler"/>
+                    <Item id="24651" name="Delimiter 8 style"/>
+                    <Item id="24670" name="Open:"/>
+                    <Item id="24671" name="Escape:"/>
+                    <Item id="24672" name="Close:"/>
+                    <Item id="24673" name="Styler"/>
                 </Operator>
             </UserDefine>
-            <Preference title="Nastavitve">
-                <Item id="6001" name="Zapri"/>
-                <Global title="Splošno">
-                    <Item id="6101" name="Orodna vrstica"/>
-                    <Item id="6102" name="Skrij"/>
-                    <Item id="6103" name="Majhne ikone"/>
-                    <Item id="6104" name="Velike ikone"/>
-                    <Item id="6105" name="Standardne ikone"/>
+            <Preference title="Preferences">
+                <Item id="6001" name="Close"/>
+                <Global title="General">
+                    <Item id="6101" name="Toolbar"/>
+                    <Item id="6102" name="Hide"/>
+                    <Item id="6103" name="Small icons"/>
+                    <Item id="6104" name="Big icons"/>
+                    <Item id="6105" name="Standard icons"/>
 
-                    <Item id="6106" name="Vrstica zavihkov"/>
-                    <Item id="6107" name="Zmanjšaj"/>
-                    <Item id="6108" name="Zakleni (brez povleci-in-spusti)"/>
-                    <Item id="6109" name="Potemni neaktivne zavihke"/>
-                    <Item id="6110" name="Nariši obarvano vrstico na aktivnem zavihku"/>
+                    <Item id="6106" name="Tab Bar"/>
+                    <Item id="6107" name="Reduce"/>
+                    <Item id="6108" name="Lock (no drag and drop)"/>
+                    <Item id="6109" name="Darken inactive tabs"/>
+                    <Item id="6110" name="Draw a coloured bar on active tab"/>
 
-                    <Item id="6111" name="Pokaži vrstico stanja"/>
-                    <Item id="6112" name="Prikaži gumb za zapiranje na vsakem zavihku"/>
-                    <Item id="6113" name="Dvokliknite za zaprtje dokumenta"/>
-                    <Item id="6118" name="Skrij"/>
-                    <Item id="6119" name="Večvrstično"/>
-                    <Item id="6120" name="Navpično"/>
-                    <Item id="6121" name="Izhod ko zaprete zadnji zavihek"/>
+                    <Item id="6111" name="Show status bar"/>
+                    <Item id="6112" name="Show close button on each tab"/>
+                    <Item id="6113" name="Double click to close document"/>
+                    <Item id="6118" name="Hide"/>
+                    <Item id="6119" name="Multi-line"/>
+                    <Item id="6120" name="Vertical"/>
+                    <Item id="6121" name="Exit on close the last tab"/>
 
-                    <Item id="6122" name="Skrij (uporabite tipko Alt ali F10 za preklop)"/>
-                    <Item id="6123" name="Lokalizacija"/>
+                    <Item id="6122" name="Hide menu bar (use Alt or F10 key to toggle)"/>
+                    <Item id="6123" name="Localization"/>
 
-                    <Item id="6125" name="Panel seznama dokumenta"/>
-                    <Item id="6126" name="Prikaži"/>
-                    <Item id="6127" name="Onemogoči stolpec pripone"/>
+                    <Item id="6125" name="Document List Panel"/>
+                    <Item id="6126" name="Show"/>
+                    <Item id="6127" name="Disable extension column"/>
                 </Global>
-                <Scintillas title="Urejanje">
-                    <Item id="6216" name="Nastavitve kazalca"/>
-                    <Item id="6217" name="Širina:"/>
-                    <Item id="6219" name="Hitrost utripanja:"/>
+                <Scintillas title="Editing">
+                    <Item id="6216" name="Caret Settings"/>
+                    <Item id="6217" name="Width :"/>
+                    <Item id="6219" name="Blink rate :"/>
                     <Item id="6221" name="F"/>
                     <Item id="6222" name="S"/>
-                    <Item id="6224" name="Nastavitve kombiniranega urejanja"/>
-                    <Item id="6225" name="Omogoči (Ctrl+klik miške/izbor)"/>
-                    <Item id="6201" name="Slog roba mape"/>
-                    <Item id="6202" name="Enostaven"/>
-                    <Item id="6203" name="Puščica"/>
-                    <Item id="6204" name="Drevo s krogci"/>
-                    <Item id="6205" name="Drevo s kvadratki"/>
-                    <Item id="6226" name="Brez"/>
+                    <Item id="6224" name="Multi-Editing Settings"/>
+                    <Item id="6225" name="Enable (Ctrl+Mouse click/selection)"/>
+                    <Item id="6201" name="Folder Margin Style"/>
+                    <Item id="6202" name="Simple"/>
+                    <Item id="6203" name="Arrow"/>
+                    <Item id="6204" name="Circle tree"/>
+                    <Item id="6205" name="Box tree"/>
+                    <Item id="6226" name="None"/>
 
-                    <Item id="6227" name="Prelom vrstice"/>
-                    <Item id="6228" name="Privzeto"/>
-                    <Item id="6229" name="Poravnano"/>
-                    <Item id="6230" name="Alineja"/>
+                    <Item id="6227" name="Line Wrap"/>
+                    <Item id="6228" name="Default"/>
+                    <Item id="6229" name="Aligned"/>
+                    <Item id="6230" name="Indent"/>
 
-                    <Item id="6206" name="Prikaži številke vrstic"/>
-                    <Item id="6207" name="Prikaži zaznamke"/>
-                    <Item id="6208" name="Prikaži navpični rob"/>
-                    <Item id="6209" name="Število stolpcev: "/>
-                    <Item id="6234" name="Onemogoči napredno funkcijo drsenja (če imate težave z dotikalno ploščico)"/>
+                    <Item id="6206" name="Display line number"/>
+                    <Item id="6207" name="Display bookmark"/>
+                    <Item id="6208" name="Show vertical edge"/>
+                    <Item id="6209" name="Number of columns :"/>
+                    <Item id="6234" name="Disable advanced scrolling feature (if you have touchpad problem)"/>
 
-                    <Item id="6211" name="Nastavitev navpičnega roba"/>
-                    <Item id="6212" name="Vrstični način"/>
-                    <Item id="6213" name="Način ozadja"/>
-                    <Item id="6214" name="Omogoči poudarjanje trenutne vrstice"/>
-                    <Item id="6215" name="Omogoči gladko pisavo"/>
-                    <Item id="6231" name="Širina obrobe"/>
-                    <Item id="6235" name="Brez roba"/>
-                    <Item id="6236" name="Omogoči pomikanje izven zadnje vrstice"/>
+                    <Item id="6211" name="Vertical Edge Settings"/>
+                    <Item id="6212" name="Line mode"/>
+                    <Item id="6213" name="Background mode"/>
+                    <Item id="6214" name="Enable current line highlighting"/>
+                    <Item id="6215" name="Enable smooth font"/>
+                    <Item id="6231" name="Border Width"/>
+                    <Item id="6235" name="No edge"/>
+                    <Item id="6236" name="Enable scrolling beyond last line"/>
                 </Scintillas>
 
-                <NewDoc title="Nov dokument">
-                    <Item id="6401" name="Format"/>
-                    <Item id="6402" name="Windows"/>
-                    <Item id="6403" name="Unix"/>
-                    <Item id="6404" name="Mac"/>
-                    <Item id="6405" name="Kodiranje"/>
+                <NewDoc title="New Document">
+                    <Item id="6401" name="Format (Line ending)"/>
+                    <Item id="6402" name="Windows (CR LF)"/>
+                    <Item id="6403" name="Unix (LF)"/>
+                    <Item id="6404" name="Macintosh (CR)"/>
+                    <Item id="6405" name="Encoding"/>
                     <Item id="6406" name="ANSI"/>
                     <Item id="6407" name="UTF-8"/>
-                    <Item id="6408" name="UTF-8 z BOM"/>
-                    <Item id="6409" name="UCS-2 Big Endian z BOM"/>
-                    <Item id="6410" name="UCS-2 Little Endian z BOM"/>
-                    <Item id="6411" name="Privzeti jezik:"/>
-                    <Item id="6419" name="Nov dokument"/>
-                    <Item id="6420" name="Uporabi za odprte ANSI datoteke"/>
+                    <Item id="6408" name="UTF-8 with BOM"/>
+                    <Item id="6409" name="UCS-2 Big Endian with BOM"/>
+                    <Item id="6410" name="UCS-2 Little Endian with BOM"/>
+                    <Item id="6411" name="Default language :"/>
+                    <Item id="6419" name="New Document"/>
+                    <Item id="6420" name="Apply to opened ANSI files"/>
                 </NewDoc>
 
-                <DefaultDir title="Privzeti imenik">
-                    <Item id="6413" name="Privzeti imenik (Odpri/Shrani)"/>
-                    <Item id="6414" name="Sledi trenutnemu dokumentu"/>
-                    <Item id="6415" name="Zapomni si zadnji uporabljen imenik"/>
-                    <Item id="6430" name="Uporabi nov slog pogovornega okna shranjevanja (brez funkcije pripone datoteke)"/>
-                    <Item id="6431" name="Odpri vse datoteke mape namesto začete Mape kot delovni prostor na spuščajočih mapah"/>
+                <DefaultDir title="Default Directory">
+                    <Item id="6413" name="Default Directory (Open/Save)"/>
+                    <Item id="6414" name="Follow current document"/>
+                    <Item id="6415" name="Remember last used directory"/>
+                    <Item id="6430" name="Use new style dialog (without file extension feature &amp;&amp; Unix style path capacity)"/>
+                    <Item id="6431" name="Open all files of folder instead of launching Folder as Workspace on folder dropping"/>
                 </DefaultDir>
 
-                <FileAssoc title="Povezave datotek">
-                    <Item id="4009" name="Podprte pripone:"/>
-                    <Item id="4010" name="Registrirane pripone:"/>
+                <FileAssoc title="File Association">
+                    <Item id="4009" name="Supported extensions:"/>
+                    <Item id="4010" name="Registered extensions:"/>
                 </FileAssoc>
-                <Language title="Jezikovni meni">
-                    <Item id="6505" name="Razpoložljive postavke"/>
-                    <Item id="6506" name="Onemogočene postavke"/>
-                    <Item id="6507" name="Strni jezikovni meni"/>
-                    <Item id="6508" name="Jezikovni meni"/>
-                    <Item id="6301" name="Nastavitve zavihka"/>
-                    <Item id="6302" name="Zamenjaj s presledki"/>
-                    <Item id="6303" name="Velikost zavihka: "/>
-                    <Item id="6510" name="Uporabi privzeto vrednost"/>
+                <Language title="Language">
+                    <Item id="6505" name="Available items"/>
+                    <Item id="6506" name="Disabled items"/>
+                    <Item id="6507" name="Make language menu compact"/>
+                    <Item id="6508" name="Language Menu"/>
+                    <Item id="6301" name="Tab Settings"/>
+                    <Item id="6302" name="Replace by space"/>
+                    <Item id="6303" name="Tab size: "/>
+                    <Item id="6510" name="Use default value"/>
                 </Language>
 
-                <Highlighting title="Poudarjanje">
-                    <Item id="6333" name="Pametno poudarjanje"/>
-                    <Item id="6326" name="Omogoči pametno poudarjanje"/>
-                    <Item id="6332" name="Upoštevaj VELIKE/male črke"/>
-                    <Item id="6338" name="Upoštevaj samo cele besede"/>
-                    <Item id="6339" name="Uporabi pogovorno okno Najdi nastavitve"/>
-                    <Item id="6340" name="Poudari drug pogled"/>
-                    <Item id="6329" name="Poudari ujemajoče oznake"/>
-                    <Item id="6327" name="Omogoči"/>
-                    <Item id="6328" name="Poudari oznako atributov"/>
-                    <Item id="6330" name="Poudari komentar/php/asp območje"/>
+                <Highlighting title="Highlighting">
+                    <Item id="6333" name="Smart Highlighting"/>
+                    <Item id="6326" name="Enable"/>
+                    <Item id="6332" name="Match case"/>
+                    <Item id="6338" name="Match whole word only"/>
+                    <Item id="6339" name="Use Find dialog settings"/>
+                    <Item id="6340" name="Highlight another view"/>
+                    <Item id="6329" name="Highlight Matching Tags"/>
+                    <Item id="6327" name="Enable"/>
+                    <Item id="6328" name="Highlight tag attributes"/>
+                    <Item id="6330" name="Highlight comment/php/asp zone"/>
                 </Highlighting>
 
-                <Print title="Tiskanje">
-                    <Item id="6601" name="Natisni številko vrstice"/>
-                    <Item id="6602" name="Barvne možnosti"/>
+                <Print title="Print">
+                    <Item id="6601" name="Print line number"/>
+                    <Item id="6602" name="Colour Options"/>
                     <Item id="6603" name="WYSIWYG"/>
-                    <Item id="6604" name="Obrni"/>
-                    <Item id="6605" name="Črno na belem"/>
-                    <Item id="6606" name="Brez barve ozadja"/>
-                    <Item id="6607" name="Nastavitve robov (mera:mm)"/>
-                    <Item id="6612" name="Levo"/>
-                    <Item id="6613" name="Na vrhu"/>
-                    <Item id="6614" name="Desno"/>
-                    <Item id="6615" name="Na dnu"/>
-                    <Item id="6706" name="Krepko"/>
-                    <Item id="6707" name="Ležeče"/>
-                    <Item id="6708" name="Glava"/>
-                    <Item id="6709" name="Levi del"/>
-                    <Item id="6710" name="Srednji del"/>
-                    <Item id="6711" name="Desni del"/>
-                    <Item id="6717" name="Krepko"/>
-                    <Item id="6718" name="Ležeče"/>
-                    <Item id="6719" name="Noga"/>
-                    <Item id="6720" name="Levi del"/>
-                    <Item id="6721" name="Srednji del"/>
-                    <Item id="6722" name="Desni del"/>
-                    <Item id="6723" name="Dodaj"/>
-                    <Item id="6725" name="Spremenljivka:"/>
-                    <Item id="6727" name="Tukaj so prikazane vaše variabilne nastavitve"/>
-                    <Item id="6728" name="Glava in noga"/>
+                    <Item id="6604" name="Invert"/>
+                    <Item id="6605" name="Black on white"/>
+                    <Item id="6606" name="No background colour"/>
+                    <Item id="6607" name="Margin Settings (Unit:mm)"/>
+                    <Item id="6612" name="Left"/>
+                    <Item id="6613" name="Top"/>
+                    <Item id="6614" name="Right"/>
+                    <Item id="6615" name="Bottom"/>
+                    <Item id="6706" name="Bold"/>
+                    <Item id="6707" name="Italic"/>
+                    <Item id="6708" name="Header"/>
+                    <Item id="6709" name="Left part"/>
+                    <Item id="6710" name="Middle part"/>
+                    <Item id="6711" name="Right part"/>
+                    <Item id="6717" name="Bold"/>
+                    <Item id="6718" name="Italic"/>
+                    <Item id="6719" name="Footer"/>
+                    <Item id="6720" name="Left part"/>
+                    <Item id="6721" name="Middle part"/>
+                    <Item id="6722" name="Right part"/>
+                    <Item id="6723" name="Add"/>
+                    <Item id="6725" name="Variable:"/>
+                    <Item id="6727" name="Here display your variable settings"/>
+                    <Item id="6728" name="Header and Footer"/>
                 </Print>
 
-                <RecentFilesHistory title="Nastavitev zgodovine datotek">
-                    <Item id="6304" name="Nastavitev zgodovine datotek"/>
-                    <Item id="6306" name="Ne preverjaj ob zagonu"/>
-                    <Item id="6305" name="Maks. število vnosov:"/>
-                    <Item id="6429" name="Prikaz"/>
-                    <Item id="6424" name="V podmeniju"/>
-                    <Item id="6425" name="Samo ime datoteke"/>
-                    <Item id="6426" name="Celotno ime poti datoteke"/>
-                    <Item id="6427" name="Prilagodi največjo dolžino:"/>
+                <RecentFilesHistory title="Recent Files History">
+                    <Item id="6304" name="Recent Files History"/>
+                    <Item id="6306" name="Max. number of entries :"/>
+                    <Item id="6305" name="Don't check at launch time"/>
+                    <Item id="6429" name="Display"/>
+                    <Item id="6424" name="In Submenu"/>
+                    <Item id="6425" name="Only File Name"/>
+                    <Item id="6426" name="Full File Name Path"/>
+                    <Item id="6427" name="Customize Maximum Length:"/>
                 </RecentFilesHistory>
 
-                <Backup title="Varnostno kopiranje">
-                    <Item id="6817" name="Posnetek seje in periodično varnostno kopiranje"/>
-                    <Item id="6818" name="Omogoči posnetek seje in periodično varnostno kopiranje"/>
-                    <Item id="6819" name="Varnostno kopiranje vsakih"/>
-                    <Item id="6821" name="sekund"/>
-                    <Item id="6822" name="Pot varnostne kopije:"/>
-                    <Item id="6309" name="Zapomni si trenutno sejo za naslednji zagon"/>
-                    <Item id="6801" name="Varnostno kopiranje"/>
-                    <Item id="6315" name="Brez"/>
-                    <Item id="6316" name="Enostavno varnostno kopiranje"/>
-                    <Item id="6317" name="Obširno varnostno kopiranje"/>
-                    <Item id="6804" name="Imenik varnostnega kopiranja po meri"/>
-                    <Item id="6803" name="Imenik:"/>
+                <Backup title="Backup">
+                    <Item id="6817" name="Session snapshot and periodic backup"/>
+                    <Item id="6818" name="Enable session snapshot and periodic backup"/>
+                    <Item id="6819" name="Backup in every"/>
+                    <Item id="6821" name="seconds"/>
+                    <Item id="6822" name="Backup path:"/>
+                    <Item id="6309" name="Remember current session for next launch"/>
+                    <Item id="6801" name="Backup on save"/>
+                    <Item id="6315" name="None"/>
+                    <Item id="6316" name="Simple backup"/>
+                    <Item id="6317" name="Verbose backup"/>
+                    <Item id="6804" name="Custom Backup Directory"/>
+                    <Item id="6803" name="Directory :"/>
                 </Backup>
 
-                <AutoCompletion title="Samodejno dopolnjevanje">
-                    <Item id="6807" name="Samodejno dopolnjevanje"/>
-                    <Item id="6808" name="Omogoči samodejno dopolnjevanje ob vsakem vnosu"/>
-                    <Item id="6809" name="Dopolnjevanje funkcij"/>
-                    <Item id="6810" name="Dopolnjevanje besed"/>
-                    <Item id="6816" name="Funkcija in beseda zaključka"/>
-                    <Item id="6824" name="Prezri številke"/>
-                    <Item id="6811" name="Od"/>
-                    <Item id="6813" name=". znaka naprej"/>
-                    <Item id="6814" name="Veljavna vrednost: 1 - 9"/>
-                    <Item id="6815" name="Namig parametrov funkcije ob vnosu"/>
-                    <Item id="6851" name="Samodejno vstavljanje"/>
-                    <Item id="6857" name=" html/xml zapri oznako"/>
-                    <Item id="6858" name="Odpri"/>
-                    <Item id="6859" name="Zapri"/>
-                    <Item id="6860" name="Usklajen par 1:"/>
-                    <Item id="6863" name="Usklajen par 2:"/>
-                    <Item id="6866" name="Usklajen par 3:"/>
+                <AutoCompletion title="Auto-Completion">
+                    <Item id="6807" name="Auto-Completion"/>
+                    <Item id="6808" name="Enable auto-completion on each input"/>
+                    <Item id="6809" name="Function completion"/>
+                    <Item id="6810" name="Word completion"/>
+                    <Item id="6816" name="Function and word completion"/>
+                    <Item id="6824" name="Ignore numbers"/>
+                    <Item id="6811" name="From"/>
+                    <Item id="6813" name="th character"/>
+                    <Item id="6814" name="Valid value : 1 - 9"/>
+                    <Item id="6815" name="Function parameters hint on input"/>
+                    <Item id="6851" name="Auto-Insert"/>
+                    <Item id="6857" name=" html/xml close tag"/>
+                    <Item id="6858" name="Open"/>
+                    <Item id="6859" name="Close"/>
+                    <Item id="6860" name="Matched pair 1:"/>
+                    <Item id="6863" name="Matched pair 2:"/>
+                    <Item id="6866" name="Matched pair 3:"/>
                 </AutoCompletion>
 
-                <MultiInstance title="Večpojavnost">
-                    <Item id="6151" name="Nastavitve večpojavnosti"/>
-                    <Item id="6152" name="Odpri sejo v novem primerku Notepad++"/>
-                    <Item id="6153" name="Vedno v načinu večpojavnosti"/>
-                    <Item id="6154" name="Privzeto (enopojavnost)"/>
-                    <Item id="6155" name="* Sprememba te nastavitve zahteva ponovni zagon Notepad++"/>
+                <MultiInstance title="Multi-Instance">
+                    <Item id="6151" name="Multi-instance settings"/>
+                    <Item id="6152" name="Open session in a new instance of Notepad++"/>
+                    <Item id="6153" name="Always in multi-instance mode"/>
+                    <Item id="6154" name="Default (mono-instance)"/>
+                    <Item id="6155" name="* The modification of this setting needs to restart Notepad++"/>
                 </MultiInstance>
 
-                <Delimiter title="Razmejilnik">
-                    <Item id="6251" name="Nastavitve izbora razmejilnika (Ctrl + dvoklik miške)"/>
-                    <Item id="6252" name="Odpri"/>
-                    <Item id="6255" name="Zapri"/>
-                    <Item id="6256" name="Dovoli na več vrsticah"/>
-                    <Item id="6161" name="Besedni seznam znakov"/>
-                    <Item id="6162" name="Uporabi privzeti Besedni seznam znakov"/>
-                    <Item id="6163" name="Dodaj svoj znak kot del besede (izberite le če veste kaj počnete)"/>
+                <Delimiter title="Delimiter">
+                    <Item id="6251" name="Delimiter selection settings (Ctrl + Mouse double click)"/>
+                    <Item id="6252" name="Open"/>
+                    <Item id="6255" name="Close"/>
+                    <Item id="6256" name="Allow on several lines"/>
+                    <Item id="6161" name="Word character list"/>
+                    <Item id="6162" name="Use default Word character list as it is"/>
+                    <Item id="6163" name="Add your character as part of word (don't choose it unless you know what you're doing)"/>
                 </Delimiter>
 
-                <Cloud title="Oblak">
-                    <Item id="6262" name="Nastavitve na oblaku"/>
-                    <Item id="6263" name="Brez oblaka"/>
-                    <Item id="6267" name="Nastavite pot do lokacije oblaka tukaj:"/>
+                <Cloud title="Cloud">
+                    <Item id="6262" name="Settings on cloud"/>
+                    <Item id="6263" name="No Cloud"/>
+                    <Item id="6267" name="Set your cloud location path here:"/>
                 </Cloud>
 
-                <SearchEngine title="Iskalnik">
-                    <Item id="6271" name="Iskalnik (za ukaz &quot;Iskanje na internetu&quot;)"/>
+                <SearchEngine title="Search Engine">
+                    <Item id="6271" name="Search Engine (for command &quot;Search on Internet&quot;)"/>
                     <Item id="6272" name="DuckDuckGo"/>
                     <Item id="6273" name="Google"/>
                     <Item id="6274" name="Bing"/>
                     <Item id="6275" name="Yahoo!"/>
-                    <Item id="6276" name="Nastavi iskalnik tukaj:"/>
+                    <Item id="6276" name="Set your search engine here:"/>
                     <!-- Don't change anything after Example: -->
-                    <Item id="6278" name="Primer: https://www.google.com/search?q=$(CURRENT_WORD)"/>
+                    <Item id="6278" name="Example: https://www.google.com/search?q=$(CURRENT_WORD)"/>
                 </SearchEngine>
 
-                <MISC title="Razno">
-                    <Item id="6307" name="Omogoči"/>
-                    <Item id="6308" name="Minimiraj v sistemsko vrstico"/>
-                    <Item id="6312" name="Samozaznava stanja datoteke"/>
-                    <Item id="6313" name="Posodobi tiho"/>
-                    <Item id="6318" name="Nastavitev povezav za klikanje"/>
-                    <Item id="6325" name="Pomakni se do zadnje vrstice po posodobitvi"/>
-                    <Item id="6319" name="Omogoči"/>
-                    <Item id="6320" name="Brez podčrtavanja"/>
-                    <Item id="6322" name="Pripona datoteke seje:"/>
-                    <Item id="6323" name="Omogoči samodejno posodabljanje Notepada++"/>
-                    <Item id="6324" name="Preklopnik dokumentov (Ctrl+TAB)"/>
-                    <Item id="6331" name="V naslovni vrstici pokaži le ime datoteke"/>
-                    <Item id="6334" name="Samodejno zaznavanje kodiranja znakov"/>
-                    <Item id="6335" name="Uporabite poševnico kot ubežni znak za SQL"/>
-                    <Item id="6337" name="Delovni prostor pripone datoteke:"/>
-                    <Item id="6114" name="Omogoči"/>
-                    <Item id="6115" name="Samodejno zamikaj"/>
-                    <Item id="6117" name="Omogoči MRU obnašanje"/>
+                <MISC title="MISC.">
+                    <Item id="6307" name="Enable"/>
+                    <Item id="6308" name="Minimize to system tray"/>
+                    <Item id="6312" name="File Status Auto-Detection"/>
+                    <Item id="6313" name="Update silently"/>
+                    <Item id="6318" name="Clickable Link Settings"/>
+                    <Item id="6325" name="Scroll to the last line after update"/>
+                    <Item id="6319" name="Enable"/>
+                    <Item id="6320" name="No underline"/>
+                    <Item id="6322" name="Session file ext.:"/>
+                    <Item id="6323" name="Enable Notepad++ auto-updater"/>
+                    <Item id="6324" name="Document Switcher (Ctrl+TAB)"/>
+                    <Item id="6331" name="Show only filename in title bar"/>
+                    <Item id="6334" name="Autodetect character encoding"/>
+                    <Item id="6335" name="Treat backslash as escape character for SQL"/>
+                    <Item id="6337" name="Workspace file ext.:"/>
+                    <Item id="6114" name="Enable"/>
+                    <Item id="6115" name="Auto-indent"/>
+                    <Item id="6117" name="Enable MRU behaviour"/>
                     <Item id="6344" name="Document Peeker"/>
                     <Item id="6345" name="Peek on tab"/>
                     <Item id="6346" name="Peek on document map"/>
                 </MISC>
             </Preference>
-            <MultiMacro title="Večkratni zagon makra">
-                <Item id="1" name="Zaženi"/>
-                <Item id="2" name="Prekliči"/>
-                <Item id="8006" name="Makro za zagon:"/>
-                <Item id="8001" name="Zaženi"/>
-                <Item id="8005" name="krat"/>
-                <Item id="8002" name="Zaganjaj do konca datoteke"/>
+            <MultiMacro title="Run a Macro Multiple Times">
+                <Item id="1" name="&amp;Run"/>
+                <Item id="2" name="&amp;Cancel"/>
+                <Item id="8006" name="Macro to run :"/>
+                <Item id="8001" name="Run"/>
+                <Item id="8005" name="times"/>
+                <Item id="8002" name="Run until the &amp;end of file"/>
             </MultiMacro>
-            <Window title="Okna">
-                <Item id="1" name="Aktiviraj"/>
-                <Item id="2" name="V redu"/>
-                <Item id="7002" name="Shrani"/>
-                <Item id="7003" name="Zapri okna"/>
-                <Item id="7004" name="Razvrsti zavihke"/>
+            <Window title="Windows">
+                <Item id="1" name="&amp;Activate"/>
+                <Item id="2" name="&amp;OK"/>
+                <Item id="7002" name="&amp;Save"/>
+                <Item id="7003" name="&amp;Close window(s)"/>
+                <Item id="7004" name="Sort &amp;tabs"/>
             </Window>
-            <ColumnEditor title="Urejevalnik stolpcev">
-                <Item id="2023" name="Besedilo za vstavljanje"/>
-                <Item id="2033" name="Številka za vstavljanje"/>
-                <Item id="2030" name="Začetna številka:"/>
-                <Item id="2031" name="Povečaj za:"/>
-                <Item id="2035" name="Vodilne ničle"/>
-                <Item id="2036" name="Ponovi :"/>
+            <ColumnEditor title="Column Editor">
+                <Item id="2023" name="Text to Insert"/>
+                <Item id="2033" name="Number to Insert"/>
+                <Item id="2030" name="Initial number :"/>
+                <Item id="2031" name="Increase by :"/>
+                <Item id="2035" name="Leading zeros"/>
+                <Item id="2036" name="Repeat :"/>
                 <Item id="2032" name="Format"/>
                 <Item id="2024" name="Dec"/>
                 <Item id="2025" name="Oct"/>
                 <Item id="2026" name="Hex"/>
                 <Item id="2027" name="Bin"/>
-                <Item id="1" name="V redu"/>
-                <Item id="2" name="Prekliči"/>
+                <Item id="1" name="OK"/>
+                <Item id="2" name="Cancel"/>
             </ColumnEditor>
             <FindInFinder title="Find in finder">
                 <Item id="1" name="Find All"/>
@@ -956,19 +956,19 @@
             </FindInFinder>
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="Urejanje Kontekstnega menija" message="Urejanje contextMenu.xml vam omogoča, da spremenite Notepad++ pojavni kontekstni meni.\rZa uveljavitev sprememb v contextMenu.xml morate znova zagnati Notepad++."/>
-            <NppHelpAbsentWarning title="Datoteka ne obstaja" message="\rne obstaja. Prosimo, da prenesete na Notepad++ stran."/>
-            <SaveCurrentModifWarning title="Shrani trenutno spremembo" message="Morate shraniti trenutno spremembo.\rVse shranjene spremembe ni mogoče razveljaviti.\r\rNadaljujem?"/>
-            <LoseUndoAbilityWarning title="Izguba možnosti razveljavitve" message="Morate shraniti trenutno spremembo.\rVse shranjene spremembe ni mogoče razveljaviti.\r\rNadaljujem?"/>
-            <CannotMoveDoc title="Premakni v novo Notepad++ pojavitev" message="Dokument je spremenjen.Shranite ga nato poskusite znova."/>
-            <DocReloadWarning title="Osveži" message="Ali ste prepričani, da želite znova naložiti trenutno datoteko in izgubiti spremembe v Notepad++?"/>
-            <FileLockedWarning title="Shranjevanje ni uspelo" message="Prosimo, preverite, ali je ta datoteka odprta v drugem programu"/>
-            <FileAlreadyOpenedInNpp title="" message="Datoteka je že odprta v Notepad++."/>
-            <DeleteFileFailed title="Brisanje datoteke" message="Brisanje datoteke ni uspelo"/>
+            <ContextMenuXmlEditWarning title="Editing contextMenu" message="Editing contextMenu.xml allows you to modify your Notepad++ popup context menu. You have to restart your Notepad++ to take effect after modifying contextMenu.xml."/>
+            <NppHelpAbsentWarning title="File does not exist" message=" doesn't exist. Please download it on Notepad++ site."/>
+            <SaveCurrentModifWarning title="Save Current Modification" message="You should save the current modification. All the saved modifications can not be undone.  Continue?"/>
+            <LoseUndoAbilityWarning title="Lose Undo Ability Warning" message="You should save the current modification. All the saved modifications can not be undone.  Continue?"/>
+            <CannotMoveDoc title="Move to new Notepad++ Instance" message="Document is modified, save it then try again."/>
+            <DocReloadWarning title="Reload" message="Are you sure you want to reload the current file and lose the changes made in Notepad++?"/>
+            <FileLockedWarning title="Save failed" message="Please check whether if this file is opened in another program"/>
+            <FileAlreadyOpenedInNpp title="" message="The file is already opened in the Notepad++."/>
+            <DeleteFileFailed title="Delete File" message="Delete File failed"/>
 
-            <NbFileToOpenImportantWarning title="Število datotek za odpiranje je preveliko" message="$INT_REPLACE$ datoteke so na tem, da se odprejo.\rJih Želite res odpreti?"/>
-            <SettingsOnCloudError title="Nastavitve v oblak" message="Zdi se, da je pot nastavitev v oblaku nastavljena samo na bralnje,\rali na mapo ki zahteva posebno pooblastilo za pisanje.\rVaše nastavitve za oblak bodo preklicane. Ponastavite skladno vrednosti preko pogovornega okna Nastavitve."/>
-            <FilePathNotFoundWarning title="Odpri datoteko" message="Datoteka, ki jo poskušate odpreti ne obstaja."/>
+            <NbFileToOpenImportantWarning title="Amount of files to open is too large" message="$INT_REPLACE$ files are about to be opened. Are you sure to open them?"/>
+            <SettingsOnCloudError title="Settings on Cloud" message="It seems the path of settings on cloud is set on a read only drive, or on a folder needed privilege right for writing access. Your settings on cloud will be canceled. Please reset a coherent value via Preference dialog."/>
+            <FilePathNotFoundWarning title="File Open" message="The file you're trying to open doesn't exist."/>
             <SessionFileInvalidError title="Could not Load Session" message="Session file is either corrupted or not valid."/>
             <DroppingFolderAsProjectModeWarning title="Invalid action" message="You can only drop files or folders but not both, because you're in dropping Folder as Project mode. you have to enable &quot;Open all files of folder instead of launching Folder as Workspace on folder dropping&quot; in &quot;Default Directory&quot; section of Preferences dialog to make this operation work."/>
             <SortingError title="Sorting Error" message="Unable to perform numeric sorting due to line $INT_REPLACE$."/>
@@ -1012,12 +1012,12 @@
             <OpenInAdminModeFailed title="Open in Administrator mode failed" message="Notepad++ cannot be opened in Administrator mode."/>
         </MessageBox>
         <ClipboardHistory>
-            <PanelTitle name="Zgodovina odložišča"/>
+            <PanelTitle name="Clipboard History"/>
         </ClipboardHistory>
         <DocSwitcher>
-            <PanelTitle name="Preklopnik dokumenta"/>
-            <ColumnName name="Ime"/>
-            <ColumnExt name="Ekst."/>
+            <PanelTitle name="Doc Switcher"/>
+            <ColumnName name="Name"/>
+            <ColumnExt name="Ext."/>
         </DocSwitcher>
         <WindowsDlg>
             <ColumnName name="Name"/>
@@ -1025,18 +1025,18 @@
             <ColumnType name="Type"/>
         </WindowsDlg>
         <AsciiInsertion>
-            <PanelTitle name="ASCII Panel vstavljanja"/>
-            <ColumnVal name="Vrednost"/>
+            <PanelTitle name="ASCII Insertion Panel"/>
+            <ColumnVal name="Value"/>
             <ColumnHex name="Hex"/>
-            <ColumnChar name="Znak"/>
+            <ColumnChar name="Character"/>
         </AsciiInsertion>
         <DocumentMap>
-            <PanelTitle name="Mapa dokumenta"/>
+            <PanelTitle name="Document Map"/>
         </DocumentMap>
         <FunctionList>
-            <PanelTitle name="Seznam funkcij"/>
-            <SortTip name="Razvrsti"/>
-            <ReloadTip name="Osveži"/>
+            <PanelTitle name="Function List"/>
+            <SortTip name="Sort"/>
+            <ReloadTip name="Reload"/>
         </FunctionList>
         <FolderAsWorkspace>
             <PanelTitle name="Folder as Workspace"/>
@@ -1054,60 +1054,60 @@
             </Menus>
         </FolderAsWorkspace>
         <ProjectManager>
-            <PanelTitle name="Projekt"/>
-            <WorkspaceRootName name="Delovni prostor"/>
-            <NewProjectName name="Ime projekta"/>
-            <NewFolderName name="Ime mape"/>
+            <PanelTitle name="Project"/>
+            <WorkspaceRootName name="Workspace"/>
+            <NewProjectName name="Project Name"/>
+            <NewFolderName name="Folder Name"/>
             <Menus>
                 <Entries>
-                    <Item id="0" name="Delovni prostor"/>
-                    <Item id="1" name="Uredi"/>
+                    <Item id="0" name="Workspace"/>
+                    <Item id="1" name="Edit"/>
                 </Entries>
                 <WorkspaceMenu>
-                    <Item id="3122" name="Nov delovni prostor"/>
-                    <Item id="3123" name="Odpri delovni prostor"/>
-                    <Item id="3124" name="Osveži delovni prostor"/>
-                    <Item id="3125" name="Shrani"/>
-                    <Item id="3126" name="Shrani kot..."/>
-                    <Item id="3127" name="Shrani kopijo kot..."/>
-                    <Item id="3121" name="Dodaj nov projekt"/>
+                    <Item id="3122" name="New Workspace"/>
+                    <Item id="3123" name="Open Workspace"/>
+                    <Item id="3124" name="Reload Workspace"/>
+                    <Item id="3125" name="Save"/>
+                    <Item id="3126" name="Save As..."/>
+                    <Item id="3127" name="Save a Copy As..."/>
+                    <Item id="3121" name="Add New Project"/>
                 </WorkspaceMenu>
                 <ProjectMenu>
-                    <Item id="3111" name="Preimenuj"/>
-                    <Item id="3112" name="Dodaj mapo"/>
-                    <Item id="3113" name="Dodaj datoteke..."/>
-                    <Item id="3117" name="Dodaj datoteke iz imenika..."/>
-                    <Item id="3114" name="Odstrani"/>
-                    <Item id="3118" name="Premakni gor"/>
-                    <Item id="3119" name="Premakni dol"/>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3112" name="Add Folder"/>
+                    <Item id="3113" name="Add Files..."/>
+                    <Item id="3117" name="Add Files from Directory..."/>
+                    <Item id="3114" name="Remove"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
                 </ProjectMenu>
                 <FolderMenu>
-                    <Item id="3111" name="Preimenuj"/>
-                    <Item id="3112" name="Dodaj mapo"/>
-                    <Item id="3113" name="Dodaj datoteke..."/>
-                    <Item id="3117" name="Dodaj datoteke iz imenika..."/>
-                    <Item id="3114" name="Odstrani"/>
-                    <Item id="3118" name="Premakni gor"/>
-                    <Item id="3119" name="Premakni dol"/>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3112" name="Add Folder"/>
+                    <Item id="3113" name="Add Files..."/>
+                    <Item id="3117" name="Add Files from Directory..."/>
+                    <Item id="3114" name="Remove"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
                 </FolderMenu>
                 <FileMenu>
-                    <Item id="3111" name="Preimenuj"/>
-                    <Item id="3115" name="Odstrani"/>
-                    <Item id="3116" name="Spremeni pot datoteke"/>
-                    <Item id="3118" name="Premakni gor"/>
-                    <Item id="3119" name="Premakni dol"/>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3115" name="Remove"/>
+                    <Item id="3116" name="Modify File Path"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
                 </FileMenu>
             </Menus>
         </ProjectManager>
         <MiscStrings>
             <!-- $INT_REPLACE$  and $STR_REPLACE$ are a place holders, don't translate these place holders -->
-            <word-chars-list-tip value="To vam omogoča vključevati dodatni znak v aktualnih besednih znakih med dvoklikom za izbiro ali iskanje z &quot;Ujemanje samo cele besede&quot; možnost preverbe."/>
-            <word-chars-list-warning-begin value="Zavedajte se: "/>
+            <word-chars-list-tip value="This allows you to include additional character into current word characters while double clicking for selection or searching with &quot;Match whole word only&quot; option checked."/>
+            <word-chars-list-warning-begin value="Be aware: "/>
             <word-chars-list-space-warning value="$INT_REPLACE$ space(s)"/>
             <word-chars-list-tab-warning value="$INT_REPLACE$ TAB(s)"/>
-            <word-chars-list-warning-end value="  na seznamu znakov."/>
-            <cloud-invalid-warning value="Neveljavna pot."/>
-            <cloud-restart-warning value="Za uveljavitev ponovno zaženite Notepad++."/>
+            <word-chars-list-warning-end value="  in your character list."/>
+            <cloud-invalid-warning value="Invalid path."/>
+            <cloud-restart-warning value="Please restart Notepad++ to take effect."/>
             <cloud-select-folder value="Select a folder from/to where Notepad++ reads/writes its settings"/>
             <shift-change-direction-tip value="Use Shift+Enter to search in the opposite direction"/>
             <two-find-buttons-tip value="2 find buttons mode"/>
