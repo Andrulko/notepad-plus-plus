@@ -1,606 +1,1149 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <NotepadPlus>
-	<Native-Langue name="thai" filename="thai.xml" >
-		<Menu>
-			<Main>
-				<!-- Main Menu Entries -->
-				<Entries>
-					<Item menuId="file" name="ไฟล์ (&amp;F)"/>
-					<Item menuId="edit" name="แก้ไข (&amp;E)"/>
-					<Item menuId="search" name="ค้นหา (&amp;S)"/>
-					<Item menuId="view" name="มุมมอง (&amp;V)"/>
-					<Item menuId="encoding" name="เข้ารหัสข้อมูล (&amp;N)"/>
-					<Item menuId="language" name="ภาษา (&amp;L)"/>
-					<Item menuId="settings" name="ตั้งค่า (&amp;T)"/>
-					<Item menuId="macro" name="มาโคร"/>
-					<Item menuId="run" name="เรียก"/>
-					<Item idName="Plugins" name="ปลั๊กอิน"/>
-					<Item idName="Window" name="หน้าต่าง"/>
-				</Entries>
+    <Native-Langue name="thai" filename="thai.xml" version="7.5.5">
+        <Menu>
+            <Main>
+                <!-- Main Menu Entries -->
+                <Entries>
+                    <Item menuId="file" name="ไฟล์ (&amp;F)"/>
+                    <Item menuId="edit" name="แก้ไข (&amp;E)"/>
+                    <Item menuId="search" name="ค้นหา (&amp;S)"/>
+                    <Item menuId="view" name="มุมมอง (&amp;V)"/>
+                    <Item menuId="encoding" name="เข้ารหัสข้อมูล (&amp;N)"/>
+                    <Item menuId="language" name="ภาษา (&amp;L)"/>
+                    <Item menuId="settings" name="ตั้งค่า (&amp;T)"/>
+                    <Item menuId="tools" name="มาโคร"/>
+                    <Item menuId="macro" name="เรียก"/>
+                    <Item menuId="run" name="ปลั๊กอิน"/>
+                    <Item idName="Plugins" name="หน้าต่าง"/>
+                    <Item idName="Window" name="&amp;Window"/>
+                </Entries>
+                <!-- Sub Menu Entries -->
+                <SubEntries>
+                    <Item subMenuId="file-openFolder" name="คัดลอกไปยังคลิปบอร์ด"/>
+                    <Item subMenuId="file-closeMore" name="ย่อหน้า"/>
+                    <Item subMenuId="file-recentFiles" name="แปลงตัวอักษร"/>
+                    <Item subMenuId="edit-copyToClipboard" name="การทำงานกับบรรทัด"/>
+                    <Item subMenuId="edit-indent" name="คอมเมนท์/ยกเลิกคอมเมนท์"/>
+                    <Item subMenuId="edit-convertCaseTo" name="เติมคำอัตโนมัติ"/>
+                    <Item subMenuId="edit-lineOperations" name="แปลงรูปแบบสิ้นสุดบรรทัด"/>
+                    <Item subMenuId="edit-comment" name="การทำงานกับช่องว่าง"/>
+                    <Item subMenuId="edit-autoCompletion" name="มาร์คทั้งหมด"/>
+                    <Item subMenuId="edit-eolConversion" name="ยกเลิกมาร์คทั้งหมด"/>
+                    <Item subMenuId="edit-blankOperations" name="กระโดดขึ้นไปยัง"/>
+                    <Item subMenuId="edit-pasteSpecial" name="กระโดดลงไปยัง"/>
+                    <Item subMenuId="edit-onSelection" name="บุ๊คมาร์ค"/>
+                    <Item subMenuId="search-markAll" name="แสดงสัญลักษณ์"/>
+                    <Item subMenuId="search-unmarkAll" name="ซูม"/>
+                    <Item subMenuId="search-jumpUp" name="ย้าย/สำเนา เอกสารปัจจุบัน"/>
+                    <Item subMenuId="search-jumpDown" name="ย่อชั้นนี้"/>
+                    <Item subMenuId="search-bookmark" name="ยืดชั้นนี้"/>
+                    <Item subMenuId="view-showSymbol" name="ชุดอักขระ"/>
+                    <Item subMenuId="view-zoom" name="Arabic"/>
+                    <Item subMenuId="view-moveCloneDocument" name="Baltic"/>
+                    <Item subMenuId="view-tab" name="Celtic"/>
+                    <Item subMenuId="view-collapseLevel" name="Cyrillic"/>
+                    <Item subMenuId="view-uncollapseLevel" name="Central European"/>
+                    <Item subMenuId="view-project" name="Chinese"/>
+                    <Item subMenuId="encoding-characterSets" name="Eastern European"/>
+                    <Item subMenuId="encoding-arabic" name="Greek"/>
+                    <Item subMenuId="encoding-baltic" name="Hebrew"/>
+                    <Item subMenuId="encoding-celtic" name="Japanese"/>
+                    <Item subMenuId="encoding-cyrillic" name="Korean"/>
+                    <Item subMenuId="encoding-centralEuropean" name="North European"/>
+                    <Item subMenuId="encoding-chinese" name="ไทย"/>
+                    <Item subMenuId="encoding-easternEuropean" name="Turkish"/>
+                    <Item subMenuId="encoding-greek" name="Western European"/>
+                    <Item subMenuId="encoding-hebrew" name="Vietnamese"/>
+                    <Item subMenuId="encoding-japanese" name="นำเข้า"/>
+                    <Item subMenuId="encoding-korean" name="Korean"/>
+                    <Item subMenuId="encoding-northEuropean" name="North European"/>
+                    <Item subMenuId="encoding-thai" name="Thai"/>
+                    <Item subMenuId="encoding-turkish" name="Turkish"/>
+                    <Item subMenuId="encoding-westernEuropean" name="Western European"/>
+                    <Item subMenuId="encoding-vietnamese" name="Vietnamese"/>
+                    <Item subMenuId="settings-import" name="Import"/>
+                    <Item subMenuId="tools-md5" name="MD5"/>
+                </SubEntries>
 
-				<!-- Sub Menu Entries -->
-				<SubEntries>
-					<Item subMenuId="edit-copyToClipboard"  name="คัดลอกไปยังคลิปบอร์ด"/>
-					<Item subMenuId="edit-indent" name="ย่อหน้า"/>
-					<Item subMenuId="edit-convertCaseTo" name="แปลงตัวอักษร"/>
-					<Item subMenuId="edit-lineOperations" name="การทำงานกับบรรทัด"/>
-					<Item subMenuId="edit-comment" name="คอมเมนท์/ยกเลิกคอมเมนท์"/>
-					<Item subMenuId="edit-autoCompletion" name="เติมคำอัตโนมัติ"/>
-					<Item subMenuId="edit-eolConversion" name="แปลงรูปแบบสิ้นสุดบรรทัด"/>
-					<Item subMenuId="edit-blankOperations" name="การทำงานกับช่องว่าง"/>
-					<Item subMenuId="search-markAll" name="มาร์คทั้งหมด"/>
-					<Item subMenuId="search-unmarkAll" name="ยกเลิกมาร์คทั้งหมด"/>
-					<Item subMenuId="search-jumpUp" name="กระโดดขึ้นไปยัง"/>
-					<Item subMenuId="search-jumpDown" name="กระโดดลงไปยัง"/>
-					<Item subMenuId="search-bookmark" name="บุ๊คมาร์ค"/>
-					<Item subMenuId="view-showSymbol"  name="แสดงสัญลักษณ์"/>
-					<Item subMenuId="view-zoom"  name="ซูม"/>
-					<Item subMenuId="view-moveCloneDocument"  name="ย้าย/สำเนา เอกสารปัจจุบัน"/>
-					<Item subMenuId="view-collapseLevel" name="ย่อชั้นนี้"/>
-					<Item subMenuId="view-uncollapseLevel" name="ยืดชั้นนี้"/>
-					<Item subMenuId="encoding-characterSets"  name="ชุดอักขระ"/>
-					<Item subMenuId="encoding-arabic"  name="Arabic"/>
-					<Item subMenuId="encoding-baltic"  name="Baltic"/>
-					<Item subMenuId="encoding-celtic"  name="Celtic"/>
-					<Item subMenuId="encoding-cyrillic"  name="Cyrillic"/>
-					<Item subMenuId="encoding-centralEuropean"  name="Central European"/>
-					<Item subMenuId="encoding-chinese"  name="Chinese"/>
-					<Item subMenuId="encoding-easternEuropean"  name="Eastern European"/>
-					<Item subMenuId="encoding-greek"  name="Greek"/>
-					<Item subMenuId="encoding-hebrew"  name="Hebrew"/>
-					<Item subMenuId="encoding-japanese"  name="Japanese"/>
-					<Item subMenuId="encoding-korean" name="Korean"/>
-					<Item subMenuId="encoding-northEuropean" name="North European"/>
-					<Item subMenuId="encoding-thai" name="ไทย"/>
-					<Item subMenuId="encoding-turkish" name="Turkish"/>
-					<Item subMenuId="encoding-westernEuropean" name="Western European"/>
-					<Item subMenuId="encoding-vietnamese" name="Vietnamese"/>
-					<Item subMenuId="settings-import"  name="นำเข้า"/>
-				</SubEntries>
+                <!-- all menu item -->
+                <Commands>
+                    <Item id="41001" name="สร้างใหม่ (&amp;N)"/>
+                    <Item id="41002" name="เปิด (&amp;O)"/>
+                    <Item id="41019" name="ปิด"/>
+                    <Item id="41020" name="ปิดทั้งหมด (&amp;L)"/>
+                    <Item id="41003" name="ปิดทั้งหมดยกเว้นเอกสารนี้"/>
+                    <Item id="41004" name="บันทึก (&amp;S)"/>
+                    <Item id="41005" name="บันทึกทั้งหมด (&amp;E)"/>
+                    <Item id="41009" name="บันทึกเป็น... (&amp;A)"/>
+                    <Item id="41018" name="พิมพ์..."/>
+                    <Item id="41006" name="พิมพ์เดี๋ยวนี้"/>
+                    <Item id="41007" name="ออก (&amp;X)"/>
+                    <Item id="41008" name="โหลดเซสชั่น..."/>
+                    <Item id="41010" name="บันทึกเซสชั่น..."/>
+                    <Item id="1001" name="โหลดอีกครั้งจากดิสก์"/>
+                    <Item id="41011" name="บันทึกสำเนาเป็น..."/>
+                    <Item id="41012" name="ลบไฟล์จากดิสก์"/>
+                    <Item id="41013" name="เปลี่ยนชื่อ..."/>
+                    <Item id="41014" name="ตัด (&amp;T)"/>
+                    <Item id="41015" name="คัดลอก (&amp;C)"/>
+                    <Item id="41016" name="ยกเลิก (&amp;U)"/>
+                    <Item id="41017" name="ทำซ้ำ (&amp;R)"/>
+                    <Item id="41021" name="วาง (&amp;P)"/>
+                    <Item id="41022" name="ลบ (&amp;D)"/>
+                    <Item id="41023" name="เลือกทั้งหมด (&amp;L)"/>
+                    <Item id="42001" name="เพิ่มย่อหน้า (ไปทางซ้าย)"/>
+                    <Item id="42002" name="ลดย่อหน้า (ไปทางขวา)"/>
+                    <Item id="42003" name="คัดลอกบรรทัดนี้"/>
+                    <Item id="42004" name="แยกบรรทัด"/>
+                    <Item id="42005" name="เชื่อมบรรทัด"/>
+                    <Item id="42006" name="เลื่อนบรรทัดนี้ขึ้น"/>
+                    <Item id="42007" name="เลื่อนบรรทัดนี้ลง"/>
+                    <Item id="42020" name="ปรับเป็นตัวอักษรใหญ่"/>
+                    <Item id="42008" name="ปรับเป็นตัวอีกษรเล็ก"/>
+                    <Item id="42009" name="เริ่มบันทึก (&amp;S)"/>
+                    <Item id="42010" name="หยุดบันทึก (&amp;S)"/>
+                    <Item id="42012" name="เล่น (&amp;P)"/>
+                    <Item id="42013" name="สลับคอมเมนต์บล็อก"/>
+                    <Item id="42014" name="คอมเมนต์เป็นชุด"/>
+                    <Item id="42015" name="ตัดช่องว่างด้านหน้า"/>
+                    <Item id="42059" name="ตัดช่องว่างด้านหน้าและด้านหลัง"/>
+                    <Item id="42060" name="เปลี่ยนสิ้นสุดบรรทัดเป็นช่องว่าง"/>
+                    <Item id="42061" name="ลบสิ้นสุดบรรทัดและช่องว่าง"/>
+                    <Item id="42062" name="เปลี่ยนแท็บเป็นช่องว่าง"/>
+                    <Item id="42063" name="เปลี่ยนช่องว่างเป็นแท็บ"/>
+                    <Item id="42064" name="ตัดช่องว่างด้านหลัง"/>
+                    <Item id="42065" name="จัดเก็บมาโครที่ถูกบันทึกนี้"/>
+                    <Item id="42066" name="ทิศทางข้อความจากขวาไปซ้าย"/>
+                    <Item id="42016" name="ทิศทางข้อความจากซ้ายไปขวา"/>
+                    <Item id="42017" name="ตั้งค่าให้อ่านอย่างเดียว"/>
+                    <Item id="42067" name="ส่งพาธไฟล์นี้ไปยังคลิปบอร์ด"/>
+                    <Item id="42068" name="ส่งชื่อไฟล์นี้ไปยังคลิปบอร์ด"/>
+                    <Item id="42069" name="ส่งไดเรกทอรีนี้ไปยังคลิปบอร์ด"/>
+                    <Item id="42070" name="เรียกมาโครหลายครั้ง..."/>
+                    <Item id="42071" name="ยกเลิกตั้งค่าให้อ่านอย่างเดียว"/>
+                    <Item id="42072" name="คอมเมนต์บล็อก"/>
+                    <Item id="42073" name="ยกเลิกคอมเมนต์บล็อก"/>
+                    <Item id="42074" name="ค้นหา (&amp;F)"/>
+                    <Item id="42075" name="ค้นหาถัดไป (&amp;N)"/>
+                    <Item id="42076" name="แทนที่..."/>
+                    <Item id="42018" name="ไปที่..."/>
+                    <Item id="42019" name="สลับบุ๊คมาร์ค"/>
+                    <Item id="42021" name="บุ๊คมาร์คถัดไป"/>
+                    <Item id="42022" name="บุ๊คมาร์คก่อนหน้า"/>
+                    <Item id="42023" name="ยกเลิกบุ๊คมาร์คทั้งหมด"/>
+                    <Item id="42047" name="ไปที่คู่ของวงเล็บนี้"/>
+                    <Item id="42024" name="ค้นหาก่อนหน้า"/>
+                    <Item id="42042" name="สืบค้นแบบเพิ่มขึ้น (&amp;I)"/>
+                    <Item id="42043" name="ค้นหาในไฟล์"/>
+                    <Item id="42044" name="ค้นหา (ที่เปลี่ยนแปลง) ถัดไป"/>
+                    <Item id="42045" name="ค้นหา (ที่เปลี่ยนแปลง) ก่อนหน้า"/>
+                    <Item id="42046" name="มาร์คทั้งหมด"/>
+                    <Item id="42054" name="ยกเลิกมาร์คทั้งหมด"/>
+                    <Item id="42053" name="ตัดบรรทัดที่ถูกบุ๊คมาร์ค"/>
+                    <Item id="42038" name="คัดลอกบรรทัดที่ถูกบุ๊คมาร์ค"/>
+                    <Item id="42039" name="วางแทนที่บรรทัดที่ถูกบุ๊คมาร์ค"/>
+                    <Item id="42048" name="ลบบรรทัดที่ถูกบุ๊คมาร์ค"/>
+                    <Item id="42049" name="ใช้รูปแบบที่ 1"/>
+                    <Item id="42050" name="ล้างรูปแบบที่ 1"/>
+                    <Item id="42037" name="ใช้รูปแบบที่ 2"/>
+                    <Item id="42034" name="ล้างรูปแบบที่ 2"/>
+                    <Item id="42051" name="ใช้รูปแบบที่ 3"/>
+                    <Item id="42052" name="ล้างรูปแบบที่ 3"/>
+                    <Item id="42025" name="ใช้รูปแบบที่ 4"/>
+                    <Item id="42026" name="ล้างรูปแบบที่ 4"/>
+                    <Item id="42027" name="ใช้รูปแบบที่ 5"/>
+                    <Item id="42028" name="ล้างรูปแบบที่ 5"/>
+                    <Item id="42029" name="ล้างรูปแบบทั้งหมด"/>
+                    <Item id="42030" name="รูปแบบที่ 1"/>
+                    <Item id="42031" name="รูปแบบที่ 2"/>
+                    <Item id="42032" name="รูปแบบที่ 3"/>
+                    <Item id="42033" name="รูปแบบที่ 4"/>
+                    <Item id="42035" name="รูปแบบที่ 5"/>
+                    <Item id="42036" name="ค้นหารูปแบบ"/>
+                    <Item id="42055" name="รูปแบบที่ 1"/>
+                    <Item id="42056" name="รูปแบบที่ 2"/>
+                    <Item id="42057" name="รูปแบบที่ 3"/>
+                    <Item id="42058" name="รูปแบบที่ 4"/>
+                    <Item id="43001" name="รูปแบบที่ 5"/>
+                    <Item id="43002" name="ค้นหารูปแบบ"/>
+                    <Item id="43003" name="หน้าต่างผลการค้นหา"/>
+                    <Item id="43004" name="ผลการค้นหาถัดไป"/>
+                    <Item id="43005" name="ผลการค้นหาก่อนหน้า"/>
+                    <Item id="43006" name="เลือกและค้นหาถัดไป"/>
+                    <Item id="43007" name="เลือกและค้นหาก่อนหน้า"/>
+                    <Item id="43008" name="กลับบุ๊คมาร์ค"/>
+                    <Item id="43018" name="โพสต์-อิท"/>
+                    <Item id="43019" name="หุบเข้าทั้งหมด"/>
+                    <Item id="43020" name="กล่องโต้ตอบที่ผู้ใช้กำหนดเอง..."/>
+                    <Item id="43021" name="แสดงตัวอักขระทั้งหมด"/>
+                    <Item id="43051" name="แสดงตัวบอกย่อหน้า"/>
+                    <Item id="43050" name="มัดรวม"/>
+                    <Item id="43052" name="ซูมเข้า (&amp;I) Ctrl + Mouse Wheel Up"/>
+                    <Item id="43053" name="ซูมออก (&amp;O) Ctrl + Mouse Wheel Down"/>
+                    <Item id="43009" name="แสดงช่องว่างและแท็บ"/>
+                    <Item id="43010" name="แสดงสิ้นสุดบรรทัด"/>
+                    <Item id="43011" name="กางออกทั้งหมด"/>
+                    <Item id="43013" name="หุบชั้นนี้เข้า"/>
+                    <Item id="43014" name="กางชั้นนี้ออก"/>
+                    <Item id="43015" name="สลับโหมดเต็มหน้าจอ"/>
+                    <Item id="43022" name="คืนซูมกลับเป็นค่าเริ่มต้น"/>
+                    <Item id="43023" name="ล็อคให้อยู่ด้านบนตลอดเวลา"/>
+                    <Item id="43024" name="ข้อมูลโดยสรุป..."/>
+                    <Item id="43025" name="ทำให้เลื่อนแนวตั้งพร้อมกัน"/>
+                    <Item id="43026" name="ทำให้เลื่อนแนวนอนพร้อมกัน"/>
+                    <Item id="43027" name="แสดงสัญลักษณ์ที่ถูกมัดรวม"/>
+                    <Item id="43028" name="เลือกที่มุมมองอื่น"/>
+                    <Item id="43029" name="แปลงเป็นรูปแบบ Windows"/>
+                    <Item id="43030" name="แปลงเป็นรูปแบบ UNIX"/>
+                    <Item id="43031" name="แปลงเป็นรูปแบบ MAC"/>
+                    <Item id="43032" name="เข้ารหัสข้อมูลแบบ ANSI"/>
+                    <Item id="43033" name="เข้ารหัสข้อมูลแบบ UTF-8"/>
+                    <Item id="43034" name="เข้ารหัสข้อมูลแบบ UCS-2 Big Endian"/>
+                    <Item id="43035" name="เข้ารหัสข้อมูลแบบ UCS-2 Little Endian"/>
+                    <Item id="43036" name="เข้ารหัสข้อมูลแบบ UTF-8 without BOM"/>
+                    <Item id="43037" name="เข้ารหัสข้อมูลแบบ ANSI"/>
+                    <Item id="43038" name="เข้ารหัสข้อมูลแบบ UTF-8 without BOM"/>
+                    <Item id="43039" name="เข้ารหัสข้อมูลแบบ UTF-8"/>
+                    <Item id="43040" name="เข้ารหัสข้อมูลแบบ UCS-2 Big Endian"/>
+                    <Item id="43041" name="เข้ารหัสข้อมูลแบบ UCS-2 Little Endian"/>
+                    <Item id="43042" name="ย้ายไปยังมุมมองอื่น"/>
+                    <Item id="43043" name="สำเนาไปยังมุมมองอื่น"/>
+                    <Item id="43044" name="ย้ายไปยังหน้าต่างใหม่"/>
+                    <Item id="43045" name="เปิดในหน้าต่างใหม่"/>
+                    <Item id="43046" name="ตัวตั้งค่ารูปแบบ..."/>
+                    <Item id="43047" name="ผู้ใช้กำหนดเอง"/>
+                    <Item id="43048" name="เกี่ยวกับ Notepad++..."/>
+                    <Item id="43049" name="หน้าโฮมของ Notepad++"/>
+                    <Item id="43054" name="หน้าโปรเจคของ Notepad++"/>
+                    <Item id="44009" name="เอกสารการใช้งานออนไลน์"/>
+                    <Item id="44010" name="กระดานข่าว"/>
+                    <Item id="44019" name="หาปลั๊กอินเพิ่มเติม"/>
+                    <Item id="44020" name="อัพเดท Notepad++"/>
+                    <Item id="44022" name="หัวข้อตัวช่วยเหลือ"/>
+                    <Item id="44023" name="นำเข้าปลั๊กอิน..."/>
+                    <Item id="44024" name="นำเข้าธีม..."/>
+                    <Item id="44025" name="ตั้งค่าคีย์ลัด..."/>
+                    <Item id="44026" name="กำหนดค่าที่ต้องการ..."/>
+                    <Item id="44029" name="เรียก (&amp;R)..."/>
+                    <Item id="44030" name="เติมฟังก์ชันอัตโนมัติ"/>
+                    <Item id="44031" name="เติมคำอัตโนมัติ"/>
+                    <Item id="44049" name="คำแนะนำพารามิเตอร์ของฟังก์ชัน"/>
+                    <Item id="44080" name="ตัวแก้ไขคอลัมน์..."/>
+                    <Item id="44084" name="ซ่อนบรรทัด"/>
+                    <Item id="44085" name="เปิดไฟล์ล่าสุดทั้งหมด"/>
+                    <Item id="44086" name="ล้างรายชื่อไฟล์ล่าสุด"/>
+                    <Item id="44087" name="ปรับแต่งทางลัด/ลบมาโคร..."/>
+                    <Item id="44088" name="ปรับแต่งทางลัด/ลบคำสั่ง..."/>
+                    <Item id="44089" name="แก้ไขสภาพแวดล้อมเมนูป๊อบอัพ"/>
+                    <Item id="44090" name="5th Tab"/>
+                    <Item id="44091" name="6th Tab"/>
+                    <Item id="44092" name="7th Tab"/>
+                    <Item id="44093" name="8th Tab"/>
+                    <Item id="44094" name="9th Tab"/>
+                    <Item id="44095" name="Next Tab"/>
+                    <Item id="44096" name="Previous Tab"/>
+                    <Item id="44097" name="Monitoring (tail -f)"/>
+                    <Item id="44098" name="Move Tab Forward"/>
+                    <Item id="44099" name="Move Tab Backward"/>
+                    <Item id="44032" name="Toggle Full Screen Mode"/>
+                    <Item id="44033" name="Restore Default Zoom"/>
+                    <Item id="44034" name="Always on Top"/>
+                    <Item id="44035" name="Synchronise Vertical Scrolling"/>
+                    <Item id="44036" name="Synchronise Horizontal Scrolling"/>
+                    <Item id="44041" name="Show Wrap Symbol"/>
+                    <Item id="44072" name="Focus on Another View"/>
+                    <Item id="44081" name="Project Panel 1"/>
+                    <Item id="44082" name="Project Panel 2"/>
+                    <Item id="44083" name="Project Panel 3"/>
+                    <Item id="45001" name="Windows (CR LF)"/>
+                    <Item id="45002" name="Unix (LF)"/>
+                    <Item id="45003" name="Macintosh (CR)"/>
+                    <Item id="45004" name="Encode in ANSI"/>
+                    <Item id="45005" name="Encode in UTF-8-BOM"/>
+                    <Item id="45006" name="Encode in UCS-2 BE BOM"/>
+                    <Item id="45007" name="Encode in UCS-2 LE BOM"/>
+                    <Item id="45008" name="Encode in UTF-8"/>
+                    <Item id="45009" name="Convert to ANSI"/>
+                    <Item id="45010" name="Convert to UTF-8"/>
+                    <Item id="45011" name="Convert to UTF-8-BOM"/>
+                    <Item id="45012" name="Convert to UCS-2 BE BOM"/>
+                    <Item id="45013" name="Convert to UCS-2 LE BOM"/>
 
-				<!-- all menu item -->
-				<Commands>
-					<Item id="41001" name="สร้างใหม่ (&amp;N)"/>
-					<Item id="41002" name="เปิด (&amp;O)"/>
-					<Item id="41003" name="ปิด"/>
-					<Item id="41004" name="ปิดทั้งหมด (&amp;L)"/>
-					<Item id="41005" name="ปิดทั้งหมดยกเว้นเอกสารนี้"/>
-					<Item id="41006" name="บันทึก (&amp;S)"/>
-					<Item id="41007" name="บันทึกทั้งหมด (&amp;E)"/>
-					<Item id="41008" name="บันทึกเป็น... (&amp;A)"/>
-					<Item id="41010" name="พิมพ์..."/>
-					<Item id="1001"  name="พิมพ์เดี๋ยวนี้"/>
-					<Item id="41011" name="ออก (&amp;X)"/>
-					<Item id="41012" name="โหลดเซสชั่น..."/>
-					<Item id="41013" name="บันทึกเซสชั่น..."/>
-					<Item id="41014" name="โหลดอีกครั้งจากดิสก์"/>
-					<Item id="41015" name="บันทึกสำเนาเป็น..."/>
-					<Item id="41016" name="ลบไฟล์จากดิสก์"/>
-					<Item id="41017" name="เปลี่ยนชื่อ..."/>
+                    <Item id="10001" name="Move to Other View"/>
+                    <Item id="10002" name="Clone to Other View"/>
+                    <Item id="10003" name="Move to New Instance"/>
+                    <Item id="10004" name="Open in New Instance"/>
 
-					<Item id="42001" name="ตัด (&amp;T)"/>
-					<Item id="42002" name="คัดลอก (&amp;C)"/>
-					<Item id="42003" name="ยกเลิก (&amp;U)"/>
-					<Item id="42004" name="ทำซ้ำ (&amp;R)"/>
-					<Item id="42005" name="วาง (&amp;P)"/>
-					<Item id="42006" name="ลบ (&amp;D)"/>
-					<Item id="42007" name="เลือกทั้งหมด (&amp;L)"/>
-					<Item id="42008" name="เพิ่มย่อหน้า (ไปทางซ้าย)"/>
-					<Item id="42009" name="ลดย่อหน้า (ไปทางขวา)"/>
-					<Item id="42010" name="คัดลอกบรรทัดนี้"/>
-					<Item id="42012" name="แยกบรรทัด"/>
-					<Item id="42013" name="เชื่อมบรรทัด"/>
-					<Item id="42014" name="เลื่อนบรรทัดนี้ขึ้น"/>
-					<Item id="42015" name="เลื่อนบรรทัดนี้ลง"/>
-					<Item id="42016" name="ปรับเป็นตัวอักษรใหญ่"/>
-					<Item id="42017" name="ปรับเป็นตัวอีกษรเล็ก"/>
-					<Item id="42018" name="เริ่มบันทึก (&amp;S)"/>
-					<Item id="42019" name="หยุดบันทึก (&amp;S)"/>
-					<Item id="42021" name="เล่น (&amp;P)"/>
-					<Item id="42022" name="สลับคอมเมนต์บล็อก"/>
-					<Item id="42023" name="คอมเมนต์เป็นชุด"/>
-					<Item id="42042" name="ตัดช่องว่างด้านหน้า"/>
-					<Item id="42043" name="ตัดช่องว่างด้านหน้าและด้านหลัง"/>
-					<Item id="42044" name="เปลี่ยนสิ้นสุดบรรทัดเป็นช่องว่าง"/>
-					<Item id="42045" name="ลบสิ้นสุดบรรทัดและช่องว่าง"/>
-					<Item id="42046" name="เปลี่ยนแท็บเป็นช่องว่าง"/>
-					<Item id="42047" name="เปลี่ยนช่องว่างเป็นแท็บ"/>
-					<Item id="42024" name="ตัดช่องว่างด้านหลัง"/>
-					<Item id="42025" name="จัดเก็บมาโครที่ถูกบันทึกนี้"/>
-					<Item id="42026" name="ทิศทางข้อความจากขวาไปซ้าย"/>
-					<Item id="42027" name="ทิศทางข้อความจากซ้ายไปขวา"/>
-					<Item id="42028" name="ตั้งค่าให้อ่านอย่างเดียว"/>
-					<Item id="42029" name="ส่งพาธไฟล์นี้ไปยังคลิปบอร์ด"/>
-					<Item id="42030" name="ส่งชื่อไฟล์นี้ไปยังคลิปบอร์ด"/>
-					<Item id="42031" name="ส่งไดเรกทอรีนี้ไปยังคลิปบอร์ด"/>
-					<Item id="42032" name="เรียกมาโครหลายครั้ง..."/>
-					<Item id="42033" name="ยกเลิกตั้งค่าให้อ่านอย่างเดียว"/>
-					<Item id="42035" name="คอมเมนต์บล็อก"/>
-					<Item id="42036" name="ยกเลิกคอมเมนต์บล็อก"/>
+                    <Item id="46001" name="Style Configurator..."/>
+                    <Item id="46250" name="Define your language..."/>
+                    <Item id="46180" name="User-Defined"/>
+                    <Item id="47000" name="About Notepad++"/>
+                    <Item id="47010" name="Command Line Arguments..."/>
+                    <Item id="47001" name="Notepad++ Home"/>
+                    <Item id="47002" name="Notepad++ Project Page"/>
+                    <Item id="47003" name="Online Documentation"/>
+                    <Item id="47004" name="Notepad++ Community (Forum)"/>
+                    <Item id="47011" name="Live Support"/>
+                    <Item id="47012" name="Debug Info..."/>
+                    <Item id="47005" name="Get More Plugins"/>
+                    <Item id="47006" name="Update Notepad++"/>
+                    <Item id="47009" name="Set Updater Proxy..."/>
+                    <Item id="48005" name="Import plugin(s)..."/>
+                    <Item id="48006" name="Import style theme(s)..."/>
+                    <Item id="48018" name="Edit Popup ContextMenu"/>
+                    <Item id="48009" name="Shortcut Mapper..."/>
+                    <Item id="48011" name="Preferences..."/>
+                    <Item id="48015" name="Plugins Admin..."/>
+                    <Item id="48501" name="Generate..."/>
+                    <Item id="48502" name="Generate from files..."/>
+                    <Item id="48503" name="Generate into clipboard"/>
+                    <Item id="49000" name="&amp;Run..."/>
 
-					<Item id="43001" name="ค้นหา (&amp;F)"/>
-					<Item id="43002" name="ค้นหาถัดไป (&amp;N)"/>
-					<Item id="43003" name="แทนที่..."/>
-					<Item id="43004" name="ไปที่..."/>
-					<Item id="43005" name="สลับบุ๊คมาร์ค"/>
-					<Item id="43006" name="บุ๊คมาร์คถัดไป"/>
-					<Item id="43007" name="บุ๊คมาร์คก่อนหน้า"/>
-					<Item id="43008" name="ยกเลิกบุ๊คมาร์คทั้งหมด"/>
-					<Item id="43009" name="ไปที่คู่ของวงเล็บนี้"/>
-					<Item id="43010" name="ค้นหาก่อนหน้า"/>
-					<Item id="43011" name="สืบค้นแบบเพิ่มขึ้น (&amp;I)"/>
-					<Item id="43013" name="ค้นหาในไฟล์"/>
-					<Item id="43014" name="ค้นหา (ที่เปลี่ยนแปลง) ถัดไป"/>
-					<Item id="43015" name="ค้นหา (ที่เปลี่ยนแปลง) ก่อนหน้า"/>
-					<Item id="43016" name="มาร์คทั้งหมด"/>
-					<Item id="43017" name="ยกเลิกมาร์คทั้งหมด"/>
-					<Item id="43018" name="ตัดบรรทัดที่ถูกบุ๊คมาร์ค"/>
-					<Item id="43019" name="คัดลอกบรรทัดที่ถูกบุ๊คมาร์ค"/>
-					<Item id="43020" name="วางแทนที่บรรทัดที่ถูกบุ๊คมาร์ค"/>
-					<Item id="43021" name="ลบบรรทัดที่ถูกบุ๊คมาร์ค"/>
-					<Item id="43022" name="ใช้รูปแบบที่ 1"/>
-					<Item id="43023" name="ล้างรูปแบบที่ 1"/>
-					<Item id="43024" name="ใช้รูปแบบที่ 2"/>
-					<Item id="43025" name="ล้างรูปแบบที่ 2"/>
-					<Item id="43026" name="ใช้รูปแบบที่ 3"/>
-					<Item id="43027" name="ล้างรูปแบบที่ 3"/>
-					<Item id="43028" name="ใช้รูปแบบที่ 4"/>
-					<Item id="43029" name="ล้างรูปแบบที่ 4"/>
-					<Item id="43030" name="ใช้รูปแบบที่ 5"/>
-					<Item id="43031" name="ล้างรูปแบบที่ 5"/>
-					<Item id="43032" name="ล้างรูปแบบทั้งหมด"/>
-					<Item id="43033" name="รูปแบบที่ 1"/>
-					<Item id="43034" name="รูปแบบที่ 2"/>
-					<Item id="43035" name="รูปแบบที่ 3"/>
-					<Item id="43036" name="รูปแบบที่ 4"/>
-					<Item id="43037" name="รูปแบบที่ 5"/>
-					<Item id="43038" name="ค้นหารูปแบบ"/>
-					<Item id="43039" name="รูปแบบที่ 1"/>
-					<Item id="43040" name="รูปแบบที่ 2"/>
-					<Item id="43041" name="รูปแบบที่ 3"/>
-					<Item id="43042" name="รูปแบบที่ 4"/>
-					<Item id="43043" name="รูปแบบที่ 5"/>
-					<Item id="43044" name="ค้นหารูปแบบ"/>
-					<Item id="43045" name="หน้าต่างผลการค้นหา"/>
-					<Item id="43046" name="ผลการค้นหาถัดไป"/>
-					<Item id="43047" name="ผลการค้นหาก่อนหน้า"/>
-					<Item id="43048" name="เลือกและค้นหาถัดไป"/>
-					<Item id="43049" name="เลือกและค้นหาก่อนหน้า"/>
-					<Item id="43050" name="กลับบุ๊คมาร์ค"/>
+                    <Item id="50000" name="Function Completion"/>
+                    <Item id="50001" name="Word Completion"/>
+                    <Item id="50002" name="Function Parameters Hint"/>
+                    <Item id="50006" name="Path Completion"/>
+                    <Item id="44042" name="Hide Lines"/>
+                    <Item id="42040" name="Open All Recent Files"/>
+                    <Item id="42041" name="Empty Recent Files List"/>
+                    <Item id="48016" name="Modify Shortcut/Delete Macro..."/>
+                    <Item id="48017" name="Modify Shortcut/Delete Command..."/>
+                </Commands>
+            </Main>
+            <Splitter>
+            </Splitter>
+            <TabBar>
+                    <Item CMID="0" name="ปิด"/>
+                    <Item CMID="1" name="ปิดทั้งหมดยกเว้นเอกสารนี้"/>
+                    <Item CMID="2" name="บันทึก"/>
+                    <Item CMID="3" name="บันทึกเป็น..."/>
+                    <Item CMID="4" name="พิมพ์"/>
+                    <Item CMID="5" name="ย้ายไปยังมุมมองอื่น"/>
+                    <Item CMID="6" name="คัดลอกไปยังมุมมองอื่น"/>
+                    <Item CMID="7" name="คัดลอกไฟล์พาธเต็มไปยังคลิปบอร์ด"/>
+                    <Item CMID="8" name="คัดลอกชื่อไฟล์ไปยังคลิปบอร์ด"/>
+                    <Item CMID="9" name="คัดลอกไดเรกทอรีนี้ไปยังคลิปบอร์ด"/>
+                    <Item CMID="10" name="เปลี่ยนชื่อ"/>
+                    <Item CMID="11" name="ลบ"/>
+                    <Item CMID="12" name="อ่านอย่างเดียว"/>
+                    <Item CMID="13" name="ยกเลิกอ่านอย่างเดียว"/>
+                    <Item CMID="14" name="ยังไปยังหน้าต่างใหม่"/>
+                    <Item CMID="15" name="เปิดในหน้าต่างใหม่"/>
+                    <Item CMID="16" name="Reload"/>
+                    <Item CMID="17" name="Close All to the Left"/>
+                    <Item CMID="18" name="Close All to the Right"/>
+                    <Item CMID="19" name="Open Containing Folder in Explorer"/>
+                    <Item CMID="20" name="Open Containing Folder in cmd"/>
+                    <Item CMID="21" name="Open in Default Viewer"/>
+            </TabBar>
+        </Menu>
 
-					<Item id="44009" name="โพสต์-อิท"/>
-					<Item id="44010" name="หุบเข้าทั้งหมด"/>
-					<Item id="44011" name="กล่องโต้ตอบที่ผู้ใช้กำหนดเอง..."/>
-					<Item id="44019" name="แสดงตัวอักขระทั้งหมด"/>
-					<Item id="44020" name="แสดงตัวบอกย่อหน้า"/>
-					<Item id="44022" name="มัดรวม"/>
-					<Item id="44023" name="ซูมเข้า (&amp;I) Ctrl + Mouse Wheel Up"/>
-					<Item id="44024" name="ซูมออก (&amp;O) Ctrl + Mouse Wheel Down"/>
-					<Item id="44025" name="แสดงช่องว่างและแท็บ"/>
-					<Item id="44026" name="แสดงสิ้นสุดบรรทัด"/>
-					<Item id="44029" name="กางออกทั้งหมด"/>
-					<Item id="44030" name="หุบชั้นนี้เข้า"/>
-					<Item id="44031" name="กางชั้นนี้ออก"/>
-					<Item id="44032" name="สลับโหมดเต็มหน้าจอ"/>
-					<Item id="44033" name="คืนซูมกลับเป็นค่าเริ่มต้น"/>
-					<Item id="44034" name="ล็อคให้อยู่ด้านบนตลอดเวลา"/>
-					<Item id="44049" name="ข้อมูลโดยสรุป..."/>
-					<Item id="44035" name="ทำให้เลื่อนแนวตั้งพร้อมกัน"/>
-					<Item id="44036" name="ทำให้เลื่อนแนวนอนพร้อมกัน"/>
-					<Item id="44041" name="แสดงสัญลักษณ์ที่ถูกมัดรวม"/>
-					<Item id="44072" name="เลือกที่มุมมองอื่น"/>
+        <Dialog>
+            <Find title="" titleFind="ค้นหา" titleReplace="แทนที่" titleFindInFiles="ค้นหาในไฟล์" titleMark="มาร์ค">
+                <Item id="1" name="ค้นหาถัดไป"/>
+                <Item id="1722" name="ปิด"/>
+                <Item id="2" name="สิ่งที่ค้นหา:"/>
+                <Item id="1620" name="ตรงกับทั้งคำเท่านั้น (&amp;W)"/>
+                <Item id="1603" name="ตรงกับตัวอักษรเล็ก/ใหญ่ (&amp;C)"/>
+                <Item id="1604" name="Regular &amp;expression"/>
+                <Item id="1605" name="Wrap aroun&amp;d"/>
+                <Item id="1606" name="ขึ้น (&amp;U)"/>
+                <Item id="1614" name="ลง (&amp;D)"/>
+                <Item id="1615" name="นับ"/>
+                <Item id="1616" name="ค้นหาทั้งหมด"/>
+                <Item id="1618" name="มาร์คบรรทัด"/>
+                <Item id="1611" name="Style found token"/>
+                <Item id="1608" name="ล้างแต่ละการค้นหา"/>
+                <Item id="1609" name="ทิศทาง"/>
+                <Item id="1687" name="แทนที่ด้วย (&amp;P):"/>
+                <Item id="1688" name="แทนที่ (&amp;R)"/>
+                <Item id="1632" name="แทนที่ทั้งหมด (&amp;A)"/>
+                <Item id="1633" name="ความโปร่งแสง"/>
+                <Item id="1635" name="เมื่อไม่ได้ถูกเลือก"/>
+                <Item id="1636" name="ตลอดเวลา"/>
+                <Item id="1654" name="เมื่อถูกเลือก"/>
+                <Item id="1655" name="ล้าง"/>
+                <Item id="1656" name="แทนที่ทั้งหมดในทุกเอกสารที่เปิดอยู่"/>
+                <Item id="1658" name="ค้นหาทั้งหมดในทุกเอกสารที่เปิดอยู่"/>
+                <Item id="1659" name="ค้นหาในไฟล์"/>
+                <Item id="1624" name="ตัวกรอง:"/>
+                <Item id="1625" name="ไดเรกทอรี:"/>
+                <Item id="1626" name="ค้นหาทั้งหมด"/>
+                <Item id="1660" name="ในทุกโฟลเดอร์ย่อย"/>
+                <Item id="1661" name="ในโฟลเดอร์ที่ถูกซ่อน"/>
+                <Item id="1641" name="โหมดการสืบค้น"/>
+                <Item id="1686" name="ธรรมดา"/>
+                <Item id="1703" name="เพิ่มเติม (\n, \r, \t, \0, \x...)"/>
+            </Find>
 
-					<Item id="45001" name="แปลงเป็นรูปแบบ Windows"/>
-					<Item id="45002" name="แปลงเป็นรูปแบบ UNIX"/>
-					<Item id="45003" name="แปลงเป็นรูปแบบ MAC"/>
-					<Item id="45004" name="เข้ารหัสข้อมูลแบบ ANSI"/>
-					<Item id="45005" name="เข้ารหัสข้อมูลแบบ UTF-8"/>
-					<Item id="45006" name="เข้ารหัสข้อมูลแบบ UCS-2 Big Endian"/>
-					<Item id="45007" name="เข้ารหัสข้อมูลแบบ UCS-2 Little Endian"/>
-					<Item id="45008" name="เข้ารหัสข้อมูลแบบ UTF-8 without BOM"/>
-					<Item id="45009" name="เข้ารหัสข้อมูลแบบ ANSI"/>
-					<Item id="45010" name="เข้ารหัสข้อมูลแบบ UTF-8 without BOM"/>
-					<Item id="45011" name="เข้ารหัสข้อมูลแบบ UTF-8"/>
-					<Item id="45012" name="เข้ารหัสข้อมูลแบบ UCS-2 Big Endian"/>
-					<Item id="45013" name="เข้ารหัสข้อมูลแบบ UCS-2 Little Endian"/>
+            <FindCharsInRange title="Find Characters in Range...">
+                <Item id="2" name="Close"/>
+                <Item id="2901" name="Non-ASCII Characters (128-255)"/>
+                <Item id="2902" name="ASCII Characters (0-127)"/>
+                <Item id="2903" name="My range:"/>
+                <Item id="2906" name="&amp;Up"/>
+                <Item id="2907" name="&amp;Down"/>
+                <Item id="2908" name="Direction"/>
+                <Item id="2909" name="Wra&amp;p around"/>
+                <Item id="2910" name="Find"/>
+            </FindCharsInRange>
 
-					<Item id="10001" name="ย้ายไปยังมุมมองอื่น"/>
-					<Item id="10002" name="สำเนาไปยังมุมมองอื่น"/>
-					<Item id="10003" name="ย้ายไปยังหน้าต่างใหม่"/>
-					<Item id="10004" name="เปิดในหน้าต่างใหม่"/>
+            <GoToLine title="ไปที่...">
+                <Item id="2007" name="บรรทัด"/>
+                <Item id="2008" name="ออฟเซ็ต"/>
+                <Item id="1" name="ไป (&amp;G)"/>
+                <Item id="2" name="ยกเลิก"/>
+                <Item id="2004" name="คุณอยู่ที่:"/>
+                <Item id="2005" name="คุณจะไปที่:"/>
+                <Item id="2006" name="คุณไปได้ไม่เกิน:"/>
+            </GoToLine>
 
+            <Run title="เรียก...">
+                <Item id="1903" name="โปรแกรมที่เรียก"/>
+                <Item id="1" name="เรียก"/>
+                <Item id="2" name="ยกเลิก"/>
+                <Item id="1904" name="บันทึก..."/>
+            </Run>
 
-					<Item id="46001" name="ตัวตั้งค่ารูปแบบ..."/>
-					<Item id="46180" name="ผู้ใช้กำหนดเอง"/>
-					<Item id="47000" name="เกี่ยวกับ Notepad++..."/>
-					<Item id="47001" name="หน้าโฮมของ Notepad++"/>
-					<Item id="47002" name="หน้าโปรเจคของ Notepad++"/>
-					<Item id="47003" name="เอกสารการใช้งานออนไลน์"/>
-					<Item id="47004" name="กระดานข่าว"/>
-					<Item id="47005" name="หาปลั๊กอินเพิ่มเติม"/>
-					<Item id="47006" name="อัพเดท Notepad++"/>
-					<Item id="47008" name="หัวข้อตัวช่วยเหลือ"/>
+            <MD5FromFilesDlg title="Generate MD5 digest from files">
+                <Item id="1922" name="Choose files to generate MD5..."/>
+                <Item id="1924" name="Copy to Clipboard"/>
+                <Item id="2" name="Close"/>
+            </MD5FromFilesDlg>
 
-					<Item id="48005" name="นำเข้าปลั๊กอิน..."/>
-					<Item id="48006" name="นำเข้าธีม..."/>
-					<Item id="48009" name="ตั้งค่าคีย์ลัด..."/>
-					<Item id="48011" name="กำหนดค่าที่ต้องการ..."/>
+            <MD5FromTextDlg title="Generate MD5 digest">
+                <Item id="1932" name="Treat each line as a separate string"/>
+                <Item id="1934" name="Copy to Clipboard"/>
+                <Item id="2" name="Close"/>
+            </MD5FromTextDlg>
 
-					<Item id="49000" name="เรียก (&amp;R)..."/>
+            <PluginsAdminDlg title="Plugins Admin" titleAvailable="Available" titleUpdates="Updates" titleInstalled="Installed">
+                <ColumnPlugin name="Plugin"/>
+                <ColumnVersion name="Version"/>
+                <Item id="5501" name="Search:"/>
+                <Item id="5503" name="Install"/>
+                <Item id="5504" name="Update"/>
+                <Item id="5505" name="Remove"/>
+                <Item id="5508" name="Next"/>
+                <Item id="2" name="Close"/>
+            </PluginsAdminDlg>
 
-					<Item id="50000" name="เติมฟังก์ชันอัตโนมัติ"/>
-					<Item id="50001" name="เติมคำอัตโนมัติ"/>
-					<Item id="50002" name="คำแนะนำพารามิเตอร์ของฟังก์ชัน"/>
+            <StyleConfig title="ตั้งค่ารูปแบบ">
+                <Item id="2" name="ยกเลิก"/>
+                <Item id="2301" name="บันทึกและปิด"/>
+                <Item id="2303" name="ความโปร่งแสง"/>
+                <Item id="2306" name="เลือกธีม: "/>
+                <SubDialog>
+                    <Item id="2204" name="ตัวหนา"/>
+                    <Item id="2205" name="ตัวเอียง"/>
+                    <Item id="2206" name="สีพื้นหน้า"/>
+                    <Item id="2207" name="สีพื้นหลัง"/>
+                    <Item id="2208" name="ชื่อฟอนท์:"/>
+                    <Item id="2209" name="ขนาดฟอนท์:"/>
+                    <Item id="2211" name="สีรูปแบบ"/>
+                    <Item id="2212" name="ฟอนท์รูปแบบ"/>
+                    <Item id="2213" name="นามสกุลโดยปริยาย:"/>
+                    <Item id="2214" name="นามสกุลที่ผู้ใช้กำหนด:"/>
+                    <Item id="2216" name="ขีดเส้นใต้"/>
+                    <Item id="2218" name="คีย์เวิร์ดที่เป็นค่าเริ่มต้น"/>
+                    <Item id="2219" name="คีย์เวิร์ดที่ผู้ใช้กำหนดเอง"/>
+                    <Item id="2221" name="ภาษา:"/>
+                    <Item id="2225" name="เปิดใช้ค่าโกลบอลของสีพื้นหน้า"/>
+                    <Item id="2226" name="เปิดใช้ค่าโกลบอลของสีพื้นหลัง"/>
+                    <Item id="2227" name="เปิดใช้ค่าโกลบอลของฟอนท์"/>
+                    <Item id="2228" name="เปิดใช้ค่าโกลบอลของขนาดฟอนท์"/>
+                    <Item id="2229" name="เปิดใช้ค่าโกลบอลของฟอนท์รูปแบบตัวหนา"/>
+                    <Item id="2230" name="เปิดใช้ค่าโกลบอลของฟอนท์รูปแบบตัวเอียง"/>
+                    <Item id="2231" name="เปิดใช้ค่าโกลบอลของฟอนท์รูปแบบขีดเส้นใต้"/>
+                    <Item id="2232" name="Enable global underline font style"/>
+                </SubDialog>
+            </StyleConfig>
 
-					<Item id="42034" name="ตัวแก้ไขคอลัมน์..."/>
+            <ShortcutMapper title="Shortcut Mapper">
+                <Item id="2602" name="Modify"/>
+                <Item id="2603" name="Delete"/>
+                <Item id="2606" name="Clear"/>
+                <Item id="2607" name="Filter: "/>
+                <Item id="1" name="Close"/>
+                <ColumnName name="Name"/>
+                <ColumnShortcut name="Shortcut"/>
+                <ColumnCategory name="Category"/>
+                <ColumnPlugin name="Plugin"/>
+                <MainMenuTab name="Main menu"/>
+                <MacrosTab name="Macros"/>
+                <RunCommandsTab name="Run commands"/>
+                <PluginCommandsTab name="Plugin commands"/>
+                <ScintillaCommandsTab name="Scintilla commands"/>
+                <ConflictInfoOk name="No shortcut conflicts for this item."/>
+                <ConflictInfoEditing name="No conflicts . . ."/>
+            </ShortcutMapper>
+            <ShortcutMapperSubDialg title="Shortcut">
+                <Item id="1" name="OK"/>
+                <Item id="2" name="Cancel"/>
+                <Item id="5006" name="Name"/>
+                <Item id="5008" name="Add"/>
+                <Item id="5009" name="Remove"/>
+                <Item id="5010" name="Apply"/>
+                <Item id="5007" name="This will remove shortcut from this command"/>
+                <Item id="5012" name="CONFLICT FOUND!"/>
+            </ShortcutMapperSubDialg>
+            <UserDefine title="ผู้ใช้กำหนดเอง">
+                <Item id="20001" name="เปลี่ยนชื่อ"/>
+                <Item id="20002" name="สร้างใหม่..."/>
+                <Item id="20003" name="ถอดออก"/>
+                <Item id="20004" name="บันทึกเป็น..."/>
+                <Item id="20005" name="ภาษาของผู้ใช้: "/>
+                <Item id="20007" name="Ext.:"/>
+                <Item id="20009" name="ไม่สนตัวอักษรเล็ก/ใหญ่"/>
+                <Item id="20012" name="ความโปร่งแสง"/>
+                <Item id="20011" name="นำเข้า..."/>
+                <Item id="20015" name="ส่งออก..."/>
+                <Item id="20016" name="รูปแบบสี"/>
+                <StylerDialog title="Styler Dialog">
+                    <Item id="25030" name="Font options:"/>
+                    <Item id="25006" name="Foreground colour"/>
+                    <Item id="25007" name="Background colour"/>
+                    <Item id="25031" name="Name:"/>
+                    <Item id="25032" name="Size:"/>
+                    <Item id="25001" name="Bold"/>
+                    <Item id="25002" name="Italic"/>
+                    <Item id="25003" name="Underline"/>
+                    <Item id="25029" name="Nesting:"/>
+                    <Item id="25008" name="Delimiter 1"/>
+                    <Item id="25009" name="Delimiter 2"/>
+                    <Item id="25010" name="Delimiter 3"/>
+                    <Item id="25011" name="Delimiter 4"/>
+                    <Item id="25012" name="Delimiter 5"/>
+                    <Item id="25013" name="Delimiter 6"/>
+                    <Item id="25014" name="Delimiter 7"/>
+                    <Item id="25015" name="Delimiter 8"/>
+                    <Item id="25018" name="Keyword 1"/>
+                    <Item id="25019" name="Keyword 2"/>
+                    <Item id="25020" name="Keyword 3"/>
+                    <Item id="25021" name="Keyword 4"/>
+                    <Item id="25022" name="Keyword 5"/>
+                    <Item id="25023" name="Keyword 6"/>
+                    <Item id="25024" name="Keyword 7"/>
+                    <Item id="25025" name="Keyword 8"/>
+                    <Item id="25016" name="Comment"/>
+                    <Item id="25017" name="Comment line"/>
+                    <Item id="25026" name="Operator 1"/>
+                    <Item id="25027" name="Operator 2"/>
+                    <Item id="25028" name="Numbers"/>
+                    <Item id="1" name="OK"/>
+                    <Item id="2" name="Cancel"/>
+                </StylerDialog>
+                <Folder title="โฟลเดอร์และค่าเริ่มต้น">
+                    <Item id="21101" name="การตั้งค่าค่าเริ่มต้นรูปแบบ"/>
+                    <Item id="21102" name="การตั้งค่าคีย์เวิร์ดเปิดโฟลเดอร์"/>
+                    <Item id="21105" name="การตั้งค่าคีย์เวิร์ดปิดโฟลเดอร์"/>
+                    <Item id="21104" name="Temporary doc site:"/>
+                    <Item id="21106" name="Fold &amp;compact (fold empty lines too)"/>
+                    <Item id="21220" name="Folding in code 1 style:"/>
+                    <Item id="21224" name="Open:"/>
+                    <Item id="21225" name="Middle:"/>
+                    <Item id="21226" name="Close:"/>
+                    <Item id="21227" name="Styler"/>
+                    <Item id="21320" name="Folding in code 2 style (separators needed):"/>
+                    <Item id="21324" name="Open:"/>
+                    <Item id="21325" name="Middle:"/>
+                    <Item id="21326" name="Close:"/>
+                    <Item id="21327" name="Styler"/>
+                    <Item id="21420" name="Folding in comment style:"/>
+                    <Item id="21424" name="Open:"/>
+                    <Item id="21425" name="Middle:"/>
+                    <Item id="21426" name="Close:"/>
+                    <Item id="21427" name="Styler"/>
+                </Folder>
+                <Keywords title="รายการคีย์เวิร์ด">
+                    <Item id="22101" name="กลุ่มที่ 1"/>
+                    <Item id="22201" name="กลุ่มที่ 2"/>
+                    <Item id="22301" name="กลุ่มที่ 3"/>
+                    <Item id="22401" name="กลุ่มที่ 4"/>
+                    <Item id="22451" name="โหมดคำเติมหน้า"/>
+                    <Item id="22501" name="โหมดคำเติมหน้า"/>
+                    <Item id="22551" name="โหมดคำเติมหน้า"/>
+                    <Item id="22601" name="โหมดคำเติมหน้า"/>
+                    <Item id="22121" name="Prefix mode"/>
+                    <Item id="22221" name="Prefix mode"/>
+                    <Item id="22321" name="Prefix mode"/>
+                    <Item id="22421" name="Prefix mode"/>
+                    <Item id="22471" name="Prefix mode"/>
+                    <Item id="22521" name="Prefix mode"/>
+                    <Item id="22571" name="Prefix mode"/>
+                    <Item id="22621" name="Prefix mode"/>
+                    <Item id="22122" name="Styler"/>
+                    <Item id="22222" name="Styler"/>
+                    <Item id="22322" name="Styler"/>
+                    <Item id="22422" name="Styler"/>
+                    <Item id="22472" name="Styler"/>
+                    <Item id="22522" name="Styler"/>
+                    <Item id="22572" name="Styler"/>
+                    <Item id="22622" name="Styler"/>
+                </Keywords>
+                <Comment title="คอมเมนต์และตัวเลข">
+                    <Item id="23003" name="คอมเมนต์บรรทัด"/>
+                    <Item id="23004" name="คอมเมนต์บล็อก"/>
+                    <Item id="23005" name="เปิดคอมเมนต์:"/>
+                    <Item id="23006" name="ปิดคอมเมนต์:"/>
+                    <Item id="23001" name="พิจารณาคีย์เวิร์ดเหมือนเครื่องหมาย"/>
+                    <Item id="23326" name="พิจารณาหลายคีย์เวิร์ดเหมือนหลายเครื่องหมาย"/>
+                    <Item id="23323" name="ตัวเลข"/>
+                    <Item id="23324" name="Continue character"/>
+                    <Item id="23325" name="Close"/>
+                    <Item id="23301" name="Comment line style"/>
+                    <Item id="23124" name="Styler"/>
+                    <Item id="23122" name="Open"/>
+                    <Item id="23123" name="Close"/>
+                    <Item id="23101" name="Comment style"/>
+                    <Item id="23201" name="Number style"/>
+                    <Item id="23220" name="Styler"/>
+                    <Item id="23230" name="Prefix 1"/>
+                    <Item id="23232" name="Prefix 2"/>
+                    <Item id="23234" name="Extras 1"/>
+                    <Item id="23236" name="Extras 2"/>
+                    <Item id="23238" name="Suffix 1"/>
+                    <Item id="23240" name="Suffix 2"/>
+                    <Item id="23242" name="Range:"/>
+                    <Item id="23244" name="Decimal separator"/>
+                    <Item id="23245" name="Dot"/>
+                    <Item id="23246" name="Comma"/>
+                    <Item id="23247" name="Both"/>
+                </Comment>
+                <Operator title="ตัวดำเนินการ">
+                    <Item id="24101" name="ตัวดำเนินการ"/>
+                    <Item id="24113" name="สัญลักษณ์ที่มีได้"/>
+                    <Item id="24116" name="ตัวดำเนินการที่เปิดใช้"/>
+                    <Item id="24117" name="ตัวคั่นที่ 1"/>
+                    <Item id="24201" name="ตัวเปิดขอบเขต:"/>
+                    <Item id="24220" name="ตัวปิดขอบเขต:"/>
+                    <Item id="24221" name="ตัวคั่นที่ 2"/>
+                    <Item id="24222" name="ตัวเปิดขอบเขต:"/>
+                    <Item id="24223" name="ตัวปิดขอบเขต:"/>
+                    <Item id="24301" name="Delimiter 2 style"/>
+                    <Item id="24320" name="Open:"/>
+                    <Item id="24321" name="Escape:"/>
+                    <Item id="24322" name="Close:"/>
+                    <Item id="24323" name="Styler"/>
+                    <Item id="24401" name="Delimiter 3 style"/>
+                    <Item id="24420" name="Open:"/>
+                    <Item id="24421" name="Escape:"/>
+                    <Item id="24422" name="Close:"/>
+                    <Item id="24423" name="Styler"/>
+                    <Item id="24451" name="Delimiter 4 style"/>
+                    <Item id="24470" name="Open:"/>
+                    <Item id="24471" name="Escape:"/>
+                    <Item id="24472" name="Close:"/>
+                    <Item id="24473" name="Styler"/>
+                    <Item id="24501" name="Delimiter 5 style"/>
+                    <Item id="24520" name="Open:"/>
+                    <Item id="24521" name="Escape:"/>
+                    <Item id="24522" name="Close:"/>
+                    <Item id="24523" name="Styler"/>
+                    <Item id="24551" name="Delimiter 6 style"/>
+                    <Item id="24570" name="Open:"/>
+                    <Item id="24571" name="Escape:"/>
+                    <Item id="24572" name="Close:"/>
+                    <Item id="24573" name="Styler"/>
+                    <Item id="24601" name="Delimiter 7 style"/>
+                    <Item id="24620" name="Open:"/>
+                    <Item id="24621" name="Escape:"/>
+                    <Item id="24622" name="Close:"/>
+                    <Item id="24623" name="Styler"/>
+                    <Item id="24651" name="Delimiter 8 style"/>
+                    <Item id="24670" name="Open:"/>
+                    <Item id="24671" name="Escape:"/>
+                    <Item id="24672" name="Close:"/>
+                    <Item id="24673" name="Styler"/>
+                </Operator>
+            </UserDefine>
+            <Preference title="ตั้งค่ากำหนด">
+                <Item id="6001" name="ปิด"/>
+                <Global title="ทั่วไป">
+                    <Item id="6101" name="แถบเครื่องมือ"/>
+                    <Item id="6102" name="ซ่อน"/>
+                    <Item id="6103" name="ไอคอนขนาดเล็ก"/>
+                    <Item id="6104" name="ไอคอนขนาดใหญ่"/>
+                    <Item id="6105" name="ไอคอนมาตรฐาน"/>
 
-					<Item id="44042" name="ซ่อนบรรทัด"/>
+                    <Item id="6106" name="แถบแท็บ"/>
+                    <Item id="6107" name="ลด"/>
+                    <Item id="6108" name="ล็อก (ไม่ให้ drag and drop)"/>
+                    <Item id="6109" name="ทำแท็บที่ไม่ใช้ให้มืดลง"/>
+                    <Item id="6110" name="วาดแถบสีบนแถบที่กำลังใช้"/>
 
-					<Item id="42040" name="เปิดไฟล์ล่าสุดทั้งหมด"/>
-					<Item id="42041" name="ล้างรายชื่อไฟล์ล่าสุด"/>
+                    <Item id="6111" name="แสดงแถบสถานะ"/>
+                    <Item id="6112" name="แสดงปุ่มปิดให้แต่ละแท็บ"/>
+                    <Item id="6113" name="ดับเบิ้ลคลิ๊กเพื่อปิดเอกสาร"/>
+                    <Item id="6118" name="ซ่อน"/>
+                    <Item id="6119" name="แสดงหลายบรรทัด"/>
+                    <Item id="6120" name="แสดงแนวตั้ง"/>
+                    <Item id="6121" name="แถบเมนู"/>
 
-					<Item id="48016" name="ปรับแต่งทางลัด/ลบมาโคร..."/>
-					<Item id="48017" name="ปรับแต่งทางลัด/ลบคำสั่ง..."/>
-					<Item id="48018" name="แก้ไขสภาพแวดล้อมเมนูป๊อบอัพ"/>
-				</Commands>
-			</Main>
-			<Splitter>
-			</Splitter>
-			<TabBar>
-				<Item CMID="0" name="ปิด"/>
-				<Item CMID="1" name="ปิดทั้งหมดยกเว้นเอกสารนี้"/>
-				<Item CMID="2" name="บันทึก"/>
-				<Item CMID="3" name="บันทึกเป็น..."/>
-				<Item CMID="4" name="พิมพ์"/>
-				<Item CMID="5" name="ย้ายไปยังมุมมองอื่น"/>
-				<Item CMID="6" name="คัดลอกไปยังมุมมองอื่น"/>
-				<Item CMID="7" name="คัดลอกไฟล์พาธเต็มไปยังคลิปบอร์ด"/>
-				<Item CMID="8" name="คัดลอกชื่อไฟล์ไปยังคลิปบอร์ด"/>
-				<Item CMID="9" name="คัดลอกไดเรกทอรีนี้ไปยังคลิปบอร์ด"/>
-				<Item CMID="10" name="เปลี่ยนชื่อ"/>
-				<Item CMID="11" name="ลบ"/>
-				<Item CMID="12" name="อ่านอย่างเดียว"/>
-				<Item CMID="13" name="ยกเลิกอ่านอย่างเดียว"/>
-				<Item CMID="14" name="ยังไปยังหน้าต่างใหม่"/>
-				<Item CMID="15" name="เปิดในหน้าต่างใหม่"/>
-			</TabBar>
-		</Menu>
+                    <Item id="6122" name="ซ่อน (ใช้ปุ่ม Alt หรือ F10 ในการสลับ)"/>
+                    <Item id="6123" name="การแปลตามท้องถิ่น"/>
 
-		<Dialog>
-			<Find title="" titleFind="ค้นหา" titleReplace="แทนที่" titleFindInFiles="ค้นหาในไฟล์" titleMark="มาร์ค">
-				<Item id="1"    name="ค้นหาถัดไป"/>
-				<Item id="2"    name="ปิด"/>
-				<Item id="1620" name="สิ่งที่ค้นหา:"/>
-				<Item id="1603" name="ตรงกับทั้งคำเท่านั้น (&amp;W)"/>
-				<Item id="1604" name="ตรงกับตัวอักษรเล็ก/ใหญ่ (&amp;C)"/>
-                <Item id="1605" name="Regular &amp;expression"/>
-                <Item id="1606" name="Wrap aroun&amp;d"/>
-				<Item id="1612" name="ขึ้น (&amp;U)"/>
-				<Item id="1613" name="ลง (&amp;D)"/>
-				<Item id="1614" name="นับ"/>
-				<Item id="1615" name="ค้นหาทั้งหมด"/>
-				<Item id="1616" name="มาร์คบรรทัด"/>
-                <Item id="1617" name="Style found token"/>
-                <Item id="1618" name="ล้างแต่ละการค้นหา"/>
-				<Item id="1621" name="ทิศทาง"/>
-				<Item id="1611" name="แทนที่ด้วย (&amp;P):"/>
-				<Item id="1608" name="แทนที่ (&amp;R)"/>
-				<Item id="1609" name="แทนที่ทั้งหมด (&amp;A)"/>
-				<Item id="1623" name="ความโปร่งแสง"/>
-				<Item id="1687" name="เมื่อไม่ได้ถูกเลือก"/>
-				<Item id="1688" name="ตลอดเวลา"/>
-				<Item id="1632" name="เมื่อถูกเลือก"/>
-				<Item id="1633" name="ล้าง"/>
-				<Item id="1635" name="แทนที่ทั้งหมดในทุกเอกสารที่เปิดอยู่"/>
-				<Item id="1636" name="ค้นหาทั้งหมดในทุกเอกสารที่เปิดอยู่"/>
-				<Item id="1637" name="ค้นหาในไฟล์"/>
-				<Item id="1654" name="ตัวกรอง:"/>
-				<Item id="1655" name="ไดเรกทอรี:"/>
-				<Item id="1656" name="ค้นหาทั้งหมด"/>
-				<Item id="1658" name="ในทุกโฟลเดอร์ย่อย"/>
-				<Item id="1659" name="ในโฟลเดอร์ที่ถูกซ่อน"/>
-				<Item id="1624" name="โหมดการสืบค้น"/>
-				<Item id="1625" name="ธรรมดา"/>
-				<Item id="1626" name="เพิ่มเติม (\n, \r, \t, \0, \x...)"/>
-				<Item id="1660" name="แทนที่ในไฟล์"/>
-				<Item id="1661" name="ทำตามเอกสารนี้"/>
-				<Item id="1641" name="ค้นหาทั้งหมดในเอกสารนี้"/>
-				<Item id="1686" name="ความโปร่งแสง"/>
-			</Find>
-			<GoToLine title="ไปที่...">
-				<Item id="2007" name="บรรทัด"/>
-				<Item id="2008" name="ออฟเซ็ต"/>
-				<Item id="1"    name="ไป (&amp;G)"/>
-				<Item id="2"    name="ยกเลิก"/>
-				<Item id="2004" name="คุณอยู่ที่:"/>
-				<Item id="2005" name="คุณจะไปที่:"/>
-				<Item id="2006" name="คุณไปได้ไม่เกิน:"/>
-			</GoToLine>
+                    <Item id="6125" name="Document List Panel"/>
+                    <Item id="6126" name="Show"/>
+                    <Item id="6127" name="Disable extension column"/>
+                </Global>
+                <Scintillas title="การแก้ไข">
+                    <Item id="6216" name="ตั้งค่าเคอร์เซอร์"/>
+                    <Item id="6217" name="ความกว้าง:"/>
+                    <Item id="6219" name="อัตราการกระพริบ:"/>
+                    <Item id="6221" name="เร็ว"/>
+                    <Item id="6222" name="ช้า"/>
+                    <Item id="6224" name="ตั้งค่าหลายการแก้ไข"/>
+                    <Item id="6225" name="เปิดใช้ (Ctrl+Mouse click/selection)"/>
+                    <Item id="6201" name="สไตล์ของตัวแบ่งโฟลเดอร์"/>
+                    <Item id="6202" name="เรียบง่าย"/>
+                    <Item id="6203" name="ลูกศร"/>
+                    <Item id="6204" name="ต้นไม้แบบวงกลม"/>
+                    <Item id="6205" name="ต้นไม้แบบกล่อง"/>
+                    <Item id="6226" name="ไม่มี"/>
 
-			<Run title="เรียก...">
-				<Item id="1903" name="โปรแกรมที่เรียก"/>
-				<Item id="1"    name="เรียก"/>
-				<Item id="2"    name="ยกเลิก"/>
-				<Item id="1904" name="บันทึก..."/>
-			</Run>
+                    <Item id="6227" name="การห่อบรรทัด"/>
+                    <Item id="6228" name="ค่าปริยาย"/>
+                    <Item id="6229" name="เรียงกัน"/>
+                    <Item id="6230" name="ย่อหน้า"/>
 
-			<StyleConfig title="ตั้งค่ารูปแบบ">
-				<Item id="2"    name="ยกเลิก"/>
-				<Item id="2301" name="บันทึกและปิด"/>
-				<Item id="2303" name="ความโปร่งแสง"/>
-				<Item id="2306" name="เลือกธีม: "/>
-				<SubDialog>
-					<Item id="2204" name="ตัวหนา"/>
-					<Item id="2205" name="ตัวเอียง"/>
-					<Item id="2206" name="สีพื้นหน้า"/>
-					<Item id="2207" name="สีพื้นหลัง"/>
-					<Item id="2208" name="ชื่อฟอนท์:"/>
-					<Item id="2209" name="ขนาดฟอนท์:"/>
-					<Item id="2212" name="สีรูปแบบ"/>
-					<Item id="2213" name="ฟอนท์รูปแบบ"/>
-					<Item id="2214" name="นามสกุลโดยปริยาย:"/>
-					<Item id="2216" name="นามสกุลที่ผู้ใช้กำหนด:"/>
-					<Item id="2218" name="ขีดเส้นใต้"/>
-					<Item id="2219" name="คีย์เวิร์ดที่เป็นค่าเริ่มต้น"/>
-					<Item id="2221" name="คีย์เวิร์ดที่ผู้ใช้กำหนดเอง"/>
-					<Item id="2225" name="ภาษา:"/>
-					<Item id="2226" name="เปิดใช้ค่าโกลบอลของสีพื้นหน้า"/>
-					<Item id="2227" name="เปิดใช้ค่าโกลบอลของสีพื้นหลัง"/>
-					<Item id="2228" name="เปิดใช้ค่าโกลบอลของฟอนท์"/>
-					<Item id="2229" name="เปิดใช้ค่าโกลบอลของขนาดฟอนท์"/>
-					<Item id="2230" name="เปิดใช้ค่าโกลบอลของฟอนท์รูปแบบตัวหนา"/>
-					<Item id="2231" name="เปิดใช้ค่าโกลบอลของฟอนท์รูปแบบตัวเอียง"/>
-					<Item id="2232" name="เปิดใช้ค่าโกลบอลของฟอนท์รูปแบบขีดเส้นใต้"/>
-				</SubDialog>
-			</StyleConfig>
+                    <Item id="6206" name="แสดงหมายเลขบรรทัด"/>
+                    <Item id="6207" name="แสดงบุ๊คมาร์ค"/>
+                    <Item id="6208" name="แสดงเส้นขอบแนวตั้ง"/>
+                    <Item id="6209" name="จำนวนของคอลัมน์: "/>
+                    <Item id="6234" name="ตั้งค่าเส้นขอบแนวตั้ง"/>
 
-			<UserDefine title="ผู้ใช้กำหนดเอง">
-				<Item id="20002" name="เปลี่ยนชื่อ"/>
-				<Item id="20003" name="สร้างใหม่..."/>
-				<Item id="20004" name="ถอดออก"/>
-				<Item id="20005" name="บันทึกเป็น..."/>
-				<Item id="20007" name="ภาษาของผู้ใช้: "/>
-				<Item id="20009" name="Ext.:"/>
-				<Item id="20012" name="ไม่สนตัวอักษรเล็ก/ใหญ่"/>
-				<Item id="20011" name="ความโปร่งแสง"/>
-				<Item id="20016" name="นำเข้า..."/>
-				<Item id="20015" name="ส่งออก..."/>
-				<Item id="0"     name="รูปแบบสี"/>
-				<Item id="1"     name="สีพื้นหน้า"/>
-				<Item id="2"     name="สีพื้นหลัง"/>
-				<Item id="3"     name="รูปแบบฟอนท์"/>
-				<Item id="4"     name="ชื่อฟอนท์:"/>
-				<Item id="5"     name="ขนาดฟอนท์:"/>
-				<Item id="6"     name="ตัวหนา"/>
-				<Item id="7"     name="ตัวเอียง"/>
-				<Item id="8"     name="ขีดเส้นใต้"/>
-				<Folder title="โฟลเดอร์และค่าเริ่มต้น">
-					<Item id="21101" name="การตั้งค่าค่าเริ่มต้นรูปแบบ"/>
-					<Item id="21201" name="การตั้งค่าคีย์เวิร์ดเปิดโฟลเดอร์"/>
-					<Item id="21301" name="การตั้งค่าคีย์เวิร์ดปิดโฟลเดอร์"/>
-				</Folder>
-				<Keywords title="รายการคีย์เวิร์ด">
-					<Item id="22101" name="กลุ่มที่ 1"/>
-					<Item id="22201" name="กลุ่มที่ 2"/>
-					<Item id="22301" name="กลุ่มที่ 3"/>
-					<Item id="22401" name="กลุ่มที่ 4"/>
-					<Item id="22113" name="โหมดคำเติมหน้า"/>
-					<Item id="22213" name="โหมดคำเติมหน้า"/>
-					<Item id="22313" name="โหมดคำเติมหน้า"/>
-					<Item id="22413" name="โหมดคำเติมหน้า"/>
-				</Keywords>
-				<Comment title="คอมเมนต์และตัวเลข">
-					<Item id="23301" name="คอมเมนต์บรรทัด"/>
-					<Item id="23101" name="คอมเมนต์บล็อก"/>
-					<Item id="23113" name="เปิดคอมเมนต์:"/>
-					<Item id="23115" name="ปิดคอมเมนต์:"/>
-					<Item id="23116" name="พิจารณาคีย์เวิร์ดเหมือนเครื่องหมาย"/>
-					<Item id="23117" name="พิจารณาหลายคีย์เวิร์ดเหมือนหลายเครื่องหมาย"/>
-					<Item id="23201" name="ตัวเลข"/>
-				</Comment>
-				<Operator title="ตัวดำเนินการ">
-					<Item id="24107" name="ตัวดำเนินการ"/>
-					<Item id="24103" name="สัญลักษณ์ที่มีได้"/>
-					<Item id="24101" name="ตัวดำเนินการที่เปิดใช้"/>
-					<Item id="24201" name="ตัวคั่นที่ 1"/>
-					<Item id="24211" name="ตัวเปิดขอบเขต:"/>
-					<Item id="24214" name="ตัวปิดขอบเขต:"/>
-					<Item id="24301" name="ตัวคั่นที่ 2"/>
-					<Item id="24311" name="ตัวเปิดขอบเขต:"/>
-					<Item id="24314" name="ตัวปิดขอบเขต:"/>/>
-				</Operator>
-				<Item id="24001" name="ตัว escape character ที่เปิดใช้:"/>
-			</UserDefine>
-			<Preference title="ตั้งค่ากำหนด">
-				<Item id="6001" name="ปิด"/>
-				<Global title="ทั่วไป">
-					<Item id="6101" name="แถบเครื่องมือ"/>
-					<Item id="6102" name="ซ่อน"/>
-					<Item id="6103" name="ไอคอนขนาดเล็ก"/>
-					<Item id="6104" name="ไอคอนขนาดใหญ่"/>
-					<Item id="6105" name="ไอคอนมาตรฐาน"/>
+                    <Item id="6211" name="โหมดบรรทัด"/>
+                    <Item id="6212" name="โหมดพื้นหลัง"/>
+                    <Item id="6213" name="แสดงไฮไลท์บรรทัดปัจจุบัน"/>
+                    <Item id="6214" name="Enable current line highlighting"/>
+                    <Item id="6215" name="Enable smooth font"/>
+                    <Item id="6231" name="Border Width"/>
+                    <Item id="6235" name="No edge"/>
+                    <Item id="6236" name="Enable scrolling beyond last line"/>
+                </Scintillas>
 
-					<Item id="6106" name="แถบแท็บ"/>
-					<Item id="6107" name="ลด"/>
-					<Item id="6108" name="ล็อก (ไม่ให้ drag and drop)"/>
-					<Item id="6109" name="ทำแท็บที่ไม่ใช้ให้มืดลง"/>
-					<Item id="6110" name="วาดแถบสีบนแถบที่กำลังใช้"/>
+                <NewDoc title="สร้างเอกสารใหม่ / ไดเรกทอรีปริยาย">
+                    <Item id="6401" name="รูปแบบ"/>
+                    <Item id="6402" name="Windows"/>
+                    <Item id="6403" name="Unix"/>
+                    <Item id="6404" name="Mac"/>
+                    <Item id="6405" name="Encoding"/>
+                    <Item id="6406" name="ANSI"/>
+                    <Item id="6407" name="UTF-8 without BOM"/>
+                    <Item id="6408" name="UTF-8"/>
+                    <Item id="6409" name="UCS-2 Big Endian"/>
+                    <Item id="6410" name="UCS-2 Little Endian"/>
+                    <Item id="6411" name="ภาษาโปรแกรมปริยาย:"/>
+                    <Item id="6419" name="ไดเรกทอรี่ปริยาย (เปิด/บันทึก)"/>
+                    <Item id="6420" name="ตามเอกสารปัจจุบัน"/>
+                </NewDoc>
 
-					<Item id="6111" name="แสดงแถบสถานะ"/>
-					<Item id="6112" name="แสดงปุ่มปิดให้แต่ละแท็บ"/>
-					<Item id="6113" name="ดับเบิ้ลคลิ๊กเพื่อปิดเอกสาร"/>
-					<Item id="6118" name="ซ่อน"/>
-					<Item id="6119" name="แสดงหลายบรรทัด"/>
-					<Item id="6120" name="แสดงแนวตั้ง"/>
+                <DefaultDir title="Default Directory">
+                    <Item id="6413" name="Default Directory (Open/Save)"/>
+                    <Item id="6414" name="Follow current document"/>
+                    <Item id="6415" name="Remember last used directory"/>
+                    <Item id="6430" name="Use new style dialog (without file extension feature &amp;&amp; Unix style path capacity)"/>
+                    <Item id="6431" name="Open all files of folder instead of launching Folder as Workspace on folder dropping"/>
+                </DefaultDir>
 
-					<Item id="6121" name="แถบเมนู"/>
-					<Item id="6122" name="ซ่อน (ใช้ปุ่ม Alt หรือ F10 ในการสลับ)"/>
-					<Item id="6123" name="การแปลตามท้องถิ่น"/>
-				</Global>
-				<Scintillas title="การแก้ไข">
-					<Item id="6216" name="ตั้งค่าเคอร์เซอร์"/>
-					<Item id="6217" name="ความกว้าง:"/>
-					<Item id="6219" name="อัตราการกระพริบ:"/>
-					<Item id="6221" name="เร็ว"/>
-					<Item id="6222" name="ช้า"/>
-					<Item id="6224" name="ตั้งค่าหลายการแก้ไข"/>
-					<Item id="6225" name="เปิดใช้ (Ctrl+Mouse click/selection)"/>
-					<Item id="6201" name="สไตล์ของตัวแบ่งโฟลเดอร์"/>
-					<Item id="6202" name="เรียบง่าย"/>
-					<Item id="6203" name="ลูกศร"/>
-					<Item id="6204" name="ต้นไม้แบบวงกลม"/>
-					<Item id="6205" name="ต้นไม้แบบกล่อง"/>
-					<Item id="6226" name="ไม่มี"/>
+                <FileAssoc title="การทำงานร่วมกับไฟล์">
+                    <Item id="4009" name="นามสกุลที่รองรับ:"/>
+                    <Item id="4010" name="นามสกุลที่เลือกไว้:"/>
+                </FileAssoc>
+                <Language title="Language">
+                    <Item id="6505" name="Available items"/>
+                    <Item id="6506" name="Disabled items"/>
+                    <Item id="6507" name="Make language menu compact"/>
+                    <Item id="6508" name="Language Menu"/>
+                    <Item id="6301" name="Tab Settings"/>
+                    <Item id="6302" name="Replace by space"/>
+                    <Item id="6303" name="Tab size: "/>
+                    <Item id="6510" name="Use default value"/>
+                </Language>
 
-					<Item id="6227" name="การห่อบรรทัด"/>
-					<Item id="6228" name="ค่าปริยาย"/>
-					<Item id="6229" name="เรียงกัน"/>
-					<Item id="6230" name="ย่อหน้า"/>
+                <Highlighting title="Highlighting">
+                    <Item id="6333" name="Smart Highlighting"/>
+                    <Item id="6326" name="Enable"/>
+                    <Item id="6332" name="Match case"/>
+                    <Item id="6338" name="Match whole word only"/>
+                    <Item id="6339" name="Use Find dialog settings"/>
+                    <Item id="6340" name="Highlight another view"/>
+                    <Item id="6329" name="Highlight Matching Tags"/>
+                    <Item id="6327" name="Enable"/>
+                    <Item id="6328" name="Highlight tag attributes"/>
+                    <Item id="6330" name="Highlight comment/php/asp zone"/>
+                </Highlighting>
 
-					<Item id="6206" name="แสดงหมายเลขบรรทัด"/>
-					<Item id="6207" name="แสดงบุ๊คมาร์ค"/>
-					<Item id="6208" name="แสดงเส้นขอบแนวตั้ง"/>
-					<Item id="6209" name="จำนวนของคอลัมน์: "/>
+                <Print title="การพิมพ์">
+                    <Item id="6601" name="พิมพ์หมายเลขบรรทัด"/>
+                    <Item id="6602" name="ตัวเลือกสี"/>
+                    <Item id="6603" name="WYSIWYG"/>
+                    <Item id="6604" name="กลับสี"/>
+                    <Item id="6605" name="ดำบนพื้นขาว"/>
+                    <Item id="6606" name="ไม่ใช้สีพื้นหลัง"/>
+                    <Item id="6607" name="ตั้งค่าขอบ (หน่วย : มม.)"/>
+                    <Item id="6612" name="ซ้าย"/>
+                    <Item id="6613" name="บน"/>
+                    <Item id="6614" name="ขวา"/>
+                    <Item id="6615" name="ช่าง"/>
+                    <Item id="6706" name="ตัวหนา"/>
+                    <Item id="6707" name="ตัวเอียง"/>
+                    <Item id="6708" name="หัวเอกสาร"/>
+                    <Item id="6709" name="ส่วนซ้าย"/>
+                    <Item id="6710" name="ส่วนกลาง"/>
+                    <Item id="6711" name="ส่วนขวา"/>
+                    <Item id="6717" name="ตัวหนา"/>
+                    <Item id="6718" name="ตัวเอียง"/>
+                    <Item id="6719" name="ท้ายเอกสาร"/>
+                    <Item id="6720" name="ส่วนซ้าย"/>
+                    <Item id="6721" name="ส่วนกลาง"/>
+                    <Item id="6722" name="ส่วนขวา"/>
+                    <Item id="6723" name="เพิ่ม"/>
+                    <Item id="6725" name="ตัวแปร:"/>
+                    <Item id="6727" name="หัวและท้ายเอกสาร"/>
+                    <Item id="6728" name="Header and Footer"/>
+                </Print>
 
-					<Item id="6211" name="ตั้งค่าเส้นขอบแนวตั้ง"/>
-					<Item id="6212" name="โหมดบรรทัด"/>
-					<Item id="6213" name="โหมดพื้นหลัง"/>
-					<Item id="6214" name="แสดงไฮไลท์บรรทัดปัจจุบัน"/>
-				</Scintillas>
-				<NewDoc title="สร้างเอกสารใหม่ / ไดเรกทอรีปริยาย">
-					<Item id="6401" name="รูปแบบ"/>
-					<Item id="6402" name="Windows"/>
-					<Item id="6403" name="Unix"/>
-					<Item id="6404" name="Mac"/>
-					<Item id="6405" name="Encoding"/>
-					<Item id="6406" name="ANSI"/>
-					<Item id="6407" name="UTF-8 without BOM"/>
-					<Item id="6408" name="UTF-8"/>
-					<Item id="6409" name="UCS-2 Big Endian"/>
-					<Item id="6410" name="UCS-2 Little Endian"/>
-					<Item id="6411" name="ภาษาโปรแกรมปริยาย:"/>
-					<Item id="6413" name="ไดเรกทอรี่ปริยาย (เปิด/บันทึก)"/>
-					<Item id="6414" name="ตามเอกสารปัจจุบัน"/>
-					<Item id="6415" name="จดจำไดเรกทอรีที่ใช้ครั้งสุดท้าย"/>
-					<Item id="6419" name="เอกสารใหม่"/>
-					<Item id="6420" name="Apply to opened ANSI files"/>
-				</NewDoc>
-				<FileAssoc title="การทำงานร่วมกับไฟล์">
-					<Item id="4009" name="นามสกุลที่รองรับ:"/>
-					<Item id="4010" name="นามสกุลที่เลือกไว้:"/>
-				</FileAssoc>
-				<LangMenu title="เมนูภาษาโปรแกรม / ตั้งค่าแท็บ">
-					<Item id="6301" name="ตั้งค่าแท็บ"/>
-					<Item id="6302" name="แทนที่ด้วยช่องว่าง"/>
-					<Item id="6303" name="ขนาดของแท็บ: "/>
-					<Item id="6505" name="รายการที่เปิดให้เลือก"/>
-					<Item id="6506" name="รายการที่ไม่เปิดให้เลือก"/>
-					<Item id="6507" name="ทำให้เมนูกระทัดรัด"/>
-					<Item id="6508" name="เมนูภาษาโปรแกรม"/>
-					<Item id="6510" name="ใช้ค่าปริยาย"/>
-				</LangMenu>
-				<Print title="การพิมพ์">
-					<Item id="6601" name="พิมพ์หมายเลขบรรทัด"/>
-					<Item id="6602" name="ตัวเลือกสี"/>
-					<Item id="6603" name="WYSIWYG"/>
-					<Item id="6604" name="กลับสี"/>
-					<Item id="6605" name="ดำบนพื้นขาว"/>
-					<Item id="6606" name="ไม่ใช้สีพื้นหลัง"/>
-					<Item id="6607" name="ตั้งค่าขอบ (หน่วย : มม.)"/>
-					<Item id="6612" name="ซ้าย"/>
-					<Item id="6613" name="บน"/>
-					<Item id="6614" name="ขวา"/>
-					<Item id="6615" name="ช่าง"/>
-					<Item id="6706" name="ตัวหนา"/>
-					<Item id="6707" name="ตัวเอียง"/>
-					<Item id="6708" name="หัวเอกสาร"/>
-					<Item id="6709" name="ส่วนซ้าย"/>
-					<Item id="6710" name="ส่วนกลาง"/>
-					<Item id="6711" name="ส่วนขวา"/>
-					<Item id="6717" name="ตัวหนา"/>
-					<Item id="6718" name="ตัวเอียง"/>
-					<Item id="6719" name="ท้ายเอกสาร"/>
-					<Item id="6720" name="ส่วนซ้าย"/>
-					<Item id="6721" name="ส่วนกลาง"/>
-					<Item id="6722" name="ส่วนขวา"/>
-					<Item id="6723" name="เพิ่ม"/>
-					<Item id="6725" name="ตัวแปร:"/>
-					<Item id="6728" name="หัวและท้ายเอกสาร"/>
-				</Print>
-				<MISC title="เบ็ดเตล็ด">
-					<Item id="6304" name="ประวัติไฟล์ปัจจุบัน"/>
-					<Item id="6305" name="ไม่ตรวจสอบเมื่อเริ่มโปรแกรม"/>
-					<Item id="6306" name="จำนวนเอนทรีมากที่สุด:"/>
-					<Item id="6307" name="เปิดใช้"/>
-					<Item id="6308" name="ย่อไปยังเทรย์ของระบบ"/>
-					<Item id="6309" name="จดจำเซสชั่นปัจจุบันไว้เริ่มโปรแกรมครั้งหน้า"/>
-					<Item id="6312" name="ตรวจสอบสถานะไฟล์อัตโนมัติ"/>
-					<Item id="6313" name="อัพเดทไฟล์โดยไม่ต้องแจ้ง"/>
-					<Item id="6318" name="ตั้งค่าลิงค์ที่สามารถคลิ๊กได้"/>
-					<Item id="6325" name="เลื่อนไปยังบรรทัดสุดท้ายก่อนอัพเดท"/>
-					<Item id="6319" name="เปิดใช้"/>
-					<Item id="6320" name="ไม่ต้องขีดเส้นใต้"/>
-					<Item id="6322" name="นามสกุลไฟล์เซสชั่น:"/>
-					<Item id="6323" name="เปิดการอัพเดท Notepad++ อัตโนมัติ"/>
-					<Item id="6324" name="สลับเอกสาร (Ctrl+TAB)"/>
-					<Item id="6326" name="เปิดใช้ไฮไลท์อัจฉริยะ"/>
-					<Item id="6329" name="ไฮไลท์แท็กที่เป็นคู่กัน"/>
-					<Item id="6327" name="เปิดใช้งาน"/>
-					<Item id="6328" name="ไฮไลท์คุณลักษณะของแท็ก"/>
-					<Item id="6330" name="ไฮไลท์โซนของ คอมเมนท์ / PHP / ASP"/>
-					<Item id="6331" name="แสดงเฉพาะชื่อไฟล์ในไตเติ้ลบาร์"/>
+                <RecentFilesHistory title="Recent Files History">
+                    <Item id="6304" name="Recent Files History"/>
+                    <Item id="6306" name="Max. number of entries :"/>
+                    <Item id="6305" name="Don't check at launch time"/>
+                    <Item id="6429" name="Display"/>
+                    <Item id="6424" name="In Submenu"/>
+                    <Item id="6425" name="Only File Name"/>
+                    <Item id="6426" name="Full File Name Path"/>
+                    <Item id="6427" name="Customize Maximum Length:"/>
+                </RecentFilesHistory>
 
-					<Item id="6114" name="เปิดใช้"/>
-					<Item id="6115" name="ย่อหน้าอัตโนมัติ"/>
-					<Item id="6117" name="เปิดใช้พฤติกรรมที่ใช้ล่าสุด"/>
+                <Backup title="การทำสำรอง/การทำให้สมบูรณ์อัตโนมัติ">
+                    <Item id="6817" name="การทำสำรอง"/>
+                    <Item id="6818" name="ไม่มี"/>
+                    <Item id="6819" name="ทำสำรองพื้นฐาน"/>
+                    <Item id="6821" name="ทำสำรองแสดงรายละเอียด"/>
+                    <Item id="6822" name="เลือกไดเรกทอรีสำรองเอง"/>
+                    <Item id="6309" name="ไดเรกทอรี:"/>
+                    <Item id="6801" name="การทำให้สมบูรณ์อัตโนมัติ"/>
+                    <Item id="6315" name="เปิดใช้การทำให้สมบูรณ์อัตโนมัติทุกอินพุท"/>
+                    <Item id="6316" name="การทำฟังก์ชันให้สมบูรณ์"/>
+                    <Item id="6317" name="การทำคำให้สมบูรณ์"/>
+                    <Item id="6804" name="จาก"/>
+                    <Item id="6803" name="อักขระตัวที่"/>
+                </Backup>
 
-				</MISC>
-				<Backup title="การทำสำรอง/การทำให้สมบูรณ์อัตโนมัติ">
-					<Item id="6801" name="การทำสำรอง"/>
-					<Item id="6315" name="ไม่มี"/>
-					<Item id="6316" name="ทำสำรองพื้นฐาน"/>
-					<Item id="6317" name="ทำสำรองแสดงรายละเอียด"/>
-					<Item id="6804" name="เลือกไดเรกทอรีสำรองเอง"/>
-					<Item id="6803" name="ไดเรกทอรี:"/>
-					<Item id="6807" name="การทำให้สมบูรณ์อัตโนมัติ"/>
-					<Item id="6808" name="เปิดใช้การทำให้สมบูรณ์อัตโนมัติทุกอินพุท"/>
-					<Item id="6809" name="การทำฟังก์ชันให้สมบูรณ์"/>
-					<Item id="6810" name="การทำคำให้สมบูรณ์"/>
-					<Item id="6811" name="จาก"/>
-					<Item id="6813" name="อักขระตัวที่"/>
-					<Item id="6814" name="ค่าที่มีได้: 1 - 9"/>
-					<Item id="6815" name="คำแนะนำอินพุทพารามิเตอร์ของฟังก์ขั่น"/>
-				</Backup>
-			</Preference>
-			<MultiMacro title="เรียกมาโครหลายครั้ง">
-				<Item id="1" name="เรียก"/>
-				<Item id="2" name="ยกเลิก"/>
-				<Item id="8006" name="มาโครที่เรียก:"/>
-				<Item id="8001" name="เรียก"/>
-				<Item id="8005" name="จำนวนครั้ง"/>
-				<Item id="8002" name="เรียกจนถึงสิ้นสุดไฟล์"/>
-			</MultiMacro>
-			<Window title="หน้าต่าง">
-				<Item id="1" name="เปิดใช้งาน"/>
-				<Item id="2" name="ตกลง"/>
-				<Item id="7002" name="บันทึก"/>
-				<Item id="7003" name="ปิดหน้าต่าง"/>
-				<Item id="7004" name="เรียงแท็บ"/>
-			</Window>
-			<ColumnEditor title="ตัวแก้ไขคอลัมน์">
-				<Item id="2023" name="ข้อความที่ใส่"/>
-				<Item id="2033" name="หมายเลขที่ใส่"/>
-				<Item id="2030" name="หมายเลขเริ่มต้น:"/>
-				<Item id="2031" name="เพิ่มเป็นจำนวน:"/>
-				<Item id="2035" name="เติมศูนย์ด้านหน้า"/>
-				<Item id="2032" name="รูปแบบ"/>
-				<Item id="2024" name="ฐานสิบ"/>
-				<Item id="2025" name="ฐานแปด"/>
-				<Item id="2026" name="ฐานสิบหก"/>
-				<Item id="2027" name="ฐานสอง"/>
-				<Item id="1" name="ตกลง"/>
-				<Item id="2" name="ยกเลิก"/>
-			</ColumnEditor>
-		</Dialog>
-	</Native-Langue>
+                <AutoCompletion title="Auto-Completion">
+                    <Item id="6807" name="Auto-Completion"/>
+                    <Item id="6808" name="Enable auto-completion on each input"/>
+                    <Item id="6809" name="Function completion"/>
+                    <Item id="6810" name="Word completion"/>
+                    <Item id="6816" name="Function and word completion"/>
+                    <Item id="6824" name="Ignore numbers"/>
+                    <Item id="6811" name="From"/>
+                    <Item id="6813" name="th character"/>
+                    <Item id="6814" name="Valid value : 1 - 9"/>
+                    <Item id="6815" name="Function parameters hint on input"/>
+                    <Item id="6851" name="Auto-Insert"/>
+                    <Item id="6857" name=" html/xml close tag"/>
+                    <Item id="6858" name="Open"/>
+                    <Item id="6859" name="Close"/>
+                    <Item id="6860" name="Matched pair 1:"/>
+                    <Item id="6863" name="Matched pair 2:"/>
+                    <Item id="6866" name="Matched pair 3:"/>
+                </AutoCompletion>
+
+                <MultiInstance title="Multi-Instance">
+                    <Item id="6151" name="Multi-instance settings"/>
+                    <Item id="6152" name="Open session in a new instance of Notepad++"/>
+                    <Item id="6153" name="Always in multi-instance mode"/>
+                    <Item id="6154" name="Default (mono-instance)"/>
+                    <Item id="6155" name="* The modification of this setting needs to restart Notepad++"/>
+                </MultiInstance>
+
+                <Delimiter title="Delimiter">
+                    <Item id="6251" name="Delimiter selection settings (Ctrl + Mouse double click)"/>
+                    <Item id="6252" name="Open"/>
+                    <Item id="6255" name="Close"/>
+                    <Item id="6256" name="Allow on several lines"/>
+                    <Item id="6161" name="Word character list"/>
+                    <Item id="6162" name="Use default Word character list as it is"/>
+                    <Item id="6163" name="Add your character as part of word (don't choose it unless you know what you're doing)"/>
+                </Delimiter>
+
+                <Cloud title="Cloud">
+                    <Item id="6262" name="Settings on cloud"/>
+                    <Item id="6263" name="No Cloud"/>
+                    <Item id="6267" name="Set your cloud location path here:"/>
+                </Cloud>
+
+                <SearchEngine title="Search Engine">
+                    <Item id="6271" name="Search Engine (for command &quot;Search on Internet&quot;)"/>
+                    <Item id="6272" name="DuckDuckGo"/>
+                    <Item id="6273" name="Google"/>
+                    <Item id="6274" name="Bing"/>
+                    <Item id="6275" name="Yahoo!"/>
+                    <Item id="6276" name="Set your search engine here:"/>
+                    <!-- Don't change anything after Example: -->
+                    <Item id="6278" name="Example: https://www.google.com/search?q=$(CURRENT_WORD)"/>
+                </SearchEngine>
+
+                <MISC title="เบ็ดเตล็ด">
+                    <Item id="6307" name="ประวัติไฟล์ปัจจุบัน"/>
+                    <Item id="6308" name="ไม่ตรวจสอบเมื่อเริ่มโปรแกรม"/>
+                    <Item id="6312" name="จำนวนเอนทรีมากที่สุด:"/>
+                    <Item id="6313" name="เปิดใช้"/>
+                    <Item id="6318" name="ย่อไปยังเทรย์ของระบบ"/>
+                    <Item id="6325" name="จดจำเซสชั่นปัจจุบันไว้เริ่มโปรแกรมครั้งหน้า"/>
+                    <Item id="6319" name="ตรวจสอบสถานะไฟล์อัตโนมัติ"/>
+                    <Item id="6320" name="อัพเดทไฟล์โดยไม่ต้องแจ้ง"/>
+                    <Item id="6322" name="ตั้งค่าลิงค์ที่สามารถคลิ๊กได้"/>
+                    <Item id="6323" name="เลื่อนไปยังบรรทัดสุดท้ายก่อนอัพเดท"/>
+                    <Item id="6324" name="เปิดใช้"/>
+                    <Item id="6331" name="ไม่ต้องขีดเส้นใต้"/>
+                    <Item id="6334" name="นามสกุลไฟล์เซสชั่น:"/>
+                    <Item id="6335" name="เปิดการอัพเดท Notepad++ อัตโนมัติ"/>
+                    <Item id="6337" name="สลับเอกสาร (Ctrl+TAB)"/>
+                    <Item id="6114" name="เปิดใช้ไฮไลท์อัจฉริยะ"/>
+                    <Item id="6115" name="ไฮไลท์แท็กที่เป็นคู่กัน"/>
+                    <Item id="6117" name="เปิดใช้งาน"/>
+                    <Item id="6344" name="ไฮไลท์คุณลักษณะของแท็ก"/>
+                    <Item id="6345" name="ไฮไลท์โซนของ คอมเมนท์ / PHP / ASP"/>
+                    <Item id="6346" name="แสดงเฉพาะชื่อไฟล์ในไตเติ้ลบาร์"/>
+                </MISC>
+            </Preference>
+            <MultiMacro title="เรียกมาโครหลายครั้ง">
+                <Item id="1" name="เรียก"/>
+                <Item id="2" name="ยกเลิก"/>
+                <Item id="8006" name="มาโครที่เรียก:"/>
+                <Item id="8001" name="เรียก"/>
+                <Item id="8005" name="จำนวนครั้ง"/>
+                <Item id="8002" name="เรียกจนถึงสิ้นสุดไฟล์"/>
+            </MultiMacro>
+            <Window title="หน้าต่าง">
+                <Item id="1" name="เปิดใช้งาน"/>
+                <Item id="2" name="ตกลง"/>
+                <Item id="7002" name="บันทึก"/>
+                <Item id="7003" name="ปิดหน้าต่าง"/>
+                <Item id="7004" name="เรียงแท็บ"/>
+            </Window>
+            <ColumnEditor title="ตัวแก้ไขคอลัมน์">
+                <Item id="2023" name="ข้อความที่ใส่"/>
+                <Item id="2033" name="หมายเลขที่ใส่"/>
+                <Item id="2030" name="หมายเลขเริ่มต้น:"/>
+                <Item id="2031" name="เพิ่มเป็นจำนวน:"/>
+                <Item id="2035" name="เติมศูนย์ด้านหน้า"/>
+                <Item id="2036" name="รูปแบบ"/>
+                <Item id="2032" name="ฐานสิบ"/>
+                <Item id="2024" name="ฐานแปด"/>
+                <Item id="2025" name="ฐานสิบหก"/>
+                <Item id="2026" name="ฐานสอง"/>
+                <Item id="2027" name="ตกลง"/>
+                <Item id="1" name="ยกเลิก"/>
+                <Item id="2" name="Cancel"/>
+            </ColumnEditor>
+            <FindInFinder title="Find in finder">
+                <Item id="1" name="Find All"/>
+                <Item id="2" name="Close"/>
+                <Item id="1711" name="&amp;Find what :"/>
+                <Item id="1713" name="Search only in found lines"/>
+                <Item id="1714" name="Match &amp;whole word only"/>
+                <Item id="1715" name="Match &amp;case"/>
+                <Item id="1716" name="Search Mode"/>
+                <Item id="1717" name="&amp;Normal"/>
+                <Item id="1719" name="Re&amp;gular expression"/>
+                <Item id="1718" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
+                <Item id="1720" name="&amp;. matches newline"/>
+            </FindInFinder>
+        </Dialog>
+        <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
+            <ContextMenuXmlEditWarning title="Editing contextMenu" message="Editing contextMenu.xml allows you to modify your Notepad++ popup context menu. You have to restart your Notepad++ to take effect after modifying contextMenu.xml."/>
+            <NppHelpAbsentWarning title="File does not exist" message=" doesn't exist. Please download it on Notepad++ site."/>
+            <SaveCurrentModifWarning title="Save Current Modification" message="You should save the current modification. All the saved modifications can not be undone.  Continue?"/>
+            <LoseUndoAbilityWarning title="Lose Undo Ability Warning" message="You should save the current modification. All the saved modifications can not be undone.  Continue?"/>
+            <CannotMoveDoc title="Move to new Notepad++ Instance" message="Document is modified, save it then try again."/>
+            <DocReloadWarning title="Reload" message="Are you sure you want to reload the current file and lose the changes made in Notepad++?"/>
+            <FileLockedWarning title="Save failed" message="Please check whether if this file is opened in another program"/>
+            <FileAlreadyOpenedInNpp title="" message="The file is already opened in the Notepad++."/>
+            <DeleteFileFailed title="Delete File" message="Delete File failed"/>
+
+            <NbFileToOpenImportantWarning title="Amount of files to open is too large" message="$INT_REPLACE$ files are about to be opened. Are you sure to open them?"/>
+            <SettingsOnCloudError title="Settings on Cloud" message="It seems the path of settings on cloud is set on a read only drive, or on a folder needed privilege right for writing access. Your settings on cloud will be canceled. Please reset a coherent value via Preference dialog."/>
+            <FilePathNotFoundWarning title="File Open" message="The file you're trying to open doesn't exist."/>
+            <SessionFileInvalidError title="Could not Load Session" message="Session file is either corrupted or not valid."/>
+            <DroppingFolderAsProjectModeWarning title="Invalid action" message="You can only drop files or folders but not both, because you're in dropping Folder as Project mode. you have to enable &quot;Open all files of folder instead of launching Folder as Workspace on folder dropping&quot; in &quot;Default Directory&quot; section of Preferences dialog to make this operation work."/>
+            <SortingError title="Sorting Error" message="Unable to perform numeric sorting due to line $INT_REPLACE$."/>
+            <ColumnModeTip title="Column Mode Tip" message="Please use &quot;ALT+Mouse Selection&quot; or &quot;Alt+Shift+Arrow key&quot; to switch to column mode."/>
+            <BufferInvalidWarning title="Save failed" message="Cannot save: Buffer is invalid."/>
+            <DoSaveOrNot title="Save" message="Save file &quot;$STR_REPLACE$&quot; ?"/>
+            <DoCloseOrNot title="Keep non existing file" message="The file &quot;$STR_REPLACE$&quot; doesn't exist anymore. Keep this file in editor?"/>
+            <DoDeleteOrNot title="Delete file" message="The file &quot;$STR_REPLACE$&quot; will be moved to your Recycle Bin and this document will be closed. Continue?"/>
+            <NoBackupDoSaveFile title="Save" message="Your backup file cannot be found (deleted from outside). Save it otherwise your data will be lost Do you want to save file &quot;$STR_REPLACE$&quot; ?"/>
+            <DoReloadOrNot title="Reload" message="&quot;$STR_REPLACE$&quot;  This file has been modified by another program. Do you want to reload it?"/>
+            <DoReloadOrNotAndLooseChange title="Reload" message="&quot;$STR_REPLACE$&quot;  This file has been modified by another program. Do you want to reload it and lose the changes made in Notepad++?"/>
+            <PrehistoricSystemDetected title="Prehistoric system detected" message="It seems you still use a prehistoric system. This feature works only on a modern system, sorry."/>
+            <XpUpdaterProblem title="Notepad++ Updater" message="Notepad++ updater is not compatible with XP due to the obsolete security layer under XP. Do you want to go to Notepad++ page to download the latest version?"/>
+            <DocTooDirtyToMonitor title="Monitoring problem" message="The document is dirty. Please save the modification before monitoring it."/>
+            <DocNoExistToMonitor title="Monitoring problem" message="The file should exist to be monitored."/>
+            <FileTooBigToOpen title="File size problem" message="File is too big to be opened by Notepad++"/>
+            <CreateNewFileOrNot title="Create new file" message="&quot;$STR_REPLACE$&quot; doesn't exist. Create it?"/>
+            <CreateNewFileError title="Create new file" message="Cannot create the file &quot;$STR_REPLACE$&quot;."/>
+            <OpenFileError title="ERROR" message="Can not open file &quot;$STR_REPLACE$&quot;."/>
+            <FileBackupFailed title="File Backup Failed" message="The previous version of the file could not be saved into the backup directory at &quot;$STR_REPLACE$&quot;.  Do you want to save the current file anyways?"/>
+            <LoadStylersFailed title="Load stylers.xml failed" message="Load &quot;$STR_REPLACE$&quot; failed!"/>
+            <LoadLangsFailed title="Configurator" message="Load langs.xml failed! Do you want to recover your langs.xml?"/>
+            <LoadLangsFailedFinal title="Configurator" message="Load langs.xml failed!"/>
+            <FolderAsWorspaceSubfolderExists title="Folder as Workspace adding folder problem" message="A sub-folder of the folder you want to add exists. Please remove its root from the panel before you add folder &quot;$STR_REPLACE$&quot;."/>
+
+            <ProjectPanelChanged title="$STR_REPLACE$" message="The workspace was modified. Do you want to save it?"/>
+            <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Your workspace has not been saved."/>
+            <ProjectPanelOpenDoSaveDirtyWsOrNot title="Open Workspace" message="The current workspace was modified. Do you want to save the current project?"/>
+            <ProjectPanelNewDoSaveDirtyWsOrNot title="New Workspace" message="The current workspace was modified. Do you want to save the current project?"/>
+            <ProjectPanelOpenFailed title="Open Workspace" message="The workspace could not be opened. It seems the file to open is not a valid project file."/>
+            <ProjectPanelRemoveFolderFromProject title="Remove folder from project" message="All the sub-items will be removed. Are you sure you want to remove this folder from the project?"/>
+            <ProjectPanelRemoveFileFromProject title="Remove file from project" message="Are you sure you want to remove this file from the project?"/>
+            <ProjectPanelReloadError title="Reload Workspace" message="Cannot find the file to reload."/>
+            <ProjectPanelReloadDirty title="Reload Workspace" message="The current workspace was modified. Reloading will discard all modifications. Do you want to continue?"/>
+            <UDLNewNameError title="UDL Error" message="This name is used by another language, please give another one."/>
+            <UDLRemoveCurrentLang title="Remove the current language" message="Are you sure?"/>
+            <SCMapperDoDeleteOrNot title="Are you sure?" message="Are you sure you want to delete this shortcut?"/>
+            <FindCharRangeValueError title="Range Value problem" message="You should type between 0 and 255."/>
+            <OpenInAdminMode title="Save failed" message="The file cannot be saved and it may be protected. Do you want to launch Notepad++ in Administrator mode?"/>
+            <OpenInAdminModeWithoutCloseCurrent title="Save failed" message="The file cannot be saved and it may be protected. Do you want to launch Notepad++ in Administrator mode?"/>
+            <OpenInAdminModeFailed title="Open in Administrator mode failed" message="Notepad++ cannot be opened in Administrator mode."/>
+        </MessageBox>
+        <ClipboardHistory>
+            <PanelTitle name="Clipboard History"/>
+        </ClipboardHistory>
+        <DocSwitcher>
+            <PanelTitle name="Doc Switcher"/>
+            <ColumnName name="Name"/>
+            <ColumnExt name="Ext."/>
+        </DocSwitcher>
+        <WindowsDlg>
+            <ColumnName name="Name"/>
+            <ColumnPath name="Path"/>
+            <ColumnType name="Type"/>
+        </WindowsDlg>
+        <AsciiInsertion>
+            <PanelTitle name="ASCII Insertion Panel"/>
+            <ColumnVal name="Value"/>
+            <ColumnHex name="Hex"/>
+            <ColumnChar name="Character"/>
+        </AsciiInsertion>
+        <DocumentMap>
+            <PanelTitle name="Document Map"/>
+        </DocumentMap>
+        <FunctionList>
+            <PanelTitle name="Function List"/>
+            <SortTip name="Sort"/>
+            <ReloadTip name="Reload"/>
+        </FunctionList>
+        <FolderAsWorkspace>
+            <PanelTitle name="Folder as Workspace"/>
+            <SelectFolderFromBrowserString name="Select a folder to add in Folder as Workspace panel"/>
+            <Menus>
+                <Item id="3511" name="Remove"/>
+                <Item id="3512" name="Remove All"/>
+                <Item id="3513" name="Add"/>
+                <Item id="3514" name="Run by system"/>
+                <Item id="3515" name="Open"/>
+                <Item id="3516" name="Copy path"/>
+                <Item id="3517" name="Find in Files..."/>
+                <Item id="3518" name="Explorer here"/>
+                <Item id="3519" name="CMD here"/>
+            </Menus>
+        </FolderAsWorkspace>
+        <ProjectManager>
+            <PanelTitle name="Project"/>
+            <WorkspaceRootName name="Workspace"/>
+            <NewProjectName name="Project Name"/>
+            <NewFolderName name="Folder Name"/>
+            <Menus>
+                <Entries>
+                    <Item id="0" name="Workspace"/>
+                    <Item id="1" name="Edit"/>
+                </Entries>
+                <WorkspaceMenu>
+                    <Item id="3122" name="New Workspace"/>
+                    <Item id="3123" name="Open Workspace"/>
+                    <Item id="3124" name="Reload Workspace"/>
+                    <Item id="3125" name="Save"/>
+                    <Item id="3126" name="Save As..."/>
+                    <Item id="3127" name="Save a Copy As..."/>
+                    <Item id="3121" name="Add New Project"/>
+                </WorkspaceMenu>
+                <ProjectMenu>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3112" name="Add Folder"/>
+                    <Item id="3113" name="Add Files..."/>
+                    <Item id="3117" name="Add Files from Directory..."/>
+                    <Item id="3114" name="Remove"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
+                </ProjectMenu>
+                <FolderMenu>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3112" name="Add Folder"/>
+                    <Item id="3113" name="Add Files..."/>
+                    <Item id="3117" name="Add Files from Directory..."/>
+                    <Item id="3114" name="Remove"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
+                </FolderMenu>
+                <FileMenu>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3115" name="Remove"/>
+                    <Item id="3116" name="Modify File Path"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
+                </FileMenu>
+            </Menus>
+        </ProjectManager>
+        <MiscStrings>
+            <!-- $INT_REPLACE$  and $STR_REPLACE$ are a place holders, don't translate these place holders -->
+            <word-chars-list-tip value="This allows you to include additional character into current word characters while double clicking for selection or searching with &quot;Match whole word only&quot; option checked."/>
+            <word-chars-list-warning-begin value="Be aware: "/>
+            <word-chars-list-space-warning value="$INT_REPLACE$ space(s)"/>
+            <word-chars-list-tab-warning value="$INT_REPLACE$ TAB(s)"/>
+            <word-chars-list-warning-end value="  in your character list."/>
+            <cloud-invalid-warning value="Invalid path."/>
+            <cloud-restart-warning value="Please restart Notepad++ to take effect."/>
+            <cloud-select-folder value="Select a folder from/to where Notepad++ reads/writes its settings"/>
+            <shift-change-direction-tip value="Use Shift+Enter to search in the opposite direction"/>
+            <two-find-buttons-tip value="2 find buttons mode"/>
+            <find-status-top-reached value="Find: Found the 1st occurrence from the bottom. The beginning of the document has been reached."/>
+            <find-status-end-reached value="Find: Found the 1st occurrence from the top. The end of the document has been reached."/>
+            <find-status-replaceinfiles-1-replaced value="Replace in Files: 1 occurrence was replaced"/>
+            <find-status-replaceinfiles-nb-replaced value="Replace in Files: $INT_REPLACE$ occurrences were replaced"/>
+            <find-status-replaceinfiles-re-malformed value="Replace in Opened Files: The regular expression is malformed"/>
+            <find-status-replaceinopenedfiles-1-replaced value="Replace in Opened Files: 1 occurrence was replaced"/>
+            <find-status-replaceinopenedfiles-nb-replaced value="Replace in Opened Files: $INT_REPLACE$ occurrences were replaced"/>
+            <find-status-mark-re-malformed value="Mark: The regular expression to search is malformed"/>
+            <find-status-invalid-re value="Find: Invalid regular expression"/>
+            <find-status-mark-1-match value="1 match"/>
+            <find-status-mark-nb-matches value="$INT_REPLACE$ matches"/>
+            <find-status-count-re-malformed value="Count: The regular expression to search is malformed"/>
+            <find-status-count-1-match value="Count: 1 match"/>
+            <find-status-count-nb-matches value="Count: $INT_REPLACE$ matches"/>
+            <find-status-replaceall-re-malformed value="Replace All: The regular expression is malformed"/>
+            <find-status-replaceall-1-replaced value="Replace All: 1 occurrence was replaced"/>
+            <find-status-replaceall-nb-replaced value="Replace All: $INT_REPLACE$ occurrences were replaced"/>
+            <find-status-replaceall-readonly value="Replace All: Cannot replace text. The current document is read only"/>
+            <find-status-replace-end-reached value="Replace: Replaced the 1st occurrence from the top. The end of document has been reached"/>
+            <find-status-replace-top-reached value="Replace: Replaced the 1st occurrence from the bottom. The begin of document has been reached"/>
+            <find-status-replaced-next-found value="Replace: 1 occurrence was replaced. The next occurrence found"/>
+            <find-status-replaced-next-not-found value="Replace: 1 occurrence was replaced. The next occurrence not found"/>
+            <find-status-replace-not-found value="Replace: no occurrence was found"/>
+            <find-status-replace-readonly value="Replace: Cannot replace text. The current document is read only"/>
+            <find-status-cannot-find value="Find: Can't find the text &quot;$STR_REPLACE$&quot;"/>
+            <finder-find-in-finder value="Find in this found results..."/>
+            <finder-close-this value="Close this finder"/>
+            <finder-collapse-all value="Collapse all"/>
+            <finder-uncollapse-all value="Uncollapse all"/>
+            <finder-copy value="Copy"/>
+            <finder-select-all value="Select all"/>
+            <finder-clear-all value="Clear all"/>
+            <finder-open-all value="Open all"/>
+        </MiscStrings>
+    </Native-Langue>
 </NotepadPlus>

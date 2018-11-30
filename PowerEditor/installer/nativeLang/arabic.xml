@@ -1,13 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><NotepadPlus>
-    <!--
-    URL: https://www.w3schools.com/xml/xml_syntax.asp
-    - &#xD;  is (\r) new line 
-    - &gt;   is (>) and &lt; is (<)
-    - &amp;  is (&)
-    - &apos; is (')
-    - &quot; is (")
-    -->
-    <Native-Langue name="Arabic" filename="arabic.xml" RTL="yes" version="7.5.5">
+<?xml version="1.0" encoding="utf-8"?>
+<NotepadPlus>
+    <Native-Langue name="Arabic" filename="arabic.xml" version="7.5.5">
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
@@ -301,20 +294,21 @@
                     <Item id="48018" name="تحرير قائمة السياق المنبثقة"/>
                     <Item id="48009" name="مخطط الاختصارات..."/>
                     <Item id="48011" name="تفضيلات..."/>
-                    <Item id="48501" name="توليد..."/>
-                    <Item id="48502" name="توليد من ملفات..."/>
-                    <Item id="48503" name="توليد في الذاكرة"/>
-                    <Item id="49000" name="&amp;تشغيل..."/>
+                    <Item id="48015" name="توليد..."/>
+                    <Item id="48501" name="توليد من ملفات..."/>
+                    <Item id="48502" name="توليد في الذاكرة"/>
+                    <Item id="48503" name="&amp;تشغيل..."/>
+                    <Item id="49000" name="إكمال الإقتران"/>
 
-                    <Item id="50000" name="إكمال الإقتران"/>
-                    <Item id="50001" name="إكمال الكلمة"/>
-                    <Item id="50002" name="تلميح متغيرات الإقتران"/>
-                    <Item id="50006" name="إكمال المسار"/>
-                    <Item id="44042" name="إخفاء الأسطر"/>
-                    <Item id="42040" name="فتح جميع الملفات الأخيرة"/>
-                    <Item id="42041" name="مسح قائمة الملفات الأخيرة"/>
-                    <Item id="48016" name="تعديل الاختصار / حذف الماكرو..."/>
-                    <Item id="48017" name="تعديل الاختصار / حذف الأمر..."/>
+                    <Item id="50000" name="إكمال الكلمة"/>
+                    <Item id="50001" name="تلميح متغيرات الإقتران"/>
+                    <Item id="50002" name="إكمال المسار"/>
+                    <Item id="50006" name="إخفاء الأسطر"/>
+                    <Item id="44042" name="فتح جميع الملفات الأخيرة"/>
+                    <Item id="42040" name="مسح قائمة الملفات الأخيرة"/>
+                    <Item id="42041" name="تعديل الاختصار / حذف الماكرو..."/>
+                    <Item id="48016" name="تعديل الاختصار / حذف الأمر..."/>
+                    <Item id="48017" name="Modify Shortcut/Delete Command..."/>
                 </Commands>
             </Main>
             <Splitter>
@@ -423,6 +417,17 @@
                 <Item id="1934" name="نسخ إلى الذاكرة"/>
                 <Item id="2" name="إغلاق"/>
             </MD5FromTextDlg>
+
+            <PluginsAdminDlg title="Plugins Admin" titleAvailable="Available" titleUpdates="Updates" titleInstalled="Installed">
+                <ColumnPlugin name="Plugin"/>
+                <ColumnVersion name="Version"/>
+                <Item id="5501" name="Search:"/>
+                <Item id="5503" name="Install"/>
+                <Item id="5504" name="Update"/>
+                <Item id="5505" name="Remove"/>
+                <Item id="5508" name="Next"/>
+                <Item id="2" name="Close"/>
+            </PluginsAdminDlg>
 
             <StyleConfig title="مكون النمط">
                 <Item id="2" name="إلغاء"/>
@@ -707,7 +712,7 @@
                     <Item id="6207" name="عرض الإشارة المرجعية"/>
                     <Item id="6208" name="إظهار الحافة العمودية"/>
                     <Item id="6209" name="عدد الأعمدة:"/>
-                    <Item id="6234" name="تعطيل ميزة التمرير المتقدمة&#xA;(إذا كان لديك مشكلة في لوحة اللمس)"/>
+                    <Item id="6234" name="تعطيل ميزة التمرير المتقدمة&#10;(إذا كان لديك مشكلة في لوحة اللمس)"/>
 
                     <Item id="6211" name="إعدادات الحافة العمودية"/>
                     <Item id="6212" name="وضع السطر"/>
@@ -862,7 +867,7 @@
                     <Item id="6256" name="السماح على عدة أسطر"/>
                     <Item id="6161" name="قائمة أحرف الكلمة"/>
                     <Item id="6162" name="استخدم قائمة أحرف الكلمة الافتراضية كما هي"/>
-                    <Item id="6163" name="إضافة الحرف الخاص بك كجزء من الكلمة&#xA;(لا تقم باختيارها إلا إذا كنت تعرف ماذا تفعل)"/>
+                    <Item id="6163" name="إضافة الحرف الخاص بك كجزء من الكلمة&#10;(لا تقم باختيارها إلا إذا كنت تعرف ماذا تفعل)"/>
                 </Delimiter>
 
                 <Cloud title="التخزين السحابي">
@@ -870,7 +875,7 @@
                     <Item id="6263" name="لا يوجد تخزين سحابي"/>
                     <Item id="6267" name="قم بتعيين مسار موقع التخزين السحابي الخاص بك هنا:"/>
                 </Cloud>
-                
+
                 <SearchEngine title="محرك البحث">
                     <Item id="6271" name="محرك البحث (للأمر &quot;البحث على الإنترنت&quot;)"/>
                     <Item id="6272" name="DuckDuckGo"/>
@@ -951,59 +956,59 @@
             </FindInFinder>
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="تحرير القائمة المنبثقة" message="إن تحرير contextMenu.xml يسمح لك بتعديل قائمة السياق المنبثقة لـ Notepad++.&#xA; يجب عليك إعادة تشغيل Notepad++ ليتم تطبيق التعديلات التي قمت بها على contextMenu.xml."/>
-            <NppHelpAbsentWarning title="الملف غير موجود" message="&#xA;غير موجود. الرجاء تنزيله من على موقع Notepad++."/>
-            <SaveCurrentModifWarning title="حفظ التعديلات الحالية" message="يجب عليك حفظ التعديلات الحالية.&#xA;كل التعديلات التي سوف يتم حفظها لا يمكن التراجع عنها.&#xA;متابعة؟"/>
-            <LoseUndoAbilityWarning title="تحذير من فقد القدرة على التراجع" message="يجب عليك حفظ التعديلات الحالية.&#xA;كل التعديلات التي سوف يتم حفظها لا يمكن التراجع عنها.&#xA;&#xA;متابعة؟"/>
+            <ContextMenuXmlEditWarning title="تحرير القائمة المنبثقة" message="إن تحرير contextMenu.xml يسمح لك بتعديل قائمة السياق المنبثقة لـ Notepad++.&#10; يجب عليك إعادة تشغيل Notepad++ ليتم تطبيق التعديلات التي قمت بها على contextMenu.xml."/>
+            <NppHelpAbsentWarning title="الملف غير موجود" message="&#10;غير موجود. الرجاء تنزيله من على موقع Notepad++."/>
+            <SaveCurrentModifWarning title="حفظ التعديلات الحالية" message="يجب عليك حفظ التعديلات الحالية.&#10;كل التعديلات التي سوف يتم حفظها لا يمكن التراجع عنها.&#10;متابعة؟"/>
+            <LoseUndoAbilityWarning title="تحذير من فقد القدرة على التراجع" message="يجب عليك حفظ التعديلات الحالية.&#10;كل التعديلات التي سوف يتم حفظها لا يمكن التراجع عنها.&#10;&#10;متابعة؟"/>
             <CannotMoveDoc title="نقل إلى مثيل Notepad++ جديد" message="المستند تم تعديله، قم بحفظه ثم حاول مرة آخرى."/>
             <DocReloadWarning title="إعادة تحميل" message="هل تريد بالتأكيد إعادة تحميل الملف الحالي وفقد كل التعديلات التي عملها داخل Notepad++؟"/>
             <FileLockedWarning title="فشل الحفظ" message="الرجاء التحقق من أن هذا الملف مفتوح في برنامج أخر"/>
             <FileAlreadyOpenedInNpp title="" message="هذا الملف مفتوح بالفعل في Notepad++."/>
             <DeleteFileFailed title="حذف الملف" message="فشل حذف الملف"/>
-            
-            <NbFileToOpenImportantWarning title="عدد الملفات المطلوب فتحها كبير جداً" message="$INT_REPLACE$ ملفات سوف يتم فتحها.&#xA;هل تريد بالتأكيد فتح هذه الملفات؟"/>
-            <SettingsOnCloudError title="الإعدادات على التخزين السحابي" message="يبدو أن مسار الإعدادات على التخزين السحابي تم تعيينه على قرص للقراءة فقط، &#xA;أو على مجلد يحتاج صلاحيات للكتابة. &#xA;سيتم إلغاء إعداداتك على التخزين السحابي. الرجاء إعادة تعيين قيمة أفضل من خلال مربع حوال تفضيلات."/>
+
+            <NbFileToOpenImportantWarning title="عدد الملفات المطلوب فتحها كبير جداً" message="$INT_REPLACE$ ملفات سوف يتم فتحها.&#10;هل تريد بالتأكيد فتح هذه الملفات؟"/>
+            <SettingsOnCloudError title="الإعدادات على التخزين السحابي" message="يبدو أن مسار الإعدادات على التخزين السحابي تم تعيينه على قرص للقراءة فقط، &#10;أو على مجلد يحتاج صلاحيات للكتابة. &#10;سيتم إلغاء إعداداتك على التخزين السحابي. الرجاء إعادة تعيين قيمة أفضل من خلال مربع حوال تفضيلات."/>
             <FilePathNotFoundWarning title="فتح ملف" message="الملف الذي تحاول فتحه غير موجود."/>
             <SessionFileInvalidError title="لا يمكن تحميل الجلسة" message="ملف الجلسة إما أنه تالف أو غير صالح."/>
-            <DroppingFolderAsProjectModeWarning title="حدث غير صالح" message="يمكنك إسقاط الملفات أو المجلدات فقط ولكن ليس كلاهما، لأنك في حالة إسقاط المجلد كوضع المشروع.&#xA;يجب عليك تفعيل &quot;فتح جميع الملفات في المجلد بدلاً من فتح المجلد كمساحدة عمل عند إفلات المجلد&quot; في قسم &quot;الدليل الافتراضي&quot; التابع لمربع حوار تفضيلات لجعل هذه العملية تعمل."/>
+            <DroppingFolderAsProjectModeWarning title="حدث غير صالح" message="يمكنك إسقاط الملفات أو المجلدات فقط ولكن ليس كلاهما، لأنك في حالة إسقاط المجلد كوضع المشروع.&#10;يجب عليك تفعيل &quot;فتح جميع الملفات في المجلد بدلاً من فتح المجلد كمساحدة عمل عند إفلات المجلد&quot; في قسم &quot;الدليل الافتراضي&quot; التابع لمربع حوار تفضيلات لجعل هذه العملية تعمل."/>
             <SortingError title="خطأ في الترتيب" message="غير قادر على إجراء ترتيب رقمي بسبب السطر $INT_REPLACE$."/>
             <ColumnModeTip title="تلميح وضع العمود" message="الرجاء استخدام &quot;Alt + تحديد الفأرة&quot; أو &quot;Shift + Alt + مفتاح السهم&quot; للتبديل إلى وضع العمود."/>
             <BufferInvalidWarning title="فشل الحفظ" message="لا يمكن الحفظ: المخزن المؤقت غير صالح."/>
             <DoSaveOrNot title="حفظ" message="حفظ الملف &quot;$STR_REPLACE$&quot; ؟"/>
-            <DoCloseOrNot title="إبقاء الملف الغير موجود" message="هذا الملف &quot;$STR_REPLACE$&quot; غير موجود بعد الآن.&#xA;إبقاء هذا الملف في المحرر؟"/>
-            <DoDeleteOrNot title="حذف الملف" message="هذا الملف &quot;$STR_REPLACE$&quot;&#xA;سوف يتم نقله إلى سلة المهملات وسوف يتم إغلاق المستند الحالي.&#xA;متابعة؟"/>
-            <NoBackupDoSaveFile title="حفظ" message="لا يمكن العثور على ملف النسخ الاحتياطي الخاص بك (تم حذفه من الخارج).&#xA;قم بحفظه وإلا سيتم فقدان البيانات الخاصة بك&#xA;هل تريد حفظ الملف &quot;$STR_REPLACE$&quot;؟"/>
-            <DoReloadOrNot title="إعادة تحميل" message="&quot;$STR_REPLACE$&quot;&#xA;&#xA;تم تعديل هذا الملف بواسطة برنامج آخر.&#xA;هل تريد إعادة تحميله؟"/>
-            <DoReloadOrNotAndLooseChange title="إعادة تحميل" message="&quot;$STR_REPLACE$&quot;&#xA;&#xA;تم تعديل هذا الملف بواسطة برنامج آخر&#xA;هل تريد إعادة تحميله وفقدان التعديلات التي قمت بها في Notepad++؟"/>
+            <DoCloseOrNot title="إبقاء الملف الغير موجود" message="هذا الملف &quot;$STR_REPLACE$&quot; غير موجود بعد الآن.&#10;إبقاء هذا الملف في المحرر؟"/>
+            <DoDeleteOrNot title="حذف الملف" message="هذا الملف &quot;$STR_REPLACE$&quot;&#10;سوف يتم نقله إلى سلة المهملات وسوف يتم إغلاق المستند الحالي.&#10;متابعة؟"/>
+            <NoBackupDoSaveFile title="حفظ" message="لا يمكن العثور على ملف النسخ الاحتياطي الخاص بك (تم حذفه من الخارج).&#10;قم بحفظه وإلا سيتم فقدان البيانات الخاصة بك&#10;هل تريد حفظ الملف &quot;$STR_REPLACE$&quot;؟"/>
+            <DoReloadOrNot title="إعادة تحميل" message="&quot;$STR_REPLACE$&quot;&#10;&#10;تم تعديل هذا الملف بواسطة برنامج آخر.&#10;هل تريد إعادة تحميله؟"/>
+            <DoReloadOrNotAndLooseChange title="إعادة تحميل" message="&quot;$STR_REPLACE$&quot;&#10;&#10;تم تعديل هذا الملف بواسطة برنامج آخر&#10;هل تريد إعادة تحميله وفقدان التعديلات التي قمت بها في Notepad++؟"/>
             <PrehistoricSystemDetected title="تم اكتشاف نظام ما قبل التاريخ" message="يبدو أنك لا تزال تستخدم نظام ما قبل التاريخ. هذه الميزة تعمل فقط على نظام حديث، آسف."/>
-            <XpUpdaterProblem title="محدث Notepad++" message="محدث Notepad++ غير متوافق مع XP بسبب طبقة أمان عفا عليها الزمن ضمن XP.&#xA;هل تريد أن تذهب إلى صفحة Notepad++ لتحميل أحدث إصدار؟"/>
+            <XpUpdaterProblem title="محدث Notepad++" message="محدث Notepad++ غير متوافق مع XP بسبب طبقة أمان عفا عليها الزمن ضمن XP.&#10;هل تريد أن تذهب إلى صفحة Notepad++ لتحميل أحدث إصدار؟"/>
             <DocTooDirtyToMonitor title="مشكلة في المراقبة" message="الوثيقة متسخة. الرجاء حفظ التعديل قبل مراقبتها."/>
             <DocNoExistToMonitor title="مشكلة في المراقبة" message="يجب أن يكون الملف موجوداً ليتم مراقبته."/>
             <FileTooBigToOpen title="مشكلة في حجم الملف" message="الملف كبير جداً ليتم فتحه بواسطة Notepad++"/>
             <CreateNewFileOrNot title="إنشاء ملف جديد" message="&quot;$STR_REPLACE$&quot; غير موجود. القيام بإنشائه؟"/>
             <CreateNewFileError title="إنشاء ملف جديد" message="لا يمكن إنشاء الملف &quot;$STR_REPLACE$&quot;."/>
             <OpenFileError title="خطأ" message="لا يمكن فتح الملف &quot;$STR_REPLACE$&quot;."/>
-            <FileBackupFailed title="فشل النسخ الإحتياطي للملف" message="لا يمكن حفظ الإصدار السابق من الملف في دليل النسخ الاحتياطي على &quot;$STR_REPLACE$&quot;.&#xA;&#xA;هل تريد حفظ الملف الحالي على أي حال؟"/>
+            <FileBackupFailed title="فشل النسخ الإحتياطي للملف" message="لا يمكن حفظ الإصدار السابق من الملف في دليل النسخ الاحتياطي على &quot;$STR_REPLACE$&quot;.&#10;&#10;هل تريد حفظ الملف الحالي على أي حال؟"/>
             <LoadStylersFailed title="فشل تحميل stylers.xml" message="فشل تحميل &quot;$STR_REPLACE$&quot;!"/>
             <LoadLangsFailed title="المكون" message="فشل تحميل langs.xml!  هل تريد استرداد langs.xml الخاص بك؟"/>
             <LoadLangsFailedFinal title="المكون" message="فشل تحميل langs.xml!"/>
-            <FolderAsWorspaceSubfolderExists title="المجلد كمساحة عمل مشكلة في إضافة المجلد" message="يوجد مجلد فرعي للمجلد الذي تريد إضافته.&#xA;الرجاء حذف جذره من القائمة قبل إضافة المجلد &quot;$STR_REPLACE$&quot;."/>
+            <FolderAsWorspaceSubfolderExists title="المجلد كمساحة عمل مشكلة في إضافة المجلد" message="يوجد مجلد فرعي للمجلد الذي تريد إضافته.&#10;الرجاء حذف جذره من القائمة قبل إضافة المجلد &quot;$STR_REPLACE$&quot;."/>
 
             <ProjectPanelChanged title="$STR_REPLACE$" message="تم تعديل مساحة العمل. هل تريد حفظها؟"/>
             <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="لم يتم حفظ مساحة العمل الخاصة بك."/>
             <ProjectPanelOpenDoSaveDirtyWsOrNot title="فتح مساحة عمل" message="تم تعديل مساحة العمل الحالية. هل تريد حفظ المشروع الحالي؟"/>
             <ProjectPanelNewDoSaveDirtyWsOrNot title="مساحة عمل جديدة" message="تم تعديل مساحة العمل الحالية. هل تريد حفظ المشروع الحالي؟"/>
-            <ProjectPanelOpenFailed title="فتح مساحة عمل" message="لا يمكن فتح مساحة العمل.&#xA;يبدو أن الملف المراد فتحه ليس ملف صالح للمشروع."/>
-            <ProjectPanelRemoveFolderFromProject title="إزالة المجلد من المشروع" message="كل العناصر الفرعية سوف يتم حذفها.&#xA;هل بالتأكيد تريد إزالة هذا المجلد من المشروع؟"/>
+            <ProjectPanelOpenFailed title="فتح مساحة عمل" message="لا يمكن فتح مساحة العمل.&#10;يبدو أن الملف المراد فتحه ليس ملف صالح للمشروع."/>
+            <ProjectPanelRemoveFolderFromProject title="إزالة المجلد من المشروع" message="كل العناصر الفرعية سوف يتم حذفها.&#10;هل بالتأكيد تريد إزالة هذا المجلد من المشروع؟"/>
             <ProjectPanelRemoveFileFromProject title="إزالة الملف من المشروع" message="هل تريد بالتأكيد إزالة هذا الملف من المشروع؟"/>
             <ProjectPanelReloadError title="إعادة تحميل مساحة العمل" message="لا يمكن العثور على الملف لإعادة التحميل."/>
-            <ProjectPanelReloadDirty title="إعادة تحميل مساحة العمل" message="تم تعديل مساحة العمل الحالية. إعادة التحميل سوف تلغي كل التعديلات.&#xA; هل تريد المتابعة؟"/>
-            <UDLNewNameError title="خطأ UDL" message="هذا الاسم تم استخدامه من قبل لغة أخرى،&#xA;الرجاء إعطاء اسم آخر."/>
+            <ProjectPanelReloadDirty title="إعادة تحميل مساحة العمل" message="تم تعديل مساحة العمل الحالية. إعادة التحميل سوف تلغي كل التعديلات.&#10; هل تريد المتابعة؟"/>
+            <UDLNewNameError title="خطأ UDL" message="هذا الاسم تم استخدامه من قبل لغة أخرى،&#10;الرجاء إعطاء اسم آخر."/>
             <UDLRemoveCurrentLang title="إزالة اللغة الحالية" message="هل أنت متأكد؟"/>
             <SCMapperDoDeleteOrNot title="هل أنت متأكد؟" message="هل بالتأكيد تريد حذف هذا الاختصار؟"/>
             <FindCharRangeValueError title="مشكلة في قيمة النطاق" message="يجب أن تكتب بين 0 و 255."/>
-            <OpenInAdminMode title="فشل الحفظ" message="لا يمكن حفظ الملف وقد يكون محمياً.&#xA;هل تريد تشغيل Notepad++ في وضع المسؤول؟"/>
-            <OpenInAdminModeWithoutCloseCurrent title="فشل الحفظ" message="لا يمكن حفظ الملف وقد يكون محمياً.&#xA;هل تريد تشغيل Notepad++ في وضع المسؤول؟"/>
+            <OpenInAdminMode title="فشل الحفظ" message="لا يمكن حفظ الملف وقد يكون محمياً.&#10;هل تريد تشغيل Notepad++ في وضع المسؤول؟"/>
+            <OpenInAdminModeWithoutCloseCurrent title="فشل الحفظ" message="لا يمكن حفظ الملف وقد يكون محمياً.&#10;هل تريد تشغيل Notepad++ في وضع المسؤول؟"/>
             <OpenInAdminModeFailed title="فشل الفتح في وضع المسؤول." message="لا يمكن فتح Notepad++ في وضع المسؤول."/>
         </MessageBox>
         <ClipboardHistory>
