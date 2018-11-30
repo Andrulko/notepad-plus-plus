@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <NotepadPlus>
-    <Native-Langue name="Brezhoneg" filename="breton.xml" war-duion="6.8.2">
+    <Native-Langue name="Brezhoneg" filename="breton.xml" version="7.5.5">
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
@@ -12,354 +12,369 @@
                     <Item menuId="encoding" name="E&amp;nkodañ"/>
                     <Item menuId="language" name="&amp;Yezh"/>
                     <Item menuId="settings" name="&amp;Dibarzhioù"/>
-                    <Item menuId="macro" name="&amp;Makro"/>
-                    <Item menuId="run" name="&amp;Lañsañ"/>
-                    <Item idName="Plugins" name="&amp;Enlugelladoù"/>
-                    <Item idName="Window" name="&amp;Prenestr"/>
+                    <Item menuId="tools" name="&amp;Makro"/>
+                    <Item menuId="macro" name="&amp;Lañsañ"/>
+                    <Item menuId="run" name="&amp;Enlugelladoù"/>
+                    <Item idName="Plugins" name="&amp;Prenestr"/>
+                    <Item idName="Window" name="&amp;Window"/>
                 </Entries>
                 <!-- Sub Menu Entries -->
                 <SubEntries>
-					<Item subMenuId="file-openFolder" name="Digeriñ an teuliad war ober"/>
+                    <Item subMenuId="file-openFolder" name="Digeriñ an teuliad war ober"/>
                     <Item subMenuId="file-closeMore" name="Serriñ +"/>
-                    <Item subMenuId="file-recentFiars" name="Restroù nevez"/>
-                    <Item subMenuId="edit-copyToClipboard"  name="Eilañ er golver"/>
+                    <Item subMenuId="file-recentFiles" name="Restroù nevez"/>
+                    <Item subMenuId="edit-copyToClipboard" name="Eilañ er golver"/>
                     <Item subMenuId="edit-indent" name="Kefosk"/>
                     <Item subMenuId="edit-convertCaseTo" name="PENNLIZHERENNOÙ/lizherennoù munut"/>
                     <Item subMenuId="edit-lineOperations" name="Linenn"/>
                     <Item subMenuId="edit-comment" name="Evezhiadenn"/>
                     <Item subMenuId="edit-autoCompletion" name="Klokaat emgefreek"/>
-                    <Item subMenuId="edit-eolConwar-duion" name="Emdreiñ al lamm-linennoù"/>
-                    <Item subMenuId="edit-blenkOperations" name="Keweriadur an esaouennoù"/>
+                    <Item subMenuId="edit-eolConversion" name="Emdreiñ al lamm-linennoù"/>
+                    <Item subMenuId="edit-blankOperations" name="Keweriadur an esaouennoù"/>
                     <Item subMenuId="edit-pasteSpecial" name="Pegañ arbennik"/>
-                    <Item subMenuId="search-markAll" name="Merkañ an holl"/>
-                    <Item subMenuId="search-unmarkAll" name="Lemmel kuit an holl merkoù"/>
-                    <Item subMenuId="search-jumpUp" name="Mont war-du ar c'hrec'h"/>
-                    <Item subMenuId="search-jumpDown" name="Mont war-du an traoñ"/>
-                    <Item subMenuId="search-bookmark" name="Sined"/>
-                    <Item subMenuId="view-showSymbol" name="Arouezioù ispisial"/>
-                    <Item subMenuId="view-zoom"  name="Zoum"/>
-                    <Item subMenuId="view-moveClonerestr"  name="Dilec'hiañ/Klonañ an teul bremanel"/>
-                    <Item subMenuId="view-tab"  name="Ivinell"/>
-                    <Item subMenuId="view-collepseLevel" name="Bihanaat al live"/>
-                    <Item subMenuId="view-uncollepseLevel" name="Kreskaat al live"/>
-                    <Item subMenuId="view-project" name="Raktres"/>
-                    <Item subMenuId="encoding-characterSets" name="Spletad arouezennoù "/>
-                    <Item subMenuId="encoding-arabic" name="Arabeg"/>
-                    <Item subMenuId="encoding-baltic" name="Yezhoù Baltek"/>
-                    <Item subMenuId="encoding-celtic" name="Yezhoù Keltiek"/>
-                    <Item subMenuId="encoding-cyrillic" name="Kirilik"/>
-                    <Item subMenuId="encoding-centralEuropean" name="Yezhoù Europa ar C'hreiz"/>
-                    <Item subMenuId="encoding-chinese" name="Sinaeg"/>
-                    <Item subMenuId="encoding-easternEuropean" name="Yezhoù Europa Ar Sav-Heol"/>
-                    <Item subMenuId="encoding-greek" name="Gresianeg"/>
-                    <Item subMenuId="encoding-hebrew" name="Hebraeg"/>
-                    <Item subMenuId="encoding-japanese" name="Japaneg"/>
-                    <Item subMenuId="encoding-korean" name="Koreaneg"/>
-                    <Item subMenuId="encoding-northEuropean" name="Yezhoù Europa An Norzh"/>
-                    <Item subMenuId="encoding-thai" name="Thaieg"/>
-                    <Item subMenuId="encoding-turkish" name="Turkeg"/>
-                    <Item subMenuId="encoding-westernEuropean" name="Yezhoù Europa Ar C'hornôg"/>
-                    <Item subMenuId="encoding-vietnamese" name="Vietnamaneg"/>
-                    <Item subMenuId="settings-import"  name="Enporzhiañ"/>
+                    <Item subMenuId="edit-onSelection" name="Merkañ an holl"/>
+                    <Item subMenuId="search-markAll" name="Lemmel kuit an holl merkoù"/>
+                    <Item subMenuId="search-unmarkAll" name="Mont war-du ar c'hrec'h"/>
+                    <Item subMenuId="search-jumpUp" name="Mont war-du an traoñ"/>
+                    <Item subMenuId="search-jumpDown" name="Sined"/>
+                    <Item subMenuId="search-bookmark" name="Arouezioù ispisial"/>
+                    <Item subMenuId="view-showSymbol" name="Zoum"/>
+                    <Item subMenuId="view-zoom" name="Dilec'hiañ/Klonañ an teul bremanel"/>
+                    <Item subMenuId="view-moveCloneDocument" name="Ivinell"/>
+                    <Item subMenuId="view-tab" name="Bihanaat al live"/>
+                    <Item subMenuId="view-collapseLevel" name="Kreskaat al live"/>
+                    <Item subMenuId="view-uncollapseLevel" name="Raktres"/>
+                    <Item subMenuId="view-project" name="Spletad arouezennoù "/>
+                    <Item subMenuId="encoding-characterSets" name="Arabeg"/>
+                    <Item subMenuId="encoding-arabic" name="Yezhoù Baltek"/>
+                    <Item subMenuId="encoding-baltic" name="Yezhoù Keltiek"/>
+                    <Item subMenuId="encoding-celtic" name="Kirilik"/>
+                    <Item subMenuId="encoding-cyrillic" name="Yezhoù Europa ar C'hreiz"/>
+                    <Item subMenuId="encoding-centralEuropean" name="Sinaeg"/>
+                    <Item subMenuId="encoding-chinese" name="Yezhoù Europa Ar Sav-Heol"/>
+                    <Item subMenuId="encoding-easternEuropean" name="Gresianeg"/>
+                    <Item subMenuId="encoding-greek" name="Hebraeg"/>
+                    <Item subMenuId="encoding-hebrew" name="Japaneg"/>
+                    <Item subMenuId="encoding-japanese" name="Koreaneg"/>
+                    <Item subMenuId="encoding-korean" name="Yezhoù Europa An Norzh"/>
+                    <Item subMenuId="encoding-northEuropean" name="Thaieg"/>
+                    <Item subMenuId="encoding-thai" name="Turkeg"/>
+                    <Item subMenuId="encoding-turkish" name="Yezhoù Europa Ar C'hornôg"/>
+                    <Item subMenuId="encoding-westernEuropean" name="Vietnamaneg"/>
+                    <Item subMenuId="encoding-vietnamese" name="Enporzhiañ"/>
+                    <Item subMenuId="settings-import" name="Import"/>
+                    <Item subMenuId="tools-md5" name="MD5"/>
                 </SubEntries>
 
                 <!-- all menu item -->
                 <Commands>
-                    <Item id="10001" name="Dilec'hiañ war-du ar gwel all"/>
-                    <Item id="10002" name="Klonañ e-barzh ar gwel all"/>
-                    <Item id="10003" name="Dilec'hiañ war-du ur prenestr nevez"/>
-                    <Item id="10004" name="Digeriñ e-barzh ur prenestr nevez"/>
-                    <Item id="1001"  name="Moullañ diouzhtu"/>
-                    <Item id="41001" name="&amp;Nevez"/>
-                    <Item id="41002" name="&amp;Digeriñ..."/>
-					<Item id="41019" name="Ergerzhout"/>
-                    <Item id="41020" name="cmd"/>
-                    <Item id="41003" name="Serriñ"/>
-                    <Item id="41004" name="Serriñ an holl"/>
-                    <Item id="41005" name="Serriñ an holl war-bouez an teul red"/>
-                    <Item id="41009" name="Serriñ an holl a gleiz"/>
-                    <Item id="41018" name="Serriñ an holl a zehou"/>
-                    <Item id="41006" name="&amp;Enrollañ"/>
-                    <Item id="41007" name="En&amp;rollañ an holl"/>
-                    <Item id="41008" name="Enrollañ &amp;dindan..."/>
-                    <Item id="41010" name="Moullañ..."/>
-                    <Item id="41011" name="&amp;Kuitaat"/>
-                    <Item id="41012" name="Kargañ un estez..."/>
-                    <Item id="41013" name="Enrollañ an estez..."/>
-                    <Item id="41014" name="Adkargañ adalek ar gantenn"/>
-                    <Item id="41015" name="Enrollañ un eilenn..."/>
-                    <Item id="41016" name="Diverkañ"/>
-                    <Item id="41017" name="Ad-eñvel..."/>
-					<Item id="41021" name="Digeriñ ar restr serret nevez 'zo"/>
-                    <Item id="42001" name="&amp;Troc'hañ"/>
-                    <Item id="42002" name="&amp;Eilañ"/>
-                    <Item id="42003" name="&amp;Nulañ"/>
-                    <Item id="42004" name="&amp;Adober"/>
-                    <Item id="42005" name="&amp;Pegañ"/>
-                    <Item id="42006" name="&amp;Diverkañ"/>
-                    <Item id="42007" name="Diuzañ &amp; an holl"/>
-                    <Item id="42020" name="Penn-kentañ/Dibenn an diuzadenn"/>
-                    <Item id="42008" name="Brasaat ar c'hefosk"/>
-                    <Item id="42009" name="Bihanaat ar c'hefosk"/>
-                    <Item id="42010" name="Eiladuriñ al linenn war-red"/>
-                    <Item id="42012" name="Disrannañ e linennoù lies"/>
-                    <Item id="42013" name="Kenstagañ meur a linenn"/>
-                    <Item id="42014" name="Dilec'hiañ al linenn war-red war-du ar c'hrec'h"/>
-                    <Item id="42015" name="Dilec'hiañ al linenn war-red war-du an traoñ"/>
-                    <Item id="42016" name="E PENNLIZHERENNOÙ"/>
-                    <Item id="42017" name="e lizherennoù munut"/>
-                    <Item id="42018" name="Kregiñ an enrolladenn"/>
-                    <Item id="42019" name="Paouez an enrolladenn"/>
-                    <Item id="42021" name="Adimplij ar makro"/>
-                    <Item id="42022" name="Addisplegañ/Dizisplegañ (mod linenn)"/>
-                    <Item id="42023" name="Askelennañ ar bloc'h diuzet"/>
-                    <Item id="42047" name="Diaskelennañ ar bloc'h diuzet"/>
-                    <Item id="42024" name="Tennañ ar gwenn e fin al linennoù"/>
-                    <Item id="42025" name="Enrollañ ar makro"/>
-                    <Item id="42026" name="Testenn a zehou da gleiz"/>
-                    <Item id="42027" name="Testenn a gleiz da zehou"/>
-                    <Item id="42028" name="Teul bremanel e mod lenn hepken"/>
-                    <Item id="42029" name="Eilañ hent an teul war-red a-bezh"/>
-                    <Item id="42030" name="Eilañ anv an teul war-red"/>
-                    <Item id="42031" name="Eilañ teuliad an teul war-red"/>
-                    <Item id="42032" name="Kas da-benn ur makro e dol..."/>
-                    <Item id="42033" name="Tennañ an doareenn mod lenn hepken"/>
-                    <Item id="42034" name="Embann e mod bannoù..."/>
-                    <Item id="42035" name="Asklennañ ul linenn"/>
-                    <Item id="42036" name="Diaskelennañ ul linenn"/>
-                    <Item id="42055" name="Tennañ al linennoù goullo"/>
-                    <Item id="42056" name="Tennañ al linennoù goullo (a endalc'h esaouennoù ivez)"/>
-                    <Item id="42057" name="Enlakaat ul linenn goullo dirak al linenn-red"/>
-                    <Item id="42058" name="Enlakaat ul linenn goullo goude al linenn-red"/>
-					<Item id="42059" name="Renkañ al linennoù en urzh geriadurel war-gresk"/>
-					<Item id="42061" name="Renkañ al linennoù en urzh enter war-gresk"/>
-					<Item id="42063" name="Renkañ al linennoù en urzh degel (skej) war-gresk"/>
-					<Item id="42065" name="Renkañ al linennoù en urzh degel (poent) war-gresk"/>
-					<Item id="42060" name="Renkañ al linennoù en urzh geriadurel digresk"/>
-					<Item id="42062" name="Renkañ al linennoù en urzh enter digresk"/>
-					<Item id="42064" name="Renkañ al linennoù en urzh degel (skej) digresk"/>
-					<Item id="42066" name="Renkañ al linennoù en urzh degel (poent) digresk"/>
-                    <Item id="42037" name="an diuzadenn e mod bann..."/>
-                    <Item id="42040" name="Digeriñ an holl restroù nevez"/>
-                    <Item id="42041" name="Goullonderiñ listenn ar restroù nevez"/>
-                    <Item id="42042" name="Tennañ ar gwenn e penn-kentañ al linennoù"/>
-                    <Item id="42043" name="Tennañ ar gwenn e penn-kentañ hag e fin al linennoù"/>
-                    <Item id="42044" name="Treuzfurmiñ an dibennoù linenn e esaouennoù"/>
-                    <Item id="42045" name="Diverkañ an esaouennoù hag an dibennoù linennoù en deroù"/>
-                    <Item id="42046" name="Treuzfurmiñ an taolennata e esaouennoù"/>
-                    <Item id="42054" name="Treuzfurmiñ an holl esaouennoù e taolennata"/>
-                    <Item id="42053" name="Treuzfurmiñ an esaouennoù e penn-kentañ al linennoù e taolennata"/>
-                    <Item id="42038" name="Pegañ endalc'had HTML"/>
-                    <Item id="42039" name="Pegañ endalc'had RTF"/>
-                    <Item id="42048" name="Eilañ endalc'had Biner"/>
-                    <Item id="42049" name="Troc'hañ endalc'had Biner"/>
-                    <Item id="42050" name="Pegañ endalc'had Biner"/>
-                    <Item id="42051" name="Pannel an arouezioù ASCII"/>
-                    <Item id="42052" name="Pannel istorel ar golver"/>
-                    <Item id="43001" name="&amp;Klask..."/>
-                    <Item id="43002" name="Klask &amp;da-heul"/>
-                    <Item id="43003" name="Erlec'hiañ..."/>
-                    <Item id="43004" name="Tizhout..."/>
-                    <Item id="43005" name="Lakaat/Tennañ ur sined"/>
-                    <Item id="43006" name="Sined da-heul"/>
-                    <Item id="43007" name="Sined kent"/>
-                    <Item id="43008" name="Tennañ an holl sinedoù"/>
-                    <Item id="43009" name="Mont d'ar bevenner klotaus"/>
-                    <Item id="43010" name="Klask kent"/>
-                    <Item id="43011" name="Klask &amp;azvuiadel..."/>
-                    <Item id="43013" name="Klask e-barzh an is-teuliadoù"/>
-                    <Item id="43014" name="Klask nijelenn da-heul"/>
-                    <Item id="43015" name="Klask nijelenn kent"/>
+                    <Item id="41001" name="Dilec'hiañ war-du ar gwel all"/>
+                    <Item id="41002" name="Klonañ e-barzh ar gwel all"/>
+                    <Item id="41019" name="Dilec'hiañ war-du ur prenestr nevez"/>
+                    <Item id="41020" name="Digeriñ e-barzh ur prenestr nevez"/>
+                    <Item id="41003" name="Moullañ diouzhtu"/>
+                    <Item id="41004" name="&amp;Nevez"/>
+                    <Item id="41005" name="&amp;Digeriñ..."/>
+                    <Item id="41009" name="Ergerzhout"/>
+                    <Item id="41018" name="cmd"/>
+                    <Item id="41006" name="Serriñ"/>
+                    <Item id="41007" name="Serriñ an holl"/>
+                    <Item id="41008" name="Serriñ an holl war-bouez an teul red"/>
+                    <Item id="41010" name="Serriñ an holl a gleiz"/>
+                    <Item id="1001" name="Serriñ an holl a zehou"/>
+                    <Item id="41011" name="&amp;Enrollañ"/>
+                    <Item id="41012" name="En&amp;rollañ an holl"/>
+                    <Item id="41013" name="Enrollañ &amp;dindan..."/>
+                    <Item id="41014" name="Moullañ..."/>
+                    <Item id="41015" name="&amp;Kuitaat"/>
+                    <Item id="41016" name="Kargañ un estez..."/>
+                    <Item id="41017" name="Enrollañ an estez..."/>
+                    <Item id="41021" name="Adkargañ adalek ar gantenn"/>
+                    <Item id="41022" name="Enrollañ un eilenn..."/>
+                    <Item id="41023" name="Diverkañ"/>
+                    <Item id="42001" name="Ad-eñvel..."/>
+                    <Item id="42002" name="Digeriñ ar restr serret nevez 'zo"/>
+                    <Item id="42003" name="&amp;Troc'hañ"/>
+                    <Item id="42004" name="&amp;Eilañ"/>
+                    <Item id="42005" name="&amp;Nulañ"/>
+                    <Item id="42006" name="&amp;Adober"/>
+                    <Item id="42007" name="&amp;Pegañ"/>
+                    <Item id="42020" name="&amp;Diverkañ"/>
+                    <Item id="42008" name="Diuzañ &amp; an holl"/>
+                    <Item id="42009" name="Penn-kentañ/Dibenn an diuzadenn"/>
+                    <Item id="42010" name="Brasaat ar c'hefosk"/>
+                    <Item id="42012" name="Bihanaat ar c'hefosk"/>
+                    <Item id="42013" name="Eiladuriñ al linenn war-red"/>
+                    <Item id="42014" name="Disrannañ e linennoù lies"/>
+                    <Item id="42015" name="Kenstagañ meur a linenn"/>
+                    <Item id="42059" name="Dilec'hiañ al linenn war-red war-du ar c'hrec'h"/>
+                    <Item id="42060" name="Dilec'hiañ al linenn war-red war-du an traoñ"/>
+                    <Item id="42061" name="E PENNLIZHERENNOÙ"/>
+                    <Item id="42062" name="e lizherennoù munut"/>
+                    <Item id="42063" name="Kregiñ an enrolladenn"/>
+                    <Item id="42064" name="Paouez an enrolladenn"/>
+                    <Item id="42065" name="Adimplij ar makro"/>
+                    <Item id="42066" name="Addisplegañ/Dizisplegañ (mod linenn)"/>
+                    <Item id="42016" name="Askelennañ ar bloc'h diuzet"/>
+                    <Item id="42017" name="Diaskelennañ ar bloc'h diuzet"/>
+                    <Item id="42067" name="Tennañ ar gwenn e fin al linennoù"/>
+                    <Item id="42068" name="Enrollañ ar makro"/>
+                    <Item id="42069" name="Testenn a zehou da gleiz"/>
+                    <Item id="42070" name="Testenn a gleiz da zehou"/>
+                    <Item id="42071" name="Teul bremanel e mod lenn hepken"/>
+                    <Item id="42072" name="Eilañ hent an teul war-red a-bezh"/>
+                    <Item id="42073" name="Eilañ anv an teul war-red"/>
+                    <Item id="42074" name="Eilañ teuliad an teul war-red"/>
+                    <Item id="42075" name="Kas da-benn ur makro e dol..."/>
+                    <Item id="42076" name="Tennañ an doareenn mod lenn hepken"/>
+                    <Item id="42018" name="Embann e mod bannoù..."/>
+                    <Item id="42019" name="Asklennañ ul linenn"/>
+                    <Item id="42021" name="Diaskelennañ ul linenn"/>
+                    <Item id="42022" name="Tennañ al linennoù goullo"/>
+                    <Item id="42023" name="Tennañ al linennoù goullo (a endalc'h esaouennoù ivez)"/>
+                    <Item id="42047" name="Enlakaat ul linenn goullo dirak al linenn-red"/>
+                    <Item id="42024" name="Enlakaat ul linenn goullo goude al linenn-red"/>
+                    <Item id="42042" name="Renkañ al linennoù en urzh geriadurel war-gresk"/>
+                    <Item id="42043" name="Renkañ al linennoù en urzh enter war-gresk"/>
+                    <Item id="42044" name="Renkañ al linennoù en urzh degel (skej) war-gresk"/>
+                    <Item id="42045" name="Renkañ al linennoù en urzh degel (poent) war-gresk"/>
+                    <Item id="42046" name="Renkañ al linennoù en urzh geriadurel digresk"/>
+                    <Item id="42054" name="Renkañ al linennoù en urzh enter digresk"/>
+                    <Item id="42053" name="Renkañ al linennoù en urzh degel (skej) digresk"/>
+                    <Item id="42038" name="Renkañ al linennoù en urzh degel (poent) digresk"/>
+                    <Item id="42039" name="an diuzadenn e mod bann..."/>
+                    <Item id="42048" name="Digeriñ an holl restroù nevez"/>
+                    <Item id="42049" name="Goullonderiñ listenn ar restroù nevez"/>
+                    <Item id="42050" name="Tennañ ar gwenn e penn-kentañ al linennoù"/>
+                    <Item id="42037" name="Tennañ ar gwenn e penn-kentañ hag e fin al linennoù"/>
+                    <Item id="42034" name="Treuzfurmiñ an dibennoù linenn e esaouennoù"/>
+                    <Item id="42051" name="Diverkañ an esaouennoù hag an dibennoù linennoù en deroù"/>
+                    <Item id="42052" name="Treuzfurmiñ an taolennata e esaouennoù"/>
+                    <Item id="42025" name="Treuzfurmiñ an holl esaouennoù e taolennata"/>
+                    <Item id="42026" name="Treuzfurmiñ an esaouennoù e penn-kentañ al linennoù e taolennata"/>
+                    <Item id="42027" name="Pegañ endalc'had HTML"/>
+                    <Item id="42028" name="Pegañ endalc'had RTF"/>
+                    <Item id="42029" name="Eilañ endalc'had Biner"/>
+                    <Item id="42030" name="Troc'hañ endalc'had Biner"/>
+                    <Item id="42031" name="Pegañ endalc'had Biner"/>
+                    <Item id="42032" name="Pannel an arouezioù ASCII"/>
+                    <Item id="42033" name="Pannel istorel ar golver"/>
+                    <Item id="42035" name="&amp;Klask..."/>
+                    <Item id="42036" name="Klask &amp;da-heul"/>
+                    <Item id="42055" name="Erlec'hiañ..."/>
+                    <Item id="42056" name="Tizhout..."/>
+                    <Item id="42057" name="Lakaat/Tennañ ur sined"/>
+                    <Item id="42058" name="Sined da-heul"/>
+                    <Item id="43001" name="Sined kent"/>
+                    <Item id="43002" name="Tennañ an holl sinedoù"/>
+                    <Item id="43003" name="Mont d'ar bevenner klotaus"/>
+                    <Item id="43004" name="Klask kent"/>
+                    <Item id="43005" name="Klask &amp;azvuiadel..."/>
+                    <Item id="43006" name="Klask e-barzh an is-teuliadoù"/>
+                    <Item id="43007" name="Klask nijelenn da-heul"/>
+                    <Item id="43008" name="Klask nijelenn kent"/>
                     <Item id="43018" name="Troc'hañ al linennoù merket"/>
                     <Item id="43019" name="Eilañ al linennoù merket"/>
                     <Item id="43020" name="Pegañ evit erlec'hiañ al linennoù merket"/>
                     <Item id="43021" name="Diverkañ al linennoù merket"/>
-                    <Item id="43022" name="Arloañ ar stil 1"/>
-                    <Item id="43023" name="Skarzhañ ar stil 1"/>
-                    <Item id="43024" name="Arloañ ar stil 2"/>
-                    <Item id="43025" name="Skarzhañ ar stil 2"/>
-                    <Item id="43026" name="Arloañ ar stil 3"/>
-                    <Item id="43027" name="Skarzhañ ar stil 3"/>
-                    <Item id="43028" name="Arloañ ar stil 4"/>
-                    <Item id="43029" name="Skarzhañ ar stil 4"/>
-                    <Item id="43030" name="Arloañ ar stil 5"/>
-                    <Item id="43031" name="Skarzhañ ar stil 5"/>
-                    <Item id="43032" name="Skarzhañ an holl stiloù"/>
-                    <Item id="43033" name="Stil 1"/>
-                    <Item id="43034" name="Stil 2"/>
-                    <Item id="43035" name="Stil 3"/>
-                    <Item id="43036" name="Stil 4"/>
-                    <Item id="43037" name="Stil 5"/>
-                    <Item id="43038" name="Stil enklask"/>
-                    <Item id="43039" name="Stil 1"/>
-                    <Item id="43040" name="Stil 2"/>
-                    <Item id="43041" name="Stil 3"/>
-                    <Item id="43042" name="Stil 4"/>
-                    <Item id="43043" name="Stil 5"/>
-                    <Item id="43044" name="Stil enklask"/>
-                    <Item id="43045" name="Prenestr disoc'hoù an enklask"/>
-                    <Item id="43046" name="Disoc'h an enklask da-heul"/>
-                    <Item id="43047" name="Disoc'h an enklask kent"/>
-                    <Item id="43048" name="Klask da-heul an diuzadenn"/>
-                    <Item id="43049" name="Klask kent an diuzadenn"/>
-                    <Item id="43050" name="Eilpennañ ar sinedoù"/>
-                    <Item id="43051" name="Diverkañ al linennoù nann-merket"/>
-                    <Item id="43052" name="Klask an arouezioù e-barzh ul lijorenn..."/>
-                    <Item id="43053" name="Diuzañ an holl etre an 2 daouaskad"/>
-					<Item id="43054" name="Merkañ..."/>
-                    <Item id="44009" name="Post-it"/>
-                    <Item id="44010" name="Diblegañ an holl vloc'hoù"/>
-                    <Item id="44019" name="Diskouez an holl arouezioù"/>
-                    <Item id="44020" name="Diskouez an henter kefosk"/>
-                    <Item id="44022" name="Distreiñ emgefreek d'al linenn"/>
-                    <Item id="44023" name="Zoom war-r&amp;aok Reol+Rodellig war-du ar c'hrec'h"/>
-                    <Item id="44024" name="Zoom war-&amp;gil Reol+Rodellig war-du an traoñ"/>
-                    <Item id="44025" name="Diskouez an esaouennoù hag an taolennata"/>
-                    <Item id="44026" name="Diskouez arouezioù fin al linenn"/>
-                    <Item id="44029" name="Diblegañ an holl vloc'hoù"/>
-                    <Item id="44030" name="Adplegañ bloc'h al linenn war-red"/>
-                    <Item id="44031" name="Diblegañ bloc'h al linenn war-red"/>
-                    <Item id="44049" name="Berradenn..."/>
-                    <Item id="44032" name="Gweredekaat/Diweredekaat ar mod skramm a-bezh"/>
-                    <Item id="44033" name="Adlakaat ar zoum Reol+/(keypad)"/>
-                    <Item id="44034" name="Dirak dalc'hmat"/>
-                    <Item id="44035" name="Dibunañ a-blom goubred"/>
-                    <Item id="44036" name="Dibunañ a-blaen goubred"/>
-                    <Item id="44041" name="Diskouez merkoù troc'h al linenn"/>
-                    <Item id="44042" name="Kuzhat al linennoù"/>
-                    <Item id="44072" name="Gwintaat d'ar gwel all"/>
-                    <Item id="44081" name="Pannel ar Raktres #1"/>
-                    <Item id="44082" name="Pannel ar Raktres #2"/>
-                    <Item id="44083" name="Pannel de Raktres #3"/>
-                    <Item id="44080" name="Steuñv an teul"/>
-                    <Item id="44084" name="Roll ar c'hewerisuterioù"/>
-                    <Item id="44086" name="Ivinell 1"/>
-                    <Item id="44087" name="Ivinell 2"/>
-                    <Item id="44088" name="Ivinell 3"/>
-                    <Item id="44089" name="Ivinell 4"/>
-                    <Item id="44090" name="Ivinell 5"/>
-                    <Item id="44091" name="Ivinell 6"/>
-                    <Item id="44092" name="Ivinell 7"/>
-                    <Item id="44093" name="Ivinell 8"/>
-                    <Item id="44094" name="Ivinell 9"/>
-                    <Item id="44095" name="Ivinell da zont"/>
-                    <Item id="44096" name="Ivinell kent"/>
-                    <Item id="45001" name="Emdreiñ er stumm Windows (CR+LF)"/>
-                    <Item id="45002" name="Emdreiñ er stumm UNIX (LF)"/>
-                    <Item id="45003" name="Emdreiñ er stumm Mac (CR)"/>
-                    <Item id="45004" name="Enkodañ en ANSI"/>
-                    <Item id="45005" name="Enkadañ en UTF-8"/>
-                    <Item id="45006" name="Enkadañ en UTF-16BE"/>
-                    <Item id="45007" name="Enkadañ en UTF-16LE"/>
-                    <Item id="45008" name="Enkadañ en UTF-8 (hep BOM)"/>
-                    <Item id="45009" name="Emdreiñ en ANSI"/>
-                    <Item id="45010" name="Emdreiñ en UTF-8 (hep BOM)"/>
-                    <Item id="45011" name="Emdreiñ en UTF-8"/>
-                    <Item id="45012" name="Emdreiñ en UTF-16BE"/>
-                    <Item id="45013" name="Emdreiñ en UTF-16LE"/>
-                    <Item id="45053" name="OEM 860: Portugaleg"/>
-                    <Item id="45054" name="OEM 861: Islandeg"/>
-                    <Item id="45056" name="OEM 863: Galleg"/>
-                    <Item id="45057" name="OEM 865: Nordeg"/>
-                    <Item id="45060" name="Big5 (Hengounel)"/>
-                    <Item id="45061" name="GB2312 (Simplaet)"/>
-                    <Item id="46001" name="Keflunier liv ar c'hevreadurezh..."/>
-                    <Item id="46015" name="Stil MS-DOS"/>
-                    <Item id="46016" name="Normal Testenn"/>
-                    <Item id="46017" name="Mammenn ar restr"/>
-                    <Item id="46019" name="MS INI restr"/>
-                    <Item id="46033" name="Strollaer"/>
-                    <Item id="46250" name="Termennit ho yezh..."/>
-                    <Item id="46180" name="Yezh an implijer"/>
-                    <Item id="47000" name="Diwar-benn Notepad++..."/>
-                    <Item id="47001" name="Lec'hienn Ofisiel Notepad++"/>
-                    <Item id="47002" name="Raktres diorren Notepad++"/>
-                    <Item id="47003" name="Skoazell enlinenn"/>
-                    <Item id="47004" name="Forom"/>
-                    <Item id="47005" name="Kaout klokadennoù all"/>
-                    <Item id="47006" name="Hizivaat Notepad++"/>
-                    <Item id="47008" name="Skoazell"/>
-                    <Item id="47009" name="Kefluniañ Proxy Updater..."/>
-					<Item id="47010" name="Arguzennoù al linenn arc'had..."/>
-					<Item id="47011" name="Skoazell war-eeun"/>
-                    <Item id="48005" name="Enporzhiañ ur glokadenn..."/>
-                    <Item id="48006" name="Enporzhiañ un neuz..."/>
-                    <Item id="48009" name="Berradennoú klavier..."/>
-                    <Item id="48011" name="Dibarzhioù..."/>
-                    <Item id="48016" name="Kemm/Diverkañ Macro..."/>
-                    <Item id="48017" name="Kemm/Diverkañ an arc'had..."/>
-                    <Item id="48018" name="Embann al lañser kemperzhel"/>
-                    <Item id="49000" name="&amp;Kas da-benn..."/>
-                    <Item id="50000" name="Klokadenn arc'hweladur"/>
-                    <Item id="50001" name="Klokadenn c'her"/>
-                    <Item id="50002" name="Stlennglogorenn dibarzhioù an arc'hweladurioù"/>
-                    <Item id="50006" name="Klokadenn Hent da dizhout ar restr"/>
+                    <Item id="43051" name="Arloañ ar stil 1"/>
+                    <Item id="43050" name="Skarzhañ ar stil 1"/>
+                    <Item id="43052" name="Arloañ ar stil 2"/>
+                    <Item id="43053" name="Skarzhañ ar stil 2"/>
+                    <Item id="43009" name="Arloañ ar stil 3"/>
+                    <Item id="43010" name="Skarzhañ ar stil 3"/>
+                    <Item id="43011" name="Arloañ ar stil 4"/>
+                    <Item id="43013" name="Skarzhañ ar stil 4"/>
+                    <Item id="43014" name="Arloañ ar stil 5"/>
+                    <Item id="43015" name="Skarzhañ ar stil 5"/>
+                    <Item id="43022" name="Skarzhañ an holl stiloù"/>
+                    <Item id="43023" name="Stil 1"/>
+                    <Item id="43024" name="Stil 2"/>
+                    <Item id="43025" name="Stil 3"/>
+                    <Item id="43026" name="Stil 4"/>
+                    <Item id="43027" name="Stil 5"/>
+                    <Item id="43028" name="Stil enklask"/>
+                    <Item id="43029" name="Stil 1"/>
+                    <Item id="43030" name="Stil 2"/>
+                    <Item id="43031" name="Stil 3"/>
+                    <Item id="43032" name="Stil 4"/>
+                    <Item id="43033" name="Stil 5"/>
+                    <Item id="43034" name="Stil enklask"/>
+                    <Item id="43035" name="Prenestr disoc'hoù an enklask"/>
+                    <Item id="43036" name="Disoc'h an enklask da-heul"/>
+                    <Item id="43037" name="Disoc'h an enklask kent"/>
+                    <Item id="43038" name="Klask da-heul an diuzadenn"/>
+                    <Item id="43039" name="Klask kent an diuzadenn"/>
+                    <Item id="43040" name="Eilpennañ ar sinedoù"/>
+                    <Item id="43041" name="Diverkañ al linennoù nann-merket"/>
+                    <Item id="43042" name="Klask an arouezioù e-barzh ul lijorenn..."/>
+                    <Item id="43043" name="Diuzañ an holl etre an 2 daouaskad"/>
+                    <Item id="43044" name="Merkañ..."/>
+                    <Item id="43045" name="Post-it"/>
+                    <Item id="43046" name="Diblegañ an holl vloc'hoù"/>
+                    <Item id="43047" name="Diskouez an holl arouezioù"/>
+                    <Item id="43048" name="Diskouez an henter kefosk"/>
+                    <Item id="43049" name="Distreiñ emgefreek d'al linenn"/>
+                    <Item id="43054" name="Zoom war-r&amp;aok Reol+Rodellig war-du ar c'hrec'h"/>
+                    <Item id="44009" name="Zoom war-&amp;gil Reol+Rodellig war-du an traoñ"/>
+                    <Item id="44010" name="Diskouez an esaouennoù hag an taolennata"/>
+                    <Item id="44019" name="Diskouez arouezioù fin al linenn"/>
+                    <Item id="44020" name="Diblegañ an holl vloc'hoù"/>
+                    <Item id="44022" name="Adplegañ bloc'h al linenn war-red"/>
+                    <Item id="44023" name="Diblegañ bloc'h al linenn war-red"/>
+                    <Item id="44024" name="Berradenn..."/>
+                    <Item id="44025" name="Gweredekaat/Diweredekaat ar mod skramm a-bezh"/>
+                    <Item id="44026" name="Adlakaat ar zoum Reol+/(keypad)"/>
+                    <Item id="44029" name="Dirak dalc'hmat"/>
+                    <Item id="44030" name="Dibunañ a-blom goubred"/>
+                    <Item id="44031" name="Dibunañ a-blaen goubred"/>
+                    <Item id="44049" name="Diskouez merkoù troc'h al linenn"/>
+                    <Item id="44080" name="Kuzhat al linennoù"/>
+                    <Item id="44084" name="Gwintaat d'ar gwel all"/>
+                    <Item id="44085" name="Pannel ar Raktres #1"/>
+                    <Item id="44086" name="Pannel ar Raktres #2"/>
+                    <Item id="44087" name="Pannel de Raktres #3"/>
+                    <Item id="44088" name="Steuñv an teul"/>
+                    <Item id="44089" name="Roll ar c'hewerisuterioù"/>
+                    <Item id="44090" name="Ivinell 1"/>
+                    <Item id="44091" name="Ivinell 2"/>
+                    <Item id="44092" name="Ivinell 3"/>
+                    <Item id="44093" name="Ivinell 4"/>
+                    <Item id="44094" name="Ivinell 5"/>
+                    <Item id="44095" name="Ivinell 6"/>
+                    <Item id="44096" name="Ivinell 7"/>
+                    <Item id="44097" name="Ivinell 8"/>
+                    <Item id="44098" name="Ivinell 9"/>
+                    <Item id="44099" name="Ivinell da zont"/>
+                    <Item id="44032" name="Ivinell kent"/>
+                    <Item id="44033" name="Emdreiñ er stumm Windows (CR+LF)"/>
+                    <Item id="44034" name="Emdreiñ er stumm UNIX (LF)"/>
+                    <Item id="44035" name="Emdreiñ er stumm Mac (CR)"/>
+                    <Item id="44036" name="Enkodañ en ANSI"/>
+                    <Item id="44041" name="Enkadañ en UTF-8"/>
+                    <Item id="44072" name="Enkadañ en UTF-16BE"/>
+                    <Item id="44081" name="Enkadañ en UTF-16LE"/>
+                    <Item id="44082" name="Enkadañ en UTF-8 (hep BOM)"/>
+                    <Item id="44083" name="Emdreiñ en ANSI"/>
+                    <Item id="45001" name="Emdreiñ en UTF-8 (hep BOM)"/>
+                    <Item id="45002" name="Emdreiñ en UTF-8"/>
+                    <Item id="45003" name="Emdreiñ en UTF-16BE"/>
+                    <Item id="45004" name="Emdreiñ en UTF-16LE"/>
+                    <Item id="45005" name="OEM 860: Portugaleg"/>
+                    <Item id="45006" name="OEM 861: Islandeg"/>
+                    <Item id="45007" name="OEM 863: Galleg"/>
+                    <Item id="45008" name="OEM 865: Nordeg"/>
+                    <Item id="45009" name="Big5 (Hengounel)"/>
+                    <Item id="45010" name="GB2312 (Simplaet)"/>
+                    <Item id="45011" name="Keflunier liv ar c'hevreadurezh..."/>
+                    <Item id="45012" name="Stil MS-DOS"/>
+                    <Item id="45013" name="Normal Testenn"/>
+
+                    <Item id="10001" name="Mammenn ar restr"/>
+                    <Item id="10002" name="MS INI restr"/>
+                    <Item id="10003" name="Strollaer"/>
+                    <Item id="10004" name="Termennit ho yezh..."/>
+
+                    <Item id="46001" name="Yezh an implijer"/>
+                    <Item id="46250" name="Diwar-benn Notepad++..."/>
+                    <Item id="46180" name="Lec'hienn Ofisiel Notepad++"/>
+                    <Item id="47000" name="Raktres diorren Notepad++"/>
+                    <Item id="47010" name="Skoazell enlinenn"/>
+                    <Item id="47001" name="Forom"/>
+                    <Item id="47002" name="Kaout klokadennoù all"/>
+                    <Item id="47003" name="Hizivaat Notepad++"/>
+                    <Item id="47004" name="Skoazell"/>
+                    <Item id="47011" name="Kefluniañ Proxy Updater..."/>
+                    <Item id="47012" name="Arguzennoù al linenn arc'had..."/>
+                    <Item id="47005" name="Skoazell war-eeun"/>
+                    <Item id="47006" name="Enporzhiañ ur glokadenn..."/>
+                    <Item id="47009" name="Enporzhiañ un neuz..."/>
+                    <Item id="48005" name="Berradennoú klavier..."/>
+                    <Item id="48006" name="Dibarzhioù..."/>
+                    <Item id="48018" name="Kemm/Diverkañ Macro..."/>
+                    <Item id="48009" name="Kemm/Diverkañ an arc'had..."/>
+                    <Item id="48011" name="Embann al lañser kemperzhel"/>
+                    <Item id="48015" name="&amp;Kas da-benn..."/>
+                    <Item id="48501" name="Klokadenn arc'hweladur"/>
+                    <Item id="48502" name="Klokadenn c'her"/>
+                    <Item id="48503" name="Stlennglogorenn dibarzhioù an arc'hweladurioù"/>
+                    <Item id="49000" name="Klokadenn Hent da dizhout ar restr"/>
+
+                    <Item id="50000" name="Function Completion"/>
+                    <Item id="50001" name="Word Completion"/>
+                    <Item id="50002" name="Function Parameters Hint"/>
+                    <Item id="50006" name="Path Completion"/>
+                    <Item id="44042" name="Hide Lines"/>
+                    <Item id="42040" name="Open All Recent Files"/>
+                    <Item id="42041" name="Empty Recent Files List"/>
+                    <Item id="48016" name="Modify Shortcut/Delete Macro..."/>
+                    <Item id="48017" name="Modify Shortcut/Delete Command..."/>
                 </Commands>
             </Main>
             <Splitter>
             </Splitter>
-            <TabBle>
-                    <Item CMID="0" name="Serriñ"/>
-                    <Item CMID="1" name="Serriñ an holl war-bouez ar restr-mañ"/>
-                    <Item CMID="2" name="Enrollañ"/>
-                    <Item CMID="3" name="Enrollañ dindan..."/>
-                    <Item CMID="4" name="Moullañ"/>
-                    <Item CMID="5" name="Dilec'hiañ war-du ur gwel all"/>
-                    <Item CMID="6" name="Klonañ e-barzh ur gwel all"/>
-                    <Item CMID="7" name="Eilañ Hent klosk ar restr bremanel"/>
-                    <Item CMID="8" name="Eilañ anv ar restr bremanel"/>
-                    <Item CMID="9" name="Eilañ teul ar restr bremanel"/>
-                    <Item CMID="10" name="Ad-eñvel ar restr bremanel"/>
-                    <Item CMID="11" name="Diverkañ ar restr bremanel"/>
-                    <Item CMID="12" name="Mod lenn hepken evit ar restr bremanel"/>
-                    <Item CMID="13" name="Tennañ ar mod lenn hepken ar restr"/>
-                    <Item CMID="14" name="Dilec'hiañ war-du ur prenestr nevez"/>
-                    <Item CMID="15" name="Digeriñ e-barzh ur prenestr nevez"/>
-                    <Item CMID="16" name="Adkargañ"/>
-                    <Item CMID="17" name="Serriñ an ivinelloù war an tu kleiz"/>
-                    <Item CMID="18" name="Serriñ an ivinelloù war an tu dehou"/>
-                    <Item CMID="19" name="Digeriñ kavlec'h ar restr bremanel e-barzh Explorer"/>
-                    <Item CMID="20" name="Digeriñ kavlec'h ar restr bremanel e-barzh cmd"/>
-            </TabBle>
+            <TabBar>
+                    <Item CMID="0" name="Close"/>
+                    <Item CMID="1" name="Close All BUT This"/>
+                    <Item CMID="2" name="Save"/>
+                    <Item CMID="3" name="Save As..."/>
+                    <Item CMID="4" name="Print"/>
+                    <Item CMID="5" name="Move to Other View"/>
+                    <Item CMID="6" name="Clone to Other View"/>
+                    <Item CMID="7" name="Full File Path to Clipboard"/>
+                    <Item CMID="8" name="Filename to Clipboard"/>
+                    <Item CMID="9" name="Current Dir. Path to Clipboard"/>
+                    <Item CMID="10" name="Rename"/>
+                    <Item CMID="11" name="Move to Recycle Bin"/>
+                    <Item CMID="12" name="Read-Only"/>
+                    <Item CMID="13" name="Clear Read-Only Flag"/>
+                    <Item CMID="14" name="Move to New Instance"/>
+                    <Item CMID="15" name="Open in New Instance"/>
+                    <Item CMID="16" name="Reload"/>
+                    <Item CMID="17" name="Close All to the Left"/>
+                    <Item CMID="18" name="Close All to the Right"/>
+                    <Item CMID="19" name="Open Containing Folder in Explorer"/>
+                    <Item CMID="20" name="Open Containing Folder in cmd"/>
+                    <Item CMID="21" name="Open in Default Viewer"/>
+            </TabBar>
         </Menu>
+
         <Dialog>
-            <Find title="" titleFind="Klask" titarRepalce="Erlec'hiañ" titarDibenndInFiars="Klask e-barzh restroù un teul" titarMark="Merkañ">
+            <Find title="" titleFind="Klask" titleReplace="Replace" titleFindInFiles="Find in Files" titleMark="Mark">
                 <Item id="1" name="Da-heul"/>
-                <Item id="1603" name="Ger klok &amp;nemetken"/>
-                <Item id="1604" name="Doujañ ouzh ar &amp;c'hombod"/>
-                <Item id="1605" name="&amp;Bomm reol"/>
-                <Item id="1606" name="&amp;Dol"/>
-                <Item id="1608" name="&amp;Erlec'hiañ"/>
-                <Item id="1609" name="Erlec'hiañ &amp;an holl"/>
-                <Item id="1611" name="Erlc'hiañ &amp;gant :"/>
-                <Item id="1612" name="&amp;Krec'h"/>
-                <Item id="1613" name="&amp;Traoñ"/>
-                <Item id="1614" name="Kontañ"/>
-                <Item id="1615" name="Klask an holl"/>
-                <Item id="1616" name="Merkañ al linennoù"/>
-                <Item id="1618" name="Spurjañ bewech"/>
-                <Item id="1620" name="Klask :"/>
-                <Item id="1621" name="Tu"/>
-                <Item id="1624" name="Mod enklask"/>
-                <Item id="1625" name="Mod ordinal"/>
-                <Item id="1626" name="Mod astennet (\n, \r, \t, \0, \x...)"/>
-                <Item id="1632" name="En diuzadenn"/>
-                <Item id="1633" name="Spurjañ"/>
-                <Item id="1635" name="Erlec'hiañ en holl restroù digoret"/>
-                <Item id="1636" name="Klask en holl restroù digoret"/>
-                <Item id="1641" name="Klask er restr bemanel"/>
-                <Item id="1654" name="Siloù :"/>
-                <Item id="1655" name="Teuliad :"/>
-                <Item id="1656" name="Kavout an holl"/>
-                <Item id="1658" name="Is-teuliadoù"/>
-                <Item id="1659" name="Teuliadoù kuzhet"/>
+                <Item id="1722" name="Ger klok &amp;nemetken"/>
+                <Item id="2" name="Doujañ ouzh ar &amp;c'hombod"/>
+                <Item id="1620" name="&amp;Bomm reol"/>
+                <Item id="1603" name="&amp;Dol"/>
+                <Item id="1604" name="&amp;Erlec'hiañ"/>
+                <Item id="1605" name="Erlec'hiañ &amp;an holl"/>
+                <Item id="1606" name="Erlc'hiañ &amp;gant :"/>
+                <Item id="1614" name="&amp;Krec'h"/>
+                <Item id="1615" name="&amp;Traoñ"/>
+                <Item id="1616" name="Kontañ"/>
+                <Item id="1618" name="Klask an holl"/>
+                <Item id="1611" name="Merkañ al linennoù"/>
+                <Item id="1608" name="Spurjañ bewech"/>
+                <Item id="1609" name="Klask :"/>
+                <Item id="1687" name="Tu"/>
+                <Item id="1688" name="Mod enklask"/>
+                <Item id="1632" name="Mod ordinal"/>
+                <Item id="1633" name="Mod astennet (\n, \r, \t, \0, \x...)"/>
+                <Item id="1635" name="En diuzadenn"/>
+                <Item id="1636" name="Spurjañ"/>
+                <Item id="1654" name="Erlec'hiañ en holl restroù digoret"/>
+                <Item id="1655" name="Klask en holl restroù digoret"/>
+                <Item id="1656" name="Klask er restr bemanel"/>
+                <Item id="1658" name="Siloù :"/>
+                <Item id="1659" name="Teuliad :"/>
+                <Item id="1624" name="Kavout an holl"/>
+                <Item id="1625" name="Is-teuliadoù"/>
+                <Item id="1626" name="Teuliadoù kuzhet"/>
                 <Item id="1660" name="Erlec'hiañ an holl"/>
                 <Item id="1661" name="Heuliañ an teul bremanel"/>
-                <Item id="1686" name="Treuzwelusted"/>
-                <Item id="1687" name="Pa vez kollet ar stiañ"/>
-                <Item id="1688" name="trebad"/>
-                <Item id="1703" name="&amp;a endalc'h ul linenn nevez"/>
-                <Item id="2" name="Nullañ"/>
+                <Item id="1641" name="Treuzwelusted"/>
+                <Item id="1686" name="Pa vez kollet ar stiañ"/>
+                <Item id="1703" name="trebad"/>
             </Find>
 
             <FindCharsInRange title="Klask arouezioù en ul lijorenn">
@@ -373,280 +388,342 @@
                 <Item id="2909" name="Dol"/>
                 <Item id="2910" name="Klask"/>
             </FindCharsInRange>
+
             <GoToLine title="Mont da...">
-                <Item id="1" name="&amp;Bec'h dezhi !"/>
-                <Item id="2" name="Ne 'z an da neblec'h"/>
-                <Item id="2004" name="Amañ emaoc'h:"/>
-                <Item id="2005" name="Mont a rit da:"/>
-                <Item id="2006" name="Ket pelloc'h evit:"/>
-                <Item id="2007" name="Linenn"/>
-                <Item id="2008" name="Lec'hiadur"/>
+                <Item id="2007" name="&amp;Bec'h dezhi !"/>
+                <Item id="2008" name="Ne 'z an da neblec'h"/>
+                <Item id="1" name="Amañ emaoc'h:"/>
+                <Item id="2" name="Mont a rit da:"/>
+                <Item id="2004" name="Ket pelloc'h evit:"/>
+                <Item id="2005" name="Linenn"/>
+                <Item id="2006" name="Lec'hiadur"/>
             </GoToLine>
 
             <Run title="Erounit...">
-                <Item id="1" name="Erounit"/>
-                <Item id="1903" name="Goulev da erounit"/>
-                <Item id="1904" name="Enrollañ..."/>
-                <Item id="2" name="Nulañ"/>
+                <Item id="1903" name="Erounit"/>
+                <Item id="1" name="Goulev da erounit"/>
+                <Item id="2" name="Enrollañ..."/>
+                <Item id="1904" name="Nulañ"/>
             </Run>
 
-            <StylerConfig title="Kefluniadur al liv kevreadurel">
-                <Item id="2" name="Nulañ"/>
-                <Item id="2301" name="Enrollañ&amp;&amp;Serriñ"/>
-                <Item id="2303" name="Treuzwelusted"/>
-                <Item id="2306" name="Dodenn: "/>
-                <SubDialog>
-                    <Item id="2204" name="Tev"/>
-                    <Item id="2205" name="Stouet"/>
-                    <Item id="2206" name="Rak-leur"/>
-                    <Item id="2207" name="Drek-leur"/>
-                    <Item id="2208" name="Familh:"/>
-                    <Item id="2209" name="Ment:"/>
-                    <Item id="2211" name="Deskrivadur:"/>
-                    <Item id="2212" name="Livioù"/>
-                    <Item id="2213" name="Nodrezh"/>
-                    <Item id="2214" name="Er maez dre ziouer:"/>
-                    <Item id="2216" name="Er maez implijer:"/>
-                    <Item id="2218" name="Islinennet"/>
-                    <Item id="2219" name="Gerioù-alc'hwez raktermennet"/>
-                    <Item id="2221" name="Gerioù-alc'hwez an implijer"/>
-                    <Item id="2225" name="Yezh :"/>
-                    <Item id="2226" name="Arloañ ar Rak-leur hollek"/>
-                    <Item id="2227" name="Arloañ an drek-leur hollek"/>
-                    <Item id="2228" name="Arloañ an nodrezh hollek"/>
-                    <Item id="2229" name="Arloañ al Ment hollek"/>
-                    <Item id="2230" name="Arloañ ar stil Tev hollek"/>
-                    <Item id="2231" name="Arloañ ar stil Stouet hollek"/>
-                    <Item id="2232" name="Arloañ ar stil Islinennet hollek"/>
-                </SubDialog>
-            </StylerConfig>
+            <MD5FromFilesDlg title="Generate MD5 digest from files">
+                <Item id="1922" name="Choose files to generate MD5..."/>
+                <Item id="1924" name="Copy to Clipboard"/>
+                <Item id="2" name="Close"/>
+            </MD5FromFilesDlg>
 
-    <UserDefine title="Yezh an implijer">
-        <Item id="20001" name="Eoriñ"/>
-        <Item id="20005" name="Enrollañ dindan"/>
-        <Item id="20009" name="Er maez :"/>
-        <Item id="20002" name="Ad-eñvel"/>
-        <Item id="20003" name="Nevez..."/>
-        <Item id="20004" name="Diverkañ"/>
-        <Item id="20007" name="Yezh : "/>
-        <Item id="20011" name="Treuzwelusted"/>
-        <Item id="20012" name="Leuskel ar c'hombod a-gostez"/>
-        <Item id="20015" name="Enporzhiañ..."/>
-        <Item id="20016" name="Ezporzhiañ..."/>
-        <Folder title="Torosennadur kevreadel &amp;&amp; dre ziouer">
-            <Item id="21101" name="Stil dre ziouer"/>
-            <Item id="21102" name="Stil"/>
-            <Item id="21105" name="Teuliadur"/>
-            <Item id="21104" name="Lec'hienn web padennek:"/>
-            <Item id="21106" name="Mac'hañ an Torosennadur (plegañ al linennoù goullo)"/>
-            <Item id="21220" name="Torosennadur kevreadel mod 1"/>
-            <Item id="21224" name="O tigeriñ:"/>
-            <Item id="21225" name="Kreiz:"/>
-            <Item id="21226" name="O Serriñ:"/>
-            <Item id="21227" name="stil"/>
-            <Item id="21320" name="Torosennadur kevreadel mod 2 (gant disrannerien)"/>
-            <Item id="21324" name="O tigeriñ:"/>
-            <Item id="21325" name="Kreiz:"/>
-            <Item id="21326" name="O Serriñ:"/>
-            <Item id="21327" name="stil"/>
-            <Item id="21420" name="Torosennadur kevreadel mod askelenn"/>
-            <Item id="21424" name="O tigeriñ:"/>
-            <Item id="21425" name="Kreiz:"/>
-            <Item id="21426" name="O Serriñ:"/>
-            <Item id="21427" name="stil"/>
-        </Folder>
-        <StylerDialog title="Stilañ">
-            <Item id="25001" name="Tev"/>
-            <Item id="25002" name="Stouet"/>
-            <Item id="25003" name="Islinennet"/>
-            <Item id="25006" name="Rakleur"/>
-            <Item id="25007" name="Drek-leur"/>
-            <Item id="25008" name="Bevenner 1"/>
-            <Item id="25009" name="Bevenner 2"/>
-            <Item id="25010" name="Bevenner 3"/>
-            <Item id="25011" name="Bevenner 4"/>
-            <Item id="25012" name="Bevenner 5"/>
-            <Item id="25013" name="Bevenner 6"/>
-            <Item id="25014" name="Bevenner 7"/>
-            <Item id="25015" name="Bevenner 8"/>
-            <Item id="25016" name="Askelenn"/>
-            <Item id="25017" name="Askelenn war ul linenn"/>
-            <Item id="25018" name="Ger alc'hwez 1"/>
-            <Item id="25019" name="Ger alc'hwez 2"/>
-            <Item id="25020" name="Ger alc'hwez 3"/>
-            <Item id="25021" name="Ger alc'hwez 4"/>
-            <Item id="25022" name="Ger alc'hwez 5"/>
-            <Item id="25023" name="Ger alc'hwez 6"/>
-            <Item id="25024" name="Ger alc'hwez 7"/>
-            <Item id="25025" name="Ger alc'hwez 8"/>
-            <Item id="25026" name="Oberater 1"/>
-            <Item id="25027" name="Oberater 2"/>
-            <Item id="25028" name="Niveroù"/>
-            <Item id="25029" name="A herberc'h:"/>
-            <Item id="25030" name="Nodrezh:"/>
-            <Item id="25031" name="Anv:"/>
-            <Item id="25032" name="Ment:"/>
-			<Item id="1" name="Enrollañ"/>
-            <Item id="2" name="Nullañ"/>
-        </StylerDialog>
-        <Keywords title="Gerioù-alc'hwez">
-            <Item id="22101" name="Strollad 1añ"/>
-            <Item id="22201" name="Eil Strollad"/>
-            <Item id="22301" name="3de Strollad"/>
-            <Item id="22401" name="4re Strollad"/>
-            <Item id="22451" name="5vet Strollad"/>
-            <Item id="22501" name="6vet Strollad"/>
-            <Item id="22551" name="7vet Strollad"/>
-            <Item id="22601" name="8vet Strollad"/>
-            <Item id="22121" name="Mod rakger"/>
-            <Item id="22221" name="Mod rakger"/>
-            <Item id="22321" name="Mod rakger"/>
-            <Item id="22421" name="Mod rakger"/>
-            <Item id="22471" name="Mod rakger"/>
-            <Item id="22521" name="Mod rakger"/>
-            <Item id="22571" name="Mod rakger"/>
-            <Item id="22621" name="Mod rakger"/>
-            <Item id="22122" name="stil"/>
-            <Item id="22222" name="stil"/>
-            <Item id="22322" name="stil"/>
-            <Item id="22422" name="stil"/>
-            <Item id="22472" name="stil"/>
-            <Item id="22522" name="stil"/>
-            <Item id="22572" name="stil"/>
-            <Item id="22622" name="stil"/>
-        </Keywords>
-        <Comment title="Evezhiadenn &amp;&amp; Niver">
-            <Item id="23003" name="Lec'hiadur an askelenn war ul linenn"/>
-            <Item id="23004" name="Divevenn"/>
-            <Item id="23005" name="E penn-kentañ al linenn atav"/>
-            <Item id="23006" name="Gant pe hep goulenn an esaouennoù dirak"/>
-            <Item id="23001" name="Gweredekaat plegañ an askelennoù"/>
-            <Item id="23326" name="stil"/>
-            <Item id="23323" name="O tigeriñ :"/>
-            <Item id="23324" name="Arouez kendalc'hadenn"/>
-            <Item id="23325" name="O Serriñ :"/>
-            <Item id="23124" name="stil"/>
-            <Item id="23122" name="O tigeriñ :"/>
-            <Item id="23123" name="O Serriñ :"/>
-            <Item id="23220" name="stil"/>
-            <Item id="23230" name="Rakger 1:"/>
-            <Item id="23232" name="Rakger 2:"/>
-            <Item id="23234" name="Dreist 1:"/>
-            <Item id="23236" name="Dreist 2:"/>
-            <Item id="23238" name="Rakger 1:"/>
-            <Item id="23240" name="Rakger 2:"/>
-            <Item id="23242" name="Skalfad:"/>
-            <Item id="23244" name="Disranner degel"/>
-            <Item id="23245" name="Poent"/>
-            <Item id="23246" name="Skej"/>
-            <Item id="23247" name="An 2"/>
-            <Item id="23301" name="Evezhiadenn war ul linenn"/>
-            <Item id="23101" name="Evezhiadenn war meur a linenn"/>
-            <Item id="23201" name="Niver"/>
-        </Comment>
-        <Operator title="Oberaterien &amp;&amp; Bevennerien">
-            <Item id="24101" name="Oberaterien"/>
-            <Item id="24113" name="stil"/>
-            <Item id="24116" name="Oberaterien 1"/>
-            <Item id="24117" name="Oberaterien 2 (gant disrannerien)"/>
-            <Item id="24201" name="Bevenner 1"/>
-            <Item id="24220" name="O tigeriñ:"/>
-            <Item id="24221" name="Arouez achap:"/>
-            <Item id="24222" name="O Serriñ:"/>
-            <Item id="24223" name="stil"/>
-            <Item id="24301" name="Bevenner 2"/>
-            <Item id="24320" name="O tigeriñ:"/>
-            <Item id="24321" name="Arouez achap:"/>
-            <Item id="24322" name="O Serriñ:"/>
-            <Item id="24323" name="stil"/>
-            <Item id="24401" name="Bevenner 3"/>
-            <Item id="24420" name="O tigeriñ:"/>
-            <Item id="24421" name="Arouez achap:"/>
-            <Item id="24422" name="O Serriñ:"/>
-            <Item id="24423" name="stil"/>
-            <Item id="24451" name="Bevenner 4"/>
-            <Item id="24470" name="O tigeriñ:"/>
-            <Item id="24471" name="Arouez achap:"/>
-            <Item id="24472" name="O Serriñ:"/>
-            <Item id="24473" name="stil"/>
-            <Item id="24501" name="Bevenner 5"/>
-            <Item id="24520" name="O tigeriñ:"/>
-            <Item id="24521" name="Arouez achap:"/>
-            <Item id="24522" name="O Serriñ:"/>
-            <Item id="24523" name="stil"/>
-            <Item id="24551" name="Bevenner 6"/>
-            <Item id="24570" name="O tigeriñ:"/>
-            <Item id="24571" name="Arouez achap:"/>
-            <Item id="24572" name="O Serriñ:"/>
-            <Item id="24573" name="stil"/>
-            <Item id="24601" name="Bevenner 7"/>
-            <Item id="24620" name="O tigeriñ:"/>
-            <Item id="24621" name="Arouez achap:"/>
-            <Item id="24622" name="O Serriñ:"/>
-            <Item id="24623" name="stil"/>
-            <Item id="24651" name="Bevenner 8"/>
-            <Item id="24670" name="O tigeriñ:"/>
-            <Item id="24671" name="Arouez achap:"/>
-            <Item id="24672" name="O Serriñ:"/>
-            <Item id="24673" name="stil"/>
-        </Operator>
-    </UserDefine>
+            <MD5FromTextDlg title="Generate MD5 digest">
+                <Item id="1932" name="Treat each line as a separate string"/>
+                <Item id="1934" name="Copy to Clipboard"/>
+                <Item id="2" name="Close"/>
+            </MD5FromTextDlg>
+
+            <PluginsAdminDlg title="Plugins Admin" titleAvailable="Available" titleUpdates="Updates" titleInstalled="Installed">
+                <ColumnPlugin name="Plugin"/>
+                <ColumnVersion name="Version"/>
+                <Item id="5501" name="Search:"/>
+                <Item id="5503" name="Install"/>
+                <Item id="5504" name="Update"/>
+                <Item id="5505" name="Remove"/>
+                <Item id="5508" name="Next"/>
+                <Item id="2" name="Close"/>
+            </PluginsAdminDlg>
+
+            <StyleConfig title="Style Configurator">
+                <Item id="2" name="Cancel"/>
+                <Item id="2301" name="Save &amp;&amp; Close"/>
+                <Item id="2303" name="Transparency"/>
+                <Item id="2306" name="Select theme: "/>
+                <SubDialog>
+                    <Item id="2204" name="Bold"/>
+                    <Item id="2205" name="Italic"/>
+                    <Item id="2206" name="Foreground colour"/>
+                    <Item id="2207" name="Background colour"/>
+                    <Item id="2208" name="Font name:"/>
+                    <Item id="2209" name="Font size:"/>
+                    <Item id="2211" name="Style:"/>
+                    <Item id="2212" name="Colour Style"/>
+                    <Item id="2213" name="Font Style"/>
+                    <Item id="2214" name="Default ext.:"/>
+                    <Item id="2216" name="User ext.:"/>
+                    <Item id="2218" name="Underline"/>
+                    <Item id="2219" name="Default keywords"/>
+                    <Item id="2221" name="User-defined keywords"/>
+                    <Item id="2225" name="Language:"/>
+                    <Item id="2226" name="Enable global foreground colour"/>
+                    <Item id="2227" name="Enable global background colour"/>
+                    <Item id="2228" name="Enable global font"/>
+                    <Item id="2229" name="Enable global font size"/>
+                    <Item id="2230" name="Enable global bold font style"/>
+                    <Item id="2231" name="Enable global italic font style"/>
+                    <Item id="2232" name="Enable global underline font style"/>
+                </SubDialog>
+            </StyleConfig>
+
+            <ShortcutMapper title="Shortcut Mapper">
+                <Item id="2602" name="Modify"/>
+                <Item id="2603" name="Delete"/>
+                <Item id="2606" name="Clear"/>
+                <Item id="2607" name="Filter: "/>
+                <Item id="1" name="Close"/>
+                <ColumnName name="Name"/>
+                <ColumnShortcut name="Shortcut"/>
+                <ColumnCategory name="Category"/>
+                <ColumnPlugin name="Plugin"/>
+                <MainMenuTab name="Main menu"/>
+                <MacrosTab name="Macros"/>
+                <RunCommandsTab name="Run commands"/>
+                <PluginCommandsTab name="Plugin commands"/>
+                <ScintillaCommandsTab name="Scintilla commands"/>
+                <ConflictInfoOk name="No shortcut conflicts for this item."/>
+                <ConflictInfoEditing name="No conflicts . . ."/>
+            </ShortcutMapper>
+            <ShortcutMapperSubDialg title="Shortcut">
+                <Item id="1" name="OK"/>
+                <Item id="2" name="Cancel"/>
+                <Item id="5006" name="Name"/>
+                <Item id="5008" name="Add"/>
+                <Item id="5009" name="Remove"/>
+                <Item id="5010" name="Apply"/>
+                <Item id="5007" name="This will remove shortcut from this command"/>
+                <Item id="5012" name="CONFLICT FOUND!"/>
+            </ShortcutMapperSubDialg>
+            <UserDefine title="Yezh an implijer">
+                <Item id="20001" name="Eoriñ"/>
+                <Item id="20002" name="Enrollañ dindan"/>
+                <Item id="20003" name="Er maez :"/>
+                <Item id="20004" name="Ad-eñvel"/>
+                <Item id="20005" name="Nevez..."/>
+                <Item id="20007" name="Diverkañ"/>
+                <Item id="20009" name="Yezh : "/>
+                <Item id="20012" name="Treuzwelusted"/>
+                <Item id="20011" name="Leuskel ar c'hombod a-gostez"/>
+                <Item id="20015" name="Enporzhiañ..."/>
+                <Item id="20016" name="Ezporzhiañ..."/>
+                <StylerDialog title="Stilañ">
+                    <Item id="25030" name="Tev"/>
+                    <Item id="25006" name="Stouet"/>
+                    <Item id="25007" name="Islinennet"/>
+                    <Item id="25031" name="Rakleur"/>
+                    <Item id="25032" name="Drek-leur"/>
+                    <Item id="25001" name="Bevenner 1"/>
+                    <Item id="25002" name="Bevenner 2"/>
+                    <Item id="25003" name="Bevenner 3"/>
+                    <Item id="25029" name="Bevenner 4"/>
+                    <Item id="25008" name="Bevenner 5"/>
+                    <Item id="25009" name="Bevenner 6"/>
+                    <Item id="25010" name="Bevenner 7"/>
+                    <Item id="25011" name="Bevenner 8"/>
+                    <Item id="25012" name="Askelenn"/>
+                    <Item id="25013" name="Askelenn war ul linenn"/>
+                    <Item id="25014" name="Ger alc'hwez 1"/>
+                    <Item id="25015" name="Ger alc'hwez 2"/>
+                    <Item id="25018" name="Ger alc'hwez 3"/>
+                    <Item id="25019" name="Ger alc'hwez 4"/>
+                    <Item id="25020" name="Ger alc'hwez 5"/>
+                    <Item id="25021" name="Ger alc'hwez 6"/>
+                    <Item id="25022" name="Ger alc'hwez 7"/>
+                    <Item id="25023" name="Ger alc'hwez 8"/>
+                    <Item id="25024" name="Oberater 1"/>
+                    <Item id="25025" name="Oberater 2"/>
+                    <Item id="25016" name="Niveroù"/>
+                    <Item id="25017" name="A herberc'h:"/>
+                    <Item id="25026" name="Nodrezh:"/>
+                    <Item id="25027" name="Anv:"/>
+                    <Item id="25028" name="Ment:"/>
+                    <Item id="1" name="Enrollañ"/>
+                    <Item id="2" name="Nullañ"/>
+                </StylerDialog>
+                <Folder title="Torosennadur kevreadel &amp;&amp; dre ziouer">
+                    <Item id="21101" name="Stil dre ziouer"/>
+                    <Item id="21102" name="Stil"/>
+                    <Item id="21105" name="Teuliadur"/>
+                    <Item id="21104" name="Lec'hienn web padennek:"/>
+                    <Item id="21106" name="Mac'hañ an Torosennadur (plegañ al linennoù goullo)"/>
+                    <Item id="21220" name="Torosennadur kevreadel mod 1"/>
+                    <Item id="21224" name="O tigeriñ:"/>
+                    <Item id="21225" name="Kreiz:"/>
+                    <Item id="21226" name="O Serriñ:"/>
+                    <Item id="21227" name="stil"/>
+                    <Item id="21320" name="Torosennadur kevreadel mod 2 (gant disrannerien)"/>
+                    <Item id="21324" name="O tigeriñ:"/>
+                    <Item id="21325" name="Kreiz:"/>
+                    <Item id="21326" name="O Serriñ:"/>
+                    <Item id="21327" name="stil"/>
+                    <Item id="21420" name="Torosennadur kevreadel mod askelenn"/>
+                    <Item id="21424" name="O tigeriñ:"/>
+                    <Item id="21425" name="Kreiz:"/>
+                    <Item id="21426" name="O Serriñ:"/>
+                    <Item id="21427" name="stil"/>
+                </Folder>
+                <Keywords title="Gerioù-alc'hwez">
+                    <Item id="22101" name="Strollad 1añ"/>
+                    <Item id="22201" name="Eil Strollad"/>
+                    <Item id="22301" name="3de Strollad"/>
+                    <Item id="22401" name="4re Strollad"/>
+                    <Item id="22451" name="5vet Strollad"/>
+                    <Item id="22501" name="6vet Strollad"/>
+                    <Item id="22551" name="7vet Strollad"/>
+                    <Item id="22601" name="8vet Strollad"/>
+                    <Item id="22121" name="Mod rakger"/>
+                    <Item id="22221" name="Mod rakger"/>
+                    <Item id="22321" name="Mod rakger"/>
+                    <Item id="22421" name="Mod rakger"/>
+                    <Item id="22471" name="Mod rakger"/>
+                    <Item id="22521" name="Mod rakger"/>
+                    <Item id="22571" name="Mod rakger"/>
+                    <Item id="22621" name="Mod rakger"/>
+                    <Item id="22122" name="stil"/>
+                    <Item id="22222" name="stil"/>
+                    <Item id="22322" name="stil"/>
+                    <Item id="22422" name="stil"/>
+                    <Item id="22472" name="stil"/>
+                    <Item id="22522" name="stil"/>
+                    <Item id="22572" name="stil"/>
+                    <Item id="22622" name="stil"/>
+                </Keywords>
+                <Comment title="Evezhiadenn &amp;&amp; Niver">
+                    <Item id="23003" name="Lec'hiadur an askelenn war ul linenn"/>
+                    <Item id="23004" name="Divevenn"/>
+                    <Item id="23005" name="E penn-kentañ al linenn atav"/>
+                    <Item id="23006" name="Gant pe hep goulenn an esaouennoù dirak"/>
+                    <Item id="23001" name="Gweredekaat plegañ an askelennoù"/>
+                    <Item id="23326" name="stil"/>
+                    <Item id="23323" name="O tigeriñ :"/>
+                    <Item id="23324" name="Arouez kendalc'hadenn"/>
+                    <Item id="23325" name="O Serriñ :"/>
+                    <Item id="23301" name="stil"/>
+                    <Item id="23124" name="O tigeriñ :"/>
+                    <Item id="23122" name="O Serriñ :"/>
+                    <Item id="23123" name="stil"/>
+                    <Item id="23101" name="Rakger 1:"/>
+                    <Item id="23201" name="Rakger 2:"/>
+                    <Item id="23220" name="Dreist 1:"/>
+                    <Item id="23230" name="Dreist 2:"/>
+                    <Item id="23232" name="Rakger 1:"/>
+                    <Item id="23234" name="Rakger 2:"/>
+                    <Item id="23236" name="Skalfad:"/>
+                    <Item id="23238" name="Disranner degel"/>
+                    <Item id="23240" name="Poent"/>
+                    <Item id="23242" name="Skej"/>
+                    <Item id="23244" name="An 2"/>
+                    <Item id="23245" name="Evezhiadenn war ul linenn"/>
+                    <Item id="23246" name="Evezhiadenn war meur a linenn"/>
+                    <Item id="23247" name="Niver"/>
+                </Comment>
+                <Operator title="Oberaterien &amp;&amp; Bevennerien">
+                    <Item id="24101" name="Oberaterien"/>
+                    <Item id="24113" name="stil"/>
+                    <Item id="24116" name="Oberaterien 1"/>
+                    <Item id="24117" name="Oberaterien 2 (gant disrannerien)"/>
+                    <Item id="24201" name="Bevenner 1"/>
+                    <Item id="24220" name="O tigeriñ:"/>
+                    <Item id="24221" name="Arouez achap:"/>
+                    <Item id="24222" name="O Serriñ:"/>
+                    <Item id="24223" name="stil"/>
+                    <Item id="24301" name="Bevenner 2"/>
+                    <Item id="24320" name="O tigeriñ:"/>
+                    <Item id="24321" name="Arouez achap:"/>
+                    <Item id="24322" name="O Serriñ:"/>
+                    <Item id="24323" name="stil"/>
+                    <Item id="24401" name="Bevenner 3"/>
+                    <Item id="24420" name="O tigeriñ:"/>
+                    <Item id="24421" name="Arouez achap:"/>
+                    <Item id="24422" name="O Serriñ:"/>
+                    <Item id="24423" name="stil"/>
+                    <Item id="24451" name="Bevenner 4"/>
+                    <Item id="24470" name="O tigeriñ:"/>
+                    <Item id="24471" name="Arouez achap:"/>
+                    <Item id="24472" name="O Serriñ:"/>
+                    <Item id="24473" name="stil"/>
+                    <Item id="24501" name="Bevenner 5"/>
+                    <Item id="24520" name="O tigeriñ:"/>
+                    <Item id="24521" name="Arouez achap:"/>
+                    <Item id="24522" name="O Serriñ:"/>
+                    <Item id="24523" name="stil"/>
+                    <Item id="24551" name="Bevenner 6"/>
+                    <Item id="24570" name="O tigeriñ:"/>
+                    <Item id="24571" name="Arouez achap:"/>
+                    <Item id="24572" name="O Serriñ:"/>
+                    <Item id="24573" name="stil"/>
+                    <Item id="24601" name="Bevenner 7"/>
+                    <Item id="24620" name="O tigeriñ:"/>
+                    <Item id="24621" name="Arouez achap:"/>
+                    <Item id="24622" name="O Serriñ:"/>
+                    <Item id="24623" name="stil"/>
+                    <Item id="24651" name="Bevenner 8"/>
+                    <Item id="24670" name="O tigeriñ:"/>
+                    <Item id="24671" name="Arouez achap:"/>
+                    <Item id="24672" name="O Serriñ:"/>
+                    <Item id="24673" name="stil"/>
+                </Operator>
+            </UserDefine>
             <Preference title="Dibarzhioù">
                 <Item id="6001" name="Serriñ"/>
-                <hollek title="Hollek">
-                    <Item id="6101" name="Barrenn an Ostilhoù"/>
-                    <Item id="6102" name="Kuzhat"/>
-                    <Item id="6103" name="Arlunioù bihan"/>
-                    <Item id="6104" name="Arlunioù bras"/>
-                    <Item id="6105" name="Arlunioù skoueriek"/>
-                    <Item id="6106" name="Barrenn an ivinelloù"/>
-                    <Item id="6107" name="Bihanaat ar Ment"/>
-                    <Item id="6108" name="Prennañ (golver ebet)"/>
-                    <Item id="6109" name="Livañ an ivinelloù n'int ket gweredekaet"/>
-                    <Item id="6110" name="Barrenn livet war an ivinell gweredekaet"/>
-                    <Item id="6111" name="Diskouez ar varrenn stad"/>
-                    <Item id="6112" name="Afell serriñ war bep ivinell"/>
-                    <Item id="6113" name="Serriñ an ivinell gant daou-glik"/>
-                    <Item id="6118" name="Kuzhat"/>
-                    <Item id="6119" name="Lieslinenn"/>
-                    <Item id="6120" name="A-blom"/>
-                    <Item id="6122" name="Kuzhet (Alt pe F10 da skrammañ)"/>
-                    <Item id="6123" name="Yezh"/>
-                    <Item id="6125" name="Trec'haoler restroù"/>
-                    <Item id="6126" name="Diskouez"/>
-                    <Item id="6127" name="Diweredekaat bann an Aztenn"/>
-                </hollek>
+                <Global title="General">
+                    <Item id="6101" name="Toolbar"/>
+                    <Item id="6102" name="Hide"/>
+                    <Item id="6103" name="Small icons"/>
+                    <Item id="6104" name="Big icons"/>
+                    <Item id="6105" name="Standard icons"/>
+
+                    <Item id="6106" name="Tab Bar"/>
+                    <Item id="6107" name="Reduce"/>
+                    <Item id="6108" name="Lock (no drag and drop)"/>
+                    <Item id="6109" name="Darken inactive tabs"/>
+                    <Item id="6110" name="Draw a coloured bar on active tab"/>
+
+                    <Item id="6111" name="Show status bar"/>
+                    <Item id="6112" name="Show close button on each tab"/>
+                    <Item id="6113" name="Double click to close document"/>
+                    <Item id="6118" name="Hide"/>
+                    <Item id="6119" name="Multi-line"/>
+                    <Item id="6120" name="Vertical"/>
+                    <Item id="6121" name="Exit on close the last tab"/>
+
+                    <Item id="6122" name="Hide menu bar (use Alt or F10 key to toggle)"/>
+                    <Item id="6123" name="Localization"/>
+
+                    <Item id="6125" name="Document List Panel"/>
+                    <Item id="6126" name="Show"/>
+                    <Item id="6127" name="Disable extension column"/>
+                </Global>
                 <Scintillas title="Maezioù embann">
-                    <Item id="6201" name="Reoliañ adplegañ ar bloc'h"/>
-                    <Item id="6202" name="Eeun"/>
-                    <Item id="6203" name="Bir"/>
-                    <Item id="6204" name="Kelc'h"/>
-                    <Item id="6205" name="Karrez"/>
-                    <Item id="6206" name="Diskouez niveradur al linennoù"/>
-                    <Item id="6207" name="Diskouez marzoù sined"/>
-                    <Item id="6208" name="Diskouez ar varzenn dehou"/>
-                    <Item id="6209" name="Niver a vannoù :"/>
-					<Item id="6234" name="Diweredekaat an dibunañ araoket
-(kenkas ma vez ur gudenn gant an touchpad)"/>
-                    <Item id="6211" name="Ledanded al linennoù"/>
-                    <Item id="6212" name="Diskouez ur rouedad a-blom"/>
-                    <Item id="6213" name="Livañ an drek-leur"/>
-                    <Item id="6214" name="Islinennañ al linenn war-red"/>
-					<Item id="6215" name="Gweredekaat an nodrezh smooth"/>
-                    <Item id="6216" name="Reti"/>
-                    <Item id="6217" name="Ledanded:"/>
-                    <Item id="6219" name="Blinkadur:"/>
-                    <Item id="6221" name="Bliv"/><!-- Herrek -->
-                    <Item id="6222" name="Zen"/><!-- Gorrek -->
-                    <Item id="6224" name="Liesembann"/>
-                    <Item id="6225" name="Gweredekaat (Reol+Klik/diuzadenn)"/>
-                    <Item id="6226" name="Hini ebet"/>
-                    <Item id="6227" name="Linenn pleget"/>
-                    <Item id="6228" name="diouer"/>
-                    <Item id="6229" name="Linennaet"/>
-                    <Item id="6230" name="Kefosket"/>
+                    <Item id="6216" name="Reoliañ adplegañ ar bloc'h"/>
+                    <Item id="6217" name="Eeun"/>
+                    <Item id="6219" name="Bir"/>
+                    <Item id="6221" name="Kelc'h"/>
+                    <Item id="6222" name="Karrez"/>
+                    <Item id="6224" name="Diskouez niveradur al linennoù"/>
+                    <Item id="6225" name="Diskouez marzoù sined"/>
+                    <Item id="6201" name="Diskouez ar varzenn dehou"/>
+                    <Item id="6202" name="Niver a vannoù :"/>
+                    <Item id="6203" name="Diweredekaat an dibunañ araoket (kenkas ma vez ur gudenn gant an touchpad)"/>
+                    <Item id="6204" name="Ledanded al linennoù"/>
+                    <Item id="6205" name="Diskouez ur rouedad a-blom"/>
+                    <Item id="6226" name="Livañ an drek-leur"/>
+
+                    <Item id="6227" name="Islinennañ al linenn war-red"/>
+                    <Item id="6228" name="Gweredekaat an nodrezh smooth"/>
+                    <Item id="6229" name="Reti"/>
+                    <Item id="6230" name="Ledanded:"/>
+
+                    <Item id="6206" name="Blinkadur:"/>
+                    <Item id="6207" name="Bliv"/>
+                    <Item id="6208" name="Zen"/>
+                    <Item id="6209" name="Liesembann"/>
+                    <Item id="6234" name="Gweredekaat (Reol+Klik/diuzadenn)"/>
+
+                    <Item id="6211" name="Hini ebet"/>
+                    <Item id="6212" name="Linenn pleget"/>
+                    <Item id="6213" name="diouer"/>
+                    <Item id="6214" name="Linennaet"/>
+                    <Item id="6215" name="Kefosket"/>
                     <Item id="6231" name="Ledanded ar vevenn"/>
+                    <Item id="6235" name="No edge"/>
+                    <Item id="6236" name="Enable scrolling beyond last line"/>
                 </Scintillas>
+
                 <NewDoc title="Restr Nevez">
                     <Item id="6401" name="stumm al lammoù linenn"/>
                     <Item id="6402" name="Windows"/>
@@ -667,24 +744,38 @@
                     <Item id="6413" name="Teul dre ziouer (digeriñ/enrollañ)"/>
                     <Item id="6414" name="Implijout hini ar restr bremanel"/>
                     <Item id="6415" name="Derc'hel soñj eus an teul implijet da ziwezhañ"/>
+                    <Item id="6430" name="Use new style dialog (without file extension feature &amp;&amp; Unix style path capacity)"/>
+                    <Item id="6431" name="Open all files of folder instead of launching Folder as Workspace on folder dropping"/>
                 </DefaultDir>
 
                 <FileAssoc title="Aztennoù ar restr">
-                  <Item id="4009" name="En aztennoù :"/>
-                  <Item id="4010" name="En aztennoù liammet :"/>
+                    <Item id="4009" name="En aztennoù :"/>
+                    <Item id="4010" name="En aztennoù liammet :"/>
                 </FileAssoc>
-                <LangMenu title="Roll yezhoù">
-                    <Item id="6505" name="Yezhoù hegerzhus"/>
-                    <Item id="6506" name="Yezhoù kuzhet"/>
-                    <Item id="6507" name="Koazhañ roll ar Yezh"/>
-                    <Item id="6508" name="Roll Yezhoù"/>
-                </LangMenu>
-                <TabSettings title="Taolennatadurioù">
-                    <Item id="6301" name="Taolennatadurioù"/>
-                    <Item id="6302" name="Enlakaat spasoù"/>
-                    <Item id="6303" name="Ment: "/>
-                    <Item id="6510" name="Talvoudegezh dre ziouer"/>
-                </TabSettings>
+                <Language title="Language">
+                    <Item id="6505" name="Available items"/>
+                    <Item id="6506" name="Disabled items"/>
+                    <Item id="6507" name="Make language menu compact"/>
+                    <Item id="6508" name="Language Menu"/>
+                    <Item id="6301" name="Tab Settings"/>
+                    <Item id="6302" name="Replace by space"/>
+                    <Item id="6303" name="Tab size: "/>
+                    <Item id="6510" name="Use default value"/>
+                </Language>
+
+                <Highlighting title="Highlighting">
+                    <Item id="6333" name="Smart Highlighting"/>
+                    <Item id="6326" name="Enable"/>
+                    <Item id="6332" name="Match case"/>
+                    <Item id="6338" name="Match whole word only"/>
+                    <Item id="6339" name="Use Find dialog settings"/>
+                    <Item id="6340" name="Highlight another view"/>
+                    <Item id="6329" name="Highlight Matching Tags"/>
+                    <Item id="6327" name="Enable"/>
+                    <Item id="6328" name="Highlight tag attributes"/>
+                    <Item id="6330" name="Highlight comment/php/asp zone"/>
+                </Highlighting>
+
                 <Print title="Moullañ">
                     <Item id="6601" name="Moullañ niverenn al linennoù"/>
                     <Item id="6602" name="Liv"/>
@@ -727,36 +818,38 @@
                 </RecentFilesHistory>
 
                 <Backup title="Enrolladenn">
-					<Item id="6817" name="Skeudenn an eztez hag enrolladenn vareadek"/>
-					<Item id="6818" name="Gweredekaat skeudenn an eztez hag enrolladenn vareadek"/>
-					<Item id="6819" name="Enrollañ bep"/>
-					<Item id="6821" name="eilenn"/>
-					<Item id="6822" name="e-barzh an teul"/>
-					<Item id="6309" name="Derc'hel-soñj eus an estez bremanel"/>
-                    <Item id="6315" name="Hini ebet"/>
-                    <Item id="6316" name="Eeun"/>
-                    <Item id="6317" name="Munudoù"/>
-                    <Item id="6801" name="Enrolladenn"/>
-                    <Item id="6803" name="Teuliad:"/>
-                    <Item id="6804" name="Teuliad arbennik"/>
+                    <Item id="6817" name="Skeudenn an eztez hag enrolladenn vareadek"/>
+                    <Item id="6818" name="Gweredekaat skeudenn an eztez hag enrolladenn vareadek"/>
+                    <Item id="6819" name="Enrollañ bep"/>
+                    <Item id="6821" name="eilenn"/>
+                    <Item id="6822" name="e-barzh an teul"/>
+                    <Item id="6309" name="Derc'hel-soñj eus an estez bremanel"/>
+                    <Item id="6801" name="Hini ebet"/>
+                    <Item id="6315" name="Eeun"/>
+                    <Item id="6316" name="Munudoù"/>
+                    <Item id="6317" name="Enrolladenn"/>
+                    <Item id="6804" name="Teuliad:"/>
+                    <Item id="6803" name="Teuliad arbennik"/>
                 </Backup>
+
                 <AutoCompletion title="Klokadenn emgefreek">
                     <Item id="6807" name="Klokadenn emgefreek"/>
                     <Item id="6808" name="Gweredekaat ar c'hlokadennoù emgefreek"/>
                     <Item id="6809" name="Klokadenn arc'hweladur"/>
                     <Item id="6810" name="Klokadenn Ger"/>
-					<Item id="6816" name="Klokadenn arc'hweladur ha Ger"/>
-                    <Item id="6811" name="Adalek ar"/>
-                    <Item id="6813" name="en Arouez"/>
-                    <Item id="6814" name="Talvoudegezh posubl: eus 1 da 9"/>
-                    <Item id="6815" name="Dibarzhioù skrammet e-pad an enankañ"/>
-                    <Item id="6851" name="Enlakaadenn emgefreek"/>
-                    <Item id="6857" name="Klav O Serriñ (html/xml)"/>
-                    <Item id="6858" name="Penn-kentañ"/>
-                    <Item id="6859" name="Dibenn"/>
-                    <Item id="6860" name="Re #1:"/>
-                    <Item id="6863" name="Re #2:"/>
-                    <Item id="6866" name="Re #3:"/>
+                    <Item id="6816" name="Klokadenn arc'hweladur ha Ger"/>
+                    <Item id="6824" name="Adalek ar"/>
+                    <Item id="6811" name="en Arouez"/>
+                    <Item id="6813" name="Talvoudegezh posubl: eus 1 da 9"/>
+                    <Item id="6814" name="Dibarzhioù skrammet e-pad an enankañ"/>
+                    <Item id="6815" name="Enlakaadenn emgefreek"/>
+                    <Item id="6851" name="Klav O Serriñ (html/xml)"/>
+                    <Item id="6857" name="Penn-kentañ"/>
+                    <Item id="6858" name="Dibenn"/>
+                    <Item id="6859" name="Re #1:"/>
+                    <Item id="6860" name="Re #2:"/>
+                    <Item id="6863" name="Re #3:"/>
+                    <Item id="6866" name="Matched pair 3:"/>
                 </AutoCompletion>
 
                 <MultiInstance title="Lieseriol">
@@ -772,49 +865,59 @@
                     <Item id="6252" name="Penn-kentañ"/>
                     <Item id="6255" name="Dibenn"/>
                     <Item id="6256" name="War-meur a linennoù"/>
+                    <Item id="6161" name="Word character list"/>
+                    <Item id="6162" name="Use default Word character list as it is"/>
+                    <Item id="6163" name="Add your character as part of word (don't choose it unless you know what you're doing)"/>
                 </Delimiter>
 
-				<Cloud title="Koumoulenn">
+                <Cloud title="Koumoulenn">
                     <Item id="6262" name="Enrollañ an dibarzhioù e-barzh ar Goumoulenn"/>
                     <Item id="6263" name="dre ziouer"/>
                     <Item id="6267" name="An Hent da vont da lec'hiadur ho Koumoulenn :"/>
-                    <!--Item id="6261" name="Adloc'hit Notepad++ da gemer e-kont."/-->
                 </Cloud>
 
+                <SearchEngine title="Search Engine">
+                    <Item id="6271" name="Search Engine (for command &quot;Search on Internet&quot;)"/>
+                    <Item id="6272" name="DuckDuckGo"/>
+                    <Item id="6273" name="Google"/>
+                    <Item id="6274" name="Bing"/>
+                    <Item id="6275" name="Yahoo!"/>
+                    <Item id="6276" name="Set your search engine here:"/>
+                    <!-- Don't change anything after Example: -->
+                    <Item id="6278" name="Example: https://www.google.com/search?q=$(CURRENT_WORD)"/>
+                </SearchEngine>
+
                 <MISC title="A=bep seurt">
+                    <Item id="6307" name="Gweredekaat"/>
+                    <Item id="6308" name="Kefosk emgefreek"/>
+                    <Item id="6312" name="Gweredekaat al listenn MRU"/>
+                    <Item id="6313" name="Dinoadur emgefreek"/>
+                    <Item id="6318" name="Bihanaat e-barzh barrenn ar rebuzadurioù"/>
+                    <Item id="6325" name="Diguzhadenn emgefreek eus stad ar restroù"/>
+                    <Item id="6319" name="Hizivadur hep galv-diwall"/>
+                    <Item id="6320" name="Dibarzhioù al liammoù klikus"/>
+                    <Item id="6322" name="Gweredekaat"/>
+                    <Item id="6323" name="Chom hep Islinennañ"/>
+                    <Item id="6324" name="Maez eus restr an eztez:"/>
+                    <Item id="6331" name="Gweredekaat an hizivadurioù emgefreek"/>
+                    <Item id="6334" name="Trec'haoler restroù (Reol+Taol)"/>
+                    <Item id="6335" name="Mont d'al linenn ziwezhañ goude an hizivadur"/>
+                    <Item id="6337" name="Gweredekaat al livadur emgefreek"/>
                     <Item id="6114" name="Gweredekaat"/>
-                    <Item id="6115" name="Kefosk emgefreek"/>
-                    <Item id="6117" name="Gweredekaat al listenn MRU"/>
-                    <Item id="6307" name="Dinoadur emgefreek"/>
-                    <Item id="6308" name="Bihanaat e-barzh barrenn ar rebuzadurioù"/>
-                    <Item id="6312" name="Diguzhadenn emgefreek eus stad ar restroù"/>
-                    <Item id="6313" name="Hizivadur hep galv-diwall"/>
-                    <Item id="6318" name="Dibarzhioù al liammoù klikus"/>
-                    <Item id="6319" name="Gweredekaat"/>
-                    <Item id="6320" name="Chom hep Islinennañ"/>
-                    <Item id="6322" name="Maez eus restr an eztez:"/>
-                    <Item id="6323" name="Gweredekaat an hizivadurioù emgefreek"/>
-                    <Item id="6324" name="Trec'haoler restroù (Reol+Taol)"/>
-                    <Item id="6325" name="Mont d'al linenn ziwezhañ goude an hizivadur"/>
-                    <Item id="6326" name="Gweredekaat al livadur emgefreek"/>
-                    <Item id="6327" name="Gweredekaat"/>
-                    <Item id="6328" name="Perzhioù ar c'hlav"/>
-                    <Item id="6329" name="Islinennañ ar c'hlavioù digoradur/serradur"/>
-                    <Item id="6330" name="E-barzh maez an askelenn/php/asp"/>
-                    <Item id="6331" name="Diskouez anv ar restr er varrenn ditl nemetken"/>
-                    <Item id="6332" name="Kombod kizidik"/>
-                    <Item id="6333" name="Diuzañ ha diskouez an holl"/>
-					<Item id="6334" name="Dinoiñ an enkodañ en un doare emgefreek"/>
-					<Item id="6335" name="Beskell: Arouez achap evit SQL"/>
+                    <Item id="6115" name="Perzhioù ar c'hlav"/>
+                    <Item id="6117" name="Islinennañ ar c'hlavioù digoradur/serradur"/>
+                    <Item id="6344" name="E-barzh maez an askelenn/php/asp"/>
+                    <Item id="6345" name="Diskouez anv ar restr er varrenn ditl nemetken"/>
+                    <Item id="6346" name="Kombod kizidik"/>
                 </MISC>
             </Preference>
             <MultiMacro title="Erounit ur Makro e dol">
                 <Item id="1" name="Erounit"/>
                 <Item id="2" name="Nulañ"/>
-                <Item id="8001" name="Erounit"/>
-                <Item id="8002" name="Betek dibenn ar restr"/>
+                <Item id="8006" name="Erounit"/>
+                <Item id="8001" name="Betek dibenn ar restr"/>
                 <Item id="8005" name="a wechoù"/>
-                <Item id="8006" name="Macro da erounit:"/>
+                <Item id="8002" name="Macro da erounit:"/>
             </MultiMacro>
             <Window title="Restroù">
                 <Item id="1" name="Gweredekaat"/>
@@ -822,63 +925,136 @@
                 <Item id="7002" name="Enrollañ"/>
                 <Item id="7003" name="Serriñ ar prenestroù"/>
                 <Item id="7004" name="Urzhiañ an ivinelloù"/>
-                <Item id="Name" name="Anv"/>
-                <Item id="Path" name="Hent"/>
-                <Item id="Sti" name="Sti"/>
             </Window>
             <ColumnEditor title="Embann en bannoù">
-                <Item id="1" name="Mat eo"/>
-                <Item id="2" name="Nulañ"/>
-                <Item id="2023" name="Testenn da enlakaat"/>
-                <Item id="2024" name="Dek."/>
-                <Item id="2025" name="Okt."/>
-                <Item id="2026" name="Heks."/>
-                <Item id="2027" name="Bin."/>
-                <Item id="2030" name="Niver deraouek :"/>
-                <Item id="2031" name="Brasaat eus :"/>
-                <Item id="2032" name="stumm"/>
-                <Item id="2033" name="Niver da enlakaat"/>
-                <Item id="2035" name="Niver a zeroioù"/>
+                <Item id="2023" name="Mat eo"/>
+                <Item id="2033" name="Nulañ"/>
+                <Item id="2030" name="Testenn da enlakaat"/>
+                <Item id="2031" name="Dek."/>
+                <Item id="2035" name="Okt."/>
+                <Item id="2036" name="Heks."/>
+                <Item id="2032" name="Bin."/>
+                <Item id="2024" name="Niver deraouek :"/>
+                <Item id="2025" name="Brasaat eus :"/>
+                <Item id="2026" name="stumm"/>
+                <Item id="2027" name="Niver da enlakaat"/>
+                <Item id="1" name="Niver a zeroioù"/>
+                <Item id="2" name="Cancel"/>
             </ColumnEditor>
+            <FindInFinder title="Find in finder">
+                <Item id="1" name="Find All"/>
+                <Item id="2" name="Close"/>
+                <Item id="1711" name="&amp;Find what :"/>
+                <Item id="1713" name="Search only in found lines"/>
+                <Item id="1714" name="Match &amp;whole word only"/>
+                <Item id="1715" name="Match &amp;case"/>
+                <Item id="1716" name="Search Mode"/>
+                <Item id="1717" name="&amp;Normal"/>
+                <Item id="1719" name="Re&amp;gular expression"/>
+                <Item id="1718" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
+                <Item id="1720" name="&amp;. matches newline"/>
+            </FindInFinder>
         </Dialog>
-        <MessageBox>
-            <CannotMoveDoc title="Dilec'hiadenn war-du un eriol nevez eus Notepad++" message="Ar restr a zo war-red, enrollañ hag adklask goude."/>
-            <ColumnModeTip title="Diuzadenn en mod bannoù" message="Implijout 'Alt+diuzadenn gant al logodenn' pe 'Alt+Pennlizh+biroù' a-benn gweredekaat ar mod bann."/>
+        <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
             <ContextMenuXmlEditWarning title="Embann al lañser kemperzhel" message="Embann ar restr contextMenu.xml a servij deoc'h da gemm prenestr lañser kemperzhel Notepad++. Rankout a rit adloc'hañ ho Notepad++ da gemer e kont kemmoù ar restr."/>
-            <DearteFiarFaiard title="O lemmel kuit ar restr" message="C'hwitet eo bet war lammidigezh ar restr."/>
-            <DocReloadWarning title="Adkargañ" message="Sur oc'h da adkargañ ar restr bremanel ha da goll ar c'hemmoù bet graet e-korf Notepad++?"/>
-            <FiarAlreadyOpenedInNpp title="" message="Ar restr a zo digor e-barzh Notepad++ atav."/>
-            <FiarLockedWarning title="C'hwitet eo an enrolladenn" message="Gwiriekait mar-plij m'eo digoret ar restr-mañ gant ur goulev all."/>
-            <LoseUndoAbilityWarning title="Kollet eo bet barregezh an nullañ" message="Rankout a rit enrollañ ar c'hemmoù war-red. Ne c'hell ket bezañ nullet an holl gemmoù enrollet. Kenderc'hel?"/>
-            <!-- $INT_REPLACE$ is a palce holder, don't translate it -->
-            <NbFiarToOpenImportantWarning title="Re vras eo ar c'hementad a restroù da zigeriñ." message="$INT_REPLACE$ Restroù 'zo war ar poent da vezañ digoret. Ha sur oc'h da zigeriñ anezho?"/>
             <NppHelpAbsentWarning title="Ar restr n'eus ket anezhañ" message=" n'eus ket anezhañ. Pellgargit anezhañ war lec'hienn Notepad++."/>
-            <SganturrentModifWarning title="Enrollañ ar c'hemmoù" message="ret eo deoc'h enrollañ ar c'hemmoù. An holl gemmoù enrollet n'hallont ket bezañ nullet. Kenderc'hel?"/>
+            <SaveCurrentModifWarning title="Save Current Modification" message="You should save the current modification. All the saved modifications can not be undone.  Continue?"/>
+            <LoseUndoAbilityWarning title="Kollet eo bet barregezh an nullañ" message="Rankout a rit enrollañ ar c'hemmoù war-red. Ne c'hell ket bezañ nullet an holl gemmoù enrollet. Kenderc'hel?"/>
+            <CannotMoveDoc title="Dilec'hiadenn war-du un eriol nevez eus Notepad++" message="Ar restr a zo war-red, enrollañ hag adklask goude."/>
+            <DocReloadWarning title="Adkargañ" message="Sur oc'h da adkargañ ar restr bremanel ha da goll ar c'hemmoù bet graet e-korf Notepad++?"/>
+            <FileLockedWarning title="Save failed" message="Please check whether if this file is opened in another program"/>
+            <FileAlreadyOpenedInNpp title="" message="The file is already opened in the Notepad++."/>
+            <DeleteFileFailed title="Delete File" message="Delete File failed"/>
+
+            <NbFileToOpenImportantWarning title="Amount of files to open is too large" message="$INT_REPLACE$ files are about to be opened. Are you sure to open them?"/>
+            <SettingsOnCloudError title="Settings on Cloud" message="It seems the path of settings on cloud is set on a read only drive, or on a folder needed privilege right for writing access. Your settings on cloud will be canceled. Please reset a coherent value via Preference dialog."/>
+            <FilePathNotFoundWarning title="File Open" message="The file you're trying to open doesn't exist."/>
+            <SessionFileInvalidError title="Could not Load Session" message="Session file is either corrupted or not valid."/>
+            <DroppingFolderAsProjectModeWarning title="Invalid action" message="You can only drop files or folders but not both, because you're in dropping Folder as Project mode. you have to enable &quot;Open all files of folder instead of launching Folder as Workspace on folder dropping&quot; in &quot;Default Directory&quot; section of Preferences dialog to make this operation work."/>
+            <SortingError title="Sorting Error" message="Unable to perform numeric sorting due to line $INT_REPLACE$."/>
+            <ColumnModeTip title="Diuzadenn en mod bannoù" message="Implijout 'Alt+diuzadenn gant al logodenn' pe 'Alt+Pennlizh+biroù' a-benn gweredekaat ar mod bann."/>
+            <BufferInvalidWarning title="Save failed" message="Cannot save: Buffer is invalid."/>
+            <DoSaveOrNot title="Save" message="Save file &quot;$STR_REPLACE$&quot; ?"/>
+            <DoCloseOrNot title="Keep non existing file" message="The file &quot;$STR_REPLACE$&quot; doesn't exist anymore. Keep this file in editor?"/>
+            <DoDeleteOrNot title="Delete file" message="The file &quot;$STR_REPLACE$&quot; will be moved to your Recycle Bin and this document will be closed. Continue?"/>
+            <NoBackupDoSaveFile title="Save" message="Your backup file cannot be found (deleted from outside). Save it otherwise your data will be lost Do you want to save file &quot;$STR_REPLACE$&quot; ?"/>
+            <DoReloadOrNot title="Reload" message="&quot;$STR_REPLACE$&quot;  This file has been modified by another program. Do you want to reload it?"/>
+            <DoReloadOrNotAndLooseChange title="Reload" message="&quot;$STR_REPLACE$&quot;  This file has been modified by another program. Do you want to reload it and lose the changes made in Notepad++?"/>
+            <PrehistoricSystemDetected title="Prehistoric system detected" message="It seems you still use a prehistoric system. This feature works only on a modern system, sorry."/>
+            <XpUpdaterProblem title="Notepad++ Updater" message="Notepad++ updater is not compatible with XP due to the obsolete security layer under XP. Do you want to go to Notepad++ page to download the latest version?"/>
+            <DocTooDirtyToMonitor title="Monitoring problem" message="The document is dirty. Please save the modification before monitoring it."/>
+            <DocNoExistToMonitor title="Monitoring problem" message="The file should exist to be monitored."/>
+            <FileTooBigToOpen title="File size problem" message="File is too big to be opened by Notepad++"/>
+            <CreateNewFileOrNot title="Create new file" message="&quot;$STR_REPLACE$&quot; doesn't exist. Create it?"/>
+            <CreateNewFileError title="Create new file" message="Cannot create the file &quot;$STR_REPLACE$&quot;."/>
+            <OpenFileError title="ERROR" message="Can not open file &quot;$STR_REPLACE$&quot;."/>
+            <FileBackupFailed title="File Backup Failed" message="The previous version of the file could not be saved into the backup directory at &quot;$STR_REPLACE$&quot;.  Do you want to save the current file anyways?"/>
+            <LoadStylersFailed title="Load stylers.xml failed" message="Load &quot;$STR_REPLACE$&quot; failed!"/>
+            <LoadLangsFailed title="Configurator" message="Load langs.xml failed! Do you want to recover your langs.xml?"/>
+            <LoadLangsFailedFinal title="Configurator" message="Load langs.xml failed!"/>
+            <FolderAsWorspaceSubfolderExists title="Folder as Workspace adding folder problem" message="A sub-folder of the folder you want to add exists. Please remove its root from the panel before you add folder &quot;$STR_REPLACE$&quot;."/>
+
+            <ProjectPanelChanged title="$STR_REPLACE$" message="The workspace was modified. Do you want to save it?"/>
+            <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Your workspace has not been saved."/>
+            <ProjectPanelOpenDoSaveDirtyWsOrNot title="Open Workspace" message="The current workspace was modified. Do you want to save the current project?"/>
+            <ProjectPanelNewDoSaveDirtyWsOrNot title="New Workspace" message="The current workspace was modified. Do you want to save the current project?"/>
+            <ProjectPanelOpenFailed title="Open Workspace" message="The workspace could not be opened. It seems the file to open is not a valid project file."/>
+            <ProjectPanelRemoveFolderFromProject title="Remove folder from project" message="All the sub-items will be removed. Are you sure you want to remove this folder from the project?"/>
+            <ProjectPanelRemoveFileFromProject title="Remove file from project" message="Are you sure you want to remove this file from the project?"/>
+            <ProjectPanelReloadError title="Reload Workspace" message="Cannot find the file to reload."/>
+            <ProjectPanelReloadDirty title="Reload Workspace" message="The current workspace was modified. Reloading will discard all modifications. Do you want to continue?"/>
+            <UDLNewNameError title="UDL Error" message="This name is used by another language, please give another one."/>
+            <UDLRemoveCurrentLang title="Remove the current language" message="Are you sure?"/>
+            <SCMapperDoDeleteOrNot title="Are you sure?" message="Are you sure you want to delete this shortcut?"/>
+            <FindCharRangeValueError title="Range Value problem" message="You should type between 0 and 255."/>
+            <OpenInAdminMode title="Save failed" message="The file cannot be saved and it may be protected. Do you want to launch Notepad++ in Administrator mode?"/>
+            <OpenInAdminModeWithoutCloseCurrent title="Save failed" message="The file cannot be saved and it may be protected. Do you want to launch Notepad++ in Administrator mode?"/>
+            <OpenInAdminModeFailed title="Open in Administrator mode failed" message="Notepad++ cannot be opened in Administrator mode."/>
         </MessageBox>
-		<ClipboardHistory>
-			<PanelTitar name="Roll istor ar golver"/>
+        <ClipboardHistory>
+            <PanelTitle name="Clipboard History"/>
         </ClipboardHistory>
         <DocSwitcher>
-			<PanelTitle name="Trec'haoler restroù"/>
-			<ColumnName name="Anv"/>
-			<ColumnExt  name="Er maez"/>
+            <PanelTitle name="Trec'haoler restroù"/>
+            <ColumnName name="Anv"/>
+            <ColumnExt name="Er maez"/>
         </DocSwitcher>
+        <WindowsDlg>
+            <ColumnName name="Name"/>
+            <ColumnPath name="Path"/>
+            <ColumnType name="Type"/>
+        </WindowsDlg>
         <AsciiInsertion>
-			<PanelTitar name="Pannel an arouezioù ASCII"/>
-			<ColumnVal name="Talvoudegezh"/>
-			<ColumnHex name="Hekza"/>
-			<ColumnChar name="Arouez"/>
+            <PanelTitle name="ASCII Insertion Panel"/>
+            <ColumnVal name="Talvoudegezh"/>
+            <ColumnHex name="Hekza"/>
+            <ColumnChar name="Arouez"/>
         </AsciiInsertion>
-		<DocumentMap>
-			<PanelTitar name="Steuñvenn ar restr"/>
+        <DocumentMap>
+            <PanelTitle name="Document Map"/>
         </DocumentMap>
         <FunctionList>
-            <PanelTitar name="Listenn an Arc'hweladurioù"/>
-            <SortTip name="Renkañ" />
-            <ReloadTip name="Adkargañ" />
+            <PanelTitle name="Function List"/>
+            <SortTip name="Renkañ"/>
+            <ReloadTip name="Adkargañ"/>
         </FunctionList>
+        <FolderAsWorkspace>
+            <PanelTitle name="Folder as Workspace"/>
+            <SelectFolderFromBrowserString name="Select a folder to add in Folder as Workspace panel"/>
+            <Menus>
+                <Item id="3511" name="Remove"/>
+                <Item id="3512" name="Remove All"/>
+                <Item id="3513" name="Add"/>
+                <Item id="3514" name="Run by system"/>
+                <Item id="3515" name="Open"/>
+                <Item id="3516" name="Copy path"/>
+                <Item id="3517" name="Find in Files..."/>
+                <Item id="3518" name="Explorer here"/>
+                <Item id="3519" name="CMD here"/>
+            </Menus>
+        </FolderAsWorkspace>
         <ProjectManager>
-            <PanelTitar name="Raktres"/>
+            <PanelTitle name="Project"/>
             <WorkspaceRootName name="Spas Labour"/>
             <NewProjectName name="Anv ar Raktres"/>
             <NewFolderName name="Anv an Teul"/>
@@ -888,20 +1064,20 @@
                     <Item id="1" name="Embann"/>
                 </Entries>
                 <WorkspaceMenu>
-                    <Item id="3121" name="Ouzhpennañ ur Raktres Nevez"/>
-                    <Item id="3122" name="Spas labour Nevez"/>
-                    <Item id="3123" name="Digeriñ Spas Labour"/>
-                    <Item id="3124" name="Adkargañ Spas Labour"/>
-                    <Item id="3125" name="Enrollañ"/>
-                    <Item id="3126" name="Enrollañ dindan..."/>
-                    <Item id="3127" name="Enrollañ un eilad..."/>
+                    <Item id="3122" name="Ouzhpennañ ur Raktres Nevez"/>
+                    <Item id="3123" name="Spas labour Nevez"/>
+                    <Item id="3124" name="Digeriñ Spas Labour"/>
+                    <Item id="3125" name="Adkargañ Spas Labour"/>
+                    <Item id="3126" name="Enrollañ"/>
+                    <Item id="3127" name="Enrollañ dindan..."/>
+                    <Item id="3121" name="Enrollañ un eilad..."/>
                 </WorkspaceMenu>
                 <ProjectMenu>
                     <Item id="3111" name="Ad-eñvel"/>
                     <Item id="3112" name="Teul Nevez"/>
                     <Item id="3113" name="Ouzhpennañ (ur) restr(où)..."/>
-                    <Item id="3114" name="Lemmel Kuit"/>
-                    <Item id="3117" name="Ouzhpennañ ar restroù adalek un teuliad..."/>
+                    <Item id="3117" name="Lemmel Kuit"/>
+                    <Item id="3114" name="Ouzhpennañ ar restroù adalek un teuliad..."/>
                     <Item id="3118" name="Dilec'hiañ war-du ar c'hrec'h"/>
                     <Item id="3119" name="Dilec'hiañ war-du an traoñ"/>
                 </ProjectMenu>
@@ -909,19 +1085,65 @@
                     <Item id="3111" name="Ad-eñvel"/>
                     <Item id="3112" name="Teul Nevez"/>
                     <Item id="3113" name="Ouzhpennañ (ur) restr(où)..."/>
-                    <Item id="3114" name="Lemmel Kuit"/>
-                    <Item id="3117" name="Ouzhpennañ ar restroù adalek un teuliad..."/>
+                    <Item id="3117" name="Lemmel Kuit"/>
+                    <Item id="3114" name="Ouzhpennañ ar restroù adalek un teuliad..."/>
                     <Item id="3118" name="Dilec'hiañ war-du ar c'hrec'h"/>
                     <Item id="3119" name="Dilec'hiañ war-du an traoñ"/>
                 </FolderMenu>
-                <FiarMenu>
-                    <Item id="3111" name="Ad-eñvel"/>
-                    <Item id="3115" name="Lemmel Kuit"/>
-                    <Item id="3116" name="Kemm Hent ar restr"/>
-                    <Item id="3118" name="Dilec'hiañ war-du ar c'hrec'h"/>
-                    <Item id="3119" name="Dilec'hiañ war-du an traoñ"/>
-                </FiarMenu>
+                <FileMenu>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3115" name="Remove"/>
+                    <Item id="3116" name="Modify File Path"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
+                </FileMenu>
             </Menus>
         </ProjectManager>
+        <MiscStrings>
+            <!-- $INT_REPLACE$  and $STR_REPLACE$ are a place holders, don't translate these place holders -->
+            <word-chars-list-tip value="This allows you to include additional character into current word characters while double clicking for selection or searching with &quot;Match whole word only&quot; option checked."/>
+            <word-chars-list-warning-begin value="Be aware: "/>
+            <word-chars-list-space-warning value="$INT_REPLACE$ space(s)"/>
+            <word-chars-list-tab-warning value="$INT_REPLACE$ TAB(s)"/>
+            <word-chars-list-warning-end value="  in your character list."/>
+            <cloud-invalid-warning value="Invalid path."/>
+            <cloud-restart-warning value="Please restart Notepad++ to take effect."/>
+            <cloud-select-folder value="Select a folder from/to where Notepad++ reads/writes its settings"/>
+            <shift-change-direction-tip value="Use Shift+Enter to search in the opposite direction"/>
+            <two-find-buttons-tip value="2 find buttons mode"/>
+            <find-status-top-reached value="Find: Found the 1st occurrence from the bottom. The beginning of the document has been reached."/>
+            <find-status-end-reached value="Find: Found the 1st occurrence from the top. The end of the document has been reached."/>
+            <find-status-replaceinfiles-1-replaced value="Replace in Files: 1 occurrence was replaced"/>
+            <find-status-replaceinfiles-nb-replaced value="Replace in Files: $INT_REPLACE$ occurrences were replaced"/>
+            <find-status-replaceinfiles-re-malformed value="Replace in Opened Files: The regular expression is malformed"/>
+            <find-status-replaceinopenedfiles-1-replaced value="Replace in Opened Files: 1 occurrence was replaced"/>
+            <find-status-replaceinopenedfiles-nb-replaced value="Replace in Opened Files: $INT_REPLACE$ occurrences were replaced"/>
+            <find-status-mark-re-malformed value="Mark: The regular expression to search is malformed"/>
+            <find-status-invalid-re value="Find: Invalid regular expression"/>
+            <find-status-mark-1-match value="1 match"/>
+            <find-status-mark-nb-matches value="$INT_REPLACE$ matches"/>
+            <find-status-count-re-malformed value="Count: The regular expression to search is malformed"/>
+            <find-status-count-1-match value="Count: 1 match"/>
+            <find-status-count-nb-matches value="Count: $INT_REPLACE$ matches"/>
+            <find-status-replaceall-re-malformed value="Replace All: The regular expression is malformed"/>
+            <find-status-replaceall-1-replaced value="Replace All: 1 occurrence was replaced"/>
+            <find-status-replaceall-nb-replaced value="Replace All: $INT_REPLACE$ occurrences were replaced"/>
+            <find-status-replaceall-readonly value="Replace All: Cannot replace text. The current document is read only"/>
+            <find-status-replace-end-reached value="Replace: Replaced the 1st occurrence from the top. The end of document has been reached"/>
+            <find-status-replace-top-reached value="Replace: Replaced the 1st occurrence from the bottom. The begin of document has been reached"/>
+            <find-status-replaced-next-found value="Replace: 1 occurrence was replaced. The next occurrence found"/>
+            <find-status-replaced-next-not-found value="Replace: 1 occurrence was replaced. The next occurrence not found"/>
+            <find-status-replace-not-found value="Replace: no occurrence was found"/>
+            <find-status-replace-readonly value="Replace: Cannot replace text. The current document is read only"/>
+            <find-status-cannot-find value="Find: Can't find the text &quot;$STR_REPLACE$&quot;"/>
+            <finder-find-in-finder value="Find in this found results..."/>
+            <finder-close-this value="Close this finder"/>
+            <finder-collapse-all value="Collapse all"/>
+            <finder-uncollapse-all value="Uncollapse all"/>
+            <finder-copy value="Copy"/>
+            <finder-select-all value="Select all"/>
+            <finder-clear-all value="Clear all"/>
+            <finder-open-all value="Open all"/>
+        </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
