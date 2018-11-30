@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <NotepadPlus>
-    <Native-Langue name="Mongolian" filename="mongolian.xml" version="6.6.8">
+    <Native-Langue name="Mongolian" filename="mongolian.xml" version="7.5.5">
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
@@ -12,17 +12,18 @@
                     <Item menuId="encoding" name="&amp;Кодчилол"/>
                     <Item menuId="language" name="Х&amp;эл"/>
                     <Item menuId="settings" name="&amp;Тохиргоо"/>
-                    <Item menuId="macro" name="Макро"/>
-                    <Item menuId="run" name="Ажиллуулах"/>
-                    <Item idName="Plugins" name="Нэмэлтүүд"/>
-                    <Item idName="Window" name="Цонх"/>
+                    <Item menuId="tools" name="Макро"/>
+                    <Item menuId="macro" name="Ажиллуулах"/>
+                    <Item menuId="run" name="Нэмэлтүүд"/>
+                    <Item idName="Plugins" name="Цонх"/>
+                    <Item idName="Window" name="&amp;Window"/>
                 </Entries>
                 <!-- Sub Menu Entries -->
                 <SubEntries>
-                    <Item subMenuId="file-OpenFolder" name="Агуулж буй хавтсыг нээх"/>
-                    <Item subMenuId="file-CloseMore" name="Хаах сонголтууд"/>
+                    <Item subMenuId="file-openFolder" name="Агуулж буй хавтсыг нээх"/>
+                    <Item subMenuId="file-closeMore" name="Хаах сонголтууд"/>
                     <Item subMenuId="file-recentFiles" name="Сүүлд ашигласан файлууд"/>
-                    <Item subMenuId="edit-copyToClipboard"  name="Түр санах ойд хуулах"/>
+                    <Item subMenuId="edit-copyToClipboard" name="Түр санах ойд хуулах"/>
                     <Item subMenuId="edit-indent" name="Догол"/>
                     <Item subMenuId="edit-convertCaseTo" name="Хэвийг өөрчлөх"/>
                     <Item subMenuId="edit-lineOperations" name="Мөрний үйлдлүүд"/>
@@ -31,36 +32,38 @@
                     <Item subMenuId="edit-eolConversion" name="EOL хөрвүүлэлт"/>
                     <Item subMenuId="edit-blankOperations" name="Сул үйлдлүүд"/>
                     <Item subMenuId="edit-pasteSpecial" name="Онцгой наалт"/>
-                    <Item subMenuId="search-markAll" name="Бүгдийг тэмдэглэх"/>
-                    <Item subMenuId="search-unmarkAll" name="Бүх тэмдгийг арилгах"/>
-                    <Item subMenuId="search-jumpUp" name="Дээш үсрэх"/>
-                    <Item subMenuId="search-jumpDown" name="Доош үсрэх"/>
-                    <Item subMenuId="search-bookmark" name="Онцгойлох"/>
-                    <Item subMenuId="view-showSymbol"  name="Тэмдэг харуулах"/>
-                    <Item subMenuId="view-zoom"  name="Хэмжээг өөрчлөх"/>
-                    <Item subMenuId="view-moveCloneDocument"  name="Зөөх/Идэвхитэй бичвэрийг хувилах"/>
-                    <Item subMenuId="view-tab"  name="Таб"/>
-                    <Item subMenuId="view-collapseLevel" name="Үеүүдийг нэгтгэх"/>
-                    <Item subMenuId="view-uncollapseLevel" name="Үеүүдийг тусгаарлах"/>
-                    <Item subMenuId="view-project" name="Төсөл"/>
-                    <Item subMenuId="encoding-characterSets"  name="Тэмдэгттийн төрлүүд"/>
-                    <Item subMenuId="encoding-arabic"  name="Араб"/>
-                    <Item subMenuId="encoding-baltic"  name="Балтик"/>
-                    <Item subMenuId="encoding-celtic"  name="Селтик"/>
-                    <Item subMenuId="encoding-cyrillic"  name="Кирилл"/>
-                    <Item subMenuId="encoding-centralEuropean"  name="Төв Европ"/>
-                    <Item subMenuId="encoding-chinese"  name="Хятад"/>
-                    <Item subMenuId="encoding-easternEuropean"  name="Зүүн Европ"/>
-                    <Item subMenuId="encoding-greek"  name="Грек"/>
-                    <Item subMenuId="encoding-hebrew"  name="Еврей"/>
-                    <Item subMenuId="encoding-japanese"  name="Ядон"/>
-                    <Item subMenuId="encoding-korean" name="Солонгос"/>
-                    <Item subMenuId="encoding-northEuropean" name="Умард Европ"/>
-                    <Item subMenuId="encoding-thai" name="Тай"/>
-                    <Item subMenuId="encoding-turkish" name="Турк"/>
-                    <Item subMenuId="encoding-westernEuropean" name="Баруун Европ"/>
-                    <Item subMenuId="encoding-vietnamese" name="Вьетнам"/>
-                    <Item subMenuId="settings-import"  name="Импорт"/>
+                    <Item subMenuId="edit-onSelection" name="Бүгдийг тэмдэглэх"/>
+                    <Item subMenuId="search-markAll" name="Бүх тэмдгийг арилгах"/>
+                    <Item subMenuId="search-unmarkAll" name="Дээш үсрэх"/>
+                    <Item subMenuId="search-jumpUp" name="Доош үсрэх"/>
+                    <Item subMenuId="search-jumpDown" name="Онцгойлох"/>
+                    <Item subMenuId="search-bookmark" name="Тэмдэг харуулах"/>
+                    <Item subMenuId="view-showSymbol" name="Хэмжээг өөрчлөх"/>
+                    <Item subMenuId="view-zoom" name="Зөөх/Идэвхитэй бичвэрийг хувилах"/>
+                    <Item subMenuId="view-moveCloneDocument" name="Таб"/>
+                    <Item subMenuId="view-tab" name="Үеүүдийг нэгтгэх"/>
+                    <Item subMenuId="view-collapseLevel" name="Үеүүдийг тусгаарлах"/>
+                    <Item subMenuId="view-uncollapseLevel" name="Төсөл"/>
+                    <Item subMenuId="view-project" name="Тэмдэгттийн төрлүүд"/>
+                    <Item subMenuId="encoding-characterSets" name="Араб"/>
+                    <Item subMenuId="encoding-arabic" name="Балтик"/>
+                    <Item subMenuId="encoding-baltic" name="Селтик"/>
+                    <Item subMenuId="encoding-celtic" name="Кирилл"/>
+                    <Item subMenuId="encoding-cyrillic" name="Төв Европ"/>
+                    <Item subMenuId="encoding-centralEuropean" name="Хятад"/>
+                    <Item subMenuId="encoding-chinese" name="Зүүн Европ"/>
+                    <Item subMenuId="encoding-easternEuropean" name="Грек"/>
+                    <Item subMenuId="encoding-greek" name="Еврей"/>
+                    <Item subMenuId="encoding-hebrew" name="Ядон"/>
+                    <Item subMenuId="encoding-japanese" name="Солонгос"/>
+                    <Item subMenuId="encoding-korean" name="Умард Европ"/>
+                    <Item subMenuId="encoding-northEuropean" name="Тай"/>
+                    <Item subMenuId="encoding-thai" name="Турк"/>
+                    <Item subMenuId="encoding-turkish" name="Баруун Европ"/>
+                    <Item subMenuId="encoding-westernEuropean" name="Вьетнам"/>
+                    <Item subMenuId="encoding-vietnamese" name="Импорт"/>
+                    <Item subMenuId="settings-import" name="Import"/>
+                    <Item subMenuId="tools-md5" name="MD5"/>
                 </SubEntries>
 
                 <!-- all menu item -->
@@ -78,7 +81,7 @@
                     <Item id="41007" name="Бү&amp;гдийг хадгалах"/>
                     <Item id="41008" name="&amp;Өөрчилж хадгалах..."/>
                     <Item id="41010" name="Хэвлэх..."/>
-                    <Item id="1001"  name="Шууд хэвлэх"/>
+                    <Item id="1001" name="Шууд хэвлэх"/>
                     <Item id="41011" name="&amp;Гарах"/>
                     <Item id="41012" name="Session-г дуудах..."/>
                     <Item id="41013" name="Session-г хадгалах..."/>
@@ -86,200 +89,226 @@
                     <Item id="41015" name="Хуулбарыг хадгалах..."/>
                     <Item id="41016" name="Дискнээс устгах"/>
                     <Item id="41017" name="Нэрийг өөрчлөх..."/>
+                    <Item id="41021" name="&amp;Огтлох"/>
+                    <Item id="41022" name="Хуу&amp;лах"/>
+                    <Item id="41023" name="&amp;Буцаах"/>
+                    <Item id="42001" name="&amp;Давтах"/>
+                    <Item id="42002" name="&amp;Наах"/>
+                    <Item id="42003" name="У&amp;стгах"/>
+                    <Item id="42004" name="Бүг&amp;ийг сонгох"/>
+                    <Item id="42005" name="Эхлэл/Төсгөлийг сонгох"/>
+                    <Item id="42006" name="Догол нэмэх"/>
+                    <Item id="42007" name="Доголыг багасгах"/>
+                    <Item id="42020" name="Идэвхижүүлсэн мөрийг хувилах"/>
+                    <Item id="42008" name="Мөрүүдийг салгах"/>
+                    <Item id="42009" name="Мөрүүдийг нэгтгэх"/>
+                    <Item id="42010" name="Идэвхижүүлсэн мөрийг дээш шилжүүлэх"/>
+                    <Item id="42012" name="Идэвхижүүлсэн мөрийг доош шилжүүлэх"/>
+                    <Item id="42013" name="БҮХ ҮСЭГ ТОМООР"/>
+                    <Item id="42014" name="бүх үсэг жижгээр"/>
+                    <Item id="42015" name="Би&amp;чиж эхлэх"/>
+                    <Item id="42059" name="Бичихээ&amp; зогсоох"/>
+                    <Item id="42060" name="&amp;Ухраах"/>
+                    <Item id="42061" name="Нэг мөр сэтгэгдэлд шилжих"/>
+                    <Item id="42062" name="Сэтгэгдлийн блок оруулах"/>
+                    <Item id="42063" name="Сэтгэгдлийн блок арилгах"/>
+                    <Item id="42064" name="Төгсгөлийн зайг арилгах"/>
+                    <Item id="42065" name="Урд талын зайг арилгах"/>
+                    <Item id="42066" name="Урдах болон арын зайг арилгах"/>
+                    <Item id="42016" name="Бүгдийг 1 эгнээд"/>
+                    <Item id="42017" name="Бүх шаардлагагүй сул зайг арилгах"/>
+                    <Item id="42067" name="Табыг зайгаар"/>
+                    <Item id="42068" name="Бүх зайг табаар"/>
+                    <Item id="42069" name="Урд талын бүх зайг табаар"/>
+                    <Item id="42070" name="HTML контент наах"/>
+                    <Item id="42071" name="RTF контент наах"/>
+                    <Item id="42072" name="2-тын тоог хуулбарлаж авах"/>
+                    <Item id="42073" name="2-тын тоог тасдаж авах"/>
+                    <Item id="42074" name="2-тын тоог наах"/>
+                    <Item id="42075" name="Баганан горим..."/>
+                    <Item id="42076" name="Баган засварлагч..."/>
+                    <Item id="42018" name="Тэмдэгтийн талбар"/>
+                    <Item id="42019" name="Түр-санах ойн түүх"/>
+                    <Item id="42021" name="Бичигдэж буй Макрог хадгалах"/>
+                    <Item id="42022" name="Текстийг баруунаас зүүнд чиглүүлэх"/>
+                    <Item id="42023" name="Tекстийг зүүнээс баруунд чиглүүлэх"/>
+                    <Item id="42047" name="Зөвхөн-уншиж-болохоор болгох"/>
+                    <Item id="42024" name="Файлын замыг түр-санах ойд"/>
+                    <Item id="42042" name="Файлын нэрийг түр-санах ойд"/>
+                    <Item id="42043" name="Хавтсын замыг түр-санах ойд"/>
+                    <Item id="42044" name="Макрог олон дахин уншуулах..."/>
+                    <Item id="42045" name="Зөвхөн-уншиж-болохоор тэмдэглэгээг арилгах"/>
+                    <Item id="42046" name="Мөрийг сэтгэгдэл болгох"/>
+                    <Item id="42054" name="Мөрийг сэтгэгдэл биш болгох"/>
+                    <Item id="42053" name="Хоосон мөрүүдийг арилгах"/>
+                    <Item id="42038" name="Хоосон мөрүүдийг хоосон тэмдэгтийн хамт арилгах"/>
+                    <Item id="42039" name="Идэвхижүүлсэн мөрний дээр шинэ мөр оруулах"/>
+                    <Item id="42048" name="Идэвхижүүлсэн мөрний доор шинэ мөр оруулах"/>
+                    <Item id="42049" name="Мөрнүүдийг үсгийн дарааллаар эрэмбэлэх"/>
+                    <Item id="42050" name="Мөрнүүдийг үсгийн дараалын эсрэг жагсаах"/>
+                    <Item id="42037" name="Ха&amp;йх..."/>
+                    <Item id="42034" name="&amp;Дараагийнхийг хайх"/>
+                    <Item id="42051" name="Солих..."/>
+                    <Item id="42052" name="Очих..."/>
+                    <Item id="42025" name="Онцолсныг солих"/>
+                    <Item id="42026" name="Дараагийн онцолсон"/>
+                    <Item id="42027" name="Өмнөх онцолсон"/>
+                    <Item id="42028" name="Бүх онцолсоныг арилгах"/>
+                    <Item id="42029" name="Онцолсон мөрүүдийг тасдаж авах"/>
+                    <Item id="42030" name="Онцолсон мөрүүдийг хуулж авах"/>
+                    <Item id="42031" name="Онцолсон мөрүүдийг наах(солих)"/>
+                    <Item id="42032" name="Онцолсон мөрүүдийг устгах"/>
+                    <Item id="42033" name="Тэмдэглэгдээгүй мөрүүдийг устгах"/>
+                    <Item id="42035" name="Онцолсныг эсрэгээр солих"/>
+                    <Item id="42036" name="Хязгаарт багтах тэмдэгтийг хайх..."/>
+                    <Item id="42055" name="Блокын хаалт доторхыг бүгдийг нь сонгох"/>
+                    <Item id="42056" name="Блокын хаалтруу очих"/>
+                    <Item id="42057" name="Өмнөхийг хайх"/>
+                    <Item id="42058" name="&amp;Боловсронгуй хайлт"/>
+                    <Item id="43001" name="Файл дотроос хайх"/>
+                    <Item id="43002" name="Дараагийнхруу нь очих"/>
+                    <Item id="43003" name="Өмнөхрүү нь очих"/>
+                    <Item id="43004" name="Бүгдийг тэмдэглэх"/>
+                    <Item id="43005" name="Бүх тэмдэглэгээг арилгах"/>
+                    <Item id="43006" name="Эхний загвараар"/>
+                    <Item id="43007" name="Эхнийг загварыг"/>
+                    <Item id="43008" name="2дах загвараар"/>
+                    <Item id="43018" name="2дах загварыг"/>
+                    <Item id="43019" name="3дах загвараар"/>
+                    <Item id="43020" name="3дах загварыг"/>
+                    <Item id="43021" name="4дэх загвараар"/>
+                    <Item id="43051" name="4дэх загварыг"/>
+                    <Item id="43050" name="5дах загвараар"/>
+                    <Item id="43052" name="5дах загварыг"/>
+                    <Item id="43053" name="Бүх загварыг"/>
+                    <Item id="43009" name="Эхний загвар"/>
+                    <Item id="43010" name="2дах загвар"/>
+                    <Item id="43011" name="3дах загвар"/>
+                    <Item id="43013" name="4дэх загвар"/>
+                    <Item id="43014" name="5дах загвар"/>
+                    <Item id="43015" name="Загвар хайх"/>
+                    <Item id="43022" name="Эхний загвар"/>
+                    <Item id="43023" name="2дах загвар"/>
+                    <Item id="43024" name="3дах загвар"/>
+                    <Item id="43025" name="4дэх загвар"/>
+                    <Item id="43026" name="5дах загвар"/>
+                    <Item id="43027" name="Загвар хайх"/>
+                    <Item id="43028" name="Хайлтын илэрцийн цонх"/>
+                    <Item id="43029" name="Дараагийн илэрц"/>
+                    <Item id="43030" name="Өмнөх илэрц"/>
+                    <Item id="43031" name="Дараагийнхийг олоод идэвхижүүлэх"/>
+                    <Item id="43032" name="Өмнөхийг олоод идэвхижүүлэх"/>
+                    <Item id="43033" name="Нийтлэх"/>
+                    <Item id="43034" name="Бүгдийг хураах"/>
+                    <Item id="43035" name="Бүх тэмдэгтийг харуулах"/>
+                    <Item id="43036" name="Доголын хөтчийг харуулах"/>
+                    <Item id="43037" name="Цонхонд багтаах"/>
+                    <Item id="43038" name="Томоо&amp;р харах   Ctrl+Хулганы голын өнхрүүшийг дээш эргүүлэх"/>
+                    <Item id="43039" name="Жижигрүүл&amp;ж харах   Ctrl+Хулганы голын өнхрүүшийг доош эргүүлэх"/>
+                    <Item id="43040" name="Табын болон хоосон зайг харуулах"/>
+                    <Item id="43041" name="Мөрний төгсгөлий харуулах"/>
+                    <Item id="43042" name="Бүгдийг дэлгэх"/>
+                    <Item id="43043" name="Энэ мөрийг хураах"/>
+                    <Item id="43044" name="Энэ мөрийг дэлгэх"/>
+                    <Item id="43045" name="Тодорхойлолт..."/>
+                    <Item id="43046" name="Баримтын бүтэц"/>
+                    <Item id="43047" name="Функцын жагсаалт"/>
+                    <Item id="43048" name="Эхний таб"/>
+                    <Item id="43049" name="2дах таб"/>
+                    <Item id="43054" name="3дах таб"/>
+                    <Item id="44009" name="4дэх таб"/>
+                    <Item id="44010" name="5дах таб"/>
+                    <Item id="44019" name="6дах таб"/>
+                    <Item id="44020" name="7дах таб"/>
+                    <Item id="44022" name="8дах таб"/>
+                    <Item id="44023" name="9дэх таб"/>
+                    <Item id="44024" name="Дараагийн таб"/>
+                    <Item id="44025" name="Өмнөх таб"/>
+                    <Item id="44026" name="Дэлгэц дүүрэн харуулах"/>
+                    <Item id="44029" name="Үндсэн хэмжээг сэргээх"/>
+                    <Item id="44030" name="Үргэлж хамгийн дээр харуулах"/>
+                    <Item id="44031" name="Босоо шилжүүлэгчийг холбох"/>
+                    <Item id="44049" name="Хөндлөн шилжүүлэгчийг холбох"/>
+                    <Item id="44080" name="Цонхонд багтаасан гэсэн тэмдгийг харуулах"/>
+                    <Item id="44084" name="Өөр байдлаар харах"/>
+                    <Item id="44085" name="Төслийн 1-р хавтан"/>
+                    <Item id="44086" name="Төслийн 1-р хавтан"/>
+                    <Item id="44087" name="Төслийн 1-р хавтан"/>
+                    <Item id="44088" name="Windows-н загварт хөрвүүлэх"/>
+                    <Item id="44089" name="UNIX-н загварт хөрвүүлэх"/>
+                    <Item id="44090" name="MAC-н загварт хөрвүүлэх"/>
+                    <Item id="44091" name="ANSI-р кодчилсон"/>
+                    <Item id="44092" name="UTF-8-р кодчилсон"/>
+                    <Item id="44093" name="UCS-2 Big Endian-р кодчилсон"/>
+                    <Item id="44094" name="UCS-2 Little Endian-р кодчилсон"/>
+                    <Item id="44095" name="UTF-8 without BOM-р кодчилсон"/>
+                    <Item id="44096" name="ANSI-руу хөрвүүлэх"/>
+                    <Item id="44097" name="UTF-8 without BOM-руу хөрвүүлэх"/>
+                    <Item id="44098" name="UTF-8-руу хөрвүүлэх"/>
+                    <Item id="44099" name="UCS-2 Big Endian-руу хөрвүүлэх"/>
+                    <Item id="44032" name="UCS-2 Little Endian-руу хөрвүүлэх"/>
+                    <Item id="44033" name="Харах цонхыг тусгаарлах"/>
+                    <Item id="44034" name="Нөгөө цонхруу хуулах"/>
+                    <Item id="44035" name="Тусдаа цонхонд харуулах"/>
+                    <Item id="44036" name="Шинэ цонхонд давхар нээх"/>
+                    <Item id="44041" name="Загвар тохируулагч..."/>
+                    <Item id="44072" name="Хэлээ сонгоно уу..."/>
+                    <Item id="44081" name="Хэрэглэгчийн тохируулснаар"/>
+                    <Item id="44082" name="Notepad++ -н тухай..."/>
+                    <Item id="44083" name="Тушаалын мөрний өгөгдлүүд..."/>
+                    <Item id="45001" name="Notepad++ -н веб хуудас"/>
+                    <Item id="45002" name="Notepad++ Төслийн хуудас"/>
+                    <Item id="45003" name="Онлайн материалууд"/>
+                    <Item id="45004" name="Хэлэлцүүлэг"/>
+                    <Item id="45005" name="Нэмэлтүүд авах"/>
+                    <Item id="45006" name="Notepad++ -г шинэчлэх"/>
+                    <Item id="45007" name="Тусламжын контентууд"/>
+                    <Item id="45008" name="Шинэчлэгчийн проксийг тохируулах..."/>
+                    <Item id="45009" name="Нэмэлт(үүд) импортлох..."/>
+                    <Item id="45010" name="Загвар(ууд) импортлох..."/>
+                    <Item id="45011" name="Хулганы баруун товчыг дарахад гарч ирэх цэсийг тохируулах"/>
+                    <Item id="45012" name="Гараас өгөх тушаалыг тохируулах..."/>
+                    <Item id="45013" name="Тохиргоо..."/>
 
-                    <Item id="42001" name="&amp;Огтлох"/>
-                    <Item id="42002" name="Хуу&amp;лах"/>
-                    <Item id="42003" name="&amp;Буцаах"/>
-                    <Item id="42004" name="&amp;Давтах"/>
-                    <Item id="42005" name="&amp;Наах"/>
-                    <Item id="42006" name="У&amp;стгах"/>
-                    <Item id="42007" name="Бүг&amp;ийг сонгох"/>
-					<Item id="42020" name="Эхлэл/Төсгөлийг сонгох"/>
-                    <Item id="42008" name="Догол нэмэх"/>
-                    <Item id="42009" name="Доголыг багасгах"/>
-                    <Item id="42010" name="Идэвхижүүлсэн мөрийг хувилах"/>
-                    <Item id="42012" name="Мөрүүдийг салгах"/>
-                    <Item id="42013" name="Мөрүүдийг нэгтгэх"/>
-                    <Item id="42014" name="Идэвхижүүлсэн мөрийг дээш шилжүүлэх"/>
-                    <Item id="42015" name="Идэвхижүүлсэн мөрийг доош шилжүүлэх"/>
-                    <Item id="42016" name="БҮХ ҮСЭГ ТОМООР"/>
-                    <Item id="42017" name="бүх үсэг жижгээр"/>
-                    <Item id="42018" name="Би&amp;чиж эхлэх"/>
-                    <Item id="42019" name="Бичихээ&amp; зогсоох"/>
-                    <Item id="42021" name="&amp;Ухраах"/>
-                    <Item id="42022" name="Нэг мөр сэтгэгдэлд шилжих"/>
-                    <Item id="42023" name="Сэтгэгдлийн блок оруулах"/>
-                    <Item id="42047" name="Сэтгэгдлийн блок арилгах"/>
-                    <Item id="42024" name="Төгсгөлийн зайг арилгах"/>
-                    <Item id="42042" name="Урд талын зайг арилгах"/>
-                    <Item id="42043" name="Урдах болон арын зайг арилгах"/>
-                    <Item id="42044" name="Бүгдийг 1 эгнээд"/>
-                    <Item id="42045" name="Бүх шаардлагагүй сул зайг арилгах"/>
-                    <Item id="42046" name="Табыг зайгаар"/>
-                    <Item id="42054" name="Бүх зайг табаар"/>
-                    <Item id="42053" name="Урд талын бүх зайг табаар"/>
-                    <Item id="42038" name="HTML контент наах"/>
-                    <Item id="42039" name="RTF контент наах"/>
-                    <Item id="42048" name="2-тын тоог хуулбарлаж авах"/>
-                    <Item id="42049" name="2-тын тоог тасдаж авах"/>
-                    <Item id="42050" name="2-тын тоог наах"/>
-                    <Item id="42037" name="Баганан горим..."/>
-                    <Item id="42034" name="Баган засварлагч..."/>
-                    <Item id="42051" name="Тэмдэгтийн талбар"/>
-                    <Item id="42052" name="Түр-санах ойн түүх"/>
-                    <Item id="42025" name="Бичигдэж буй Макрог хадгалах"/>
-                    <Item id="42026" name="Текстийг баруунаас зүүнд чиглүүлэх"/>
-                    <Item id="42027" name="Tекстийг зүүнээс баруунд чиглүүлэх"/>
-                    <Item id="42028" name="Зөвхөн-уншиж-болохоор болгох"/>
-                    <Item id="42029" name="Файлын замыг түр-санах ойд"/>
-                    <Item id="42030" name="Файлын нэрийг түр-санах ойд"/>
-                    <Item id="42031" name="Хавтсын замыг түр-санах ойд"/>
-                    <Item id="42032" name="Макрог олон дахин уншуулах..."/>
-                    <Item id="42033" name="Зөвхөн-уншиж-болохоор тэмдэглэгээг арилгах"/>
-                    <Item id="42035" name="Мөрийг сэтгэгдэл болгох"/>
-                    <Item id="42036" name="Мөрийг сэтгэгдэл биш болгох"/>
-                    <Item id="42055" name="Хоосон мөрүүдийг арилгах"/>
-                    <Item id="42056" name="Хоосон мөрүүдийг хоосон тэмдэгтийн хамт арилгах"/>
-                    <Item id="42057" name="Идэвхижүүлсэн мөрний дээр шинэ мөр оруулах"/>
-					<Item id="42058" name="Идэвхижүүлсэн мөрний доор шинэ мөр оруулах"/>
-					<Item id="42059" name="Мөрнүүдийг үсгийн дарааллаар эрэмбэлэх"/>
-					<Item id="42060" name="Мөрнүүдийг үсгийн дараалын эсрэг жагсаах"/>
-                    <Item id="43001" name="Ха&amp;йх..."/>
-                    <Item id="43002" name="&amp;Дараагийнхийг хайх"/>
-                    <Item id="43003" name="Солих..."/>
-                    <Item id="43004" name="Очих..."/>
-                    <Item id="43005" name="Онцолсныг солих"/>
-                    <Item id="43006" name="Дараагийн онцолсон"/>
-                    <Item id="43007" name="Өмнөх онцолсон"/>
-                    <Item id="43008" name="Бүх онцолсоныг арилгах"/>
-                    <Item id="43018" name="Онцолсон мөрүүдийг тасдаж авах"/>
-                    <Item id="43019" name="Онцолсон мөрүүдийг хуулж авах"/>
-                    <Item id="43020" name="Онцолсон мөрүүдийг наах(солих)"/>
-					<Item id="43021" name="Онцолсон мөрүүдийг устгах"/>
-					<Item id="43051" name="Тэмдэглэгдээгүй мөрүүдийг устгах"/>
-                    <Item id="43050" name="Онцолсныг эсрэгээр солих"/>
-					<Item id="43052" name="Хязгаарт багтах тэмдэгтийг хайх..."/>
-                    <Item id="43053" name="Блокын хаалт доторхыг бүгдийг нь сонгох"/>
-                    <Item id="43009" name="Блокын хаалтруу очих"/>
-                    <Item id="43010" name="Өмнөхийг хайх"/>
-                    <Item id="43011" name="&amp;Боловсронгуй хайлт"/>
-                    <Item id="43013" name="Файл дотроос хайх"/>
-                    <Item id="43014" name="Дараагийнхруу нь очих"/>
-                    <Item id="43015" name="Өмнөхрүү нь очих"/>
-                    <Item id="43016" name="Бүгдийг тэмдэглэх"/>
-                    <Item id="43017" name="Бүх тэмдэглэгээг арилгах"/>
-                    <Item id="43022" name="Эхний загвараар"/>
-                    <Item id="43023" name="Эхнийг загварыг"/>
-                    <Item id="43024" name="2дах загвараар"/>
-                    <Item id="43025" name="2дах загварыг"/>
-                    <Item id="43026" name="3дах загвараар"/>
-                    <Item id="43027" name="3дах загварыг"/>
-                    <Item id="43028" name="4дэх загвараар"/>
-                    <Item id="43029" name="4дэх загварыг"/>
-                    <Item id="43030" name="5дах загвараар"/>
-                    <Item id="43031" name="5дах загварыг"/>
-                    <Item id="43032" name="Бүх загварыг"/>
-                    <Item id="43033" name="Эхний загвар"/>
-                    <Item id="43034" name="2дах загвар"/>
-                    <Item id="43035" name="3дах загвар"/>
-                    <Item id="43036" name="4дэх загвар"/>
-                    <Item id="43037" name="5дах загвар"/>
-                    <Item id="43038" name="Загвар хайх"/>
-                    <Item id="43039" name="Эхний загвар"/>
-                    <Item id="43040" name="2дах загвар"/>
-                    <Item id="43041" name="3дах загвар"/>
-                    <Item id="43042" name="4дэх загвар"/>
-                    <Item id="43043" name="5дах загвар"/>
-                    <Item id="43044" name="Загвар хайх"/>
-                    <Item id="43045" name="Хайлтын илэрцийн цонх"/>
-                    <Item id="43046" name="Дараагийн илэрц"/>
-                    <Item id="43047" name="Өмнөх илэрц"/>
-                    <Item id="43048" name="Дараагийнхийг олоод идэвхижүүлэх"/>
-                    <Item id="43049" name="Өмнөхийг олоод идэвхижүүлэх"/>
-                    <Item id="44009" name="Нийтлэх"/>
-                    <Item id="44010" name="Бүгдийг хураах"/>
-                    <Item id="44019" name="Бүх тэмдэгтийг харуулах"/>
-                    <Item id="44020" name="Доголын хөтчийг харуулах"/>
-                    <Item id="44022" name="Цонхонд багтаах"/>
-                    <Item id="44023" name="Томоо&amp;р харах   Ctrl+Хулганы голын өнхрүүшийг дээш эргүүлэх"/>
-                    <Item id="44024" name="Жижигрүүл&amp;ж харах   Ctrl+Хулганы голын өнхрүүшийг доош эргүүлэх"/>
-                    <Item id="44025" name="Табын болон хоосон зайг харуулах"/>
-                    <Item id="44026" name="Мөрний төгсгөлий харуулах"/>
-                    <Item id="44029" name="Бүгдийг дэлгэх"/>
-                    <Item id="44030" name="Энэ мөрийг хураах"/>
-                    <Item id="44031" name="Энэ мөрийг дэлгэх"/>
-                    <Item id="44049" name="Тодорхойлолт..."/>
-                    <Item id="44080" name="Баримтын бүтэц"/>
-                    <Item id="44084" name="Функцын жагсаалт"/>
-                    <Item id="44086" name="Эхний таб"/>
-                    <Item id="44087" name="2дах таб"/>
-                    <Item id="44088" name="3дах таб"/>
-                    <Item id="44089" name="4дэх таб"/>
-                    <Item id="44090" name="5дах таб"/>
-                    <Item id="44091" name="6дах таб"/>
-                    <Item id="44092" name="7дах таб"/>
-                    <Item id="44093" name="8дах таб"/>
-                    <Item id="44094" name="9дэх таб"/>
-                    <Item id="44095" name="Дараагийн таб"/>
-                    <Item id="44096" name="Өмнөх таб"/>
-                    <Item id="44032" name="Дэлгэц дүүрэн харуулах"/>
-                    <Item id="44033" name="Үндсэн хэмжээг сэргээх"/>
-                    <Item id="44034" name="Үргэлж хамгийн дээр харуулах"/>
-                    <Item id="44035" name="Босоо шилжүүлэгчийг холбох"/>
-                    <Item id="44036" name="Хөндлөн шилжүүлэгчийг холбох"/>
-                    <Item id="44041" name="Цонхонд багтаасан гэсэн тэмдгийг харуулах"/>
-                    <Item id="44072" name="Өөр байдлаар харах"/>
-                    <Item id="44081" name="Төслийн 1-р хавтан"/>
-                    <Item id="44082" name="Төслийн 1-р хавтан"/>
-                    <Item id="44083" name="Төслийн 1-р хавтан"/>
-                    <Item id="45001" name="Windows-н загварт хөрвүүлэх"/>
-                    <Item id="45002" name="UNIX-н загварт хөрвүүлэх"/>
-                    <Item id="45003" name="MAC-н загварт хөрвүүлэх"/>
-                    <Item id="45004" name="ANSI-р кодчилсон"/>
-                    <Item id="45005" name="UTF-8-р кодчилсон"/>
-                    <Item id="45006" name="UCS-2 Big Endian-р кодчилсон"/>
-                    <Item id="45007" name="UCS-2 Little Endian-р кодчилсон"/>
-                    <Item id="45008" name="UTF-8 without BOM-р кодчилсон"/>
-                    <Item id="45009" name="ANSI-руу хөрвүүлэх"/>
-                    <Item id="45010" name="UTF-8 without BOM-руу хөрвүүлэх"/>
-                    <Item id="45011" name="UTF-8-руу хөрвүүлэх"/>
-                    <Item id="45012" name="UCS-2 Big Endian-руу хөрвүүлэх"/>
-                    <Item id="45013" name="UCS-2 Little Endian-руу хөрвүүлэх"/>
+                    <Item id="10001" name="Ажи&amp;ллуулах..."/>
+                    <Item id="10002" name="Фунцийг гүйцээх"/>
+                    <Item id="10003" name="Үгийг гүйцээх"/>
+                    <Item id="10004" name="Функцийн өгөгдлийн таамаг"/>
 
-                    <Item id="10001" name="Харах цонхыг тусгаарлах"/>
-                    <Item id="10002" name="Нөгөө цонхруу хуулах"/>
-                    <Item id="10003" name="Тусдаа цонхонд харуулах"/>
-                    <Item id="10004" name="Шинэ цонхонд давхар нээх"/>
+                    <Item id="46001" name="Замыг гүйцээх"/>
+                    <Item id="46250" name="Мөрүүдийг нуух"/>
+                    <Item id="46180" name="Өмнө нээсэн бүх файлуудыг нээх"/>
+                    <Item id="47000" name="Өмнө нээсэн файлуудыг жагсаалтыг цэвэрлэх"/>
+                    <Item id="47010" name="Товчлолыг тохируулж/Макрог устгах..."/>
+                    <Item id="47001" name="Товчлолыг тохируулж/Тушаалыг цуцлах..."/>
+                    <Item id="47002" name="Notepad++ Project Page"/>
+                    <Item id="47003" name="Online Documentation"/>
+                    <Item id="47004" name="Notepad++ Community (Forum)"/>
+                    <Item id="47011" name="Live Support"/>
+                    <Item id="47012" name="Debug Info..."/>
+                    <Item id="47005" name="Get More Plugins"/>
+                    <Item id="47006" name="Update Notepad++"/>
+                    <Item id="47009" name="Set Updater Proxy..."/>
+                    <Item id="48005" name="Import plugin(s)..."/>
+                    <Item id="48006" name="Import style theme(s)..."/>
+                    <Item id="48018" name="Edit Popup ContextMenu"/>
+                    <Item id="48009" name="Shortcut Mapper..."/>
+                    <Item id="48011" name="Preferences..."/>
+                    <Item id="48015" name="Plugins Admin..."/>
+                    <Item id="48501" name="Generate..."/>
+                    <Item id="48502" name="Generate from files..."/>
+                    <Item id="48503" name="Generate into clipboard"/>
+                    <Item id="49000" name="&amp;Run..."/>
 
-                    <Item id="46001" name="Загвар тохируулагч..."/>
-					<Item id="46250" name="Хэлээ сонгоно уу..."/>
-                    <Item id="46180" name="Хэрэглэгчийн тохируулснаар"/>
-                    <Item id="47000" name="Notepad++ -н тухай..."/>
-                    <Item id="47010" name="Тушаалын мөрний өгөгдлүүд..."/>
-                    <Item id="47001" name="Notepad++ -н веб хуудас"/>
-                    <Item id="47002" name="Notepad++ Төслийн хуудас"/>
-                    <Item id="47003" name="Онлайн материалууд"/>
-                    <Item id="47004" name="Хэлэлцүүлэг"/>
-                    <Item id="47005" name="Нэмэлтүүд авах"/>
-                    <Item id="47006" name="Notepad++ -г шинэчлэх"/>
-                    <Item id="47008" name="Тусламжын контентууд"/>
-                    <Item id="47009" name="Шинэчлэгчийн проксийг тохируулах..."/>
-                    <Item id="48005" name="Нэмэлт(үүд) импортлох..."/>
-                    <Item id="48006" name="Загвар(ууд) импортлох..."/>
-                    <Item id="48018" name="Хулганы баруун товчыг дарахад гарч ирэх цэсийг тохируулах"/>
-                    <Item id="48009" name="Гараас өгөх тушаалыг тохируулах..."/>
-                    <Item id="48011" name="Тохиргоо..."/>
-                    <Item id="49000" name="Ажи&amp;ллуулах..."/>
-
-                    <Item id="50000" name="Фунцийг гүйцээх"/>
-                    <Item id="50001" name="Үгийг гүйцээх"/>
-                    <Item id="50002" name="Функцийн өгөгдлийн таамаг"/>
-                    <Item id="50006" name="Замыг гүйцээх"/>
-                    <Item id="44042" name="Мөрүүдийг нуух"/>
-                    <Item id="42040" name="Өмнө нээсэн бүх файлуудыг нээх"/>
-                    <Item id="42041" name="Өмнө нээсэн файлуудыг жагсаалтыг цэвэрлэх"/>
-                    <Item id="48016" name="Товчлолыг тохируулж/Макрог устгах..."/>
-                    <Item id="48017" name="Товчлолыг тохируулж/Тушаалыг цуцлах..."/>
+                    <Item id="50000" name="Function Completion"/>
+                    <Item id="50001" name="Word Completion"/>
+                    <Item id="50002" name="Function Parameters Hint"/>
+                    <Item id="50006" name="Path Completion"/>
+                    <Item id="44042" name="Hide Lines"/>
+                    <Item id="42040" name="Open All Recent Files"/>
+                    <Item id="42041" name="Empty Recent Files List"/>
+                    <Item id="48016" name="Modify Shortcut/Delete Macro..."/>
+                    <Item id="48017" name="Modify Shortcut/Delete Command..."/>
                 </Commands>
             </Main>
             <Splitter>
@@ -302,60 +331,69 @@
                     <Item CMID="14" name="Шинэ цонхоруу гаргах"/>
                     <Item CMID="15" name="Шинэ цонхонд харах"/>
                     <Item CMID="16" name="Сэргээх"/>
-					<Item CMID="17" name="Зүүн талын бүх файлыг хаах"/>
+                    <Item CMID="17" name="Зүүн талын бүх файлыг хаах"/>
                     <Item CMID="18" name="Баруун талын бүх файлыг хаах"/>
                     <Item CMID="19" name="Агуулагч хавтсыг Explorer-р нээх"/>
                     <Item CMID="20" name="Агуулагч хавтсыг cmd-д нээх"/>
+                    <Item CMID="21" name="Open in Default Viewer"/>
             </TabBar>
         </Menu>
 
         <Dialog>
             <Find title="" titleFind="Хайх" titleReplace="Солих" titleFindInFiles="Файлаас олох" titleMark="Тэмдэглэх">
-                <Item id="1"    name="Дараагийнхийг олох"/>
-                <Item id="2"    name="Хаах"/>
-                <Item id="1620" name="Хайх утга:"/>
-                <Item id="1603" name="&amp;Яг ижил үг"/>
-                <Item id="1604" name="&amp;Үсгийн том жижиг хамаарах"/>
-                <Item id="1605" name="&amp;Энгийн илэрхийлэл"/>
-                <Item id="1606" name="&amp;Тодруул"/>
-                <Item id="1612" name="&amp;Дээш"/>
-                <Item id="1613" name="Доо&amp;ш"/>
-                <Item id="1614" name="Тоолох"/>
-                <Item id="1615" name="Бүгдийг олох"/>
-                <Item id="1616" name="Мөрийг тэмдэглэх"/>
-                <Item id="1617" name="Загвар токен оллоо"/>
-                <Item id="1618" name="Хайлт хийх болгонд хайх талбарыг цэвэрлэсан байх"/>
-                <Item id="1621" name="Чиглэл"/>
-                <Item id="1611" name="Со&amp;лих утга:"/>
-                <Item id="1608" name="&amp;Солих"/>
-                <Item id="1609" name="Бүгди&amp;йг солих"/>
-                <Item id="1623" name="Уусалт"/>
-                <Item id="1687" name="Цонхыг орхих үед"/>
-                <Item id="1688" name="Үргэлж"/>
-                <Item id="1632" name="Сонгосон үед"/>
-                <Item id="1633" name="Цэвэрлэх"/>
-                <Item id="1635" name="Бүх нээлттэй байгаа файлд бүгдийг солих"/>
-                <Item id="1636" name="Бүх нээлттэй байгаа файлаас олох"/>
-                <Item id="1637" name="Файлуудаас олох"/>
-                <Item id="1654" name="Шүүлтүүрүүд:"/>
-                <Item id="1655" name="Хавтас:"/>
-                <Item id="1656" name="Бүгдийг олох"/>
-                <Item id="1658" name="Бүх дэд-хавсанд"/>
-                <Item id="1659" name="Нуугдсан хавтсанд"/>
-                <Item id="1624" name="Хайх горим"/>
-                <Item id="1625" name="Энгийн"/>
-                <Item id="1626" name="Өргөтгөсөн (\n, \r, \t, \0, \x...)"/>
-                <Item id="1660" name="Файлуудад солих"/>
-                <Item id="1661" name="Идэвхитэй байгаа баримтыг дагах"/>
-                <Item id="1641" name="Идэвхитэй байгаа файлаас бүгдийг олох"/>
-                <Item id="1686" name="Уусалт"/>
-				<Item id="1703" name="&amp;. ижил шинэ мөр"/>
+                <Item id="1" name="Дараагийнхийг олох"/>
+                <Item id="1722" name="Хаах"/>
+                <Item id="2" name="Хайх утга:"/>
+                <Item id="1620" name="&amp;Яг ижил үг"/>
+                <Item id="1603" name="&amp;Үсгийн том жижиг хамаарах"/>
+                <Item id="1604" name="&amp;Энгийн илэрхийлэл"/>
+                <Item id="1605" name="&amp;Тодруул"/>
+                <Item id="1606" name="&amp;Дээш"/>
+                <Item id="1614" name="Доо&amp;ш"/>
+                <Item id="1615" name="Тоолох"/>
+                <Item id="1616" name="Бүгдийг олох"/>
+                <Item id="1618" name="Мөрийг тэмдэглэх"/>
+                <Item id="1611" name="Загвар токен оллоо"/>
+                <Item id="1608" name="Хайлт хийх болгонд хайх талбарыг цэвэрлэсан байх"/>
+                <Item id="1609" name="Чиглэл"/>
+                <Item id="1687" name="Со&amp;лих утга:"/>
+                <Item id="1688" name="&amp;Солих"/>
+                <Item id="1632" name="Бүгди&amp;йг солих"/>
+                <Item id="1633" name="Уусалт"/>
+                <Item id="1635" name="Цонхыг орхих үед"/>
+                <Item id="1636" name="Үргэлж"/>
+                <Item id="1654" name="Сонгосон үед"/>
+                <Item id="1655" name="Цэвэрлэх"/>
+                <Item id="1656" name="Бүх нээлттэй байгаа файлд бүгдийг солих"/>
+                <Item id="1658" name="Бүх нээлттэй байгаа файлаас олох"/>
+                <Item id="1659" name="Файлуудаас олох"/>
+                <Item id="1624" name="Шүүлтүүрүүд:"/>
+                <Item id="1625" name="Хавтас:"/>
+                <Item id="1626" name="Бүгдийг олох"/>
+                <Item id="1660" name="Бүх дэд-хавсанд"/>
+                <Item id="1661" name="Нуугдсан хавтсанд"/>
+                <Item id="1641" name="Хайх горим"/>
+                <Item id="1686" name="Энгийн"/>
+                <Item id="1703" name="Өргөтгөсөн (\n, \r, \t, \0, \x...)"/>
             </Find>
+
+            <FindCharsInRange title="Find Characters in Range...">
+                <Item id="2" name="Close"/>
+                <Item id="2901" name="Non-ASCII Characters (128-255)"/>
+                <Item id="2902" name="ASCII Characters (0-127)"/>
+                <Item id="2903" name="My range:"/>
+                <Item id="2906" name="&amp;Up"/>
+                <Item id="2907" name="&amp;Down"/>
+                <Item id="2908" name="Direction"/>
+                <Item id="2909" name="Wra&amp;p around"/>
+                <Item id="2910" name="Find"/>
+            </FindCharsInRange>
+
             <GoToLine title="Очих...">
                 <Item id="2007" name="Мөр"/>
                 <Item id="2008" name="Тэмдэгт"/>
-                <Item id="1"    name="&amp;Очих"/>
-                <Item id="2"    name="Би хаашаа ч очмооргүй байна"/>
+                <Item id="1" name="&amp;Очих"/>
+                <Item id="2" name="Би хаашаа ч очмооргүй байна"/>
                 <Item id="2004" name="Та энд байна:"/>
                 <Item id="2005" name="Очихыг хүссэн утга:"/>
                 <Item id="2006" name="Таны очиж чадах хязгаар:"/>
@@ -363,13 +401,36 @@
 
             <Run title="Ажиллуулах...">
                 <Item id="1903" name="Ажиллуулах програм"/>
-                <Item id="1"    name="Ажиллуулах"/>
-                <Item id="2"    name="Цуцлах"/>
+                <Item id="1" name="Ажиллуулах"/>
+                <Item id="2" name="Цуцлах"/>
                 <Item id="1904" name="Хадгалах..."/>
             </Run>
 
+            <MD5FromFilesDlg title="Generate MD5 digest from files">
+                <Item id="1922" name="Choose files to generate MD5..."/>
+                <Item id="1924" name="Copy to Clipboard"/>
+                <Item id="2" name="Close"/>
+            </MD5FromFilesDlg>
+
+            <MD5FromTextDlg title="Generate MD5 digest">
+                <Item id="1932" name="Treat each line as a separate string"/>
+                <Item id="1934" name="Copy to Clipboard"/>
+                <Item id="2" name="Close"/>
+            </MD5FromTextDlg>
+
+            <PluginsAdminDlg title="Plugins Admin" titleAvailable="Available" titleUpdates="Updates" titleInstalled="Installed">
+                <ColumnPlugin name="Plugin"/>
+                <ColumnVersion name="Version"/>
+                <Item id="5501" name="Search:"/>
+                <Item id="5503" name="Install"/>
+                <Item id="5504" name="Update"/>
+                <Item id="5505" name="Remove"/>
+                <Item id="5508" name="Next"/>
+                <Item id="2" name="Close"/>
+            </PluginsAdminDlg>
+
             <StyleConfig title="Загвар тохируулагч">
-                <Item id="2"    name="Цуцлах"/>
+                <Item id="2" name="Цуцлах"/>
                 <Item id="2301" name="Хадгалаад Хаах"/>
                 <Item id="2303" name="Уусалт"/>
                 <Item id="2306" name="Загвар сонгох: "/>
@@ -380,7 +441,7 @@
                     <Item id="2207" name="Суурийн өнгө"/>
                     <Item id="2208" name="Үсгийн хэвний нэр:"/>
                     <Item id="2209" name="Үсгийн хэмжээ:"/>
-					<Item id="2211" name="Загвар:"/>
+                    <Item id="2211" name="Загвар:"/>
                     <Item id="2212" name="Өнгө"/>
                     <Item id="2213" name="Фонт"/>
                     <Item id="2214" name="Үндсэн:"/>
@@ -397,11 +458,38 @@
                     <Item id="2231" name="Нэгдсэн налуу үсгийн загвар ашиглах"/>
                     <Item id="2232" name="Нэгдсэн доогуур зураасний загвар ашиглах"/>
                 </SubDialog>
-
             </StyleConfig>
 
+            <ShortcutMapper title="Shortcut Mapper">
+                <Item id="2602" name="Modify"/>
+                <Item id="2603" name="Delete"/>
+                <Item id="2606" name="Clear"/>
+                <Item id="2607" name="Filter: "/>
+                <Item id="1" name="Close"/>
+                <ColumnName name="Name"/>
+                <ColumnShortcut name="Shortcut"/>
+                <ColumnCategory name="Category"/>
+                <ColumnPlugin name="Plugin"/>
+                <MainMenuTab name="Main menu"/>
+                <MacrosTab name="Macros"/>
+                <RunCommandsTab name="Run commands"/>
+                <PluginCommandsTab name="Plugin commands"/>
+                <ScintillaCommandsTab name="Scintilla commands"/>
+                <ConflictInfoOk name="No shortcut conflicts for this item."/>
+                <ConflictInfoEditing name="No conflicts . . ."/>
+            </ShortcutMapper>
+            <ShortcutMapperSubDialg title="Shortcut">
+                <Item id="1" name="OK"/>
+                <Item id="2" name="Cancel"/>
+                <Item id="5006" name="Name"/>
+                <Item id="5008" name="Add"/>
+                <Item id="5009" name="Remove"/>
+                <Item id="5010" name="Apply"/>
+                <Item id="5007" name="This will remove shortcut from this command"/>
+                <Item id="5012" name="CONFLICT FOUND!"/>
+            </ShortcutMapperSubDialg>
             <UserDefine title="Хэрэглэгч тодорхойлсон">
-				<Item id="20001" name="Тулгалт"/>
+                <Item id="20001" name="Тулгалт"/>
                 <Item id="20002" name="Нэрийг өөрчлөх"/>
                 <Item id="20003" name="Шинийг үүсгэх..."/>
                 <Item id="20004" name="Устгах"/>
@@ -412,37 +500,39 @@
                 <Item id="20011" name="Уусалт"/>
                 <Item id="20015" name="Импорт..."/>
                 <Item id="20016" name="Экспорт..."/>
-				<StylerDialog title="Загвар тохируулагч">
+                <StylerDialog title="Загвар тохируулагч">
                     <Item id="25030" name="Үсгийн сонголтууд:"/>
-					<Item id="25006" name="Үсгийн өнгө"/>
-					<Item id="25007" name="Дэвсгэр өнгө"/>
-					<Item id="25031" name="Нэр:"/>
-					<Item id="25032" name="Хэмжээ:"/>
-					<Item id="25001" name="Тод"/>
-					<Item id="25002" name="Налуу"/>
-					<Item id="25003" name="Доогуур зураас"/>
-					<Item id="25029" name="Nesting:"/>
-					<Item id="25008" name="Зааглагч 1"/>
-					<Item id="25009" name="Зааглагч 2"/>
-					<Item id="25010" name="Зааглагч 3"/>
-					<Item id="25011" name="Зааглагч 4"/>
-					<Item id="25012" name="Зааглагч 5"/>
-					<Item id="25013" name="Зааглагч 6"/>
-					<Item id="25014" name="Зааглагч 7"/>
-					<Item id="25015" name="Зааглагч 8"/>
-					<Item id="25018" name="Түлхүүр үг 1"/>
-					<Item id="25019" name="Түлхүүр үг 2"/>
-					<Item id="25020" name="Түлхүүр үг 3"/>
-					<Item id="25021" name="Түлхүүр үг 4"/>
-					<Item id="25022" name="Түлхүүр үг 5"/>
-					<Item id="25023" name="Түлхүүр үг 6"/>
-					<Item id="25024" name="Түлхүүр үг 7"/>
-					<Item id="25025" name="Түлхүүр үг 8"/>
-					<Item id="25016" name="Сэтгэгдэл"/>
-					<Item id="25017" name="Сэтгэгдлийн мөр"/>
-					<Item id="25026" name="Оператор 1"/>
-					<Item id="25027" name="Оператор 2"/>
-					<Item id="25028" name="Тоонууд"/>
+                    <Item id="25006" name="Үсгийн өнгө"/>
+                    <Item id="25007" name="Дэвсгэр өнгө"/>
+                    <Item id="25031" name="Нэр:"/>
+                    <Item id="25032" name="Хэмжээ:"/>
+                    <Item id="25001" name="Тод"/>
+                    <Item id="25002" name="Налуу"/>
+                    <Item id="25003" name="Доогуур зураас"/>
+                    <Item id="25029" name="Nesting:"/>
+                    <Item id="25008" name="Зааглагч 1"/>
+                    <Item id="25009" name="Зааглагч 2"/>
+                    <Item id="25010" name="Зааглагч 3"/>
+                    <Item id="25011" name="Зааглагч 4"/>
+                    <Item id="25012" name="Зааглагч 5"/>
+                    <Item id="25013" name="Зааглагч 6"/>
+                    <Item id="25014" name="Зааглагч 7"/>
+                    <Item id="25015" name="Зааглагч 8"/>
+                    <Item id="25018" name="Түлхүүр үг 1"/>
+                    <Item id="25019" name="Түлхүүр үг 2"/>
+                    <Item id="25020" name="Түлхүүр үг 3"/>
+                    <Item id="25021" name="Түлхүүр үг 4"/>
+                    <Item id="25022" name="Түлхүүр үг 5"/>
+                    <Item id="25023" name="Түлхүүр үг 6"/>
+                    <Item id="25024" name="Түлхүүр үг 7"/>
+                    <Item id="25025" name="Түлхүүр үг 8"/>
+                    <Item id="25016" name="Сэтгэгдэл"/>
+                    <Item id="25017" name="Сэтгэгдлийн мөр"/>
+                    <Item id="25026" name="Оператор 1"/>
+                    <Item id="25027" name="Оператор 2"/>
+                    <Item id="25028" name="Тоонууд"/>
+                    <Item id="1" name="OK"/>
+                    <Item id="2" name="Cancel"/>
                 </StylerDialog>
                 <Folder title="Хавтас болон анхны утга">
                     <Item id="21101" name="Анхны загвар"/>
@@ -450,13 +540,13 @@
                     <Item id="21105" name="Бичиг баримт:"/>
                     <Item id="21104" name="Түр байрших хавтас:"/>
                     <Item id="21106" name="Бүгдийг эвхэх (хоосон мөрүүдийг ч бас)"/>
-					<Item id="21220" name="Кодыг 1 загварт эвхэх:"/>
-					<Item id="21224" name="Нээх:"/>
+                    <Item id="21220" name="Кодыг 1 загварт эвхэх:"/>
+                    <Item id="21224" name="Нээх:"/>
                     <Item id="21225" name="Дунд:"/>
                     <Item id="21226" name="Хаах:"/>
                     <Item id="21227" name="Загварчлагч"/>
-					<Item id="21320" name="Кодыг 2 загварт эвхэх (зааглагч шаардлагатай):"/>
-					<Item id="21324" name="Нээх:"/>
+                    <Item id="21320" name="Кодыг 2 загварт эвхэх (зааглагч шаардлагатай):"/>
+                    <Item id="21324" name="Нээх:"/>
                     <Item id="21325" name="Дунд:"/>
                     <Item id="21326" name="Хаах:"/>
                     <Item id="21327" name="Загварчлагч"/>
@@ -464,7 +554,7 @@
                     <Item id="21424" name="Нээх:"/>
                     <Item id="21425" name="Дунд:"/>
                     <Item id="21426" name="Хаах:"/>
-                    <Item id="21127" name="Загварчлагч"/>
+                    <Item id="21427" name="Загварчлагч"/>
                 </Folder>
                 <Keywords title="Түлхүүр үгсийн жагсаалт">
                     <Item id="22101" name="1дэх бүлэг"/>
@@ -483,7 +573,7 @@
                     <Item id="22521" name="Угтвар арга"/>
                     <Item id="22571" name="Угтвар арга"/>
                     <Item id="22621" name="Угтвар арга"/>
-					<Item id="22122" name="Загварчлагч"/>
+                    <Item id="22122" name="Загварчлагч"/>
                     <Item id="22222" name="Загварчлагч"/>
                     <Item id="22322" name="Загварчлагч"/>
                     <Item id="22422" name="Загварчлагч"/>
@@ -523,51 +613,50 @@
                 </Comment>
                 <Operator title="Операторууд болон Зааглагч">
                     <Item id="24101" name="Операторуудын загвар"/>
-					<Item id="24113" name="Загварчлагч"/>
-					<Item id="24116" name="Операторууд 1"/>
-					<Item id="24117" name="Операторууд 2 (тусгаарлагч шаардлагатай)"/>
+                    <Item id="24113" name="Загварчлагч"/>
+                    <Item id="24116" name="Операторууд 1"/>
+                    <Item id="24117" name="Операторууд 2 (тусгаарлагч шаардлагатай)"/>
                     <Item id="24201" name="Зааглагч 1-н загвар"/>
-					<Item id="24220" name="Нээх:"/>
+                    <Item id="24220" name="Нээх:"/>
                     <Item id="24221" name="Зайлсхийх:"/>
                     <Item id="24222" name="Хаах:"/>
                     <Item id="24223" name="Загварчлагч"/>
                     <Item id="24301" name="Зааглагч 2-н загвар"/>
-					<Item id="24320" name="Нээх:"/>
+                    <Item id="24320" name="Нээх:"/>
                     <Item id="24321" name="Зайлсхийх:"/>
                     <Item id="24322" name="Хаах:"/>
                     <Item id="24323" name="Загварчлагч"/>
                     <Item id="24401" name="Зааглагч 3-н загвар"/>
-					<Item id="24420" name="Нээх:"/>
+                    <Item id="24420" name="Нээх:"/>
                     <Item id="24421" name="Зайлсхийх:"/>
                     <Item id="24422" name="Хаах:"/>
                     <Item id="24423" name="Загварчлагч"/>
                     <Item id="24451" name="Зааглагч 4-н загвар"/>
-					<Item id="24470" name="Нээх:"/>
+                    <Item id="24470" name="Нээх:"/>
                     <Item id="24471" name="Зайлсхийх:"/>
                     <Item id="24472" name="Хаах:"/>
                     <Item id="24473" name="Загварчлагч"/>
                     <Item id="24501" name="Зааглагч 5-н загвар"/>
-					<Item id="24520" name="Нээх:"/>
+                    <Item id="24520" name="Нээх:"/>
                     <Item id="24521" name="Зайлсхийх:"/>
                     <Item id="24522" name="Хаах:"/>
                     <Item id="24523" name="Загварчлагч"/>
                     <Item id="24551" name="Зааглагч 6-н загвар"/>
-					<Item id="24570" name="Нээх:"/>
+                    <Item id="24570" name="Нээх:"/>
                     <Item id="24571" name="Зайлсхийх:"/>
                     <Item id="24572" name="Хаах:"/>
                     <Item id="24573" name="Загварчлагч"/>
                     <Item id="24601" name="Зааглагч 7-н загвар"/>
-					<Item id="24620" name="Нээх:"/>
+                    <Item id="24620" name="Нээх:"/>
                     <Item id="24621" name="Зайлсхийх:"/>
                     <Item id="24622" name="Хаах:"/>
                     <Item id="24623" name="Загварчлагч"/>
                     <Item id="24651" name="Зааглагч 8-н загвар"/>
-					<Item id="24670" name="Нээх:"/>
+                    <Item id="24670" name="Нээх:"/>
                     <Item id="24671" name="Зайлсхийх:"/>
                     <Item id="24672" name="Хаах:"/>
                     <Item id="24673" name="Загварчлагч"/>
                 </Operator>
-                <Item id="24001" name="Зайлсхийх тэмдэгт:"/>
             </UserDefine>
             <Preference title="Тохиргоо">
                 <Item id="6001" name="Хаах"/>
@@ -590,12 +679,12 @@
                     <Item id="6118" name="Нуух"/>
                     <Item id="6119" name="Олон-мөр"/>
                     <Item id="6120" name="Босоо"/>
-
                     <Item id="6121" name="Цэсний мөр"/>
+
                     <Item id="6122" name="Нуух (Гаргаж ирэхийн тулд F10 юм уу Alt товч ашиглана уу)"/>
                     <Item id="6123" name="Хэл"/>
 
-					<Item id="6125" name="Бичиг баримтын мөрний самбар"/>
+                    <Item id="6125" name="Бичиг баримтын мөрний самбар"/>
                     <Item id="6126" name="Харуулах"/>
                     <Item id="6127" name="Нэмэлтийн баганыг далдлах"/>
                 </Global>
@@ -623,15 +712,16 @@
                     <Item id="6207" name="Онцолсныг харуулах"/>
                     <Item id="6208" name="Босоо захыг харуулах"/>
                     <Item id="6209" name="Багананы тоо: "/>
-					<Item id="6234" name="Дэвшилтэт гулсах тохиргоог цуцлах
-(хэрэв Touch-pad асуудалтай байвал)"/>
+                    <Item id="6234" name="Дэвшилтэт гулсах тохиргоог цуцлах (хэрэв Touch-pad асуудалтай байвал)"/>
 
                     <Item id="6211" name="Босоо захын тохиргоо"/>
                     <Item id="6212" name="Мөрний горим"/>
                     <Item id="6213" name="Дэвсгэрийн горим"/>
                     <Item id="6214" name="Идэвхитэй байгаа мөрийг тодруулах"/>
-
-					<Item id="6231" name="Хүрээний өргөн"/>
+                    <Item id="6215" name="Хүрээний өргөн"/>
+                    <Item id="6231" name="Border Width"/>
+                    <Item id="6235" name="No edge"/>
+                    <Item id="6236" name="Enable scrolling beyond last line"/>
                 </Scintillas>
 
                 <NewDoc title="Шинэ бичиг баримт">
@@ -654,25 +744,37 @@
                     <Item id="6413" name="Үндсэн зам (Нээх/Хадгалах)"/>
                     <Item id="6414" name="Нээсэн байгаа бичиг баримтыг дагах"/>
                     <Item id="6415" name="Сүүлд хэрэглэсэн замыг санах"/>
+                    <Item id="6430" name="Use new style dialog (without file extension feature &amp;&amp; Unix style path capacity)"/>
+                    <Item id="6431" name="Open all files of folder instead of launching Folder as Workspace on folder dropping"/>
                 </DefaultDir>
 
                 <FileAssoc title="Файлын зохицол">
                     <Item id="4009" name="Дэмжих өргөтгөл:"/>
                     <Item id="4010" name="Бүртгэгдсэн өргөтгөл:"/>
                 </FileAssoc>
-                <LangMenu title="Хэлний цэс">
-                    <Item id="6505" name="Боломжтой"/>
-                    <Item id="6506" name="Хаасан"/>
-                    <Item id="6507" name="Хэлний цэсийг нягт болгох"/>
-                    <Item id="6508" name="Хэлний цэс"/>
-                </LangMenu>
+                <Language title="Language">
+                    <Item id="6505" name="Available items"/>
+                    <Item id="6506" name="Disabled items"/>
+                    <Item id="6507" name="Make language menu compact"/>
+                    <Item id="6508" name="Language Menu"/>
+                    <Item id="6301" name="Tab Settings"/>
+                    <Item id="6302" name="Replace by space"/>
+                    <Item id="6303" name="Tab size: "/>
+                    <Item id="6510" name="Use default value"/>
+                </Language>
 
-                <TabSettings title="Табын тохиргоо">
-                    <Item id="6301" name="Табын тохиргоо"/>
-                    <Item id="6302" name="Зайгаар солих"/>
-                    <Item id="6303" name="Табын зай: "/>
-                    <Item id="6510" name="Анхны утгыг ашиглах"/>
-                </TabSettings>
+                <Highlighting title="Highlighting">
+                    <Item id="6333" name="Smart Highlighting"/>
+                    <Item id="6326" name="Enable"/>
+                    <Item id="6332" name="Match case"/>
+                    <Item id="6338" name="Match whole word only"/>
+                    <Item id="6339" name="Use Find dialog settings"/>
+                    <Item id="6340" name="Highlight another view"/>
+                    <Item id="6329" name="Highlight Matching Tags"/>
+                    <Item id="6327" name="Enable"/>
+                    <Item id="6328" name="Highlight tag attributes"/>
+                    <Item id="6330" name="Highlight comment/php/asp zone"/>
+                </Highlighting>
 
                 <Print title="Хэвлэх">
                     <Item id="6601" name="Мөрний дугаарыг хэвлэх"/>
@@ -700,7 +802,7 @@
                     <Item id="6722" name="Баруун хэсэг"/>
                     <Item id="6723" name="Нэмэх"/>
                     <Item id="6725" name="Хувьсагч:"/>
-					<Item id="6727" name="Хувьсагчын тохиргоо энд харагдана"/>
+                    <Item id="6727" name="Хувьсагчын тохиргоо энд харагдана"/>
                     <Item id="6728" name="Толгой ба хөл"/>
                 </Print>
 
@@ -716,12 +818,12 @@
                 </RecentFilesHistory>
 
                 <Backup title="Нөөц">
-					<Item id="6817" name="Цагын мужид болон ажлын явцад"/>
-					<Item id="6818" name="Цагын мужид болон ажлын явцад сануулж байх"/>
-					<Item id="6819" name="Нөөцлөх давтамж:"/>
-					<Item id="6821" name="секунд бүрт"/>
-					<Item id="6822" name="Нөөцийн зам:"/>
-					<Item id="6309" name="Дараа нээхэд өмнөх ажлыг хадгалсан байх"/>
+                    <Item id="6817" name="Цагын мужид болон ажлын явцад"/>
+                    <Item id="6818" name="Цагын мужид болон ажлын явцад сануулж байх"/>
+                    <Item id="6819" name="Нөөцлөх давтамж:"/>
+                    <Item id="6821" name="секунд бүрт"/>
+                    <Item id="6822" name="Нөөцийн зам:"/>
+                    <Item id="6309" name="Дараа нээхэд өмнөх ажлыг хадгалсан байх"/>
                     <Item id="6801" name="Нөөц"/>
                     <Item id="6315" name="Хоосон"/>
                     <Item id="6316" name="Энгийн нөөц"/>
@@ -735,18 +837,19 @@
                     <Item id="6808" name="Бичиж буй утга бүрт үнүийг ашиглах"/>
                     <Item id="6809" name="Функц гүйцээлт"/>
                     <Item id="6810" name="Үг гүйцээлт"/>
-					<Item id="6816" name="Функц болон үг гүйцээлт"/>
-                    <Item id="6811" name="Эхний"/>
-                    <Item id="6813" name="тэмдэгтээс"/>
-                    <Item id="6814" name="Боломжит утга: 1 - 9"/>
-                    <Item id="6815" name="Шивэхэд функцын сонголтуудыг харуулах"/>
-                    <Item id="6851" name="Авто-оруулалт"/>
-                    <Item id="6857" name=" html/xml Хаах таг"/>
-                    <Item id="6858" name="Нээх"/>
-                    <Item id="6859" name="Хаах"/>
-                    <Item id="6860" name="Тохирсон хос 1:"/>
-                    <Item id="6863" name="Тохирсон хос 2:"/>
-                    <Item id="6866" name="Тохирсон хос 3:"/>
+                    <Item id="6816" name="Функц болон үг гүйцээлт"/>
+                    <Item id="6824" name="Эхний"/>
+                    <Item id="6811" name="тэмдэгтээс"/>
+                    <Item id="6813" name="Боломжит утга: 1 - 9"/>
+                    <Item id="6814" name="Шивэхэд функцын сонголтуудыг харуулах"/>
+                    <Item id="6815" name="Авто-оруулалт"/>
+                    <Item id="6851" name=" html/xml Хаах таг"/>
+                    <Item id="6857" name="Нээх"/>
+                    <Item id="6858" name="Хаах"/>
+                    <Item id="6859" name="Тохирсон хос 1:"/>
+                    <Item id="6860" name="Тохирсон хос 2:"/>
+                    <Item id="6863" name="Тохирсон хос 3:"/>
+                    <Item id="6866" name="Matched pair 3:"/>
                 </AutoCompletion>
 
                 <MultiInstance title="Олон-шат">
@@ -757,21 +860,32 @@
                     <Item id="6155" name="* Өөрчлөлт нь Notepad++ -г дахин ачууллуулснаар батлагдана"/>
                 </MultiInstance>
 
-                <Seperator title="Зааглагч">
-                    <Item id="6251" name="Зааглагч сонгох тохиргоо (Ctrl + Хулганы хос даралт)"/>
-                    <Item id="6252" name="Нээх"/>
-                    <Item id="6255" name="Хаах"/>
-                    <Item id="6256" name="Олон мөр дээр зөвшөөрөх"/>
-                </Seperator>
+                <Delimiter title="Delimiter">
+                    <Item id="6251" name="Delimiter selection settings (Ctrl + Mouse double click)"/>
+                    <Item id="6252" name="Open"/>
+                    <Item id="6255" name="Close"/>
+                    <Item id="6256" name="Allow on several lines"/>
+                    <Item id="6161" name="Word character list"/>
+                    <Item id="6162" name="Use default Word character list as it is"/>
+                    <Item id="6163" name="Add your character as part of word (don't choose it unless you know what you're doing)"/>
+                </Delimiter>
 
-                 <Cloud title="Үүл">
+                <Cloud title="Үүл">
                     <Item id="6262" name="Тохиргоог үүлрүү хадгалах"/>
                     <Item id="6263" name="Үүл ашиглахгүй"/>
-                    <Item id="6264" name="Dropbox"/>
-                    <Item id="6265" name="OneDrive"/>
-                    <Item id="6266" name="Google Drive"/>
-                    <!--Item id="6261" name="Please restart Notepad++ to take effect."/-->
+                    <Item id="6267" name="Dropbox"/>
                 </Cloud>
+
+                <SearchEngine title="Search Engine">
+                    <Item id="6271" name="Search Engine (for command &quot;Search on Internet&quot;)"/>
+                    <Item id="6272" name="DuckDuckGo"/>
+                    <Item id="6273" name="Google"/>
+                    <Item id="6274" name="Bing"/>
+                    <Item id="6275" name="Yahoo!"/>
+                    <Item id="6276" name="Set your search engine here:"/>
+                    <!-- Don't change anything after Example: -->
+                    <Item id="6278" name="Example: https://www.google.com/search?q=$(CURRENT_WORD)"/>
+                </SearchEngine>
 
                 <MISC title="Бусад">
                     <Item id="6307" name="Идэвхижүүлэх"/>
@@ -785,19 +899,16 @@
                     <Item id="6322" name="Нээлттэй файлын өргөтгөл:"/>
                     <Item id="6323" name="Notepad++ авто-шинэчлэгчийг идэвхижүүлэх"/>
                     <Item id="6324" name="Баримт хооронд шилжих (Ctrl+TAB)"/>
-                    <Item id="6326" name="Ухаалаг идэвхижүүлэлтийг ашиглах"/>
-                    <Item id="6329" name="Тохирч байгаа таг-уудыг идэвхижүүлэх"/>
-                    <Item id="6327" name="Идэвхижүүлэх"/>
-                    <Item id="6328" name="Таг-н шинж чанарыг идэвхижүүлэх"/>
-                    <Item id="6330" name="Сэтгэгдэл/php/asp бүсийг ашиглах"/>
-                    <Item id="6331" name="Гарчгын мөрөнд файлын нэрий г л харуулах"/>
-                    <Item id="6332" name="Тохирох үсэг"/>
-                    <Item id="6333" name="Ухаалаг идэвхижүүлэлт"/>
-					<Item id="6334" name="Тэмдэгтийн кодчилолыг автоматаар илрүүлэх"/>
-					<Item id="6335" name="SQL-н зогсох тэмдэгтийн налуу зураасыг засах"/>
-                    <Item id="6114" name="Идэвхижүүлэх"/>
-                    <Item id="6115" name="Авто-догол"/>
-                    <Item id="6117" name="MRU байдлыг ашиглах"/>
+                    <Item id="6331" name="Ухаалаг идэвхижүүлэлтийг ашиглах"/>
+                    <Item id="6334" name="Тохирч байгаа таг-уудыг идэвхижүүлэх"/>
+                    <Item id="6335" name="Идэвхижүүлэх"/>
+                    <Item id="6337" name="Таг-н шинж чанарыг идэвхижүүлэх"/>
+                    <Item id="6114" name="Сэтгэгдэл/php/asp бүсийг ашиглах"/>
+                    <Item id="6115" name="Гарчгын мөрөнд файлын нэрий г л харуулах"/>
+                    <Item id="6117" name="Тохирох үсэг"/>
+                    <Item id="6344" name="Ухаалаг идэвхижүүлэлт"/>
+                    <Item id="6345" name="Тэмдэгтийн кодчилолыг автоматаар илрүүлэх"/>
+                    <Item id="6346" name="SQL-н зогсох тэмдэгтийн налуу зураасыг засах"/>
                 </MISC>
             </Preference>
             <MultiMacro title="Макро-г олон дахиж ажиллуулах">
@@ -821,16 +932,30 @@
                 <Item id="2030" name="Эхний тоо:"/>
                 <Item id="2031" name="Өсгөлт:"/>
                 <Item id="2035" name="0-г дагуулах"/>
-                <Item id="2032" name="Хэв"/>
-                <Item id="2024" name="10т"/>
-                <Item id="2025" name="8т"/>
-                <Item id="2026" name="16т"/>
-                <Item id="2027" name="2т"/>
-                <Item id="1" name="ЗА"/>
-                <Item id="2" name="Цуцлах"/>
+                <Item id="2036" name="Хэв"/>
+                <Item id="2032" name="10т"/>
+                <Item id="2024" name="8т"/>
+                <Item id="2025" name="16т"/>
+                <Item id="2026" name="2т"/>
+                <Item id="2027" name="ЗА"/>
+                <Item id="1" name="Цуцлах"/>
+                <Item id="2" name="Cancel"/>
             </ColumnEditor>
+            <FindInFinder title="Find in finder">
+                <Item id="1" name="Find All"/>
+                <Item id="2" name="Close"/>
+                <Item id="1711" name="&amp;Find what :"/>
+                <Item id="1713" name="Search only in found lines"/>
+                <Item id="1714" name="Match &amp;whole word only"/>
+                <Item id="1715" name="Match &amp;case"/>
+                <Item id="1716" name="Search Mode"/>
+                <Item id="1717" name="&amp;Normal"/>
+                <Item id="1719" name="Re&amp;gular expression"/>
+                <Item id="1718" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
+                <Item id="1720" name="&amp;. matches newline"/>
+            </FindInFinder>
         </Dialog>
-        <MessageBox>
+        <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
             <ContextMenuXmlEditWarning title="Хулганы баруун товч дараад гарч ирэх цэсийг тохируулах" message="contextMenu.xml-г засах нь Хулганы баруун товч дараад гарч ирэх цэсийг тохируулах боломжыг олгоно.\rҮүнийг өөрчилснийхөө дараа Notepad++ -г хаагаад дахин нээх шаардлагатай"/>
             <NppHelpAbsentWarning title="Файл олдсонгүй" message="\rОлдсонгүй. Notepad++ -н сайтаас үүнийг дахин татаж авна уу."/>
             <SaveCurrentModifWarning title="Одоо байгаа тохиргоог хадгалах" message="Хийсэн өөрчлөлтүүдээ хадгалах хэрэгтэй.\rГэхдээ зарим өөрчлөлтүүд хадгалагдах боломжгүй байна.\r\rҮргэлжлүүлэх үү?"/>
@@ -841,31 +966,93 @@
             <FileAlreadyOpenedInNpp title="" message="Энэ файлыг Notepad++ -р хэдийнэ нээчихсэн байна."/>
             <DeleteFileFailed title="Файлыг устгах" message="Файлыг устгаж чадсангүй"/>
 
-            <!-- $INT_REPLACE$ is a place holder, don't translate it -->
             <NbFileToOpenImportantWarning title="Файлын хэмжээ хэтэрхий том байна" message="$INT_REPLACE$ -г нээх гэж байна.\rЭнэ файлыг нээхдээ итгэлтэй байна уу?"/>
+            <SettingsOnCloudError title="Settings on Cloud" message="It seems the path of settings on cloud is set on a read only drive, or on a folder needed privilege right for writing access. Your settings on cloud will be canceled. Please reset a coherent value via Preference dialog."/>
+            <FilePathNotFoundWarning title="File Open" message="The file you're trying to open doesn't exist."/>
+            <SessionFileInvalidError title="Could not Load Session" message="Session file is either corrupted or not valid."/>
+            <DroppingFolderAsProjectModeWarning title="Invalid action" message="You can only drop files or folders but not both, because you're in dropping Folder as Project mode. you have to enable &quot;Open all files of folder instead of launching Folder as Workspace on folder dropping&quot; in &quot;Default Directory&quot; section of Preferences dialog to make this operation work."/>
+            <SortingError title="Sorting Error" message="Unable to perform numeric sorting due to line $INT_REPLACE$."/>
+            <ColumnModeTip title="Column Mode Tip" message="Please use &quot;ALT+Mouse Selection&quot; or &quot;Alt+Shift+Arrow key&quot; to switch to column mode."/>
+            <BufferInvalidWarning title="Save failed" message="Cannot save: Buffer is invalid."/>
+            <DoSaveOrNot title="Save" message="Save file &quot;$STR_REPLACE$&quot; ?"/>
+            <DoCloseOrNot title="Keep non existing file" message="The file &quot;$STR_REPLACE$&quot; doesn't exist anymore. Keep this file in editor?"/>
+            <DoDeleteOrNot title="Delete file" message="The file &quot;$STR_REPLACE$&quot; will be moved to your Recycle Bin and this document will be closed. Continue?"/>
+            <NoBackupDoSaveFile title="Save" message="Your backup file cannot be found (deleted from outside). Save it otherwise your data will be lost Do you want to save file &quot;$STR_REPLACE$&quot; ?"/>
+            <DoReloadOrNot title="Reload" message="&quot;$STR_REPLACE$&quot;  This file has been modified by another program. Do you want to reload it?"/>
+            <DoReloadOrNotAndLooseChange title="Reload" message="&quot;$STR_REPLACE$&quot;  This file has been modified by another program. Do you want to reload it and lose the changes made in Notepad++?"/>
+            <PrehistoricSystemDetected title="Prehistoric system detected" message="It seems you still use a prehistoric system. This feature works only on a modern system, sorry."/>
+            <XpUpdaterProblem title="Notepad++ Updater" message="Notepad++ updater is not compatible with XP due to the obsolete security layer under XP. Do you want to go to Notepad++ page to download the latest version?"/>
+            <DocTooDirtyToMonitor title="Monitoring problem" message="The document is dirty. Please save the modification before monitoring it."/>
+            <DocNoExistToMonitor title="Monitoring problem" message="The file should exist to be monitored."/>
+            <FileTooBigToOpen title="File size problem" message="File is too big to be opened by Notepad++"/>
+            <CreateNewFileOrNot title="Create new file" message="&quot;$STR_REPLACE$&quot; doesn't exist. Create it?"/>
+            <CreateNewFileError title="Create new file" message="Cannot create the file &quot;$STR_REPLACE$&quot;."/>
+            <OpenFileError title="ERROR" message="Can not open file &quot;$STR_REPLACE$&quot;."/>
+            <FileBackupFailed title="File Backup Failed" message="The previous version of the file could not be saved into the backup directory at &quot;$STR_REPLACE$&quot;.  Do you want to save the current file anyways?"/>
+            <LoadStylersFailed title="Load stylers.xml failed" message="Load &quot;$STR_REPLACE$&quot; failed!"/>
+            <LoadLangsFailed title="Configurator" message="Load langs.xml failed! Do you want to recover your langs.xml?"/>
+            <LoadLangsFailedFinal title="Configurator" message="Load langs.xml failed!"/>
+            <FolderAsWorspaceSubfolderExists title="Folder as Workspace adding folder problem" message="A sub-folder of the folder you want to add exists. Please remove its root from the panel before you add folder &quot;$STR_REPLACE$&quot;."/>
+
+            <ProjectPanelChanged title="$STR_REPLACE$" message="The workspace was modified. Do you want to save it?"/>
+            <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Your workspace has not been saved."/>
+            <ProjectPanelOpenDoSaveDirtyWsOrNot title="Open Workspace" message="The current workspace was modified. Do you want to save the current project?"/>
+            <ProjectPanelNewDoSaveDirtyWsOrNot title="New Workspace" message="The current workspace was modified. Do you want to save the current project?"/>
+            <ProjectPanelOpenFailed title="Open Workspace" message="The workspace could not be opened. It seems the file to open is not a valid project file."/>
+            <ProjectPanelRemoveFolderFromProject title="Remove folder from project" message="All the sub-items will be removed. Are you sure you want to remove this folder from the project?"/>
+            <ProjectPanelRemoveFileFromProject title="Remove file from project" message="Are you sure you want to remove this file from the project?"/>
+            <ProjectPanelReloadError title="Reload Workspace" message="Cannot find the file to reload."/>
+            <ProjectPanelReloadDirty title="Reload Workspace" message="The current workspace was modified. Reloading will discard all modifications. Do you want to continue?"/>
+            <UDLNewNameError title="UDL Error" message="This name is used by another language, please give another one."/>
+            <UDLRemoveCurrentLang title="Remove the current language" message="Are you sure?"/>
+            <SCMapperDoDeleteOrNot title="Are you sure?" message="Are you sure you want to delete this shortcut?"/>
+            <FindCharRangeValueError title="Range Value problem" message="You should type between 0 and 255."/>
+            <OpenInAdminMode title="Save failed" message="The file cannot be saved and it may be protected. Do you want to launch Notepad++ in Administrator mode?"/>
+            <OpenInAdminModeWithoutCloseCurrent title="Save failed" message="The file cannot be saved and it may be protected. Do you want to launch Notepad++ in Administrator mode?"/>
+            <OpenInAdminModeFailed title="Open in Administrator mode failed" message="Notepad++ cannot be opened in Administrator mode."/>
         </MessageBox>
         <ClipboardHistory>
-			<PanelTitle name="Түр санах ойн түүх"/>
+            <PanelTitle name="Түр санах ойн түүх"/>
         </ClipboardHistory>
         <DocSwitcher>
-			<PanelTitle name="Баримт хооронд шилжигч"/>
-			<ColumnName name="Нэр"/>
-			<ColumnExt name="Өргөтгөл"/>
+            <PanelTitle name="Баримт хооронд шилжигч"/>
+            <ColumnName name="Нэр"/>
+            <ColumnExt name="Өргөтгөл"/>
         </DocSwitcher>
+        <WindowsDlg>
+            <ColumnName name="Name"/>
+            <ColumnPath name="Path"/>
+            <ColumnType name="Type"/>
+        </WindowsDlg>
         <AsciiInsertion>
-			<PanelTitle name="ASCII оруулах талбар"/>
-			<ColumnVal name="Утга"/>
-			<ColumnHex name="16-т"/>
-			<ColumnChar name="Тэмдэгт"/>
+            <PanelTitle name="ASCII оруулах талбар"/>
+            <ColumnVal name="Утга"/>
+            <ColumnHex name="16-т"/>
+            <ColumnChar name="Тэмдэгт"/>
         </AsciiInsertion>
         <DocumentMap>
-			<PanelTitle name="Бичиг баримтын бүтэц"/>
+            <PanelTitle name="Бичиг баримтын бүтэц"/>
         </DocumentMap>
         <FunctionList>
-			<PanelTitle name="Функцийн жагсаалт"/>
-			<SortTip name="Ангилал" />
-			<ReloadTip name="Сэргээх" />
+            <PanelTitle name="Функцийн жагсаалт"/>
+            <SortTip name="Ангилал"/>
+            <ReloadTip name="Сэргээх"/>
         </FunctionList>
+        <FolderAsWorkspace>
+            <PanelTitle name="Folder as Workspace"/>
+            <SelectFolderFromBrowserString name="Select a folder to add in Folder as Workspace panel"/>
+            <Menus>
+                <Item id="3511" name="Remove"/>
+                <Item id="3512" name="Remove All"/>
+                <Item id="3513" name="Add"/>
+                <Item id="3514" name="Run by system"/>
+                <Item id="3515" name="Open"/>
+                <Item id="3516" name="Copy path"/>
+                <Item id="3517" name="Find in Files..."/>
+                <Item id="3518" name="Explorer here"/>
+                <Item id="3519" name="CMD here"/>
+            </Menus>
+        </FolderAsWorkspace>
         <ProjectManager>
             <PanelTitle name="Төсөл"/>
             <WorkspaceRootName name="Ажлын талбар"/>
@@ -912,5 +1099,51 @@
                 </FileMenu>
             </Menus>
         </ProjectManager>
+        <MiscStrings>
+            <!-- $INT_REPLACE$  and $STR_REPLACE$ are a place holders, don't translate these place holders -->
+            <word-chars-list-tip value="This allows you to include additional character into current word characters while double clicking for selection or searching with &quot;Match whole word only&quot; option checked."/>
+            <word-chars-list-warning-begin value="Be aware: "/>
+            <word-chars-list-space-warning value="$INT_REPLACE$ space(s)"/>
+            <word-chars-list-tab-warning value="$INT_REPLACE$ TAB(s)"/>
+            <word-chars-list-warning-end value="  in your character list."/>
+            <cloud-invalid-warning value="Invalid path."/>
+            <cloud-restart-warning value="Please restart Notepad++ to take effect."/>
+            <cloud-select-folder value="Select a folder from/to where Notepad++ reads/writes its settings"/>
+            <shift-change-direction-tip value="Use Shift+Enter to search in the opposite direction"/>
+            <two-find-buttons-tip value="2 find buttons mode"/>
+            <find-status-top-reached value="Find: Found the 1st occurrence from the bottom. The beginning of the document has been reached."/>
+            <find-status-end-reached value="Find: Found the 1st occurrence from the top. The end of the document has been reached."/>
+            <find-status-replaceinfiles-1-replaced value="Replace in Files: 1 occurrence was replaced"/>
+            <find-status-replaceinfiles-nb-replaced value="Replace in Files: $INT_REPLACE$ occurrences were replaced"/>
+            <find-status-replaceinfiles-re-malformed value="Replace in Opened Files: The regular expression is malformed"/>
+            <find-status-replaceinopenedfiles-1-replaced value="Replace in Opened Files: 1 occurrence was replaced"/>
+            <find-status-replaceinopenedfiles-nb-replaced value="Replace in Opened Files: $INT_REPLACE$ occurrences were replaced"/>
+            <find-status-mark-re-malformed value="Mark: The regular expression to search is malformed"/>
+            <find-status-invalid-re value="Find: Invalid regular expression"/>
+            <find-status-mark-1-match value="1 match"/>
+            <find-status-mark-nb-matches value="$INT_REPLACE$ matches"/>
+            <find-status-count-re-malformed value="Count: The regular expression to search is malformed"/>
+            <find-status-count-1-match value="Count: 1 match"/>
+            <find-status-count-nb-matches value="Count: $INT_REPLACE$ matches"/>
+            <find-status-replaceall-re-malformed value="Replace All: The regular expression is malformed"/>
+            <find-status-replaceall-1-replaced value="Replace All: 1 occurrence was replaced"/>
+            <find-status-replaceall-nb-replaced value="Replace All: $INT_REPLACE$ occurrences were replaced"/>
+            <find-status-replaceall-readonly value="Replace All: Cannot replace text. The current document is read only"/>
+            <find-status-replace-end-reached value="Replace: Replaced the 1st occurrence from the top. The end of document has been reached"/>
+            <find-status-replace-top-reached value="Replace: Replaced the 1st occurrence from the bottom. The begin of document has been reached"/>
+            <find-status-replaced-next-found value="Replace: 1 occurrence was replaced. The next occurrence found"/>
+            <find-status-replaced-next-not-found value="Replace: 1 occurrence was replaced. The next occurrence not found"/>
+            <find-status-replace-not-found value="Replace: no occurrence was found"/>
+            <find-status-replace-readonly value="Replace: Cannot replace text. The current document is read only"/>
+            <find-status-cannot-find value="Find: Can't find the text &quot;$STR_REPLACE$&quot;"/>
+            <finder-find-in-finder value="Find in this found results..."/>
+            <finder-close-this value="Close this finder"/>
+            <finder-collapse-all value="Collapse all"/>
+            <finder-uncollapse-all value="Uncollapse all"/>
+            <finder-copy value="Copy"/>
+            <finder-select-all value="Select all"/>
+            <finder-clear-all value="Clear all"/>
+            <finder-open-all value="Open all"/>
+        </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
