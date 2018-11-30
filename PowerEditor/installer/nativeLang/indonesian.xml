@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <NotepadPlus>
-    <Native-Langue name = "Indonesian" filename="indonesian.xml" version="7.5.5">
+    <Native-Langue name="Indonesian" filename="indonesian.xml" version="7.5.5">
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
-                 <Entries>
-                   <Item menuId="file" name="Berkas"/>
+                <Entries>
+                    <Item menuId="file" name="Berkas"/>
                     <Item menuId="edit" name="Edit"/>
                     <Item menuId="search" name="Cari"/>
                     <Item menuId="view" name="Tampilan"/>
@@ -18,13 +18,12 @@
                     <Item idName="Plugins" name="Plugin"/>
                     <Item idName="Window" name="Jendela"/>
                 </Entries>
-
                 <!-- Sub Menu Entries -->
                 <SubEntries>
                     <Item subMenuId="file-openFolder" name="Buka Folder Terkait"/>
                     <Item subMenuId="file-closeMore" name="Tutup Lagi"/>
                     <Item subMenuId="file-recentFiles" name="File Terbaru"/>
-                    <Item subMenuId="edit-copyToClipboard"  name="Salin ke Klipbor"/>
+                    <Item subMenuId="edit-copyToClipboard" name="Salin ke Klipbor"/>
                     <Item subMenuId="edit-indent" name="Indentasi"/>
                     <Item subMenuId="edit-convertCaseTo" name="Ganti Kapitalisasi"/>
                     <Item subMenuId="edit-lineOperations" name="Operasi Baris"/>
@@ -39,32 +38,32 @@
                     <Item subMenuId="search-jumpUp" name="Loncat Naik"/>
                     <Item subMenuId="search-jumpDown" name="Loncat Turun"/>
                     <Item subMenuId="search-bookmark" name="Tanda"/>
-                    <Item subMenuId="view-showSymbol"  name="Tampilkan Simbol"/>
-                    <Item subMenuId="view-zoom"  name="Pembesaran"/>
-                    <Item subMenuId="view-moveCloneDocument"  name="Pindahkan/Duplikatkan Dokumen Ini"/>
-                    <Item subMenuId="view-tab"  name="Tab"/>
+                    <Item subMenuId="view-showSymbol" name="Tampilkan Simbol"/>
+                    <Item subMenuId="view-zoom" name="Pembesaran"/>
+                    <Item subMenuId="view-moveCloneDocument" name="Pindahkan/Duplikatkan Dokumen Ini"/>
+                    <Item subMenuId="view-tab" name="Tab"/>
                     <Item subMenuId="view-collapseLevel" name="Ciutkan Level"/>
                     <Item subMenuId="view-uncollapseLevel" name="Kembangkan Level"/>
                     <Item subMenuId="view-project" name="Proyek"/>
-                    <Item subMenuId="encoding-characterSets"  name="Set Karakter"/>
-                    <Item subMenuId="encoding-arabic"  name="Arab"/>
-                    <Item subMenuId="encoding-baltic"  name="Baltik"/>
-                    <Item subMenuId="encoding-celtic"  name="Seltik"/>
-                    <Item subMenuId="encoding-cyrillic"  name="Sirilik"/>
-                    <Item subMenuId="encoding-centralEuropean"  name="Eropa Tengah"/>
-                    <Item subMenuId="encoding-chinese"  name="Cina"/>
-                    <Item subMenuId="encoding-easternEuropean"  name="Eropa Timur"/>
-                    <Item subMenuId="encoding-greek"  name="Yunani"/>
-                    <Item subMenuId="encoding-hebrew"  name="Ibrani"/>
-                    <Item subMenuId="encoding-japanese"  name="Jepang"/>
+                    <Item subMenuId="encoding-characterSets" name="Set Karakter"/>
+                    <Item subMenuId="encoding-arabic" name="Arab"/>
+                    <Item subMenuId="encoding-baltic" name="Baltik"/>
+                    <Item subMenuId="encoding-celtic" name="Seltik"/>
+                    <Item subMenuId="encoding-cyrillic" name="Sirilik"/>
+                    <Item subMenuId="encoding-centralEuropean" name="Eropa Tengah"/>
+                    <Item subMenuId="encoding-chinese" name="Cina"/>
+                    <Item subMenuId="encoding-easternEuropean" name="Eropa Timur"/>
+                    <Item subMenuId="encoding-greek" name="Yunani"/>
+                    <Item subMenuId="encoding-hebrew" name="Ibrani"/>
+                    <Item subMenuId="encoding-japanese" name="Jepang"/>
                     <Item subMenuId="encoding-korean" name="Korea"/>
                     <Item subMenuId="encoding-northEuropean" name="Eropa Utara"/>
                     <Item subMenuId="encoding-thai" name="Thai"/>
                     <Item subMenuId="encoding-turkish" name="Turki"/>
                     <Item subMenuId="encoding-westernEuropean" name="Eropa Barat"/>
                     <Item subMenuId="encoding-vietnamese" name="Vietnam"/>
-                    <Item subMenuId="settings-import"  name="Impor"/>
-                    <Item subMenuId="tools-md5"  name="MD5"/>
+                    <Item subMenuId="settings-import" name="Impor"/>
+                    <Item subMenuId="tools-md5" name="MD5"/>
                 </SubEntries>
 
                 <!-- all menu item -->
@@ -82,7 +81,7 @@
                     <Item id="41007" name="Simpan Semua"/>
                     <Item id="41008" name="Simpan Sebagai..."/>
                     <Item id="41010" name="Cetak..."/>
-                    <Item id="1001"  name="Cetak Langsung"/>
+                    <Item id="1001" name="Cetak Langsung"/>
                     <Item id="41011" name="Keluar"/>
                     <Item id="41012" name="Muat Sesi..."/>
                     <Item id="41013" name="Simpan Sesi..."/>
@@ -222,8 +221,8 @@
                     <Item id="44019" name="Tampilkan Semua Karakter"/>
                     <Item id="44020" name="Tampilkan Panduan Indentasi"/>
                     <Item id="44022" name="Penggal Baris"/>
-                    <Item id="44023" name="Besarkan	Ctrl+Mouse Wheel Up"/>
-                    <Item id="44024" name="Kecilkan	Ctrl+Mouse Wheel Down"/>
+                    <Item id="44023" name="Besarkan Ctrl+Mouse Wheel Up"/>
+                    <Item id="44024" name="Kecilkan Ctrl+Mouse Wheel Down"/>
                     <Item id="44025" name="Tampilkan Spasi Putih dan TAB"/>
                     <Item id="44026" name="Tampilkan Akhir Baris"/>
                     <Item id="44029" name="Buka Semua Lipatan"/>
@@ -295,21 +294,21 @@
                     <Item id="48018" name="Edit Menu Konteks Munculan"/>
                     <Item id="48009" name="Peta Pintasan..."/>
                     <Item id="48011" name="Preferensi..."/>
-                    <Item id="48501" name="Hasilkan..."/>
-                    <Item id="48502" name="Hasilkan dari berkas..."/>
-                    <Item id="48503" name="Hasilkan ke dalam papan klip"/>
-                    <Item id="49000" name="Jalankan..."/>
+                    <Item id="48015" name="Hasilkan..."/>
+                    <Item id="48501" name="Hasilkan dari berkas..."/>
+                    <Item id="48502" name="Hasilkan ke dalam papan klip"/>
+                    <Item id="48503" name="Jalankan..."/>
+                    <Item id="49000" name="Pelengkapan Fungsi"/>
 
-                    <Item id="50000" name="Pelengkapan Fungsi"/>
-                    <Item id="50001" name="Pelengkapan Kata"/>
-                    <Item id="50002" name="Bantuan Parameter Fungsi"/>
-                    <Item id="50006" name="Pelengkapan Jalur"/>
-                    <Item id="44042" name="Sembunyikan Baris"/>
-                    <Item id="42040" name="Buka Semua Berkas Terbaru"/>
-                    <Item id="42041" name="Kosongkan Daftar Berkas Terbaru"/>
-                    <Item id="48016" name="Ubah Pintasan/Hapus Makro..."/>
-                    <Item id="48017" name="Ubah Pintasan/Hapus Perintah..."/>
-			
+                    <Item id="50000" name="Pelengkapan Kata"/>
+                    <Item id="50001" name="Bantuan Parameter Fungsi"/>
+                    <Item id="50002" name="Pelengkapan Jalur"/>
+                    <Item id="50006" name="Sembunyikan Baris"/>
+                    <Item id="44042" name="Buka Semua Berkas Terbaru"/>
+                    <Item id="42040" name="Kosongkan Daftar Berkas Terbaru"/>
+                    <Item id="42041" name="Ubah Pintasan/Hapus Makro..."/>
+                    <Item id="48016" name="Ubah Pintasan/Hapus Perintah..."/>
+                    <Item id="48017" name="Modify Shortcut/Delete Command..."/>
                 </Commands>
             </Main>
             <Splitter>
@@ -342,9 +341,9 @@
 
         <Dialog>
             <Find title="" titleFind="Cari" titleReplace="Ganti" titleFindInFiles="Cari dalam Berkas" titleMark="Tanda">
-                <Item id="1"    name="Cari Selanjutnya"/>
+                <Item id="1" name="Cari Selanjutnya"/>
                 <Item id="1722" name="Arah mundur"/>
-                <Item id="2"    name="Tutup"/>
+                <Item id="2" name="Tutup"/>
                 <Item id="1620" name="Cari apa:"/>
                 <Item id="1603" name="Cocokkan seluruh kata"/>
                 <Item id="1604" name="Cocokkan kapitalisasi"/>
@@ -393,8 +392,8 @@
             <GoToLine title="Pergi ke...">
                 <Item id="2007" name="Baris"/>
                 <Item id="2008" name="Ofset"/>
-                <Item id="1"    name="Pergi"/>
-                <Item id="2"    name="Tetap di tempat"/>
+                <Item id="1" name="Pergi"/>
+                <Item id="2" name="Tetap di tempat"/>
                 <Item id="2004" name="Anda di sini:"/>
                 <Item id="2005" name="Anda ingin pergi ke:"/>
                 <Item id="2006" name="Anda tidak dapat lewat dari:"/>
@@ -402,25 +401,36 @@
 
             <Run title="Jalankan...">
                 <Item id="1903" name="Program untuk Dijalankan"/>
-                <Item id="1"    name="Jalankan"/>
-                <Item id="2"    name="Batal"/>
+                <Item id="1" name="Jalankan"/>
+                <Item id="2" name="Batal"/>
                 <Item id="1904" name="Simpan..."/>
             </Run>
 
             <MD5FromFilesDlg title="Hasilkan intisari MD5 dari berkas">
                 <Item id="1922" name="Pilih file untuk menghasilkan MD5..."/>
                 <Item id="1924" name="Salin ke papan klip"/>
-                <Item id="2"    name="Tutup"/>
+                <Item id="2" name="Tutup"/>
             </MD5FromFilesDlg>
 
             <MD5FromTextDlg title="Hasilkan intisari MD5">
                 <Item id="1932" name="Perlakukan tiap baris sebagai string terpisah"/>
                 <Item id="1934" name="Salin ke papan klip"/>
-                <Item id="2"    name="Tutup"/>
+                <Item id="2" name="Tutup"/>
             </MD5FromTextDlg>
 
+            <PluginsAdminDlg title="Plugins Admin" titleAvailable="Available" titleUpdates="Updates" titleInstalled="Installed">
+                <ColumnPlugin name="Plugin"/>
+                <ColumnVersion name="Version"/>
+                <Item id="5501" name="Search:"/>
+                <Item id="5503" name="Install"/>
+                <Item id="5504" name="Update"/>
+                <Item id="5505" name="Remove"/>
+                <Item id="5508" name="Next"/>
+                <Item id="2" name="Close"/>
+            </PluginsAdminDlg>
+
             <StyleConfig title="Konfigurator Gaya">
-                <Item id="2"    name="Batal"/>
+                <Item id="2" name="Batal"/>
                 <Item id="2301" name="Simpan  Tutup"/>
                 <Item id="2303" name="Transparansi"/>
                 <Item id="2306" name="Pilih tema: "/>
@@ -448,7 +458,6 @@
                     <Item id="2231" name="Aktifkan gaya huruf miring global"/>
                     <Item id="2232" name="Aktifkan gaya huruf garis bawah global"/>
                 </SubDialog>
-
             </StyleConfig>
 
             <ShortcutMapper title="Peta Pintasan">
@@ -648,7 +657,6 @@
                     <Item id="24672" name="Tutup:"/>
                     <Item id="24673" name="Gaya"/>
                 </Operator>
-
             </UserDefine>
             <Preference title="Preferensi">
                 <Item id="6001" name="Tutup"/>
@@ -672,10 +680,10 @@
                     <Item id="6119" name="Multibaris"/>
                     <Item id="6120" name="Vertikal"/>
                     <Item id="6121" name="Keluar saat tab terakhir ditutup"/>
-			
+
                     <Item id="6122" name="Sembunyikan bilah menu (Tukar dengan Alt/F10)"/>
                     <Item id="6123" name="Pelokalan"/>
-			
+
                     <Item id="6125" name="Panel Daftar Dokumen"/>
                     <Item id="6126" name="Tampilkan"/>
                     <Item id="6127" name="Nonaktifkan ekstensi kolom"/>
@@ -704,9 +712,8 @@
                     <Item id="6207" name="Tampilkan tanda"/>
                     <Item id="6208" name="Tampilkan batas vertikal"/>
                     <Item id="6209" name="Jumlah kolom: "/>
-                    <Item id="6234" name="Nonaktifkan fitur gulir lanjutan
-(bila Anda memiliki masalah touchpad)"/>
-			
+                    <Item id="6234" name="Nonaktifkan fitur gulir lanjutan (bila Anda memiliki masalah touchpad)"/>
+
                     <Item id="6211" name="Pengaturan Batas Vertikal"/>
                     <Item id="6212" name="Modus baris"/>
                     <Item id="6213" name="Modus latar"/>
@@ -716,7 +723,7 @@
                     <Item id="6235" name="Tanpa tepian"/>
                     <Item id="6236" name="Aktifkan pengguliran di luar baris terakhir"/>
                 </Scintillas>
-		    
+
                 <NewDoc title="Dokumen Baru">
                     <Item id="6401" name="Format"/>
                     <Item id="6402" name="Windows"/>
@@ -732,7 +739,7 @@
                     <Item id="6419" name="Dokumen Baru"/>
                     <Item id="6420" name="Terapkan untuk berkas ANSI"/>
                 </NewDoc>
-		    
+
                 <DefaultDir title="Direktori Baku">
                     <Item id="6413" name="Direktori Baku (Buka/Simpan)"/>
                     <Item id="6414" name="Ikuti dokumen aktif"/>
@@ -798,7 +805,7 @@
                     <Item id="6727" name="Di sini tampilan pengaturan variabel Anda"/>
                     <Item id="6728" name="Kepala and Kaki"/>
                 </Print>
-		    
+
                 <RecentFilesHistory title="Riwayat File Terbaru">
                     <Item id="6304" name="Riwayat File Terbaru"/>
                     <Item id="6306" name="Jumlah entri maks. :"/>
@@ -860,8 +867,7 @@
                     <Item id="6256" name="Izinkan pada beberapa baris"/>
                     <Item id="6161" name="Daftar karakter kata"/>
                     <Item id="6162" name="Gunakan daftar karakter Kata bawaan seperti apa adanya"/>
-                    <Item id="6163" name="Tambahkan karakter Anda sebagai bagian dari kata
-(jangan pilih kecuali Anda tahu apa yang Anda lakukan)"/>
+                    <Item id="6163" name="Tambahkan karakter Anda sebagai bagian dari kata (jangan pilih kecuali Anda tahu apa yang Anda lakukan)"/>
                 </Delimiter>
 
                 <Cloud title="Awan">
@@ -869,7 +875,7 @@
                     <Item id="6263" name="Tanpa awan"/>
                     <Item id="6267" name="Atur jalur lokasi awan Anda di sini:"/>
                 </Cloud>
-                
+
                 <SearchEngine title="Mesin Pencari">
                     <Item id="6271" name="Mesin Pencari (untuk perintah &quot;Cari di Internet&quot;)"/>
                     <Item id="6272" name="DuckDuckGo"/>
@@ -877,7 +883,7 @@
                     <Item id="6274" name="Bing"/>
                     <Item id="6275" name="Yahoo!"/>
                     <Item id="6276" name="Atur mesin pencari Anda di sini:"/>
-                    <!-- Jangan ubah apapun setelah Contoh: -->
+                    <!-- Don't change anything after Example: -->
                     <Item id="6278" name="Contoh: https://www.google.com/search?q=$(CURRENT_WORD)"/>
                 </SearchEngine>
 
@@ -904,7 +910,6 @@
                     <Item id="6345" name="Intip di tab"/>
                     <Item id="6346" name="Intip di peta dokumen"/>
                 </MISC>
-
             </Preference>
             <MultiMacro title="Jalankan Makro Beberapa Kali">
                 <Item id="1" name="Jalankan"/>
@@ -937,8 +942,8 @@
                 <Item id="2" name="Batal"/>
             </ColumnEditor>
             <FindInFinder title="Cari di pencari">
-                <Item id="1"    name="Cari Semua"/>
-                <Item id="2"    name="Tutup"/>
+                <Item id="1" name="Cari Semua"/>
+                <Item id="2" name="Tutup"/>
                 <Item id="1711" name="Cari apa :"/>
                 <Item id="1713" name="Hanya cari di baris yang ditemukan"/>
                 <Item id="1714" name="Cocokkan seluruh kata"/>
@@ -949,10 +954,62 @@
                 <Item id="1718" name="Lanjut (\n, \r, \t, \0, \x...)"/>
                 <Item id="1720" name=". cocokkan baris baru"/>
             </FindInFinder>
-		</Dialog>
-        <MessageBox> <!-- $INT_REPLACE$ adalah tempat dudukan, jangan diterjemahkan -->
-		<!-- Dari bagian ini -->
-		<!-- Sengaja dikosongkan. Penerjemah: "I am human not robot." ;Nicedward; -->
+        </Dialog>
+        <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
+            <ContextMenuXmlEditWarning title="Editing contextMenu" message="Editing contextMenu.xml allows you to modify your Notepad++ popup context menu. You have to restart your Notepad++ to take effect after modifying contextMenu.xml."/>
+            <NppHelpAbsentWarning title="File does not exist" message=" doesn't exist. Please download it on Notepad++ site."/>
+            <SaveCurrentModifWarning title="Save Current Modification" message="You should save the current modification. All the saved modifications can not be undone.  Continue?"/>
+            <LoseUndoAbilityWarning title="Lose Undo Ability Warning" message="You should save the current modification. All the saved modifications can not be undone.  Continue?"/>
+            <CannotMoveDoc title="Move to new Notepad++ Instance" message="Document is modified, save it then try again."/>
+            <DocReloadWarning title="Reload" message="Are you sure you want to reload the current file and lose the changes made in Notepad++?"/>
+            <FileLockedWarning title="Save failed" message="Please check whether if this file is opened in another program"/>
+            <FileAlreadyOpenedInNpp title="" message="The file is already opened in the Notepad++."/>
+            <DeleteFileFailed title="Delete File" message="Delete File failed"/>
+
+            <NbFileToOpenImportantWarning title="Amount of files to open is too large" message="$INT_REPLACE$ files are about to be opened. Are you sure to open them?"/>
+            <SettingsOnCloudError title="Settings on Cloud" message="It seems the path of settings on cloud is set on a read only drive, or on a folder needed privilege right for writing access. Your settings on cloud will be canceled. Please reset a coherent value via Preference dialog."/>
+            <FilePathNotFoundWarning title="File Open" message="The file you're trying to open doesn't exist."/>
+            <SessionFileInvalidError title="Could not Load Session" message="Session file is either corrupted or not valid."/>
+            <DroppingFolderAsProjectModeWarning title="Invalid action" message="You can only drop files or folders but not both, because you're in dropping Folder as Project mode. you have to enable &quot;Open all files of folder instead of launching Folder as Workspace on folder dropping&quot; in &quot;Default Directory&quot; section of Preferences dialog to make this operation work."/>
+            <SortingError title="Sorting Error" message="Unable to perform numeric sorting due to line $INT_REPLACE$."/>
+            <ColumnModeTip title="Column Mode Tip" message="Please use &quot;ALT+Mouse Selection&quot; or &quot;Alt+Shift+Arrow key&quot; to switch to column mode."/>
+            <BufferInvalidWarning title="Save failed" message="Cannot save: Buffer is invalid."/>
+            <DoSaveOrNot title="Save" message="Save file &quot;$STR_REPLACE$&quot; ?"/>
+            <DoCloseOrNot title="Keep non existing file" message="The file &quot;$STR_REPLACE$&quot; doesn't exist anymore. Keep this file in editor?"/>
+            <DoDeleteOrNot title="Delete file" message="The file &quot;$STR_REPLACE$&quot; will be moved to your Recycle Bin and this document will be closed. Continue?"/>
+            <NoBackupDoSaveFile title="Save" message="Your backup file cannot be found (deleted from outside). Save it otherwise your data will be lost Do you want to save file &quot;$STR_REPLACE$&quot; ?"/>
+            <DoReloadOrNot title="Reload" message="&quot;$STR_REPLACE$&quot;  This file has been modified by another program. Do you want to reload it?"/>
+            <DoReloadOrNotAndLooseChange title="Reload" message="&quot;$STR_REPLACE$&quot;  This file has been modified by another program. Do you want to reload it and lose the changes made in Notepad++?"/>
+            <PrehistoricSystemDetected title="Prehistoric system detected" message="It seems you still use a prehistoric system. This feature works only on a modern system, sorry."/>
+            <XpUpdaterProblem title="Notepad++ Updater" message="Notepad++ updater is not compatible with XP due to the obsolete security layer under XP. Do you want to go to Notepad++ page to download the latest version?"/>
+            <DocTooDirtyToMonitor title="Monitoring problem" message="The document is dirty. Please save the modification before monitoring it."/>
+            <DocNoExistToMonitor title="Monitoring problem" message="The file should exist to be monitored."/>
+            <FileTooBigToOpen title="File size problem" message="File is too big to be opened by Notepad++"/>
+            <CreateNewFileOrNot title="Create new file" message="&quot;$STR_REPLACE$&quot; doesn't exist. Create it?"/>
+            <CreateNewFileError title="Create new file" message="Cannot create the file &quot;$STR_REPLACE$&quot;."/>
+            <OpenFileError title="ERROR" message="Can not open file &quot;$STR_REPLACE$&quot;."/>
+            <FileBackupFailed title="File Backup Failed" message="The previous version of the file could not be saved into the backup directory at &quot;$STR_REPLACE$&quot;.  Do you want to save the current file anyways?"/>
+            <LoadStylersFailed title="Load stylers.xml failed" message="Load &quot;$STR_REPLACE$&quot; failed!"/>
+            <LoadLangsFailed title="Configurator" message="Load langs.xml failed! Do you want to recover your langs.xml?"/>
+            <LoadLangsFailedFinal title="Configurator" message="Load langs.xml failed!"/>
+            <FolderAsWorspaceSubfolderExists title="Folder as Workspace adding folder problem" message="A sub-folder of the folder you want to add exists. Please remove its root from the panel before you add folder &quot;$STR_REPLACE$&quot;."/>
+
+            <ProjectPanelChanged title="$STR_REPLACE$" message="The workspace was modified. Do you want to save it?"/>
+            <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Your workspace has not been saved."/>
+            <ProjectPanelOpenDoSaveDirtyWsOrNot title="Open Workspace" message="The current workspace was modified. Do you want to save the current project?"/>
+            <ProjectPanelNewDoSaveDirtyWsOrNot title="New Workspace" message="The current workspace was modified. Do you want to save the current project?"/>
+            <ProjectPanelOpenFailed title="Open Workspace" message="The workspace could not be opened. It seems the file to open is not a valid project file."/>
+            <ProjectPanelRemoveFolderFromProject title="Remove folder from project" message="All the sub-items will be removed. Are you sure you want to remove this folder from the project?"/>
+            <ProjectPanelRemoveFileFromProject title="Remove file from project" message="Are you sure you want to remove this file from the project?"/>
+            <ProjectPanelReloadError title="Reload Workspace" message="Cannot find the file to reload."/>
+            <ProjectPanelReloadDirty title="Reload Workspace" message="The current workspace was modified. Reloading will discard all modifications. Do you want to continue?"/>
+            <UDLNewNameError title="UDL Error" message="This name is used by another language, please give another one."/>
+            <UDLRemoveCurrentLang title="Remove the current language" message="Are you sure?"/>
+            <SCMapperDoDeleteOrNot title="Are you sure?" message="Are you sure you want to delete this shortcut?"/>
+            <FindCharRangeValueError title="Range Value problem" message="You should type between 0 and 255."/>
+            <OpenInAdminMode title="Save failed" message="The file cannot be saved and it may be protected. Do you want to launch Notepad++ in Administrator mode?"/>
+            <OpenInAdminModeWithoutCloseCurrent title="Save failed" message="The file cannot be saved and it may be protected. Do you want to launch Notepad++ in Administrator mode?"/>
+            <OpenInAdminModeFailed title="Open in Administrator mode failed" message="Notepad++ cannot be opened in Administrator mode."/>
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="Riwayat Papan klip"/>
@@ -978,8 +1035,8 @@
         </DocumentMap>
         <FunctionList>
             <PanelTitle name="Daftar Fungsi"/>
-            <SortTip name="Urutkan" />
-            <ReloadTip name="Muat ulang" />
+            <SortTip name="Urutkan"/>
+            <ReloadTip name="Muat ulang"/>
         </FunctionList>
         <FolderAsWorkspace>
             <PanelTitle name="Folder sebagai Ruang kerja"/>
@@ -1043,7 +1100,7 @@
             </Menus>
         </ProjectManager>
         <MiscStrings>
-            <!-- $INT_REPLACE$ dan $STR_REPLACE$ adalah tempat dudukan, jangan diterjemahkan. -->
+            <!-- $INT_REPLACE$  and $STR_REPLACE$ are a place holders, don't translate these place holders -->
             <word-chars-list-tip value="Mengizinkan Anda memasukkan karakter tambahan ke dalam karakter kata saat ini sambil mengklik ganda untuk memilih atau mencari dengan &quot;Hanya cocokkan seluruh kata&quot; opsi dicentang."/>
             <word-chars-list-warning-begin value="Waspada: "/>
             <word-chars-list-space-warning value="$INT_REPLACE$ spasi"/>
