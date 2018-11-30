@@ -87,4 +87,4 @@ files:
         cy: welsh
     content_segmentation: 0
     translatable_elements:
-      - '/*/[@name]'
+      - '/*/*/[@name]'
