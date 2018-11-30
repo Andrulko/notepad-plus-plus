@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NotepadPlus>
-    <Native-Langue name="Sinhala" filename="sinhala.xml" version="7.5.5">
+    <Native-Langue name="English" filename="english.xml" version="7.5.5">
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
                 <Entries>
-                    <Item menuId="file" name="ගොනුව"/>
-                    <Item menuId="edit" name="සකසන්න"/>
-                    <Item menuId="search" name="සොයන්න"/>
-                    <Item menuId="view" name="දක්වන්න"/>
-                    <Item menuId="encoding" name="කේතන"/>
-                    <Item menuId="language" name="භාෂාව"/>
-                    <Item menuId="settings" name="සිටවුම්"/>
-                    <Item menuId="tools" name="නියෝග එකලස"/>
-                    <Item menuId="macro" name="ධාවනය"/>
-                    <Item menuId="run" name="පේනු මෘදුකාංග"/>
-                    <Item idName="Plugins" name="කවුළුව"/>
+                    <Item menuId="file" name="&amp;File"/>
+                    <Item menuId="edit" name="&amp;Edit"/>
+                    <Item menuId="search" name="&amp;Search"/>
+                    <Item menuId="view" name="&amp;View"/>
+                    <Item menuId="encoding" name="E&amp;ncoding"/>
+                    <Item menuId="language" name="&amp;Language"/>
+                    <Item menuId="settings" name="Se&amp;ttings"/>
+                    <Item menuId="tools" name="To&amp;ols"/>
+                    <Item menuId="macro" name="&amp;Macro"/>
+                    <Item menuId="run" name="&amp;Run"/>
+                    <Item idName="Plugins" name="&amp;Plugins"/>
                     <Item idName="Window" name="&amp;Window"/>
                 </Entries>
                 <!-- Sub Menu Entries -->
                 <SubEntries>
-                    <Item subMenuId="file-openFolder" name="ඇමුණුම් පුවරුවට පිටපත් කිරීම "/>
-                    <Item subMenuId="file-closeMore" name="එබුම"/>
-                    <Item subMenuId="file-recentFiles" name="අක්ෂර තත්වය පෙරලීම "/>
-                    <Item subMenuId="edit-copyToClipboard" name="පේලි විධාන"/>
-                    <Item subMenuId="edit-indent" name="විවේචන දැක්වීම "/>
-                    <Item subMenuId="edit-convertCaseTo" name="ස්වයංක්‍රීය පූරණය"/>
-                    <Item subMenuId="edit-lineOperations" name="EOL පරිවර්තනය "/>
-                    <Item subMenuId="edit-comment" name="ශුන්‍ය කර්ම"/>
-                    <Item subMenuId="edit-autoCompletion" name="විශේෂ ඇලවීම"/>
-                    <Item subMenuId="edit-eolConversion" name="සියල්ල ලකුණු කරන්න"/>
-                    <Item subMenuId="edit-blankOperations" name="සියල්ල නිලකුණු කරන්න"/>
-                    <Item subMenuId="edit-pasteSpecial" name="ඉහල පෙල පැනීම"/>
-                    <Item subMenuId="edit-onSelection" name="පහල පෙල පැනීම"/>
-                    <Item subMenuId="search-markAll" name="පිටුසන"/>
-                    <Item subMenuId="search-unmarkAll" name="සලකුණ පෙන්වන්න"/>
-                    <Item subMenuId="search-jumpUp" name="විශාලනය"/>
-                    <Item subMenuId="search-jumpDown" name="වත්මන් ලේඛනය ගෙනයාම/ක්ලෝනීකරණය "/>
-                    <Item subMenuId="search-bookmark" name="මට්ටම හැකිලීම"/>
-                    <Item subMenuId="view-showSymbol" name="මට්ටම දිග හැරීම"/>
-                    <Item subMenuId="view-zoom" name="ව්‍යාපෘතිය"/>
-                    <Item subMenuId="view-moveCloneDocument" name="අක්ෂර කුලකය"/>
-                    <Item subMenuId="view-tab" name="අරාබි"/>
-                    <Item subMenuId="view-collapseLevel" name="බෝල්ටික්"/>
-                    <Item subMenuId="view-uncollapseLevel" name="සෙල්ටික්"/>
-                    <Item subMenuId="view-project" name="සිරිලික් "/>
-                    <Item subMenuId="encoding-characterSets" name="මධ්‍ය යුරෝපීය"/>
-                    <Item subMenuId="encoding-arabic" name="චීන"/>
-                    <Item subMenuId="encoding-baltic" name="නැගෙනහිර යුරෝපීය"/>
-                    <Item subMenuId="encoding-celtic" name="ග්‍රීක"/>
-                    <Item subMenuId="encoding-cyrillic" name="හීබෘ"/>
-                    <Item subMenuId="encoding-centralEuropean" name="ජපන්"/>
-                    <Item subMenuId="encoding-chinese" name="කොරියන්"/>
-                    <Item subMenuId="encoding-easternEuropean" name="උතුරු යුරෝපීය"/>
-                    <Item subMenuId="encoding-greek" name="තායි"/>
-                    <Item subMenuId="encoding-hebrew" name="තුර්කි"/>
-                    <Item subMenuId="encoding-japanese" name="බටහිර යුරෝපීය"/>
-                    <Item subMenuId="encoding-korean" name="වියට්නාම"/>
-                    <Item subMenuId="encoding-northEuropean" name="ආයාත කරන්න"/>
+                    <Item subMenuId="file-openFolder" name="Open Containing Folder"/>
+                    <Item subMenuId="file-closeMore" name="Close More"/>
+                    <Item subMenuId="file-recentFiles" name="&amp;Recent Files"/>
+                    <Item subMenuId="edit-copyToClipboard" name="Copy to Clipboard"/>
+                    <Item subMenuId="edit-indent" name="Indent"/>
+                    <Item subMenuId="edit-convertCaseTo" name="Convert Case to"/>
+                    <Item subMenuId="edit-lineOperations" name="Line Operations"/>
+                    <Item subMenuId="edit-comment" name="Comment/Uncomment"/>
+                    <Item subMenuId="edit-autoCompletion" name="Auto-Completion"/>
+                    <Item subMenuId="edit-eolConversion" name="EOL Conversion"/>
+                    <Item subMenuId="edit-blankOperations" name="Blank Operations"/>
+                    <Item subMenuId="edit-pasteSpecial" name="Paste Special"/>
+                    <Item subMenuId="edit-onSelection" name="On Selection"/>
+                    <Item subMenuId="search-markAll" name="Mark All"/>
+                    <Item subMenuId="search-unmarkAll" name="Unmark All"/>
+                    <Item subMenuId="search-jumpUp" name="Jump Up"/>
+                    <Item subMenuId="search-jumpDown" name="Jump Down"/>
+                    <Item subMenuId="search-bookmark" name="Bookmark"/>
+                    <Item subMenuId="view-showSymbol" name="Show Symbol"/>
+                    <Item subMenuId="view-zoom" name="Zoom"/>
+                    <Item subMenuId="view-moveCloneDocument" name="Move/Clone Current Document"/>
+                    <Item subMenuId="view-tab" name="Tab"/>
+                    <Item subMenuId="view-collapseLevel" name="Collapse Level"/>
+                    <Item subMenuId="view-uncollapseLevel" name="Uncollapse Level"/>
+                    <Item subMenuId="view-project" name="Project"/>
+                    <Item subMenuId="encoding-characterSets" name="Character Set"/>
+                    <Item subMenuId="encoding-arabic" name="Arabic"/>
+                    <Item subMenuId="encoding-baltic" name="Baltic"/>
+                    <Item subMenuId="encoding-celtic" name="Celtic"/>
+                    <Item subMenuId="encoding-cyrillic" name="Cyrillic"/>
+                    <Item subMenuId="encoding-centralEuropean" name="Central European"/>
+                    <Item subMenuId="encoding-chinese" name="Chinese"/>
+                    <Item subMenuId="encoding-easternEuropean" name="Eastern European"/>
+                    <Item subMenuId="encoding-greek" name="Greek"/>
+                    <Item subMenuId="encoding-hebrew" name="Hebrew"/>
+                    <Item subMenuId="encoding-japanese" name="Japanese"/>
+                    <Item subMenuId="encoding-korean" name="Korean"/>
+                    <Item subMenuId="encoding-northEuropean" name="North European"/>
                     <Item subMenuId="encoding-thai" name="Thai"/>
                     <Item subMenuId="encoding-turkish" name="Turkish"/>
                     <Item subMenuId="encoding-westernEuropean" name="Western European"/>
@@ -68,177 +68,177 @@
 
                 <!-- all menu item -->
                 <Commands>
-                    <Item id="41001" name="නව"/>
-                    <Item id="41002" name="විවෘත කරන්න"/>
-                    <Item id="41019" name="වසන්න"/>
-                    <Item id="41020" name="සියල්ල වසන්න"/>
-                    <Item id="41003" name="වර්තමාන ගොනුව හැර අනෙක් ගොනු සියල්ල වසන්න "/>
-                    <Item id="41004" name="සුරකින්න"/>
-                    <Item id="41005" name="සියල්ල සුරකින්න"/>
-                    <Item id="41009" name="මෙලෙස සුරකින්න..."/>
-                    <Item id="41018" name="මුද්‍රණය කරන්න..."/>
-                    <Item id="41006" name="දැන් මුද්‍රණය කරන්න"/>
-                    <Item id="41007" name="පිටවන්න"/>
-                    <Item id="41008" name="සැසිය ප්‍රවේශනය කරන්න..."/>
-                    <Item id="41010" name="සැසිය සුරකින්න..."/>
-                    <Item id="1001" name="තැටියෙන් නැවත ප්‍රවේශනය කරන්න"/>
-                    <Item id="41011" name="පිටපතක් මෙලෙස සුරකින්න..."/>
-                    <Item id="41012" name="තැටියෙන් මකන්න"/>
-                    <Item id="41013" name="නැවත නම්කරන්න..."/>
-                    <Item id="41014" name="කපන්න"/>
-                    <Item id="41015" name="පිටපත් කරන්න"/>
-                    <Item id="41016" name="නිෂ්ප්‍රභ කරන්න"/>
-                    <Item id="41017" name="නැවත කරන්න"/>
-                    <Item id="41021" name="අලවන්න"/>
-                    <Item id="41022" name="මකන්න"/>
-                    <Item id="41023" name="සියල්ල තෝරන්න"/>
-                    <Item id="42001" name="පේලි එබුම වැඩිකරන්න"/>
-                    <Item id="42002" name="පේලි එබුම අඩුකරන්න"/>
-                    <Item id="42003" name="වර්තමාන පේලිය අනුපිටපත් කරන්න "/>
-                    <Item id="42004" name="පේලි බෙදන්න"/>
-                    <Item id="42005" name="පේලි එක්කරන්න"/>
-                    <Item id="42006" name="වත්මන් පේලිය ඉහලට ගෙන යන්න"/>
-                    <Item id="42007" name="වත්මන් පේලිය පහලට ගෙන යන්න"/>
-                    <Item id="42020" name="ලොකු අකුරු"/>
-                    <Item id="42008" name="කුඩා අකුරු"/>
-                    <Item id="42009" name="රෙකෝඩය ආරම්භ   කිරීම "/>
-                    <Item id="42010" name="රෙකෝඩය අවසාන කිරීම "/>
-                    <Item id="42012" name="නැවත වාදනය"/>
-                    <Item id="42013" name="ඒකක ටොගල විවේචන"/>
-                    <Item id="42014" name="ප්‍රවාහ විවේචන"/>
-                    <Item id="42015" name="ප්‍රමුඛ හිඩැස සිඳීම"/>
-                    <Item id="42059" name="ප්‍රමුඛ  හා  දිවෙන  හිඩැස්  සිඳීම "/>
-                    <Item id="42060" name="EOL සිට හිඩැස්  දක්වා "/>
-                    <Item id="42061" name="අනවශ්‍ය  හිඩැස්  හා  EOL ඉවත්  කිරීම "/>
-                    <Item id="42062" name="පටිත්ත  සිට හිඩැස් දක්වා "/>
-                    <Item id="42063" name="හිඩැස්  සිට  පටිත්ත දක්වා "/>
-                    <Item id="42064" name="දිවෙන හිඩැස්  සිඳීම "/>
-                    <Item id="42065" name="දැනට  රේකොඩිත නියෝග එකලස සුරකින්න "/>
-                    <Item id="42066" name="දකුණේ සිට වමට අක්ෂර"/>
-                    <Item id="42016" name="වමේ සිට දකුණට අක්ෂර"/>
-                    <Item id="42017" name="පඨන  මාත්‍ර  සක්‍රීය කරන්න "/>
-                    <Item id="42067" name="වත්මන් ගොනු පෙත ඇමුණුම් පුවරුවට"/>
-                    <Item id="42068" name="වත්මන් ගොනු නාමය ඇමුණුම් පුවරුවට"/>
-                    <Item id="42069" name="වත්මන් ඩිරෙක්ටරිය ඇමුණුම් පුවරුවට"/>
-                    <Item id="42070" name="නියෝග එකලස වරකට වඩා ක්‍රියා කරවීම"/>
-                    <Item id="42071" name="පඨන  මාත්‍ර  සලකුණ හිස් කරන්න"/>
-                    <Item id="42072" name="විවේචන පහසුකම සිර කරන්න"/>
-                    <Item id="42073" name="අවිවේචන පහසුකම සිර කරන්න"/>
-                    <Item id="42074" name="සොයන්න..."/>
-                    <Item id="42075" name="ඊලඟ සෙවීම "/>
-                    <Item id="42076" name="ප්‍රතිස්ථාපනය කරන්න..."/>
-                    <Item id="42018" name="වෙත යන්න..."/>
-                    <Item id="42019" name="ටොගල පිටුසන"/>
-                    <Item id="42021" name="ඊලඟ පිටුසන"/>
-                    <Item id="42022" name="පෙර පිටුසන"/>
-                    <Item id="42023" name="සියලු පිටුසන් හිස් කරන්න"/>
-                    <Item id="42047" name="ගැලපෙන සඟල වරහනට යන්න"/>
-                    <Item id="42024" name="පෙර සොයන්න"/>
-                    <Item id="42042" name="වෘද්ධිමය සෙවීම"/>
-                    <Item id="42043" name="ගොනු තුල සොයන්න"/>
-                    <Item id="42044" name="මීළඟ සෙවුම (චංචල)"/>
-                    <Item id="42045" name="පෙර සෙවුම (චංචල)  "/>
-                    <Item id="42046" name="සියල්ල ලකුණු කරන්න"/>
-                    <Item id="42054" name="සියල්ල නිලකුණු කරන්න"/>
-                    <Item id="42053" name="පිටුසන්කල පේලි කපන්න"/>
-                    <Item id="42038" name="පිටුසන්කල පේලි පිටපත්කරන්න"/>
-                    <Item id="42039" name="පිටුසන් කල පේලි වලට අලවන්න (ප්‍රතිස්ථාපනය)"/>
-                    <Item id="42048" name="පිටුසන්කල පේලි මකන්න"/>
-                    <Item id="42049" name="පළමු විලාසය භාවිතය"/>
-                    <Item id="42050" name="පළමු විලාසය හිස් කරන්න"/>
-                    <Item id="42037" name="දෙවන විලාසය භාවිතය"/>
-                    <Item id="42034" name="දෙවන විලාසය හිස් කරන්න"/>
-                    <Item id="42051" name="තෙවන විලාසය භාවිතය"/>
-                    <Item id="42052" name="තෙවන විලාසය හිස් කරන්න"/>
-                    <Item id="42025" name="සිව් වැනි විලාසය භාවිතය"/>
-                    <Item id="42026" name="සිව් වැනි විලාසය හිස් කරන්න"/>
-                    <Item id="42027" name="පස් වැනි විලාසය භාවිතය"/>
-                    <Item id="42028" name="පස් වැනි විලාස හිස් කරන්න"/>
-                    <Item id="42029" name="සියලු විලාසයන් හිස් කරන්න"/>
-                    <Item id="42030" name="පලමු විලාසය"/>
-                    <Item id="42031" name="දෙවන විලාසය"/>
-                    <Item id="42032" name="තෙවන විලාසය"/>
-                    <Item id="42033" name="සිව්වන විලාසය"/>
-                    <Item id="42035" name="පස්වන විලාසය"/>
-                    <Item id="42036" name="විලාසය සොයන්න"/>
-                    <Item id="42055" name="පලමු විලාසය"/>
-                    <Item id="42056" name="දෙවන විලාසය"/>
-                    <Item id="42057" name="තෙවන විලාසය "/>
-                    <Item id="42058" name="සිව්වන විලාසය"/>
-                    <Item id="43001" name="පස්වන විලාසය"/>
-                    <Item id="43002" name="විලාසය සොයන්න"/>
-                    <Item id="43003" name="ප්‍රතිඵල කවුළුව සොයන්න"/>
-                    <Item id="43004" name="ඊලඟ සෙවුම් ප්‍රතිඵලය"/>
-                    <Item id="43005" name="පෙර සෙවුම් ප්‍රතිඵලය"/>
-                    <Item id="43006" name="මෙවැනි ඊලග සෙවුම"/>
-                    <Item id="43007" name="මෙවැනි කලින් සෙවුම"/>
-                    <Item id="43008" name="ප්‍රතිලෝම පොත් යොමුව"/>
-                    <Item id="43018" name="පල කරන්න"/>
-                    <Item id="43019" name="සියල්ල නවන්න"/>
-                    <Item id="43020" name="පරිශීලක නිර්වාචිත  සංවාදය"/>
-                    <Item id="43021" name="සියලු අක්ෂර පෙන්වන්න"/>
-                    <Item id="43051" name="අනුඡේද  නියමුව පෙන්වන්න"/>
-                    <Item id="43050" name="දවටන්න"/>
-                    <Item id="43052" name="විශාල කරන්න තුළට  Ctrl+Mouse Wheel Up"/>
-                    <Item id="43053" name="විශාල කරන්න පිටට Ctrl+Mouse Wheel Down"/>
-                    <Item id="43009" name="ඉඩ සහ පිම්ම පෙන්වන්න"/>
-                    <Item id="43010" name="පේලියේ අවසානය පෙන්වන්න"/>
-                    <Item id="43011" name="සියල්ල දිගහරින්න"/>
-                    <Item id="43013" name="වත්මන් මට්ටම හකුලන්න"/>
-                    <Item id="43014" name="වත්මන් මට්ටම දිග හරින්න"/>
-                    <Item id="43015" name="ටොගල පුන් තිර ප්‍රකාරය"/>
-                    <Item id="43022" name="පෙරනිමි විශාලනයට පිළිනගන්න"/>
-                    <Item id="43023" name="සැමවිටම ඉහලින්"/>
-                    <Item id="43024" name="සාරාංශය..."/>
-                    <Item id="43025" name="සිරස් අනුචලනය සමකාලීන කරන්න"/>
-                    <Item id="43026" name="තිරස්  අනුචලනය සමකාලීන කරන්න"/>
-                    <Item id="43027" name="දැවටු සලකුණ පෙන්වන්න"/>
-                    <Item id="43028" name="තවත් නිරීක්ෂණයක් සදහා නාභිගත කරන්න"/>
-                    <Item id="43029" name="ව්‍යාපෘති පුවරුව 1"/>
-                    <Item id="43030" name="ව්‍යාපෘති පුවරුව 2"/>
-                    <Item id="43031" name="ව්‍යාපෘති පුවරුව 3"/>
-                    <Item id="43032" name="වින්ඩෝස් ආකෘතියට හරවන්න"/>
-                    <Item id="43033" name="යුනික්ස් ආකෘතියට හරවන්න"/>
-                    <Item id="43034" name="මැක් ආකෘතියට හරවන්න"/>
-                    <Item id="43035" name="ANSI කේතාංකනය"/>
-                    <Item id="43036" name="UTF-8 කේතාංකනය"/>
-                    <Item id="43037" name="UCS-2 Big Endian කේතාංකනය"/>
-                    <Item id="43038" name="UCS-2 Little Endian කේතාංකනය"/>
-                    <Item id="43039" name="UTF-8 කේතාංකනය BOM නොමැතිව"/>
-                    <Item id="43040" name="ANSI වලට පරිවර්තනය කරන්න"/>
-                    <Item id="43041" name="UTF-8 වලට පරිවර්තනය කරන්න BOM නොමැතිව"/>
-                    <Item id="43042" name="UTF-8 වලට පරිවර්තනය කරන්න"/>
-                    <Item id="43043" name="UCS-2 වලට පරිවර්තනය කරන්න(Big Endian)"/>
-                    <Item id="43044" name="UCS-2 වලට පරිවර්තනය කරන්න(Little Endian)"/>
-                    <Item id="43045" name="වෙනත් පෙනුමක් සදහා යොමුවන්න"/>
-                    <Item id="43046" name="පෙනුම ක්ලෝන් කරන්න"/>
-                    <Item id="43047" name="නව ප්‍රස්තාවක් සඳහා යොමු වන්න"/>
-                    <Item id="43048" name="නව ප්‍රස්තාවක විවෘත කරන්න"/>
-                    <Item id="43049" name="විලාස වින්‍යාසකය..."/>
-                    <Item id="43054" name="පරිශීලක-අර්ථ දැක්වූ"/>
-                    <Item id="44009" name="Notepad++ ගැන"/>
-                    <Item id="44010" name="Notepad++ නිවස"/>
-                    <Item id="44019" name="Notepad++ ව්‍යාපෘති පිටුව"/>
-                    <Item id="44020" name="සබැඳි ප්‍රලේඛනය"/>
-                    <Item id="44022" name="සංසදය"/>
-                    <Item id="44023" name="තවත් පේනු මෘදුකාංග ලබා ගන්න"/>
-                    <Item id="44024" name="Notepad++ යාවත්කාලීන කරන්න"/>
-                    <Item id="44025" name="අන්තර්ගත උදව්"/>
-                    <Item id="44026" name="පේනු මෘදුකාංග ආයාතකරන්න..."/>
-                    <Item id="44029" name="තේමා ආයාත කරන්න ..."/>
-                    <Item id="44030" name="කෙටිමං සිතියම්කාරකය..."/>
-                    <Item id="44031" name="අභිරුචීන්..."/>
-                    <Item id="44049" name="ධාවනය..."/>
-                    <Item id="44080" name="ශ්‍රිතය සම්පූර්ණ කිරීම"/>
-                    <Item id="44084" name="වචනය සම්පූර්ණ කිරීම"/>
-                    <Item id="44085" name="ශ්‍රිත පරාමිතීන්ගේ ඉඟිය"/>
-                    <Item id="44086" name="පේලි  සකසනය..."/>
-                    <Item id="44087" name="පේලි සඟවන්න"/>
-                    <Item id="44088" name="සියලු මෑතකාලීන ගොනු විවෘතකරන්න"/>
-                    <Item id="44089" name="මෑතකාලීන ගොනු ලැයිස්තුව හිස්කරන්න"/>
-                    <Item id="44090" name="කෙටි මග විකරණය කරන්න /නියෝග එකලස මකන්න..."/>
-                    <Item id="44091" name="කෙටි මග විකරණය කරන්න/විධානය මකන්න..."/>
-                    <Item id="44092" name="උත්පතන ප්‍රකරණ මෙනුව සකසන්න"/>
+                    <Item id="41001" name="&amp;New"/>
+                    <Item id="41002" name="&amp;Open"/>
+                    <Item id="41019" name="Explorer"/>
+                    <Item id="41020" name="cmd"/>
+                    <Item id="41003" name="&amp;Close"/>
+                    <Item id="41004" name="Clos&amp;e All"/>
+                    <Item id="41005" name="Close All BUT Current Document"/>
+                    <Item id="41009" name="Close All to the Left"/>
+                    <Item id="41018" name="Close All to the Right"/>
+                    <Item id="41006" name="&amp;Save"/>
+                    <Item id="41007" name="Sav&amp;e All"/>
+                    <Item id="41008" name="Save &amp;As..."/>
+                    <Item id="41010" name="Print..."/>
+                    <Item id="1001" name="Print Now"/>
+                    <Item id="41011" name="E&amp;xit"/>
+                    <Item id="41012" name="Load Session..."/>
+                    <Item id="41013" name="Save Session..."/>
+                    <Item id="41014" name="Re&amp;load from Disk"/>
+                    <Item id="41015" name="Save a Copy As..."/>
+                    <Item id="41016" name="Move to Recycle Bin"/>
+                    <Item id="41017" name="Rename..."/>
+                    <Item id="41021" name="Restore Recent Closed File"/>
+                    <Item id="41022" name="Open Folder as Workspace..."/>
+                    <Item id="41023" name="Open in Default Viewer"/>
+                    <Item id="42001" name="Cu&amp;t"/>
+                    <Item id="42002" name="&amp;Copy"/>
+                    <Item id="42003" name="&amp;Undo"/>
+                    <Item id="42004" name="&amp;Redo"/>
+                    <Item id="42005" name="&amp;Paste"/>
+                    <Item id="42006" name="&amp;Delete"/>
+                    <Item id="42007" name="Select A&amp;ll"/>
+                    <Item id="42020" name="Begin/End Select"/>
+                    <Item id="42008" name="Increase Line Indent"/>
+                    <Item id="42009" name="Decrease Line Indent"/>
+                    <Item id="42010" name="Duplicate Current Line"/>
+                    <Item id="42012" name="Split Lines"/>
+                    <Item id="42013" name="Join Lines"/>
+                    <Item id="42014" name="Move Up Current Line"/>
+                    <Item id="42015" name="Move Down Current Line"/>
+                    <Item id="42059" name="Sort Lines Lexicographically Ascending"/>
+                    <Item id="42060" name="Sort Lines Lexicographically Descending"/>
+                    <Item id="42061" name="Sort Lines As Integers Ascending"/>
+                    <Item id="42062" name="Sort Lines As Integers Descending"/>
+                    <Item id="42063" name="Sort Lines As Decimals (Comma) Ascending"/>
+                    <Item id="42064" name="Sort Lines As Decimals (Comma) Descending"/>
+                    <Item id="42065" name="Sort Lines As Decimals (Dot) Ascending"/>
+                    <Item id="42066" name="Sort Lines As Decimals (Dot) Descending"/>
+                    <Item id="42016" name="&amp;UPPERCASE"/>
+                    <Item id="42017" name="&amp;lowercase"/>
+                    <Item id="42067" name="&amp;Proper Case"/>
+                    <Item id="42068" name="Proper Case (blend)"/>
+                    <Item id="42069" name="&amp;Sentence case"/>
+                    <Item id="42070" name="Sentence case (blend)"/>
+                    <Item id="42071" name="&amp;iNVERT cASE"/>
+                    <Item id="42072" name="&amp;ranDOm CasE"/>
+                    <Item id="42073" name="Open File"/>
+                    <Item id="42074" name="Open Containing Folder in Explorer"/>
+                    <Item id="42075" name="Search on Internet"/>
+                    <Item id="42076" name="Change Search Engine..."/>
+                    <Item id="42018" name="Start Re&amp;cording"/>
+                    <Item id="42019" name="S&amp;top Recording"/>
+                    <Item id="42021" name="&amp;Playback"/>
+                    <Item id="42022" name="Toggle Single Line Comment"/>
+                    <Item id="42023" name="Block Comment"/>
+                    <Item id="42047" name="Block Uncomment"/>
+                    <Item id="42024" name="Trim Trailing Space"/>
+                    <Item id="42042" name="Trim Leading Space"/>
+                    <Item id="42043" name="Trim Leading and Trailing Space"/>
+                    <Item id="42044" name="EOL to Space"/>
+                    <Item id="42045" name="Remove Unnecessary Blank and EOL"/>
+                    <Item id="42046" name="TAB to Space"/>
+                    <Item id="42054" name="Space to TAB (All)"/>
+                    <Item id="42053" name="Space to TAB (Leading)"/>
+                    <Item id="42038" name="Paste HTML Content"/>
+                    <Item id="42039" name="Paste RTF Content"/>
+                    <Item id="42048" name="Copy Binary Content"/>
+                    <Item id="42049" name="Cut Binary Content"/>
+                    <Item id="42050" name="Paste Binary Content"/>
+                    <Item id="42037" name="Column Mode..."/>
+                    <Item id="42034" name="Column Editor..."/>
+                    <Item id="42051" name="Character Panel"/>
+                    <Item id="42052" name="Clipboard History"/>
+                    <Item id="42025" name="&amp;Save Currently Recorded Macro..."/>
+                    <Item id="42026" name="Text Direction RTL"/>
+                    <Item id="42027" name="Text Direction LTR"/>
+                    <Item id="42028" name="Set Read-Only"/>
+                    <Item id="42029" name="Current File Path to Clipboard"/>
+                    <Item id="42030" name="Current Filename to Clipboard"/>
+                    <Item id="42031" name="Current Dir. Path to Clipboard"/>
+                    <Item id="42032" name="&amp;Run a Macro Multiple Times..."/>
+                    <Item id="42033" name="Clear Read-Only Flag"/>
+                    <Item id="42035" name="Single Line Comment"/>
+                    <Item id="42036" name="Single Line Uncomment"/>
+                    <Item id="42055" name="Remove Empty Lines"/>
+                    <Item id="42056" name="Remove Empty Lines (Containing Blank characters)"/>
+                    <Item id="42057" name="Insert Blank Line Above Current"/>
+                    <Item id="42058" name="Insert Blank Line Below Current"/>
+                    <Item id="43001" name="&amp;Find..."/>
+                    <Item id="43002" name="Find &amp;Next"/>
+                    <Item id="43003" name="&amp;Replace..."/>
+                    <Item id="43004" name="&amp;Go to..."/>
+                    <Item id="43005" name="Toggle Bookmark"/>
+                    <Item id="43006" name="Next Bookmark"/>
+                    <Item id="43007" name="Previous Bookmark"/>
+                    <Item id="43008" name="Clear All Bookmarks"/>
+                    <Item id="43018" name="Cut Bookmarked Lines"/>
+                    <Item id="43019" name="Copy Bookmarked Lines"/>
+                    <Item id="43020" name="Paste to (Replace) Bookmarked Lines"/>
+                    <Item id="43021" name="Remove Bookmarked Lines"/>
+                    <Item id="43051" name="Remove Unmarked Lines"/>
+                    <Item id="43050" name="Inverse Bookmark"/>
+                    <Item id="43052" name="Find characters in range..."/>
+                    <Item id="43053" name="Select All Between Matching Braces"/>
+                    <Item id="43009" name="Go to Matching Brace"/>
+                    <Item id="43010" name="Find &amp;Previous"/>
+                    <Item id="43011" name="&amp;Incremental Search"/>
+                    <Item id="43013" name="Find in Files"/>
+                    <Item id="43014" name="Find (Volatile) Next"/>
+                    <Item id="43015" name="Find (Volatile) Previous"/>
+                    <Item id="43022" name="Using 1st Style"/>
+                    <Item id="43023" name="Clear 1st Style"/>
+                    <Item id="43024" name="Using 2nd Style"/>
+                    <Item id="43025" name="Clear 2nd Style"/>
+                    <Item id="43026" name="Using 3rd Style"/>
+                    <Item id="43027" name="Clear 3rd Style"/>
+                    <Item id="43028" name="Using 4th Style"/>
+                    <Item id="43029" name="Clear 4th Style"/>
+                    <Item id="43030" name="Using 5th Style"/>
+                    <Item id="43031" name="Clear 5th Style"/>
+                    <Item id="43032" name="Clear All Styles"/>
+                    <Item id="43033" name="1st style"/>
+                    <Item id="43034" name="2nd style"/>
+                    <Item id="43035" name="3rd style"/>
+                    <Item id="43036" name="4th style"/>
+                    <Item id="43037" name="5th style"/>
+                    <Item id="43038" name="Find style"/>
+                    <Item id="43039" name="1st style"/>
+                    <Item id="43040" name="2nd style"/>
+                    <Item id="43041" name="3rd style"/>
+                    <Item id="43042" name="4th style"/>
+                    <Item id="43043" name="5th style"/>
+                    <Item id="43044" name="Find style"/>
+                    <Item id="43045" name="Search Results Window"/>
+                    <Item id="43046" name="Next Search Result"/>
+                    <Item id="43047" name="Previous Search Result"/>
+                    <Item id="43048" name="Select and Find Next"/>
+                    <Item id="43049" name="Select and Find Previous"/>
+                    <Item id="43054" name="Mar&amp;k..."/>
+                    <Item id="44009" name="Post-It"/>
+                    <Item id="44010" name="Fold All"/>
+                    <Item id="44019" name="Show All Characters"/>
+                    <Item id="44020" name="Show Indent Guide"/>
+                    <Item id="44022" name="Word wrap"/>
+                    <Item id="44023" name="Zoom &amp;In (Ctrl+Mouse Wheel Up)"/>
+                    <Item id="44024" name="Zoom &amp;Out (Ctrl+Mouse Wheel Down)"/>
+                    <Item id="44025" name="Show White Space and TAB"/>
+                    <Item id="44026" name="Show End of Line"/>
+                    <Item id="44029" name="Unfold All"/>
+                    <Item id="44030" name="Collapse Current Level"/>
+                    <Item id="44031" name="Uncollapse Current Level"/>
+                    <Item id="44049" name="Summary..."/>
+                    <Item id="44080" name="Document Map"/>
+                    <Item id="44084" name="Function List"/>
+                    <Item id="44085" name="Folder as Workspace"/>
+                    <Item id="44086" name="1st Tab"/>
+                    <Item id="44087" name="2nd Tab"/>
+                    <Item id="44088" name="3rd Tab"/>
+                    <Item id="44089" name="4th Tab"/>
+                    <Item id="44090" name="5th Tab"/>
+                    <Item id="44091" name="6th Tab"/>
+                    <Item id="44092" name="7th Tab"/>
                     <Item id="44093" name="8th Tab"/>
                     <Item id="44094" name="9th Tab"/>
                     <Item id="44095" name="Next Tab"/>
@@ -314,23 +314,23 @@
             <Splitter>
             </Splitter>
             <TabBar>
-                    <Item CMID="0" name="වසන්න"/>
-                    <Item CMID="1" name="වත්මන් ගොනුව හැර අන් සියලු ගොනු වසන්න"/>
-                    <Item CMID="2" name="සුරකින්න"/>
-                    <Item CMID="3" name="මෙලෙස සුරකින්න..."/>
-                    <Item CMID="4" name="මුද්‍රණය"/>
-                    <Item CMID="5" name="මීළග පෙනුමට ගෙන යන්න"/>
-                    <Item CMID="6" name="වෙනත් පෙනුමකට ක්ලෝනීකරණය කරන්න"/>
-                    <Item CMID="7" name="සම්පූර්ණ ගොනු පෙත ඇමුණුම් පුවරුවට"/>
-                    <Item CMID="8" name="ගොනු නාමය ඇමුණුම් පුවරුවට"/>
-                    <Item CMID="9" name="වත්මන් ඩිරෙක්ටරි නාමය ඇමුණුම් පුවරුවට"/>
-                    <Item CMID="10" name="ප්‍රති නාමකරණය"/>
-                    <Item CMID="11" name="ප්‍රතිචක්‍රීකරණ බඳුනට යවන්න"/>
-                    <Item CMID="12" name="කියවීම පමණයි"/>
-                    <Item CMID="13" name="කියවීම-පමණයි සලකුණ මකන්න"/>
-                    <Item CMID="14" name="නව ප්‍රස්තාවකට ගෙන යන්න"/>
-                    <Item CMID="15" name="නව ප්‍රස්තාවක විවෘත කරන්න"/>
-                    <Item CMID="16" name="ප්‍රතිවිවෘත කරන්න"/>
+                    <Item CMID="0" name="Close"/>
+                    <Item CMID="1" name="Close All BUT This"/>
+                    <Item CMID="2" name="Save"/>
+                    <Item CMID="3" name="Save As..."/>
+                    <Item CMID="4" name="Print"/>
+                    <Item CMID="5" name="Move to Other View"/>
+                    <Item CMID="6" name="Clone to Other View"/>
+                    <Item CMID="7" name="Full File Path to Clipboard"/>
+                    <Item CMID="8" name="Filename to Clipboard"/>
+                    <Item CMID="9" name="Current Dir. Path to Clipboard"/>
+                    <Item CMID="10" name="Rename"/>
+                    <Item CMID="11" name="Move to Recycle Bin"/>
+                    <Item CMID="12" name="Read-Only"/>
+                    <Item CMID="13" name="Clear Read-Only Flag"/>
+                    <Item CMID="14" name="Move to New Instance"/>
+                    <Item CMID="15" name="Open in New Instance"/>
+                    <Item CMID="16" name="Reload"/>
                     <Item CMID="17" name="Close All to the Left"/>
                     <Item CMID="18" name="Close All to the Right"/>
                     <Item CMID="19" name="Open Containing Folder in Explorer"/>
@@ -341,40 +341,40 @@
 
         <Dialog>
             <Find title="" titleFind="Find" titleReplace="Replace" titleFindInFiles="Find in Files" titleMark="Mark">
-                <Item id="1" name="මීළඟ  සෙවීම"/>
-                <Item id="1722" name="වසන්න "/>
-                <Item id="2" name="මෙය සොයන්න:"/>
-                <Item id="1620" name="සම්පූර්ණ වචනය ගලපන්න "/>
-                <Item id="1603" name="අක්ෂර තත්වය ගලපන්න"/>
-                <Item id="1604" name="නිත්‍ය ප්‍රකාශනය"/>
-                <Item id="1605" name="වටේ ඔතන්න"/>
-                <Item id="1606" name="ඉහලට"/>
-                <Item id="1614" name="පහලට"/>
-                <Item id="1615" name="ගනින්න"/>
-                <Item id="1616" name="සියල්ල සොයන්න"/>
-                <Item id="1618" name="පේලිය ලකුණු කරන්න"/>
-                <Item id="1611" name="විලාස සහිත ටෝකනය"/>
-                <Item id="1608" name="සෑම සෙවීමක් පවිත්‍ර කිරීම"/>
-                <Item id="1609" name="දිශාව"/>
-                <Item id="1687" name="මෙය සමඟ ප්‍රතිස්ථාන ගත කරන්න:"/>
-                <Item id="1688" name="ප්‍රතිස්ථානගත කිරීම"/>
-                <Item id="1632" name="සියල්ල ප්‍රතිස්ථානගත කිරීම"/>
-                <Item id="1633" name="විනිවිදභාවය"/>
-                <Item id="1635" name="යොමු වීම අහිමි වීමේදී"/>
-                <Item id="1636" name="සැමවිටම"/>
-                <Item id="1654" name="තේරීම් තුලදී"/>
-                <Item id="1655" name="හිස් කරන්න"/>
-                <Item id="1656" name="විවෘත සියලු ගොනු තුල ප්‍රතිස්ථාන ගත කරන්න"/>
-                <Item id="1658" name="විවෘත සියලු ගොනු තුල සියල්ල සොයන්න"/>
-                <Item id="1659" name="ගොනු තුල සොයන්න"/>
-                <Item id="1624" name="පෙරහන්:"/>
-                <Item id="1625" name="ඩිරෙක්ටරිය:"/>
-                <Item id="1626" name="සියල්ල සොයන්න"/>
-                <Item id="1660" name="සියලු උප ෆෝල්ඩර තුල"/>
-                <Item id="1661" name="සැඟවූ ෆෝල්ඩර තුල"/>
-                <Item id="1641" name="සෙවීම් ප්‍රකාරය"/>
-                <Item id="1686" name="සාමාන්‍ය"/>
-                <Item id="1703" name="විස්කෘත(\n, \r, \t, \0, \x...)"/>
+                <Item id="1" name="Find Next"/>
+                <Item id="1722" name="Backward direction"/>
+                <Item id="2" name="Close"/>
+                <Item id="1620" name="&amp;Find what :"/>
+                <Item id="1603" name="Match &amp;whole word only"/>
+                <Item id="1604" name="Match &amp;case"/>
+                <Item id="1605" name="Re&amp;gular expression"/>
+                <Item id="1606" name="Wra&amp;p around"/>
+                <Item id="1614" name="Coun&amp;t"/>
+                <Item id="1615" name="Mark All"/>
+                <Item id="1616" name="Book&amp;mark line"/>
+                <Item id="1618" name="Purge for each search"/>
+                <Item id="1611" name="Rep&amp;lace with :"/>
+                <Item id="1608" name="&amp;Replace"/>
+                <Item id="1609" name="Replace &amp;All"/>
+                <Item id="1687" name="On losing focus"/>
+                <Item id="1688" name="Always"/>
+                <Item id="1632" name="In select&amp;ion"/>
+                <Item id="1633" name="Clear all marks"/>
+                <Item id="1635" name="Replace All in All &amp;Opened Documents"/>
+                <Item id="1636" name="Find All in All &amp;Opened Documents"/>
+                <Item id="1654" name="Filter&amp;s :"/>
+                <Item id="1655" name="Dir&amp;ectory :"/>
+                <Item id="1656" name="Find All"/>
+                <Item id="1658" name="In all su&amp;b-folders"/>
+                <Item id="1659" name="In &amp;hidden folders"/>
+                <Item id="1624" name="Search mode"/>
+                <Item id="1625" name="&amp;Normal"/>
+                <Item id="1626" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
+                <Item id="1660" name="&amp;Replace in Files"/>
+                <Item id="1661" name="Follow current doc."/>
+                <Item id="1641" name="Find All in Current Document"/>
+                <Item id="1686" name="Transparenc&amp;y"/>
+                <Item id="1703" name="&amp;. matches newline"/>
             </Find>
 
             <FindCharsInRange title="Find Characters in Range...">
@@ -390,20 +390,20 @@
             </FindCharsInRange>
 
             <GoToLine title="Go to...">
-                <Item id="2007" name="පේලිය"/>
-                <Item id="2008" name="හිලව්ව"/>
-                <Item id="1" name="යන්න"/>
-                <Item id="2" name="මම යන දිශාව මම නොදනිමි"/>
-                <Item id="2004" name="ඔබ මෙතන:"/>
-                <Item id="2005" name="ඔබට යාමට අවශ්‍යය:"/>
-                <Item id="2006" name="ඔබට මින් ඉදිරියට යා නොහැක:"/>
+                <Item id="2007" name="&amp;Line"/>
+                <Item id="2008" name="&amp;Offset"/>
+                <Item id="1" name="Go"/>
+                <Item id="2" name="I'm going nowhere"/>
+                <Item id="2004" name="You are here:"/>
+                <Item id="2005" name="You want to go to:"/>
+                <Item id="2006" name="You can't go further than:"/>
             </GoToLine>
 
             <Run title="Run...">
-                <Item id="1903" name="ධාවනයට නියමිත වැඩසටහන"/>
-                <Item id="1" name="ධාවනය කරන්න"/>
-                <Item id="2" name="අවලංගුකරන්න"/>
-                <Item id="1904" name="සුරකින්න..."/>
+                <Item id="1903" name="The Program to Run"/>
+                <Item id="1" name="Run"/>
+                <Item id="2" name="Cancel"/>
+                <Item id="1904" name="Save..."/>
             </Run>
 
             <MD5FromFilesDlg title="Generate MD5 digest from files">
@@ -430,32 +430,32 @@
             </PluginsAdminDlg>
 
             <StyleConfig title="Style Configurator">
-                <Item id="2" name="අවලංගුකරන්න"/>
-                <Item id="2301" name="සුරැකීමෙන් පසුව වසන්න"/>
-                <Item id="2303" name="විනිවිදභාවය"/>
-                <Item id="2306" name="තේමාව තෝරන්න:  "/>
+                <Item id="2" name="Cancel"/>
+                <Item id="2301" name="Save &amp;&amp; Close"/>
+                <Item id="2303" name="Transparency"/>
+                <Item id="2306" name="Select theme: "/>
                 <SubDialog>
-                    <Item id="2204" name="තදකුරු"/>
-                    <Item id="2205" name="ඇලකුරු"/>
-                    <Item id="2206" name="පෙරබිම වර්ණය"/>
-                    <Item id="2207" name="පසුබිම වර්ණය"/>
-                    <Item id="2208" name="ෆොන්ට නාමය:"/>
-                    <Item id="2209" name="අකුරු විශාලත්වය:"/>
-                    <Item id="2211" name="වර්ණ විලාසය"/>
-                    <Item id="2212" name="අකුරු විලාසය"/>
-                    <Item id="2213" name="පෙරනිමි දිගුව:"/>
-                    <Item id="2214" name="පරිශිලක දිගුව:"/>
-                    <Item id="2216" name="යට ඉරි ඇදීම"/>
-                    <Item id="2218" name="පෙරනිමි මූල පද"/>
-                    <Item id="2219" name="පරිශීලක-අර්ථදැක්වූ මූල පද "/>
-                    <Item id="2221" name="භාෂාව:"/>
-                    <Item id="2225" name="ගෝලීය පෙරබිම් වර්ණය සක්‍රීයකරන්න"/>
-                    <Item id="2226" name="ගෝලීය පසුබිම් වර්ණය සක්‍රීයකරන්න"/>
-                    <Item id="2227" name="ගෝලීය ෆොන්ටය සක්‍රීයකරන්න"/>
-                    <Item id="2228" name="ගෝලීය අකුරු විශාලනය සක්‍රීයකරන්න"/>
-                    <Item id="2229" name="ගෝලීය තද අකුරු විලාසය සක්‍රීයකරන්න"/>
-                    <Item id="2230" name="ගෝලීය ඇල අකුරු විලාසය සක්‍රීයකරන්න"/>
-                    <Item id="2231" name="ගෝලීය යට ඉරි ඇදි අකුරු විලාසය සක්‍රීයකරන්න "/>
+                    <Item id="2204" name="Bold"/>
+                    <Item id="2205" name="Italic"/>
+                    <Item id="2206" name="Foreground colour"/>
+                    <Item id="2207" name="Background colour"/>
+                    <Item id="2208" name="Font name:"/>
+                    <Item id="2209" name="Font size:"/>
+                    <Item id="2211" name="Style:"/>
+                    <Item id="2212" name="Colour Style"/>
+                    <Item id="2213" name="Font Style"/>
+                    <Item id="2214" name="Default ext.:"/>
+                    <Item id="2216" name="User ext.:"/>
+                    <Item id="2218" name="Underline"/>
+                    <Item id="2219" name="Default keywords"/>
+                    <Item id="2221" name="User-defined keywords"/>
+                    <Item id="2225" name="Language:"/>
+                    <Item id="2226" name="Enable global foreground colour"/>
+                    <Item id="2227" name="Enable global background colour"/>
+                    <Item id="2228" name="Enable global font"/>
+                    <Item id="2229" name="Enable global font size"/>
+                    <Item id="2230" name="Enable global bold font style"/>
+                    <Item id="2231" name="Enable global italic font style"/>
                     <Item id="2232" name="Enable global underline font style"/>
                 </SubDialog>
             </StyleConfig>
@@ -489,55 +489,55 @@
                 <Item id="5012" name="CONFLICT FOUND!"/>
             </ShortcutMapperSubDialg>
             <UserDefine title="User-Defined">
-                <Item id="20001" name="ප්‍රතිනාමකරණය"/>
-                <Item id="20002" name="නව සැකසීම..."/>
-                <Item id="20003" name="ඉවත්කරන්න"/>
-                <Item id="20004" name="මෙලෙස සුරකින්න..."/>
-                <Item id="20005" name="පරිශීලක භාෂාව: "/>
-                <Item id="20007" name="දිගුව:"/>
-                <Item id="20009" name="අක්ෂර තත්වය නොසලකන්න"/>
-                <Item id="20012" name="විනිවිදභාවය"/>
-                <Item id="20011" name="ආයාත..."/>
-                <Item id="20015" name="නිර්යාත..."/>
-                <Item id="20016" name="මිදුම් අනුලක්ෂණය සක්‍රීයකරන්න:"/>
+                <Item id="20001" name="Dock"/>
+                <Item id="20002" name="Rename"/>
+                <Item id="20003" name="Create New..."/>
+                <Item id="20004" name="Remove"/>
+                <Item id="20005" name="Save As..."/>
+                <Item id="20007" name="User language: "/>
+                <Item id="20009" name="Ext.:"/>
+                <Item id="20012" name="Ignore case"/>
+                <Item id="20011" name="Transparency"/>
+                <Item id="20015" name="Import..."/>
+                <Item id="20016" name="Export..."/>
                 <StylerDialog title="Styler Dialog">
-                    <Item id="25030" name="ෆොන්ට විකල්ප:"/>
-                    <Item id="25006" name="පෙරබිම් වර්ණය"/>
-                    <Item id="25007" name="පසුබිම් වර්ණය"/>
-                    <Item id="25031" name="නම:"/>
-                    <Item id="25032" name="විශාලනය:"/>
-                    <Item id="25001" name="තද"/>
-                    <Item id="25002" name="ඇද"/>
-                    <Item id="25003" name="යටි ඉර"/>
-                    <Item id="25029" name="නීඩ කිරීම:"/>
-                    <Item id="25008" name="පරිසීමකය 1"/>
-                    <Item id="25009" name="පරිසීමකය 2"/>
-                    <Item id="25010" name="පරිසීමකය 3"/>
-                    <Item id="25011" name="පරිසීමකය 4"/>
-                    <Item id="25012" name="පරිසීමකය 5"/>
-                    <Item id="25013" name="පරිසීමකය 6"/>
-                    <Item id="25014" name="පරිසීමකය 7"/>
-                    <Item id="25015" name="පරිසීමකය 8"/>
-                    <Item id="25018" name="මූල පදය 1"/>
-                    <Item id="25019" name="මූල පදය 2"/>
-                    <Item id="25020" name="මූල පදය 3"/>
-                    <Item id="25021" name="මූල පදය 4"/>
-                    <Item id="25022" name="මූල පදය 5"/>
-                    <Item id="25023" name="මූල පදය 6"/>
-                    <Item id="25024" name="මූල පදය 7"/>
-                    <Item id="25025" name="මූල පදය 8"/>
-                    <Item id="25016" name="විවේචකය"/>
-                    <Item id="25017" name="විවේචක තීරුව"/>
-                    <Item id="25026" name="මෙහෙයුම්කාරකය 1"/>
-                    <Item id="25027" name="මෙහෙයුම්කාරකය 2"/>
-                    <Item id="25028" name="අංක"/>
+                    <Item id="25030" name="Font options:"/>
+                    <Item id="25006" name="Foreground colour"/>
+                    <Item id="25007" name="Background colour"/>
+                    <Item id="25031" name="Name:"/>
+                    <Item id="25032" name="Size:"/>
+                    <Item id="25001" name="Bold"/>
+                    <Item id="25002" name="Italic"/>
+                    <Item id="25003" name="Underline"/>
+                    <Item id="25029" name="Nesting:"/>
+                    <Item id="25008" name="Delimiter 1"/>
+                    <Item id="25009" name="Delimiter 2"/>
+                    <Item id="25010" name="Delimiter 3"/>
+                    <Item id="25011" name="Delimiter 4"/>
+                    <Item id="25012" name="Delimiter 5"/>
+                    <Item id="25013" name="Delimiter 6"/>
+                    <Item id="25014" name="Delimiter 7"/>
+                    <Item id="25015" name="Delimiter 8"/>
+                    <Item id="25018" name="Keyword 1"/>
+                    <Item id="25019" name="Keyword 2"/>
+                    <Item id="25020" name="Keyword 3"/>
+                    <Item id="25021" name="Keyword 4"/>
+                    <Item id="25022" name="Keyword 5"/>
+                    <Item id="25023" name="Keyword 6"/>
+                    <Item id="25024" name="Keyword 7"/>
+                    <Item id="25025" name="Keyword 8"/>
+                    <Item id="25016" name="Comment"/>
+                    <Item id="25017" name="Comment line"/>
+                    <Item id="25026" name="Operator 1"/>
+                    <Item id="25027" name="Operator 2"/>
+                    <Item id="25028" name="Numbers"/>
                     <Item id="1" name="OK"/>
                     <Item id="2" name="Cancel"/>
                 </StylerDialog>
                 <Folder title="Folder &amp;&amp; Default">
-                    <Item id="21101" name="පෙරනිමි විලාස සිටවුම්"/>
-                    <Item id="21102" name="ෆෝල්ඩර විවෘතකිරීමේ මූලපද"/>
-                    <Item id="21105" name="ෆෝල්ඩර වසාදැමීමේ  මූලපද"/>
+                    <Item id="21101" name="Default style"/>
+                    <Item id="21102" name="Styler"/>
+                    <Item id="21105" name="Documentation:"/>
                     <Item id="21104" name="Temporary doc site:"/>
                     <Item id="21106" name="Fold &amp;compact (fold empty lines too)"/>
                     <Item id="21220" name="Folding in code 1 style:"/>
@@ -557,14 +557,14 @@
                     <Item id="21427" name="Styler"/>
                 </Folder>
                 <Keywords title="Keywords Lists">
-                    <Item id="22101" name="පලමු කාණ්ඩය"/>
-                    <Item id="22201" name="දෙවන කාණ්ඩය"/>
-                    <Item id="22301" name="තෙවන කාණ්ඩය"/>
-                    <Item id="22401" name="සිව්වන කාණ්ඩය"/>
-                    <Item id="22451" name="උපසර්ග ප්‍රකාරය"/>
-                    <Item id="22501" name="උපසර්ග ප්‍රකාරය"/>
-                    <Item id="22551" name="උපසර්ග ප්‍රකාරය"/>
-                    <Item id="22601" name="උපසර්ග ප්‍රකාරය"/>
+                    <Item id="22101" name="1st Group"/>
+                    <Item id="22201" name="2nd Group"/>
+                    <Item id="22301" name="3rd Group"/>
+                    <Item id="22401" name="4th Group"/>
+                    <Item id="22451" name="5th Group"/>
+                    <Item id="22501" name="6th Group"/>
+                    <Item id="22551" name="7th Group"/>
+                    <Item id="22601" name="8th Group"/>
                     <Item id="22121" name="Prefix mode"/>
                     <Item id="22221" name="Prefix mode"/>
                     <Item id="22321" name="Prefix mode"/>
@@ -583,13 +583,13 @@
                     <Item id="22622" name="Styler"/>
                 </Keywords>
                 <Comment title="Comment &amp;&amp; Number">
-                    <Item id="23003" name="විවරණ තීරුව"/>
-                    <Item id="23004" name="විවරණ කොටස"/>
-                    <Item id="23005" name="විවරණය විවෘත කරන්න:"/>
-                    <Item id="23006" name="විවරණය අවසන්:"/>
-                    <Item id="23001" name="මූල පදය සංකේතයක් ලෙස සලකන්න "/>
-                    <Item id="23326" name="මූල පද සංකේත ලෙස සලකන්න"/>
-                    <Item id="23323" name="අංකය"/>
+                    <Item id="23003" name="Line comment position"/>
+                    <Item id="23004" name="Allow anywhere"/>
+                    <Item id="23005" name="Force at beginning of line"/>
+                    <Item id="23006" name="Allow preceding whitespace"/>
+                    <Item id="23001" name="Allow folding of comments"/>
+                    <Item id="23326" name="Styler"/>
+                    <Item id="23323" name="Open"/>
                     <Item id="23324" name="Continue character"/>
                     <Item id="23325" name="Close"/>
                     <Item id="23301" name="Comment line style"/>
@@ -611,16 +611,16 @@
                     <Item id="23246" name="Comma"/>
                     <Item id="23247" name="Both"/>
                 </Comment>
-                <Operator title="Operators">
-                    <Item id="24101" name="කර්මය"/>
-                    <Item id="24113" name="උපයෝජ්‍ය  සංකේත"/>
-                    <Item id="24116" name="සක්‍රීය කර්ම"/>
-                    <Item id="24117" name="පරිසීමකය 1"/>
-                    <Item id="24201" name="සීමාව ආරම්භය:"/>
-                    <Item id="24220" name="සීමාව අවසානය:"/>
-                    <Item id="24221" name="පරිසීමකය 2"/>
-                    <Item id="24222" name="සීමාව ආරම්භය:"/>
-                    <Item id="24223" name="සීමාව අවසානය:"/>
+                <Operator title="Operators &amp;&amp; Delimiter">
+                    <Item id="24101" name="Operators style"/>
+                    <Item id="24113" name="Styler"/>
+                    <Item id="24116" name="Operators 1"/>
+                    <Item id="24117" name="Operators 2 (separators required)"/>
+                    <Item id="24201" name="Delimiter 1 style"/>
+                    <Item id="24220" name="Open:"/>
+                    <Item id="24221" name="Escape:"/>
+                    <Item id="24222" name="Close:"/>
+                    <Item id="24223" name="Styler"/>
                     <Item id="24301" name="Delimiter 2 style"/>
                     <Item id="24320" name="Open:"/>
                     <Item id="24321" name="Escape:"/>
@@ -659,64 +659,64 @@
                 </Operator>
             </UserDefine>
             <Preference title="Preferences">
-                <Item id="6001" name="වසන්න"/>
+                <Item id="6001" name="Close"/>
                 <Global title="General">
-                    <Item id="6101" name="මෙවලම් තීරුව"/>
-                    <Item id="6102" name="සඟවන්න"/>
-                    <Item id="6103" name="කුඩා නිරූපක "/>
-                    <Item id="6104" name="විශාල නිරූපක"/>
-                    <Item id="6105" name="සම්මත නිරූපක"/>
+                    <Item id="6101" name="Toolbar"/>
+                    <Item id="6102" name="Hide"/>
+                    <Item id="6103" name="Small icons"/>
+                    <Item id="6104" name="Big icons"/>
+                    <Item id="6105" name="Standard icons"/>
 
-                    <Item id="6106" name="පිමි තීරුව"/>
-                    <Item id="6107" name="අඩුකරන්න"/>
-                    <Item id="6108" name="අගුල (ගෙනැවිත් දැමීම තහනම්)"/>
-                    <Item id="6109" name="අකර්මන්‍ය පිමි අදුරු කරන්න"/>
-                    <Item id="6110" name="ක්‍රියාකාරී පිමි වර්ණ ගන්වන්න"/>
+                    <Item id="6106" name="Tab Bar"/>
+                    <Item id="6107" name="Reduce"/>
+                    <Item id="6108" name="Lock (no drag and drop)"/>
+                    <Item id="6109" name="Darken inactive tabs"/>
+                    <Item id="6110" name="Draw a coloured bar on active tab"/>
 
-                    <Item id="6111" name="තත්ව තීරුව පෙන්වන්න"/>
-                    <Item id="6112" name="වැසීමේ බොත්තම හැම තීරුවකම  පෙන්වන්න"/>
-                    <Item id="6113" name="වැසීමට දෙවරක් ක්ලික් කරන්න"/>
-                    <Item id="6118" name="සඟවන්න"/>
-                    <Item id="6119" name="බහු රේඛා"/>
-                    <Item id="6120" name="සිරස්"/>
-                    <Item id="6121" name="මෙනු තීරුව"/>
+                    <Item id="6111" name="Show status bar"/>
+                    <Item id="6112" name="Show close button on each tab"/>
+                    <Item id="6113" name="Double click to close document"/>
+                    <Item id="6118" name="Hide"/>
+                    <Item id="6119" name="Multi-line"/>
+                    <Item id="6120" name="Vertical"/>
+                    <Item id="6121" name="Exit on close the last tab"/>
 
-                    <Item id="6122" name="සගවන්න (use Alt or F10 key to toggle)"/>
-                    <Item id="6123" name="ස්ථානගත කිරීම"/>
+                    <Item id="6122" name="Hide menu bar (use Alt or F10 key to toggle)"/>
+                    <Item id="6123" name="Localization"/>
 
                     <Item id="6125" name="Document List Panel"/>
                     <Item id="6126" name="Show"/>
                     <Item id="6127" name="Disable extension column"/>
                 </Global>
                 <Scintillas title="Editing">
-                    <Item id="6216" name="කැරට් සිටවුම්"/>
-                    <Item id="6217" name="පළල:"/>
-                    <Item id="6219" name="නිමීලන ශීඝ්‍රතාව:"/>
-                    <Item id="6221" name="වේගයෙන්"/>
-                    <Item id="6222" name="සෙමින්"/>
-                    <Item id="6224" name="බහු සංස්කාරක සිටවුම්"/>
-                    <Item id="6225" name="සබල කරනවා (Ctrl+Mouse click/selection)"/>
-                    <Item id="6201" name="ගොනු දාර විදිය"/>
-                    <Item id="6202" name="සරල"/>
-                    <Item id="6203" name="ඊතලය"/>
-                    <Item id="6204" name="රවුම් රුක"/>
-                    <Item id="6205" name="කොටු රුක"/>
-                    <Item id="6226" name="කිසිවක් නැත"/>
+                    <Item id="6216" name="Caret Settings"/>
+                    <Item id="6217" name="Width :"/>
+                    <Item id="6219" name="Blink rate :"/>
+                    <Item id="6221" name="F"/>
+                    <Item id="6222" name="S"/>
+                    <Item id="6224" name="Multi-Editing Settings"/>
+                    <Item id="6225" name="Enable (Ctrl+Mouse click/selection)"/>
+                    <Item id="6201" name="Folder Margin Style"/>
+                    <Item id="6202" name="Simple"/>
+                    <Item id="6203" name="Arrow"/>
+                    <Item id="6204" name="Circle tree"/>
+                    <Item id="6205" name="Box tree"/>
+                    <Item id="6226" name="None"/>
 
-                    <Item id="6227" name="පේලිය දවටන්න"/>
-                    <Item id="6228" name="පෙරනිමි"/>
-                    <Item id="6229" name="පෙළ ගැස්වීම"/>
-                    <Item id="6230" name="අනුඡේදය"/>
+                    <Item id="6227" name="Line Wrap"/>
+                    <Item id="6228" name="Default"/>
+                    <Item id="6229" name="Aligned"/>
+                    <Item id="6230" name="Indent"/>
 
-                    <Item id="6206" name="තීරු අංක පෙන්වන්න"/>
-                    <Item id="6207" name="පිටුසන් පෙන්වන්න"/>
-                    <Item id="6208" name="සිරස් කෙලවර පෙන්වන්න"/>
-                    <Item id="6209" name="තීරු ගණන :"/>
-                    <Item id="6234" name="සිරස් දාර සිටවුම්"/>
+                    <Item id="6206" name="Display line number"/>
+                    <Item id="6207" name="Display bookmark"/>
+                    <Item id="6208" name="Show vertical edge"/>
+                    <Item id="6209" name="Number of columns :"/>
+                    <Item id="6234" name="Disable advanced scrolling feature (if you have touchpad problem)"/>
 
-                    <Item id="6211" name="රේඛා ක්‍රමය"/>
-                    <Item id="6212" name="පසුතල ක්‍රමය"/>
-                    <Item id="6213" name="දැන් පවතින පේලිය උද්දීපනය පටන්ගන්න"/>
+                    <Item id="6211" name="Vertical Edge Settings"/>
+                    <Item id="6212" name="Line mode"/>
+                    <Item id="6213" name="Background mode"/>
                     <Item id="6214" name="Enable current line highlighting"/>
                     <Item id="6215" name="Enable smooth font"/>
                     <Item id="6231" name="Border Width"/>
@@ -724,20 +724,20 @@
                     <Item id="6236" name="Enable scrolling beyond last line"/>
                 </Scintillas>
 
-                <NewDoc title="New Document/Default Directory">
-                    <Item id="6401" name="ආකෘතිය"/>
-                    <Item id="6402" name="වින්ඩෝස්"/>
-                    <Item id="6403" name="යුනික්ස්"/>
-                    <Item id="6404" name="මැක්"/>
-                    <Item id="6405" name="කේතාංකනය"/>
+                <NewDoc title="New Document">
+                    <Item id="6401" name="Format (Line ending)"/>
+                    <Item id="6402" name="Windows (CR LF)"/>
+                    <Item id="6403" name="Unix (LF)"/>
+                    <Item id="6404" name="Macintosh (CR)"/>
+                    <Item id="6405" name="Encoding"/>
                     <Item id="6406" name="ANSI"/>
-                    <Item id="6407" name="UTF-8 කේතනය BOM නොමැතිව"/>
-                    <Item id="6408" name="UTF-8"/>
-                    <Item id="6409" name="UCS-2 Big Endian"/>
-                    <Item id="6410" name="UCS-2 Little Endian"/>
-                    <Item id="6411" name="පෙරනිමි භාෂාව:"/>
-                    <Item id="6419" name="පුරුදු  නාමාවලිය(Open/Save)"/>
-                    <Item id="6420" name="දැන් පවතින ලේඛනය පිළිපදින්න"/>
+                    <Item id="6407" name="UTF-8"/>
+                    <Item id="6408" name="UTF-8 with BOM"/>
+                    <Item id="6409" name="UCS-2 Big Endian with BOM"/>
+                    <Item id="6410" name="UCS-2 Little Endian with BOM"/>
+                    <Item id="6411" name="Default language :"/>
+                    <Item id="6419" name="New Document"/>
+                    <Item id="6420" name="Apply to opened ANSI files"/>
                 </NewDoc>
 
                 <DefaultDir title="Default Directory">
@@ -749,8 +749,8 @@
                 </DefaultDir>
 
                 <FileAssoc title="File Association">
-                    <Item id="4009" name=" ආධාරක දිගුව:"/>
-                    <Item id="4010" name="ලේඛනගත  දිගුව:"/>
+                    <Item id="4009" name="Supported extensions:"/>
+                    <Item id="4010" name="Registered extensions:"/>
                 </FileAssoc>
                 <Language title="Language">
                     <Item id="6505" name="Available items"/>
@@ -777,32 +777,32 @@
                 </Highlighting>
 
                 <Print title="Print">
-                    <Item id="6601" name="පේලි අංකය මුද්‍රණය කරන්න"/>
-                    <Item id="6602" name="වර්ණ විකල්ප"/>
+                    <Item id="6601" name="Print line number"/>
+                    <Item id="6602" name="Colour Options"/>
                     <Item id="6603" name="WYSIWYG"/>
-                    <Item id="6604" name="යටිකුරු කරන්න"/>
-                    <Item id="6605" name="සුදු මත කලු"/>
-                    <Item id="6606" name="පසුබිම් වර්ණය එපා"/>
-                    <Item id="6607" name="එකතු කිරීමේ සිටවුම් (ඒකක:මිමී)"/>
-                    <Item id="6612" name="වම"/>
-                    <Item id="6613" name="ඉහල"/>
-                    <Item id="6614" name="දකුණ"/>
-                    <Item id="6615" name="පහල"/>
-                    <Item id="6706" name="තද"/>
-                    <Item id="6707" name="ඇද"/>
-                    <Item id="6708" name="හෙඩිම"/>
-                    <Item id="6709" name="වම් කොටස"/>
-                    <Item id="6710" name="මැදකොටස"/>
-                    <Item id="6711" name="දකුණු කොටස"/>
-                    <Item id="6717" name="තද"/>
-                    <Item id="6718" name="ඇද"/>
-                    <Item id="6719" name="පාදු තලය"/>
-                    <Item id="6720" name="වම් කොටස"/>
-                    <Item id="6721" name="මැද කොටස"/>
-                    <Item id="6722" name="දකුණු කොටස"/>
-                    <Item id="6723" name="එකතුකරන්න"/>
-                    <Item id="6725" name="විචල්‍ය:"/>
-                    <Item id="6727" name="හෙඩිම සහ පාදු තලය"/>
+                    <Item id="6604" name="Invert"/>
+                    <Item id="6605" name="Black on white"/>
+                    <Item id="6606" name="No background colour"/>
+                    <Item id="6607" name="Margin Settings (Unit:mm)"/>
+                    <Item id="6612" name="Left"/>
+                    <Item id="6613" name="Top"/>
+                    <Item id="6614" name="Right"/>
+                    <Item id="6615" name="Bottom"/>
+                    <Item id="6706" name="Bold"/>
+                    <Item id="6707" name="Italic"/>
+                    <Item id="6708" name="Header"/>
+                    <Item id="6709" name="Left part"/>
+                    <Item id="6710" name="Middle part"/>
+                    <Item id="6711" name="Right part"/>
+                    <Item id="6717" name="Bold"/>
+                    <Item id="6718" name="Italic"/>
+                    <Item id="6719" name="Footer"/>
+                    <Item id="6720" name="Left part"/>
+                    <Item id="6721" name="Middle part"/>
+                    <Item id="6722" name="Right part"/>
+                    <Item id="6723" name="Add"/>
+                    <Item id="6725" name="Variable:"/>
+                    <Item id="6727" name="Here display your variable settings"/>
                     <Item id="6728" name="Header and Footer"/>
                 </Print>
 
@@ -817,19 +817,19 @@
                     <Item id="6427" name="Customize Maximum Length:"/>
                 </RecentFilesHistory>
 
-                <Backup title="Backup/Auto-Completion">
-                    <Item id="6817" name="රක්ෂිතය"/>
-                    <Item id="6818" name="කිසිවක් නැත"/>
-                    <Item id="6819" name="සරල රක්ෂිතය"/>
-                    <Item id="6821" name="නොනවත්වා උපස්ථ"/>
-                    <Item id="6822" name="අභිමත රක්ෂණ ඩිරෙක්ටරිය"/>
-                    <Item id="6309" name="ඩිරෙක්ටරිය:"/>
-                    <Item id="6801" name="ස්වයංක්‍රීය සම්පූර්ණ කිරීම"/>
-                    <Item id="6315" name="ස්වයංක්‍රීය සම්පූර්ණ කිරීම සියලු ආදානයන් සඳහා සක්‍රීයකරන්න "/>
-                    <Item id="6316" name="කාර්ය සම්පූර්ණ කිරීම"/>
-                    <Item id="6317" name="වචන සම්පූර්ණ කිරීම"/>
-                    <Item id="6804" name="සිට"/>
-                    <Item id="6803" name="වැනි අනුලකුණ"/>
+                <Backup title="Backup">
+                    <Item id="6817" name="Session snapshot and periodic backup"/>
+                    <Item id="6818" name="Enable session snapshot and periodic backup"/>
+                    <Item id="6819" name="Backup in every"/>
+                    <Item id="6821" name="seconds"/>
+                    <Item id="6822" name="Backup path:"/>
+                    <Item id="6309" name="Remember current session for next launch"/>
+                    <Item id="6801" name="Backup on save"/>
+                    <Item id="6315" name="None"/>
+                    <Item id="6316" name="Simple backup"/>
+                    <Item id="6317" name="Verbose backup"/>
+                    <Item id="6804" name="Custom Backup Directory"/>
+                    <Item id="6803" name="Directory :"/>
                 </Backup>
 
                 <AutoCompletion title="Auto-Completion">
@@ -888,57 +888,57 @@
                 </SearchEngine>
 
                 <MISC title="MISC.">
-                    <Item id="6307" name="මෑත කාලීන ගොනු ඉතිහාසය"/>
-                    <Item id="6308" name="ආරම්භයෙදී බලන්න එපා"/>
-                    <Item id="6312" name="උපරිම සටහන් පුරුක් ගණන:"/>
-                    <Item id="6313" name="සක්‍රීයකරන්න"/>
-                    <Item id="6318" name="පද්ධති තැටියට අවම කරන්න"/>
-                    <Item id="6325" name="දැන් සැසිය මතක තබාගන්න ඊලග වාරය උදෙසා"/>
-                    <Item id="6319" name="ගොනු අවදිය ස්‌වයංක්‍රියව අනාවරණය"/>
-                    <Item id="6320" name="යාවත්කාල කිරීම පසුබිමින්"/>
-                    <Item id="6322" name="ක්ලික් කලහැකි පුරුක් සිටවුම්"/>
-                    <Item id="6323" name="වෙනස් කිරීමෙන් පසු අවසාන පේලියට අනුචලනය"/>
-                    <Item id="6324" name="සක්‍රීයකරන්න"/>
-                    <Item id="6331" name="යටි ඉරි එපා"/>
-                    <Item id="6334" name="සැසි ගොනු දිගුව:"/>
-                    <Item id="6335" name="Notepad++ ස්වයංක්‍රීය යාවත්කාලිකය සක්‍රීයකරන්න"/>
-                    <Item id="6337" name="ලේඛන මාරු කරන්න (Ctrl+TAB)"/>
-                    <Item id="6114" name="සපන් උද්දීපනය පටන්ගන්න"/>
-                    <Item id="6115" name="ගැලපෙන ඇමුණුම උද්දීපනය"/>
-                    <Item id="6117" name="සක්‍රීයකරන්න"/>
-                    <Item id="6344" name="ඇමුණුම් උපලක්ෂණ උද්දීපනය"/>
-                    <Item id="6345" name="විවරණ/php/asp පෙදෙස උද්දීපනය"/>
-                    <Item id="6346" name="මාතෘකා තීරුව මත ගොනු නාමය පමණක් පෙන්වන්r"/>
+                    <Item id="6307" name="Enable"/>
+                    <Item id="6308" name="Minimize to system tray"/>
+                    <Item id="6312" name="File Status Auto-Detection"/>
+                    <Item id="6313" name="Update silently"/>
+                    <Item id="6318" name="Clickable Link Settings"/>
+                    <Item id="6325" name="Scroll to the last line after update"/>
+                    <Item id="6319" name="Enable"/>
+                    <Item id="6320" name="No underline"/>
+                    <Item id="6322" name="Session file ext.:"/>
+                    <Item id="6323" name="Enable Notepad++ auto-updater"/>
+                    <Item id="6324" name="Document Switcher (Ctrl+TAB)"/>
+                    <Item id="6331" name="Show only filename in title bar"/>
+                    <Item id="6334" name="Autodetect character encoding"/>
+                    <Item id="6335" name="Treat backslash as escape character for SQL"/>
+                    <Item id="6337" name="Workspace file ext.:"/>
+                    <Item id="6114" name="Enable"/>
+                    <Item id="6115" name="Auto-indent"/>
+                    <Item id="6117" name="Enable MRU behaviour"/>
+                    <Item id="6344" name="Document Peeker"/>
+                    <Item id="6345" name="Peek on tab"/>
+                    <Item id="6346" name="Peek on document map"/>
                 </MISC>
             </Preference>
             <MultiMacro title="Run a Macro Multiple Times">
-                <Item id="1" name="ධාවනය"/>
-                <Item id="2" name="අවලංගුකරන්න"/>
-                <Item id="8006" name="පටිගත කිරීම ධාවනය:"/>
-                <Item id="8001" name="ධාවනය"/>
-                <Item id="8005" name="වාර"/>
-                <Item id="8002" name="ගොනුව අවසන්වන තෙක් ධාවනය කරන්න"/>
+                <Item id="1" name="&amp;Run"/>
+                <Item id="2" name="&amp;Cancel"/>
+                <Item id="8006" name="Macro to run :"/>
+                <Item id="8001" name="Run"/>
+                <Item id="8005" name="times"/>
+                <Item id="8002" name="Run until the &amp;end of file"/>
             </MultiMacro>
             <Window title="Windows">
-                <Item id="1" name="පණගන්වන්න"/>
-                <Item id="2" name="හරි"/>
-                <Item id="7002" name="සුරකින්න"/>
-                <Item id="7003" name="කවුළු වසන්න"/>
-                <Item id="7004" name="ටැබ් තෝරන්න"/>
+                <Item id="1" name="&amp;Activate"/>
+                <Item id="2" name="&amp;OK"/>
+                <Item id="7002" name="&amp;Save"/>
+                <Item id="7003" name="&amp;Close window(s)"/>
+                <Item id="7004" name="Sort &amp;tabs"/>
             </Window>
             <ColumnEditor title="Column Editor">
-                <Item id="2023" name="ඇතුළුකරන පාඨය"/>
-                <Item id="2033" name="ඇතුළුකරන අංකය"/>
-                <Item id="2030" name="ආරම්භක අංකය:"/>
-                <Item id="2031" name="වැඩිවීම:"/>
-                <Item id="2035" name="බිංදු එක්කරන්න"/>
-                <Item id="2036" name="ආකෘතිය"/>
-                <Item id="2032" name="දශම"/>
-                <Item id="2024" name="අෂ්ටක"/>
-                <Item id="2025" name="ෂඩ්දශම"/>
-                <Item id="2026" name="ද්වීමය"/>
-                <Item id="2027" name="හරි"/>
-                <Item id="1" name="අවලංගුකරන්න"/>
+                <Item id="2023" name="Text to Insert"/>
+                <Item id="2033" name="Number to Insert"/>
+                <Item id="2030" name="Initial number :"/>
+                <Item id="2031" name="Increase by :"/>
+                <Item id="2035" name="Leading zeros"/>
+                <Item id="2036" name="Repeat :"/>
+                <Item id="2032" name="Format"/>
+                <Item id="2024" name="Dec"/>
+                <Item id="2025" name="Oct"/>
+                <Item id="2026" name="Hex"/>
+                <Item id="2027" name="Bin"/>
+                <Item id="1" name="OK"/>
                 <Item id="2" name="Cancel"/>
             </ColumnEditor>
             <FindInFinder title="Find in finder">
@@ -956,17 +956,17 @@
             </FindInFinder>
         </Dialog>
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="Editing contextMenu" message="contextMenu.xml සංස්කරණය කිරීමෙන්  Notepad++ හි උත්පතන ප්‍රකරණ මෙනුව විකරණය කල හැක. \rවිකරණය ක්‍රියාත්මක කිරීම සඳහා Notepad++ යළි අරඹන්න."/>
-            <NppHelpAbsentWarning title="File does not exist" message="\rනොපවතී. කරුණාකර Notepad++ අඩවියෙන් භාගත කරන්න."/>
-            <SaveCurrentModifWarning title="Save Current Modification" message="වත්මන් විකරණය සුරැකීම අත්‍යාවශ්‍යය වේ.\r සිදු කල සියලු විකරණයන් ප්‍රතිවර්ත කල නොහැක.\r\rඉදිරියට යාම ?"/>
-            <LoseUndoAbilityWarning title="Lose Undo Ability Waning" message="වත්මන් විකරණය සුරැකීම අත්‍යාවශ්‍යය වේ.සිදු කල සියලු විකරණයන් ප්‍රතිවර්ත කල නොහැ.r\rඉදිරියට යාම ??"/>
-            <CannotMoveDoc title="Move to new Notepad++ Instance" message="ලේඛනය විකරණය වී ඇත.ගොනුව සුරැකීමට ලක් කොට නැවත උත්සහා කරන්න."/>
-            <DocReloadWarning title="Reload" message="වත්මන් ගොනුව නැවත විවෘත කොට සිදු කල Notepad++ වෙනස් කිරීම් අහිමි කර ගැනීමට අවශ්‍යද?"/>
-            <FileLockedWarning title="Save failed" message="කරුණාකර මෙම ලේඛනය වෙනත් වැඩසටහනක් මගින් විවෘත කොට ඇත්දයි පරික්ෂා කොට බලන්න"/>
-            <FileAlreadyOpenedInNpp title="" message="මෙම ලේඛනය Notepad++ මගින් දැනටමත් විවෘත කොට පවතී."/>
-            <DeleteFileFailed title="Delete File" message="ලේඛනය මැකීම අසාර්ථකයි"/>
+            <ContextMenuXmlEditWarning title="Editing contextMenu" message="Editing contextMenu.xml allows you to modify your Notepad++ popup context menu. You have to restart your Notepad++ to take effect after modifying contextMenu.xml."/>
+            <NppHelpAbsentWarning title="File does not exist" message=" doesn't exist. Please download it on Notepad++ site."/>
+            <SaveCurrentModifWarning title="Save Current Modification" message="You should save the current modification. All the saved modifications can not be undone.  Continue?"/>
+            <LoseUndoAbilityWarning title="Lose Undo Ability Warning" message="You should save the current modification. All the saved modifications can not be undone.  Continue?"/>
+            <CannotMoveDoc title="Move to new Notepad++ Instance" message="Document is modified, save it then try again."/>
+            <DocReloadWarning title="Reload" message="Are you sure you want to reload the current file and lose the changes made in Notepad++?"/>
+            <FileLockedWarning title="Save failed" message="Please check whether if this file is opened in another program"/>
+            <FileAlreadyOpenedInNpp title="" message="The file is already opened in the Notepad++."/>
+            <DeleteFileFailed title="Delete File" message="Delete File failed"/>
 
-            <NbFileToOpenImportantWarning title="Amount of files to open is too large" message="$INT_REPLACE$ ලේඛන විවෘත කිරීමට සුදානම් කොට පවතී.\rඑම ගොනු විවෘත කිරීමට ඔබට අවශ්‍යද?"/>
+            <NbFileToOpenImportantWarning title="Amount of files to open is too large" message="$INT_REPLACE$ files are about to be opened. Are you sure to open them?"/>
             <SettingsOnCloudError title="Settings on Cloud" message="It seems the path of settings on cloud is set on a read only drive, or on a folder needed privilege right for writing access. Your settings on cloud will be canceled. Please reset a coherent value via Preference dialog."/>
             <FilePathNotFoundWarning title="File Open" message="The file you're trying to open doesn't exist."/>
             <SessionFileInvalidError title="Could not Load Session" message="Session file is either corrupted or not valid."/>
@@ -1054,48 +1054,48 @@
             </Menus>
         </FolderAsWorkspace>
         <ProjectManager>
-            <PanelTitle name="ව්‍යාපෘතිය"/>
-            <WorkspaceRootName name="වැඩපෙදෙස"/>
-            <NewProjectName name="ව්‍යාපෘති නාමය"/>
-            <NewFolderName name="ෆෝලඩර නාමය"/>
+            <PanelTitle name="Project"/>
+            <WorkspaceRootName name="Workspace"/>
+            <NewProjectName name="Project Name"/>
+            <NewFolderName name="Folder Name"/>
             <Menus>
                 <Entries>
-                    <Item id="0" name="වැඩපෙදෙස"/>
-                    <Item id="1" name="සංස්කරණය කරන්න"/>
+                    <Item id="0" name="Workspace"/>
+                    <Item id="1" name="Edit"/>
                 </Entries>
                 <WorkspaceMenu>
-                    <Item id="3122" name="නව වැඩපෙදස"/>
-                    <Item id="3123" name="වැඩපෙදස විවෘතකරන්න"/>
-                    <Item id="3124" name="වැඩපෙදස නැවත විවෘතකරන්න"/>
-                    <Item id="3125" name="සුරකින්න"/>
-                    <Item id="3126" name="මෙලෙස සුරකින්න"/>
-                    <Item id="3127" name="පිටපතක් මෙලෙස සුරකින්න..."/>
-                    <Item id="3121" name="නව ව්‍යාපෘතියක් එක්කරන්න"/>
+                    <Item id="3122" name="New Workspace"/>
+                    <Item id="3123" name="Open Workspace"/>
+                    <Item id="3124" name="Reload Workspace"/>
+                    <Item id="3125" name="Save"/>
+                    <Item id="3126" name="Save As..."/>
+                    <Item id="3127" name="Save a Copy As..."/>
+                    <Item id="3121" name="Add New Project"/>
                 </WorkspaceMenu>
                 <ProjectMenu>
-                    <Item id="3111" name="ප්‍රතිනාමකරණය"/>
-                    <Item id="3112" name="ෆෝල්ඩරයක් එක්කරන්න"/>
-                    <Item id="3113" name="ගොනු එක්කරන්න..."/>
-                    <Item id="3117" name="ඩිරෙක්ටරියකින් ගොනු එක්කරන්න..."/>
-                    <Item id="3114" name="ඉවත්කරන්න"/>
-                    <Item id="3118" name="ඉහලට ගෙනයන්න"/>
-                    <Item id="3119" name="පහලට ගෙනයන්න"/>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3112" name="Add Folder"/>
+                    <Item id="3113" name="Add Files..."/>
+                    <Item id="3117" name="Add Files from Directory..."/>
+                    <Item id="3114" name="Remove"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
                 </ProjectMenu>
                 <FolderMenu>
-                    <Item id="3111" name="ප්‍රතිනාමකරණය"/>
-                    <Item id="3112" name="ෆෝල්ඩරයක් එක්කරන්න"/>
-                    <Item id="3113" name="ගොනු එක්කරන්න..."/>
-                    <Item id="3117" name="ඩිරෙක්ටරියකින් ගොනු එක්කරන්න..."/>
-                    <Item id="3114" name="ඉවත්කරන්න"/>
-                    <Item id="3118" name="ඉහලට ගෙනයන්න"/>
-                    <Item id="3119" name="පහලට ගෙනයන්න"/>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3112" name="Add Folder"/>
+                    <Item id="3113" name="Add Files..."/>
+                    <Item id="3117" name="Add Files from Directory..."/>
+                    <Item id="3114" name="Remove"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
                 </FolderMenu>
                 <FileMenu>
-                    <Item id="3111" name="ප්‍රතිනාමකරණය"/>
-                    <Item id="3115" name="ඉවත්කරන්න"/>
-                    <Item id="3116" name="ගොනු පෙත විකරණය කරන්න"/>
-                    <Item id="3118" name="ඉහලට ගෙනයන්න"/>
-                    <Item id="3119" name="පහලට ගෙනයන්න"/>
+                    <Item id="3111" name="Rename"/>
+                    <Item id="3115" name="Remove"/>
+                    <Item id="3116" name="Modify File Path"/>
+                    <Item id="3118" name="Move Up"/>
+                    <Item id="3119" name="Move Down"/>
                 </FileMenu>
             </Menus>
         </ProjectManager>
